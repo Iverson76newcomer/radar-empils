@@ -1,0 +1,1515 @@
+     1→=== PPTX Analysis ===
+     2→Slide count: 14
+     3→Slide width: 9144000, height: 5143500
+     4→Slide width (inches): 10.00, height (inches): 5.62
+     5→
+     6→--- Slide 1 (layout: DEFAULT) ---
+     7→  Shape: AUTO_SHAPE (1), name='Text 1', pos=(4878385,1321593), size=(2500313,2500313)
+     8→  Shape: AUTO_SHAPE (1), name='Text 2', pos=(8001000,1285875), size=(1428750,1428750)
+     9→  Shape: PICTURE (13), name='Image 0', pos=(5715000,0), size=(3429000,5143500)
+    10→    Image: content_type=image/png, size=1856139 bytes
+    11→  Shape: AUTO_SHAPE (1), name='Text 4', pos=(603250,1347378), size=(4490427,950422)
+    12→    Text: Программа развития
+    13→    Text: Эмпилс
+    14→  Shape: PICTURE (13), name='Image 1', pos=(603250,2370274), size=(571500,42863)
+    15→    Image: content_type=image/png, size=962 bytes
+    16→  Shape: AUTO_SHAPE (1), name='Text 5', pos=(603250,2613161), size=(4082207,488566)
+    17→    Text: Системная трансформация
+    18→  Shape: AUTO_SHAPE (1), name='Text 6', pos=(603250,3101727), size=(931212,203610)
+    19→    Text: Маркетинг
+    20→  Shape: AUTO_SHAPE (1), name='Text 7', pos=(1340172,3167360), size=(57150,57150)
+    21→  Shape: AUTO_SHAPE (1), name='Text 8', pos=(1483047,3101727), size=(798410,203610)
+    22→    Text: Продажи
+    23→  Shape: AUTO_SHAPE (1), name='Text 9', pos=(2127101,3167360), size=(57150,57150)
+    24→  Shape: AUTO_SHAPE (1), name='Text 10', pos=(2269976,3101727), size=(2415480,203610)
+    25→    Text: НИЛ
+    26→  Shape: AUTO_SHAPE (1), name='Text 11', pos=(603250,3808078), size=(4624710,175884)
+    27→    Text: ЗАО Эмпилс · Июнь 2026
+    28→
+    29→--- Slide 2 (layout: DEFAULT) ---
+    30→  Shape: AUTO_SHAPE (1), name='Text 3', pos=(400050,285750), size=(8636000,254603)
+    31→    Text: Где мы сейчас: системные особенности
+    32→  Shape: PICTURE (13), name='Image 0', pos=(400050,542925), size=(457200,35719)
+    33→    Image: content_type=image/png, size=709 bytes
+    34→  Shape: AUTO_SHAPE (1), name='Text 4', pos=(400050,818356), size=(2724113,1528763)
+    35→  Shape: AUTO_SHAPE (1), name='Text 5', pos=(528638,932656), size=(228600,228600)
+    36→  Shape: AUTO_SHAPE (1), name='Text 6', pos=(549712,953730), size=(186452,186452)
+    37→    Text: ✦
+    38→  Shape: AUTO_SHAPE (1), name='Text 7', pos=(814388,982663), size=(1347576,164592)
+    39→    Text: ПРОДУКТОВАЯ МОДЕЛЬ
+    40→  Shape: AUTO_SHAPE (1), name='Text 8', pos=(528638,1232694), size=(2576666,154734)
+    41→    Text: Продаем банку DIY
+    42→  Shape: AUTO_SHAPE (1), name='Text 9', pos=(528638,1418531), size=(2466938,575421)
+    43→    Text: Сложность создания продуктов для других  высоко маржинальных каналов.
+    44→    Text: Конкурируем только ценой за килограмм.
+    45→  Shape: AUTO_SHAPE (1), name='Text 10', pos=(236538,2082800), size=(639254,150019)
+    46→    Text: →
+    47→  Shape: AUTO_SHAPE (1), name='Text 11', pos=(639254,2129631), size=(1784821,128588)
+    48→    Text: Цена за тонну растет медленно
+    49→  Shape: AUTO_SHAPE (1), name='Text 12', pos=(3203538,818356), size=(2724113,1528763)
+    50→  Shape: AUTO_SHAPE (1), name='Text 13', pos=(3338475,932656), size=(228600,228600)
+    51→  Shape: AUTO_SHAPE (1), name='Text 14', pos=(3359549,953730), size=(186452,186452)
+    52→    Text: ◖
+    53→  Shape: AUTO_SHAPE (1), name='Text 15', pos=(3624225,982663), size=(732088,164592)
+    54→    Text: МАРКЕТИНГ
+    55→  Shape: AUTO_SHAPE (1), name='Text 16', pos=(3338475,1232694), size=(2576666,154734)
+    56→    Text: Система заточена вокруг продукта
+    57→  Shape: AUTO_SHAPE (1), name='Text 17', pos=(3338475,1414859), size=(2466938,640509)
+    58→    Text: Каталог, сайт, POSm, выкрасы, трейд – маркетинг презентации в большей степени сфокусированы вокруг продукта.
+    59→  Shape: AUTO_SHAPE (1), name='Text 18', pos=(3071775,2070100), size=(639254,150019)
+    60→    Text: →
+    61→  Shape: AUTO_SHAPE (1), name='Text 19', pos=(3487192,2110581), size=(1784821,128588)
+    62→    Text: Клиенту тяжело донести ценность
+    63→  Shape: AUTO_SHAPE (1), name='Text 20', pos=(6026869,825500), size=(2709937,1514475)
+    64→  Shape: AUTO_SHAPE (1), name='Text 21', pos=(6162601,946944), size=(228600,228600)
+    65→  Shape: AUTO_SHAPE (1), name='Text 22', pos=(6183675,968018), size=(186452,186452)
+    66→    Text: $
+    67→  Shape: AUTO_SHAPE (1), name='Text 23', pos=(6448351,920750), size=(1644433,248444)
+    68→    Text: ЦЕНОВОЕ ПОЗИЦИОНИРОВАНИЕ
+    69→  Shape: AUTO_SHAPE (1), name='Text 24', pos=(6162601,1258259), size=(2548202,154734)
+    70→    Text: Застряли между экономом и средним
+    71→  Shape: AUTO_SHAPE (1), name='Text 25', pos=(6162601,1479947), size=(2438474,463153)
+    72→    Text: 231 ₽/кг — не самый дешёвый (эконом 206 ₽/кг) и не признанный средний (441 ₽/кг).
+    73→  Shape: AUTO_SHAPE (1), name='Text 26', pos=(5889551,2082635), size=(639254,150019)
+    74→    Text: →
+    75→  Shape: AUTO_SHAPE (1), name='Text 27', pos=(6298617,2123116), size=(1756358,128588)
+    76→    Text: Этот сегмент падает
+    77→  Shape: AUTO_SHAPE (1), name='Text 28', pos=(400050,2498679), size=(2724113,1528763)
+    78→  Shape: AUTO_SHAPE (1), name='Text 29', pos=(528638,2612979), size=(228600,228600)
+    79→  Shape: AUTO_SHAPE (1), name='Text 30', pos=(549712,2634053), size=(186452,186452)
+    80→    Text: 🏪
+    81→  Shape: AUTO_SHAPE (1), name='Text 31', pos=(814388,2662985), size=(1010581,164592)
+    82→    Text: КАНАЛЫ ПРОДАЖ
+    83→  Shape: AUTO_SHAPE (1), name='Text 32', pos=(467222,2913016), size=(2576666,154734)
+    84→    Text: Ограниченный доступ к премиум каналам продаж
+    85→  Shape: AUTO_SHAPE (1), name='Text 33', pos=(474046,3115654), size=(2466938,640509)
+    86→    Text: Есть сложности работы с дистрибьюторами, у которых есть розница, умеющая продавать дорогие продукты.
+    87→  Shape: AUTO_SHAPE (1), name='Text 34', pos=(268288,3780375), size=(639254,150019)
+    88→    Text: →
+    89→  Shape: AUTO_SHAPE (1), name='Text 35', pos=(687529,3757356), size=(1890571,248444)
+    90→    Text: Ограниченный выход на
+    91→    Text: платёжеспособного клиента
+    92→  Shape: AUTO_SHAPE (1), name='Text 36', pos=(3209888,2498679), size=(2724113,1528763)
+    93→  Shape: AUTO_SHAPE (1), name='Text 37', pos=(3338475,2612979), size=(228600,228600)
+    94→  Shape: AUTO_SHAPE (1), name='Text 38', pos=(3359549,2634053), size=(186452,186452)
+    95→    Text: ⇄
+    96→  Shape: AUTO_SHAPE (1), name='Text 39', pos=(3624225,2662985), size=(872199,164592)
+    97→    Text: ПРОДВИЖЕНИЕ
+    98→  Shape: AUTO_SHAPE (1), name='Text 40', pos=(3338475,2913016), size=(2576666,154734)
+    99→    Text: Одинаково для всех сегментов
+   100→  Shape: AUTO_SHAPE (1), name='Text 41', pos=(3338475,3095182), size=(2466938,640509)
+   101→    Text: Премиум и эконом продвигаются одними инструментами. Нет дифференциации и системности в подходе к к разным каналам.
+   102→  Shape: AUTO_SHAPE (1), name='Text 42', pos=(3063298,3782951), size=(639254,150019)
+   103→    Text: →
+   104→  Shape: AUTO_SHAPE (1), name='Text 43', pos=(3487594,3807877), size=(1897504,128588)
+   105→    Text: Премиум не выделяется, не обоснован
+   106→  Shape: AUTO_SHAPE (1), name='Text 44', pos=(6019726,2498679), size=(2724224,1528763)
+   107→  Shape: AUTO_SHAPE (1), name='Text 45', pos=(6148313,2612979), size=(228600,228600)
+   108→  Shape: AUTO_SHAPE (1), name='Text 46', pos=(6169387,2634053), size=(186452,186452)
+   109→    Text: ◆
+   110→  Shape: AUTO_SHAPE (1), name='Text 47', pos=(6434063,2662985), size=(674249,164592)
+   111→    Text: ЦЕННОСТЬ
+   112→  Shape: AUTO_SHAPE (1), name='Text 48', pos=(6148313,2899368), size=(2576777,154734)
+   113→    Text: Нет обоснования цены премиум
+   114→  Shape: AUTO_SHAPE (1), name='Text 49', pos=(6148313,3095182), size=(2467049,640509)
+   115→    Text: Сложность в создании дополнительной ценности, расчёты, портфолио, гарантии результата, сервис, консультации.
+   116→  Shape: AUTO_SHAPE (1), name='Text 50', pos=(5894313,3772603), size=(639254,150019)
+   117→    Text: →
+   118→  Shape: AUTO_SHAPE (1), name='Text 51', pos=(6360530,3808472), size=(2254832,191875)
+   119→    Text: Клиент не понимает, за что платить больше
+   120→  Shape: PICTURE (13), name='Image 1', pos=(406400,4150084), size=(8343900,521494)
+   121→    Image: content_type=image/png, size=73994 bytes
+   122→  Shape: AUTO_SHAPE (1), name='Text 52', pos=(571500,4260812), size=(934157,300038)
+   123→    Text: ↻
+   124→  Shape: AUTO_SHAPE (1), name='Text 53', pos=(1444697,4232385), size=(6952543,133302)
+   125→    Text: Замкнутый круг
+   126→  Shape: AUTO_SHAPE (1), name='Text 54', pos=(1444697,4424097), size=(681849,180023)
+   127→  Shape: AUTO_SHAPE (1), name='Text 55', pos=(1467557,4433741), size=(636129,160734)
+   128→    Text: Нет ценности
+   129→  Shape: AUTO_SHAPE (1), name='Text 56', pos=(2171948,4449814), size=(91440,128588)
+   130→    Text: →
+   131→  Shape: AUTO_SHAPE (1), name='Text 57', pos=(2288788,4430447), size=(1142981,180023)
+   132→  Shape: AUTO_SHAPE (1), name='Text 58', pos=(2350541,4434337), size=(981373,160734)
+   133→    Text: Нет обоснования цены
+   134→  Shape: AUTO_SHAPE (1), name='Text 59', pos=(3439071,4456164), size=(91440,128588)
+   135→    Text: →
+   136→  Shape: AUTO_SHAPE (1), name='Text 60', pos=(3557498,4430447), size=(643451,180023)
+   137→  Shape: AUTO_SHAPE (1), name='Text 61', pos=(3580358,4440091), size=(597731,160734)
+   138→    Text: Нет каналов
+   139→  Shape: AUTO_SHAPE (1), name='Text 62', pos=(4201902,4456164), size=(91440,128588)
+   140→    Text: →
+   141→  Shape: AUTO_SHAPE (1), name='Text 63', pos=(4326782,4430447), size=(614447,180023)
+   142→  Shape: AUTO_SHAPE (1), name='Text 64', pos=(4349539,4440091), size=(568933,160734)
+   143→    Text: Нет продаж
+   144→  Shape: AUTO_SHAPE (1), name='Text 65', pos=(4961334,4456164), size=(91440,128588)
+   145→    Text: →
+   146→  Shape: AUTO_SHAPE (1), name='Text 66', pos=(5093467,4429375), size=(2343234,180023)
+   147→  Shape: AUTO_SHAPE (1), name='Text 67', pos=(5093827,4452791), size=(2056089,160734)
+   148→    Text: Нет прибыли на продвижение ценностей
+   149→
+   150→--- Slide 3 (layout: DEFAULT) ---
+   151→  Shape: AUTO_SHAPE (1), name='Shape 2', pos=(446484,721606), size=(0,1071563)
+   152→  Shape: AUTO_SHAPE (1), name='Shape 4', pos=(446484,1819174), size=(0,1071563)
+   153→  Shape: AUTO_SHAPE (1), name='Text 5', pos=(428625,241300), size=(8286750,248696)
+   154→    Text: Рыночная возможность: премиум — больше выручки, меньше объёма
+   155→  Shape: PICTURE (13), name='Image 0', pos=(428625,543012), size=(457200,35719)
+   156→    Image: content_type=image/png, size=709 bytes
+   157→  Shape: PICTURE (13), name='Image 1', pos=(428625,721606), size=(4649912,1071563)
+   158→    Image: content_type=image/png, size=73834 bytes
+   159→  Shape: AUTO_SHAPE (1), name='Text 6', pos=(621506,762263), size=(1056605,300038)
+   160→    Text: ↗
+   161→  Shape: AUTO_SHAPE (1), name='Text 7', pos=(1749549,822315), size=(3171825,194328)
+   162→    Text: ПРЕМИУМ
+   163→  Shape: AUTO_SHAPE (1), name='Text 8', pos=(621506,1119451), size=(396478,277749)
+   164→    Text: 9%
+   165→  Shape: AUTO_SHAPE (1), name='Text 9', pos=(912168,1205176), size=(464915,164485)
+   166→    Text: в тоннах
+   167→  Shape: AUTO_SHAPE (1), name='Text 10', pos=(1346820,1169457), size=(125685,188528)
+   168→    Text: →
+   169→  Shape: AUTO_SHAPE (1), name='Text 11', pos=(1543943,1119451), size=(549176,277749)
+   170→    Text: 21%
+   171→  Shape: AUTO_SHAPE (1), name='Text 12', pos=(1930040,1205176), size=(2991334,164485)
+   172→    Text: в рублях
+   173→  Shape: AUTO_SHAPE (1), name='Text 13', pos=(621506,1448063), size=(1894214,123092)
+   174→    Text: Средняя цена 813 руб/кг ·
+   175→  Shape: PICTURE (13), name='Image 3', pos=(428625,1883656), size=(4649912,1071563)
+   176→    Image: content_type=image/png, size=87771 bytes
+   177→  Shape: AUTO_SHAPE (1), name='Text 22', pos=(621506,1947761), size=(700757,300038)
+   178→    Text: ⚖
+   179→  Shape: AUTO_SHAPE (1), name='Text 23', pos=(1393701,2007813), size=(3527673,194328)
+   180→    Text: СРЕДНИЙ
+   181→  Shape: AUTO_SHAPE (1), name='Text 24', pos=(621506,2304949), size=(549176,277749)
+   182→    Text: 44%
+   183→  Shape: AUTO_SHAPE (1), name='Text 25', pos=(1007604,2390674), size=(464915,164485)
+   184→    Text: в тоннах
+   185→  Shape: AUTO_SHAPE (1), name='Text 26', pos=(1442256,2354955), size=(125685,188528)
+   186→    Text: →
+   187→  Shape: AUTO_SHAPE (1), name='Text 27', pos=(1639379,2304949), size=(549176,277749)
+   188→    Text: 52%
+   189→  Shape: AUTO_SHAPE (1), name='Text 28', pos=(2025476,2390674), size=(2895898,164485)
+   190→    Text: в рублях
+   191→  Shape: AUTO_SHAPE (1), name='Text 29', pos=(621506,2633561), size=(2288657,123092)
+   192→    Text: Средняя цена 441 руб/кг · Крупнейший по выручке
+   193→  Shape: AUTO_SHAPE (1), name='Text 30', pos=(435769,4243474), size=(4635624,528638)
+   194→  Shape: AUTO_SHAPE (1), name='Text 31', pos=(571500,4315706), size=(638696,257175)
+   195→    Text: ◆
+   196→  Shape: AUTO_SHAPE (1), name='Text 32', pos=(1281633,4315706), size=(2657663,124691)
+   197→    Text: 1 тонна премиума = 4 тонны эконома по выручке
+   198→  Shape: AUTO_SHAPE (1), name='Text 33', pos=(1281633,4472868), size=(3016672,128588)
+   199→    Text: При маржинальности 40–50% vs ≤10% — разница по прибыли ещё больше
+   200→  Shape: AUTO_SHAPE (1), name='Text 34', pos=(5278562,1073435), size=(3436813,2853928)
+   201→  Shape: AUTO_SHAPE (1), name='Text 35', pos=(5478587,1244885), size=(3146491,170338)
+   202→    Text: Доля сегмента: тонны vs рубли
+   203→  Shape: AUTO_SHAPE (1), name='Text 36', pos=(6442770,1557089), size=(100013,100013)
+   204→  Shape: AUTO_SHAPE (1), name='Text 37', pos=(6585645,1545481), size=(432626,164455)
+   205→    Text: В тоннах
+   206→  Shape: AUTO_SHAPE (1), name='Text 38', pos=(7066508,1557089), size=(100013,100013)
+   207→  Shape: AUTO_SHAPE (1), name='Text 39', pos=(7209383,1545481), size=(437483,164455)
+   208→    Text: В рублях
+   209→  Shape: AUTO_SHAPE (1), name='Text 40', pos=(5478587,1783122), size=(2576885,164655)
+   210→    Text: Премиум
+   211→  Shape: AUTO_SHAPE (1), name='Text 41', pos=(8069759,1790266), size=(445591,164581)
+   212→    Text: 9% → 21%
+   213→  Shape: AUTO_SHAPE (1), name='Text 42', pos=(5478587,1952563), size=(3036763,128588)
+   214→  Shape: AUTO_SHAPE (1), name='Text 43', pos=(5478587,1952563), size=(576969,128588)
+   215→  Shape: AUTO_SHAPE (1), name='Text 44', pos=(5478587,2109725), size=(3036763,128588)
+   216→  Shape: PICTURE (13), name='Image 4', pos=(5478587,2109725), size=(1275383,128588)
+   217→    Image: content_type=image/png, size=4399 bytes
+   218→  Shape: AUTO_SHAPE (1), name='Text 45', pos=(5478587,2366900), size=(2527325,164655)
+   219→    Text: Средний
+   220→  Shape: AUTO_SHAPE (1), name='Text 46', pos=(8020199,2374044), size=(495151,164581)
+   221→    Text: 44% → 52%
+   222→  Shape: AUTO_SHAPE (1), name='Text 47', pos=(5478587,2536341), size=(3036763,128588)
+   223→  Shape: AUTO_SHAPE (1), name='Text 48', pos=(5478587,2536341), size=(2672321,128588)
+   224→  Shape: AUTO_SHAPE (1), name='Text 49', pos=(5478587,2693504), size=(3036763,128588)
+   225→  Shape: AUTO_SHAPE (1), name='Text 50', pos=(5478587,2693504), size=(3036763,128588)
+   226→  Shape: AUTO_SHAPE (1), name='Text 51', pos=(5478587,2950679), size=(2527325,164655)
+   227→    Text: Эконом
+   228→  Shape: AUTO_SHAPE (1), name='Text 52', pos=(8020199,2957823), size=(495151,164581)
+   229→    Text: 47% → 27%
+   230→  Shape: AUTO_SHAPE (1), name='Text 53', pos=(5478587,3120120), size=(3036763,128588)
+   231→  Shape: AUTO_SHAPE (1), name='Text 54', pos=(5478587,3120120), size=(2854486,128588)
+   232→  Shape: AUTO_SHAPE (1), name='Text 55', pos=(5478587,3277282), size=(3036763,128588)
+   233→  Shape: AUTO_SHAPE (1), name='Text 56', pos=(5478587,3277282), size=(1639825,128588)
+   234→  Shape: AUTO_SHAPE (1), name='Text 57', pos=(5478587,3505882), size=(3036763,7144)
+   235→  Shape: AUTO_SHAPE (1), name='Text 58', pos=(5674767,3620182), size=(2644402,125451)
+   236→    Text: Премиум в 2.2× эффективнее по выручке на 1 тонну
+   237→  Shape: AUTO_SHAPE (1), name='Text 59', pos=(5914020,4055951), size=(2801355,116058)
+   238→    Text: Источник: ФС «Лемана ПРО», Q2 2025, расчёт по ценовым сегментам ВД+ОР
+   239→  Shape: AUTO_SHAPE (1), name='Text 60', pos=(428625,4599657), size=(8286750,137656)
+   240→    Text: Премиум даёт почти столько же выручки, сколько эконом — но в 5 раз меньше объёма
+   241→  Shape: AUTO_SHAPE (1), name='Text 61', pos=(428625,4885395), size=(8286750,164561)
+   242→    Text: Подтверждено: IndexBox (2026) — «премиум 10–15% объёма, но непропорционально бо́льшая доля выручки»
+   243→  Shape: AUTO_SHAPE (1), name='Shape 3', pos=(446484,2960463), size=(0,1071563)
+   244→  Shape: PICTURE (13), name='Image 2', pos=(428625,3042531), size=(4649912,1071563)
+   245→    Image: content_type=image/png, size=68025 bytes
+   246→  Shape: AUTO_SHAPE (1), name='Text 14', pos=(621506,3089050), size=(1312329,300038)
+   247→    Text: ↘
+   248→  Shape: AUTO_SHAPE (1), name='Text 15', pos=(2005273,3149102), size=(2916101,194328)
+   249→    Text: ЭКОНОМ
+   250→  Shape: AUTO_SHAPE (1), name='Text 16', pos=(621506,3446238), size=(549176,277749)
+   251→    Text: 47%
+   252→  Shape: AUTO_SHAPE (1), name='Text 17', pos=(1007604,3531963), size=(464915,164485)
+   253→    Text: в тоннах
+   254→  Shape: AUTO_SHAPE (1), name='Text 18', pos=(1442256,3496244), size=(125685,188528)
+   255→    Text: →
+   256→  Shape: AUTO_SHAPE (1), name='Text 19', pos=(1639379,3446238), size=(549176,277749)
+   257→    Text: 27%
+   258→  Shape: AUTO_SHAPE (1), name='Text 20', pos=(2025476,3531963), size=(2895898,164485)
+   259→    Text: в рублях
+   260→  Shape: AUTO_SHAPE (1), name='Text 21', pos=(621506,3774850), size=(1786442,123092)
+   261→    Text: Средняя цена 206 руб/кг
+   262→  Shape: AUTO_SHAPE (1), name='Скругленный прямоугольник 4', pos=(3549650,2859868), size=(920750,288390)
+   263→    Text: 231 руб/кг
+   264→
+   265→--- Slide 4 (layout: DEFAULT) ---
+   266→  Shape: AUTO_SHAPE (1), name='Text 4', pos=(428625,108820), size=(8636000,300895)
+   267→    Text: Где искать маржинальность: от банки к решению
+   268→  Shape: PICTURE (13), name='Image 0', pos=(428625,408686), size=(457200,35719)
+   269→    Image: content_type=image/png, size=709 bytes
+   270→  Shape: AUTO_SHAPE (1), name='Text 5', pos=(428625,499843), size=(3800475,1034256)
+   271→  Shape: AUTO_SHAPE (1), name='Text 7', pos=(871074,525335), size=(266886,235744)
+   272→    Text: ✦
+   273→  Shape: AUTO_SHAPE (1), name='Text 8', pos=(1121586,540895), size=(2555342,173593)
+   274→    Text: От ассортимента
+   275→  Shape: AUTO_SHAPE (1), name='Text 9', pos=(527268,758339), size=(266886,171450)
+   276→    Text: ✕
+   277→  Shape: AUTO_SHAPE (1), name='Text 10', pos=(865591,744051), size=(3147826,159053)
+   278→    Text: «У нас есть краска за 500 руб/л» — продажа от наличия
+   279→  Shape: AUTO_SHAPE (1), name='Text 11', pos=(527268,935049), size=(266886,171450)
+   280→    Text: ✕
+   281→  Shape: AUTO_SHAPE (1), name='Text 12', pos=(865591,920761), size=(3147826,159053)
+   282→    Text: Конкуренция по цене за литр — гонка в никуда
+   283→  Shape: AUTO_SHAPE (1), name='Text 13', pos=(527268,1104444), size=(266886,171450)
+   284→    Text: ✕
+   285→  Shape: AUTO_SHAPE (1), name='Text 14', pos=(865591,1090156), size=(3147826,159053)
+   286→    Text: Клиент выбирает сам, часто ошибается
+   287→  Shape: AUTO_SHAPE (1), name='Text 15', pos=(527268,1281154), size=(266886,171450)
+   288→    Text: ✕
+   289→  Shape: AUTO_SHAPE (1), name='Text 16', pos=(865591,1266866), size=(3147826,159053)
+   290→    Text: Менеджер — приёмщик заказа, не эксперт
+   291→  Shape: PICTURE (13), name='Image 1', pos=(4371975,745054), size=(400050,400050)
+   292→    Image: content_type=image/png, size=3617 bytes
+   293→  Shape: AUTO_SHAPE (1), name='Text 17', pos=(4426982,800061), size=(290036,290036)
+   294→    Text: →
+   295→  Shape: AUTO_SHAPE (1), name='Text 18', pos=(4914900,499843), size=(3800475,1049911)
+   296→  Shape: AUTO_SHAPE (1), name='Text 20', pos=(5416787,627690), size=(88551,51139)
+   297→    Text: ◯
+   298→  Shape: AUTO_SHAPE (1), name='Text 21', pos=(5598369,556410), size=(2642629,173593)
+   299→    Text: К проблеме клиента
+   300→  Shape: AUTO_SHAPE (1), name='Text 22', pos=(4991598,751024), size=(298586,171450)
+   301→    Text: ✓
+   302→  Shape: AUTO_SHAPE (1), name='Text 23', pos=(5361621,736736), size=(3116126,159053)
+   303→    Text: «Вам нужен ремонт в ванной?» — продажа от задачи
+   304→  Shape: AUTO_SHAPE (1), name='Text 24', pos=(4991598,920419), size=(298586,171450)
+   305→    Text: ✓
+   306→  Shape: AUTO_SHAPE (1), name='Text 25', pos=(5361620,906131), size=(3273289,143903)
+   307→    Text: TCO — главный аргумент: дешевле в год, а не дороже в моменте
+   308→  Shape: AUTO_SHAPE (1), name='Text 26', pos=(4991598,1080569), size=(298586,171450)
+   309→    Text: ✓
+   310→  Shape: AUTO_SHAPE (1), name='Text 27', pos=(5361621,1110731), size=(3116126,159053)
+   311→    Text: Менеджер подбирает систему, гарантирующую результат
+   312→  Shape: AUTO_SHAPE (1), name='Text 28', pos=(4998913,1288469), size=(298586,171450)
+   313→    Text: ✓
+   314→  Shape: AUTO_SHAPE (1), name='Text 29', pos=(5368936,1281496), size=(3116126,159053)
+   315→    Text: Менеджер — эксперт-консультант, а не продавец
+   316→  Shape: AUTO_SHAPE (1), name='Text 54', pos=(2401203,1581859), size=(4325094,131159)
+   317→    Text: Мы продаём не банку краски. Мы продаём решение проблемы клиента.
+   318→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 5', pos=(315289,1771372), size=(4087500,2882702)
+   319→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 6', pos=(450289,1999162), size=(3772500,315000)
+   320→  Shape: TEXT_BOX (17), name='TextBox 60', pos=(435289,2000087), size=(3750000,300082)
+   321→    Text: «Дай банку»
+   322→  Shape: TEXT_BOX (17), name='TextBox 61', pos=(384084,2303147), size=(3750000,223138)
+   323→    Text: Массовый клиент · DIY-ритейл
+   324→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 9', pos=(3318989,2059162), size=(825000,195000)
+   325→  Shape: TEXT_BOX (17), name='TextBox 63', pos=(3356489,2015642), size=(750000,284693)
+   326→    Text: 75-80%
+   327→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 11', pos=(390289,2542777), size=(1237500,240000)
+   328→  Shape: TEXT_BOX (17), name='TextBox 65', pos=(450289,2514072), size=(1117500,223138)
+   329→    Text: 300 - 3000 руб
+   330→  Shape: TEXT_BOX (17), name='TextBox 66', pos=(450289,2780187), size=(1117500,192360)
+   331→    Text: Средний чек
+   332→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 14', pos=(1687789,2542777), size=(1237500,240000)
+   333→  Shape: TEXT_BOX (17), name='TextBox 68', pos=(1747789,2558597), size=(1117500,223138)
+   334→    Text: 12-15%
+   335→  Shape: TEXT_BOX (17), name='TextBox 69', pos=(1575289,2774976), size=(1410000,192360)
+   336→    Text: Маржинальность (МД)
+   337→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 17', pos=(2985289,2542777), size=(1237500,240000)
+   338→  Shape: TEXT_BOX (17), name='TextBox 71', pos=(3046769,2562813), size=(1117500,223138)
+   339→    Text: ~40%
+   340→  Shape: TEXT_BOX (17), name='TextBox 72', pos=(3045289,2780187), size=(1117500,192360)
+   341→    Text: Доля в прибыли
+   342→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 20', pos=(390289,3004077), size=(1050000,232500)
+   343→  Shape: TEXT_BOX (17), name='TextBox 74', pos=(420289,3011947), size=(990000,207749)
+   344→    Text: Канал
+   345→  Shape: TEXT_BOX (17), name='TextBox 75', pos=(1515289,3048522), size=(2812500,207749)
+   346→    Text: DIY-ритейл, РТТ, магазины и т.д.
+   347→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 23', pos=(390289,3266577), size=(1050000,232500)
+   348→  Shape: TEXT_BOX (17), name='TextBox 77', pos=(420289,3274447), size=(990000,207749)
+   349→    Text: Навигация
+   350→  Shape: TEXT_BOX (17), name='TextBox 78', pos=(1515289,3237872), size=(2812500,346249)
+   351→    Text: На полке по типу поверхности («для стен», «для дерева»)
+   352→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 26', pos=(390289,3529077), size=(1050000,232500)
+   353→  Shape: TEXT_BOX (17), name='TextBox 80', pos=(420289,3544262), size=(990000,207749)
+   354→    Text: Продвижение
+   355→  Shape: TEXT_BOX (17), name='TextBox 81', pos=(1515289,3551577), size=(2812500,207749)
+   356→    Text: Цена, скидки, POSm, полочное пространство
+   357→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 29', pos=(390289,3791577), size=(1050000,232500)
+   358→  Shape: TEXT_BOX (17), name='TextBox 83', pos=(420289,3799447), size=(990000,207749)
+   359→    Text: Продукт
+   360→  Shape: TEXT_BOX (17), name='TextBox 84', pos=(1515289,3799447), size=(2812500,207749)
+   361→    Text: Отдельная банка — выбирает клиент
+   362→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 32', pos=(390289,4054076), size=(1050000,412639)
+   363→  Shape: TEXT_BOX (17), name='TextBox 86', pos=(420289,4069262), size=(990000,346249)
+   364→    Text: Критерий выбора
+   365→  Shape: TEXT_BOX (17), name='TextBox 87', pos=(1515289,4098522), size=(2812500,207749)
+   366→    Text: Цена и знакомый бренд
+   367→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 35', pos=(4468890,1747800), size=(4500000,2882702)
+   368→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 36', pos=(4618890,1982905), size=(4173978,315000)
+   369→  Shape: TEXT_BOX (17), name='TextBox 90', pos=(4689042,1976515), size=(3785218,300082)
+   370→    Text: «Цепочка решений»
+   371→  Shape: TEXT_BOX (17), name='TextBox 91', pos=(4596205,2294205), size=(3900000,223138)
+   372→    Text: Профессионалы и осознанные клиенты · Новые каналы
+   373→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 39', pos=(7642770,2042905), size=(862500,195000)
+   374→  Shape: TEXT_BOX (17), name='TextBox 93', pos=(7680270,2006700), size=(787500,284693)
+   375→    Text: 20-25%
+   376→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 41', pos=(4543890,2526520), size=(1237500,240000)
+   377→  Shape: TEXT_BOX (17), name='TextBox 95', pos=(4603890,2519760), size=(1237500,223138)
+   378→    Text: 3500 - > руб.
+   379→  Shape: TEXT_BOX (17), name='TextBox 96', pos=(4603890,2749300), size=(1117500,192360)
+   380→    Text: Средний чек
+   381→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 44', pos=(5841390,2526520), size=(1237500,240000)
+   382→  Shape: TEXT_BOX (17), name='TextBox 98', pos=(5850185,2518847), size=(1117500,223138)
+   383→    Text: 22-42%
+   384→  Shape: TEXT_BOX (17), name='TextBox 99', pos=(5872130,2741985), size=(1297500,192360)
+   385→    Text: Маржинальность (МД)
+   386→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 47', pos=(7138890,2526520), size=(1237500,240000)
+   387→  Shape: TEXT_BOX (17), name='TextBox 101', pos=(7103795,2526520), size=(1117500,223138)
+   388→    Text: ~60%
+   389→  Shape: TEXT_BOX (17), name='TextBox 102', pos=(7198890,2741985), size=(1117500,192360)
+   390→    Text: Доля в прибыли
+   391→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 50', pos=(4543890,2973190), size=(1050000,232500)
+   392→  Shape: TEXT_BOX (17), name='TextBox 104', pos=(4573890,2973745), size=(990000,207749)
+   393→    Text: Канал
+   394→  Shape: TEXT_BOX (17), name='TextBox 105', pos=(5668890,2995690), size=(2812500,207749)
+   395→    Text: Спец. дилеры, дизайн-студии, строительные бригады
+   396→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 53', pos=(4543890,3235690), size=(1050000,232500)
+   397→  Shape: TEXT_BOX (17), name='TextBox 107', pos=(4573890,3243560), size=(990000,207749)
+   398→    Text: Навигация
+   399→  Shape: TEXT_BOX (17), name='TextBox 108', pos=(5668890,3265505), size=(2812500,207749)
+   400→    Text: Набор-решение по задаче (чек-лист + инструкция)
+   401→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 56', pos=(4543890,3498190), size=(1050000,232500)
+   402→  Shape: TEXT_BOX (17), name='TextBox 110', pos=(4573890,3498745), size=(990000,207749)
+   403→    Text: Продвижение
+   404→  Shape: TEXT_BOX (17), name='TextBox 111', pos=(5668890,3513375), size=(2812500,207749)
+   405→    Text: Обучение, видео-гайды, гарантия результата
+   406→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 59', pos=(4543890,3760690), size=(1050000,232500)
+   407→  Shape: TEXT_BOX (17), name='TextBox 113', pos=(4573890,3761245), size=(990000,207749)
+   408→    Text: Продукт
+   409→  Shape: TEXT_BOX (17), name='TextBox 114', pos=(5668890,3790505), size=(2812500,207749)
+   410→    Text: Комплект продуктов + пошаговая инструкция
+   411→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 62', pos=(4543890,4023190), size=(1050000,405324)
+   412→  Shape: TEXT_BOX (17), name='TextBox 116', pos=(4573890,4038375), size=(990000,346249)
+   413→    Text: Критерий выбора
+   414→  Shape: TEXT_BOX (17), name='TextBox 117', pos=(5668890,4118840), size=(2812500,207749)
+   415→    Text: Результат и гарантия качества
+   416→
+   417→--- Slide 5 (layout: DEFAULT) ---
+   418→  Shape: AUTO_SHAPE (1), name='Text 4', pos=(322448,322756), size=(8286750,289322)
+   419→    Text: Решения - сгруппированные технологии: предсказуемость результата и ТСО
+   420→  Shape: PICTURE (13), name='Image 0', pos=(187230,639366), size=(457200,35719)
+   421→    Image: content_type=image/png, size=709 bytes
+   422→  Shape: AUTO_SHAPE (1), name='Text 5', pos=(1013825,803672), size=(2571750,1107058)
+   423→  Shape: AUTO_SHAPE (1), name='Text 6', pos=(1170988,849709), size=(2286000,158306)
+   424→    Text: ПОЧЕМУ ЭТО РАБОТАЕТ
+   425→  Shape: AUTO_SHAPE (1), name='Text 7', pos=(1170988,971947), size=(2286000,885428)
+   426→    Text: Продавая один продукт, мы конкурируем по цене за литр. Продавая систему из 3-5 продуктов, мы создаём уникальное предложение, которое невозможно сравнить с банкой конкурента. Клиент видит ценность реше
+   427→    Text: Отстройка от конкурентов.
+   428→  Shape: AUTO_SHAPE (1), name='Text 8', pos=(1013825,2010742), size=(2571750,1504206)
+   429→  Shape: AUTO_SHAPE (1), name='Text 9', pos=(1062330,2067207), size=(434306,192881)
+   430→    Text: ↗
+   431→  Shape: AUTO_SHAPE (1), name='Text 10', pos=(1464675,2118342), size=(1578099,164592)
+   432→    Text: 3 ЭФФЕКТА ГРУППИРОВКИ
+   433→  Shape: AUTO_SHAPE (1), name='Text 11', pos=(1142413,2352101), size=(200025,200025)
+   434→  Shape: AUTO_SHAPE (1), name='Text 12', pos=(1216529,2382462), size=(125909,164592)
+   435→    Text: 1
+   436→  Shape: AUTO_SHAPE (1), name='Text 13', pos=(1413875,2352101), size=(1742923,101156)
+   437→    Text: Рост среднего чека на 40-60%
+   438→  Shape: AUTO_SHAPE (1), name='Text 14', pos=(1413875,2480689), size=(1742923,153526)
+   439→    Text: Клиент покупает систему, а не один продукт
+   440→  Shape: AUTO_SHAPE (1), name='Text 15', pos=(1142413,2712873), size=(200025,200025)
+   441→  Shape: AUTO_SHAPE (1), name='Text 16', pos=(1216529,2743234), size=(125909,164592)
+   442→    Text: 2
+   443→  Shape: AUTO_SHAPE (1), name='Text 17', pos=(1425197,2724374), size=(2043113,101156)
+   444→    Text: Гарантия результата
+   445→  Shape: AUTO_SHAPE (1), name='Text 18', pos=(1420225,2847810), size=(2043113,307051)
+   446→    Text: Все компоненты совместимы, работают как единое целое
+   447→  Shape: AUTO_SHAPE (1), name='Text 19', pos=(1142413,3081991), size=(200025,200025)
+   448→  Shape: AUTO_SHAPE (1), name='Text 20', pos=(1216529,3112352), size=(125909,164592)
+   449→    Text: 3
+   450→  Shape: AUTO_SHAPE (1), name='Text 21', pos=(1413875,3107391), size=(2043113,101156)
+   451→    Text: Защита от замещения
+   452→  Shape: AUTO_SHAPE (1), name='Text 22', pos=(1413875,3223279), size=(2002259,186320)
+   453→    Text: Конкурент не может подменить один элемент системы
+   454→  Shape: AUTO_SHAPE (1), name='Text 23', pos=(1013825,3614961), size=(2571750,957263)
+   455→  Shape: AUTO_SHAPE (1), name='Text 24', pos=(1142413,3718148), size=(2314575,158306)
+   456→    Text: СИНЕРГИЯ TCO
+   457→  Shape: AUTO_SHAPE (1), name='Text 25', pos=(1142413,3878486), size=(2314575,680566)
+   458→    Text: Правильный грунт продлевает срок службы краски на 30-50%. Правильная шпатлёвка сокращает расход краски на 20%.
+   459→    Text: Каждый элемент цепочки усиливает следующий.
+   460→  Shape: AUTO_SHAPE (1), name='Text 26', pos=(4218242,829300), size=(2381186,164592)
+   461→    Text: Удлинение технологических цепочек
+   462→  Shape: AUTO_SHAPE (1), name='Text 27', pos=(4225870,1598333), size=(3397250,578644)
+   463→  Shape: AUTO_SHAPE (1), name='Text 28', pos=(4340170,1698345), size=(3125395,147590)
+   464→    Text: КОРОТКАЯ ЦЕПОЧКА
+   465→  Shape: AUTO_SHAPE (1), name='Text 29', pos=(4325726,1861151), size=(389982,228029)
+   466→  Shape: AUTO_SHAPE (1), name='Text 30', pos=(4340170,1873367), size=(361094,203597)
+   467→    Text: Грунт
+   468→  Shape: AUTO_SHAPE (1), name='Text 31', pos=(4744127,1900156), size=(100013,150019)
+   469→    Text: →
+   470→  Shape: AUTO_SHAPE (1), name='Text 32', pos=(4870629,1861151), size=(442060,228029)
+   471→  Shape: AUTO_SHAPE (1), name='Text 33', pos=(4887002,1873367), size=(409315,203597)
+   472→    Text: Краска
+   473→  Shape: AUTO_SHAPE (1), name='Text 34', pos=(5396329,1916229), size=(1959508,160734)
+   474→    Text: 2 SKU · средний чек X2 ₽
+   475→  Shape: AUTO_SHAPE (1), name='Text 35', pos=(4213170,2211901), size=(3409950,739378)
+   476→  Shape: AUTO_SHAPE (1), name='Text 36', pos=(4327470,2311914), size=(3015667,147590)
+   477→    Text: СРЕДНЯЯ ЦЕПОЧКА
+   478→  Shape: AUTO_SHAPE (1), name='Text 37', pos=(4313026,2474720), size=(389982,228029)
+   479→  Shape: AUTO_SHAPE (1), name='Text 38', pos=(4327470,2486936), size=(361094,203597)
+   480→    Text: Грунт
+   481→  Shape: AUTO_SHAPE (1), name='Text 39', pos=(4724283,2513725), size=(100013,150019)
+   482→    Text: →
+   483→  Shape: AUTO_SHAPE (1), name='Text 40', pos=(4837154,2474720), size=(621238,228029)
+   484→  Shape: AUTO_SHAPE (1), name='Text 41', pos=(4860014,2486936), size=(575518,203597)
+   485→    Text: Шпатлёвка
+   486→  Shape: AUTO_SHAPE (1), name='Text 42', pos=(5471251,2513725), size=(100013,150019)
+   487→    Text: →
+   488→  Shape: AUTO_SHAPE (1), name='Text 43', pos=(5590610,2474720), size=(442060,228029)
+   489→  Shape: AUTO_SHAPE (1), name='Text 44', pos=(5606983,2486936), size=(409315,203597)
+   490→    Text: Краска
+   491→  Shape: AUTO_SHAPE (1), name='Text 45', pos=(4327470,2733395), size=(3015667,117872)
+   492→    Text: 3 SKU · средний чек X3
+   493→  Shape: AUTO_SHAPE (1), name='Text 46', pos=(4225870,2992554), size=(3397250,714375)
+   494→  Shape: AUTO_SHAPE (1), name='Text 47', pos=(4340170,3092567), size=(3125395,147590)
+   495→    Text: ДЛИННАЯ ЦЕПОЧКА
+   496→  Shape: AUTO_SHAPE (1), name='Text 48', pos=(4327664,3256873), size=(337663,200025)
+   497→  Shape: AUTO_SHAPE (1), name='Text 49', pos=(4340170,3267589), size=(312651,178594)
+   498→    Text: Грунт
+   499→  Shape: AUTO_SHAPE (1), name='Text 50', pos=(4681396,3292592), size=(91440,128588)
+   500→    Text: →
+   501→  Shape: AUTO_SHAPE (1), name='Text 51', pos=(4775394,3256873), size=(548144,200025)
+   502→  Shape: AUTO_SHAPE (1), name='Text 52', pos=(4795696,3267589), size=(507541,178594)
+   503→    Text: Шпатлёвка
+   504→  Shape: AUTO_SHAPE (1), name='Text 53', pos=(5331812,3292592), size=(91440,128588)
+   505→    Text: →
+   506→  Shape: AUTO_SHAPE (1), name='Text 54', pos=(5423252,3256873), size=(693011,200025)
+   507→  Shape: AUTO_SHAPE (1), name='Text 55', pos=(5446112,3267589), size=(647291,178594)
+   508→    Text: Финиш. шпатл.
+   509→  Shape: AUTO_SHAPE (1), name='Text 56', pos=(6121978,3292592), size=(91440,128588)
+   510→    Text: →
+   511→  Shape: AUTO_SHAPE (1), name='Text 57', pos=(6222017,3256873), size=(385039,200025)
+   512→  Shape: AUTO_SHAPE (1), name='Text 58', pos=(6236278,3267589), size=(356518,178594)
+   513→    Text: Краска
+   514→  Shape: AUTO_SHAPE (1), name='Text 59', pos=(6621370,3292592), size=(91440,128588)
+   515→    Text: →
+   516→  Shape: AUTO_SHAPE (1), name='Text 60', pos=(6715078,3256873), size=(555980,200025)
+   517→  Shape: AUTO_SHAPE (1), name='Text 61', pos=(6735670,3267589), size=(514796,178594)
+   518→    Text: Лак/защита
+   519→  Shape: AUTO_SHAPE (1), name='Text 62', pos=(4340170,3489045), size=(3015667,117872)
+   520→    Text: 5 SKU · средний чек X5
+   521→  Shape: AUTO_SHAPE (1), name='Text 88', pos=(6704737,3807053), size=(651309,214313)
+   522→  Shape: AUTO_SHAPE (1), name='Text 27', pos=(4251270,995083), size=(3371850,578644)
+   523→  Shape: AUTO_SHAPE (1), name='Text 28', pos=(4340170,1087951), size=(3125395,147590)
+   524→    Text: ПРОДУКТ
+   525→  Shape: AUTO_SHAPE (1), name='Text 32', pos=(4318179,1257901), size=(442060,228029)
+   526→  Shape: AUTO_SHAPE (1), name='Text 33', pos=(4334552,1270117), size=(409315,203597)
+   527→    Text: Краска
+   528→  Shape: AUTO_SHAPE (1), name='Text 34', pos=(4836996,1312979), size=(1959508,160734)
+   529→    Text: 1 SKU · средний чек 300 ₽
+   530→  Shape: AUTO_SHAPE (1), name='Text 46', pos=(4225870,3735504), size=(3526842,714375)
+   531→  Shape: AUTO_SHAPE (1), name='Text 47', pos=(4276670,3835517), size=(3125395,147590)
+   532→    Text: СВЕРХ ДЛИННАЯ ЦЕПОЧКА
+   533→  Shape: AUTO_SHAPE (1), name='Text 48', pos=(4251464,3999823), size=(337663,200025)
+   534→  Shape: AUTO_SHAPE (1), name='Text 49', pos=(4263970,4010539), size=(312651,178594)
+   535→    Text: Грунт
+   536→  Shape: AUTO_SHAPE (1), name='Text 50', pos=(4560746,4035542), size=(91440,128588)
+   537→    Text: →
+   538→  Shape: AUTO_SHAPE (1), name='Text 51', pos=(4654744,3999823), size=(548144,200025)
+   539→  Shape: AUTO_SHAPE (1), name='Text 52', pos=(4669514,4015922), size=(507541,178594)
+   540→    Text: Шпатлёвка
+   541→  Shape: AUTO_SHAPE (1), name='Text 53', pos=(5192112,4035542), size=(91440,128588)
+   542→    Text: →
+   543→  Shape: AUTO_SHAPE (1), name='Text 54', pos=(5296252,3999823), size=(693011,200025)
+   544→  Shape: AUTO_SHAPE (1), name='Text 55', pos=(5312762,4016889), size=(647291,178594)
+   545→    Text: Финиш. шпатл.
+   546→  Shape: AUTO_SHAPE (1), name='Text 56', pos=(5975928,4035542), size=(91440,128588)
+   547→    Text: →
+   548→  Shape: AUTO_SHAPE (1), name='Text 57', pos=(6063267,3999823), size=(385039,200025)
+   549→  Shape: AUTO_SHAPE (1), name='Text 58', pos=(6052128,4016889), size=(356518,178594)
+   550→    Text: Краска
+   551→  Shape: AUTO_SHAPE (1), name='Text 59', pos=(6443570,4035542), size=(91440,128588)
+   552→    Text: →
+   553→  Shape: AUTO_SHAPE (1), name='Text 60', pos=(6556328,3999823), size=(555980,200025)
+   554→  Shape: AUTO_SHAPE (1), name='Text 61', pos=(6576920,4010539), size=(514796,178594)
+   555→    Text: Лак/защита
+   556→  Shape: AUTO_SHAPE (1), name='Text 62', pos=(4295720,4231995), size=(3015667,117872)
+   557→    Text: 5 SKU · средний чек X6
+   558→  Shape: AUTO_SHAPE (1), name='Text 60', pos=(7236597,3999823), size=(430973,200025)
+   559→  Shape: AUTO_SHAPE (1), name='Text 61', pos=(7242946,4010539), size=(430973,178594)
+   560→    Text: Декор
+   561→  Shape: AUTO_SHAPE (1), name='Text 59', pos=(7127657,4022842), size=(91440,128588)
+   562→    Text: →
+   563→
+   564→--- Slide 6 (layout: DEFAULT) ---
+   565→  Shape: AUTO_SHAPE (1), name='Text 4', pos=(400050,153738), size=(8343900,254603)
+   566→    Text: Гибридная модель решений: объём на базовых, маржа на видимых
+   567→  Shape: PICTURE (13), name='Image 0', pos=(400050,410913), size=(457200,35719)
+   568→    Image: content_type=image/png, size=709 bytes
+   569→  Shape: AUTO_SHAPE (1), name='Text 5', pos=(204716,483144), size=(2528959,1062632)
+   570→  Shape: AUTO_SHAPE (1), name='Text 6', pos=(331667,597444), size=(2171700,133302)
+   571→    Text: ПРИНЦИП
+   572→  Shape: AUTO_SHAPE (1), name='Text 7', pos=(331667,770877), size=(2171700,707605)
+   573→    Text: Не все звенья цепочки создают ценность одинаково. Универсальный грунт не определяет срок службы — его функция одинакова за 100 и 300 руб/кг. А вот краска и защита — определяют.
+   574→  Shape: AUTO_SHAPE (1), name='Text 8', pos=(204716,1633875), size=(2528959,1505067)
+   575→  Shape: AUTO_SHAPE (1), name='Text 9', pos=(350221,1739110), size=(2228850,147590)
+   576→    Text: КАРТА ЦЕННОСТИ ЗВЕНЬЕВ
+   577→  Shape: AUTO_SHAPE (1), name='Text 10', pos=(350221,1934604), size=(428625,164592)
+   578→    Text: Грунт
+   579→  Shape: AUTO_SHAPE (1), name='Text 11', pos=(835996,1952463), size=(1514475,71438)
+   580→  Shape: AUTO_SHAPE (1), name='Text 12', pos=(835996,1952463), size=(378619,71438)
+   581→  Shape: AUTO_SHAPE (1), name='Text 13', pos=(2407621,1939962), size=(171450,164592)
+   582→    Text: 25%
+   583→  Shape: AUTO_SHAPE (1), name='Text 14', pos=(370693,2077479), size=(428625,164592)
+   584→    Text: Шпатлёвка
+   585→    Text: стартовая
+   586→  Shape: AUTO_SHAPE (1), name='Text 15', pos=(835996,2095338), size=(1514475,71438)
+   587→  Shape: AUTO_SHAPE (1), name='Text 16', pos=(835996,2095338), size=(529977,71438)
+   588→  Shape: AUTO_SHAPE (1), name='Text 17', pos=(2407621,2082837), size=(171450,164592)
+   589→    Text: 35%
+   590→  Shape: AUTO_SHAPE (1), name='Text 18', pos=(357045,2322714), size=(428625,164592)
+   591→    Text: Краска
+   592→  Shape: AUTO_SHAPE (1), name='Text 19', pos=(842820,2340573), size=(1514475,71438)
+   593→  Shape: AUTO_SHAPE (1), name='Text 20', pos=(842820,2340573), size=(1211535,71438)
+   594→  Shape: AUTO_SHAPE (1), name='Text 21', pos=(2414445,2328072), size=(171450,164592)
+   595→    Text: 80%
+   596→  Shape: AUTO_SHAPE (1), name='Text 22', pos=(357045,2465589), size=(428625,164592)
+   597→    Text: Лак/защита
+   598→  Shape: AUTO_SHAPE (1), name='Text 23', pos=(842820,2483448), size=(1514475,71438)
+   599→  Shape: AUTO_SHAPE (1), name='Text 24', pos=(842820,2483448), size=(1438684,71438)
+   600→  Shape: AUTO_SHAPE (1), name='Text 25', pos=(2414445,2470947), size=(171450,164592)
+   601→    Text: 95%
+   602→  Shape: AUTO_SHAPE (1), name='Text 26', pos=(257033,2608464), size=(528638,329184)
+   603→    Text: Декор-эффект
+   604→  Shape: AUTO_SHAPE (1), name='Text 27', pos=(842820,2679902), size=(1514475,71438)
+   605→  Shape: AUTO_SHAPE (1), name='Text 28', pos=(842820,2679902), size=(1514475,71438)
+   606→  Shape: AUTO_SHAPE (1), name='Text 29', pos=(2414444,2667400), size=(265111,164592)
+   607→    Text: 100%
+   608→  Shape: AUTO_SHAPE (1), name='Text 30', pos=(357045,2886111), size=(2228850,91440)
+   609→    Text: Доля обоснования переплаты в зависимости от звена
+   610→  Shape: AUTO_SHAPE (1), name='Text 31', pos=(204717,3272021), size=(2522608,1423046)
+   611→  Shape: AUTO_SHAPE (1), name='Text 32', pos=(271463,3361716), size=(368461,171450)
+   612→    Text: ✓
+   613→  Shape: AUTO_SHAPE (1), name='Text 33', pos=(574836,3388505), size=(832619,164592)
+   614→    Text: БЕНЧМАРК
+   615→  Shape: AUTO_SHAPE (1), name='Text 34', pos=(398463,3576029), size=(2228850,1064270)
+   616→    Text: Tikkurila, Dulux, Caparol — все используют гибридный подход. Один грунт на все сегменты, сегментные краски и эффекты.
+   617→    Text: Премиум-грунт продаётся в объёме премиум-сегмента → низкий объём → высокая себестоимость → ещё дороже
+   618→  Shape: AUTO_SHAPE (1), name='Text 35', pos=(2943225,476794), size=(2643188,2478881)
+   619→  Shape: AUTO_SHAPE (1), name='Text 36', pos=(3057525,594666), size=(200025,200025)
+   620→  Shape: AUTO_SHAPE (1), name='Text 37', pos=(3074670,611811), size=(165735,165735)
+   621→    Text: ▣
+   622→  Shape: AUTO_SHAPE (1), name='Text 38', pos=(3289299,564106), size=(2271713,153940)
+   623→    Text: ЗОНА А:  База (специализация не нужна)
+   624→  Shape: AUTO_SHAPE (1), name='Text 39', pos=(3289299,724428), size=(2085975,164592)
+   625→    Text: Даём объём — снижаем себестоимость
+   626→  Shape: AUTO_SHAPE (1), name='Text 40', pos=(3032125,850650), size=(2414588,314325)
+   627→  Shape: AUTO_SHAPE (1), name='Text 41', pos=(3032125,920779), size=(274086,162044)
+   628→    Text: ✓
+   629→  Shape: AUTO_SHAPE (1), name='Text 42', pos=(3346562,875574), size=(1802383,91440)
+   630→    Text: Грунтовка глубокого проникновения
+   631→  Shape: AUTO_SHAPE (1), name='Text 43', pos=(3340212,1025196), size=(2035063,129460)
+   632→    Text: 1 SKU на все сегменты
+   633→  Shape: AUTO_SHAPE (1), name='Text 44', pos=(3044825,1193550), size=(2414588,314325)
+   634→  Shape: AUTO_SHAPE (1), name='Text 45', pos=(3044825,1263679), size=(274086,162044)
+   635→    Text: ✓
+   636→  Shape: AUTO_SHAPE (1), name='Text 46', pos=(3384042,1212124), size=(1072880,91440)
+   637→    Text: Грунтовка бетон-контакт
+   638→  Shape: AUTO_SHAPE (1), name='Text 47', pos=(3366018,1373731), size=(2002906,155972)
+   639→    Text: 1 SKU на все сегменты
+   640→  Shape: AUTO_SHAPE (1), name='Text 48', pos=(3044825,1536450), size=(2414588,314325)
+   641→  Shape: AUTO_SHAPE (1), name='Text 49', pos=(3044825,1606579), size=(274086,162044)
+   642→    Text: ✓
+   643→  Shape: AUTO_SHAPE (1), name='Text 50', pos=(3384042,1560859), size=(1311470,91440)
+   644→    Text: Шпатлёвка стартовая
+   645→  Shape: AUTO_SHAPE (1), name='Text 51', pos=(3384042,1704328), size=(1905508,96441)
+   646→    Text: 1 SKU черновой продукт, не виден
+   647→  Shape: AUTO_SHAPE (1), name='Text 52', pos=(3044825,1879350), size=(2414588,314325)
+   648→  Shape: AUTO_SHAPE (1), name='Text 53', pos=(3044825,1949479), size=(274086,162044)
+   649→    Text: ✓
+   650→  Shape: AUTO_SHAPE (1), name='Text 54', pos=(3379124,1920498), size=(1122484,91440)
+   651→    Text: Грунтовка универсальная
+   652→  Shape: AUTO_SHAPE (1), name='Text 55', pos=(3369444,2066650), size=(1972767,133375)
+   653→    Text: 1 SKU на все сегменты
+   654→  Shape: AUTO_SHAPE (1), name='Text 56', pos=(3044825,2222250), size=(2414588,314325)
+   655→  Shape: AUTO_SHAPE (1), name='Text 57', pos=(3044825,2292379), size=(274086,162044)
+   656→    Text: ✓
+   657→  Shape: AUTO_SHAPE (1), name='Text 58', pos=(3386783,2263906), size=(1262412,91440)
+   658→    Text: Краска потолочная
+   659→  Shape: AUTO_SHAPE (1), name='Text 59', pos=(3385629,2409178), size=(1956582,146447)
+   660→    Text: Commodity — нет разницы
+   661→  Shape: AUTO_SHAPE (1), name='Text 60', pos=(3057525,2598488), size=(2414588,257175)
+   662→  Shape: AUTO_SHAPE (1), name='Text 61', pos=(3174616,2628650), size=(2180295,114300)
+   663→    Text: Максимальный объём ·
+   664→    Text: Минимальная себестоимость
+   665→  Shape: AUTO_SHAPE (1), name='Text 62', pos=(2943225,3040100), size=(2643188,1654968)
+   666→  Shape: AUTO_SHAPE (1), name='Text 63', pos=(3057525,3107170), size=(200025,200025)
+   667→  Shape: AUTO_SHAPE (1), name='Text 64', pos=(3074670,3124315), size=(165735,165735)
+   668→    Text: ◆
+   669→  Shape: AUTO_SHAPE (1), name='Text 65', pos=(3314700,3108361), size=(1545507,101156)
+   670→    Text: ЗОНА Б: МАРЖИНАЛЬНЫЕ
+   671→  Shape: AUTO_SHAPE (1), name='Text 66', pos=(3314700,3268699), size=(1987550,140642)
+   672→    Text: Обоснованная переплата = рост маржи
+   673→  Shape: AUTO_SHAPE (1), name='Text 67', pos=(3057525,3433005), size=(2414588,203597)
+   674→  Shape: AUTO_SHAPE (1), name='Text 68', pos=(3035440,3478796), size=(145175,112014)
+   675→  Shape: AUTO_SHAPE (1), name='Text 69', pos=(3046413,3484797), size=(123230,100013)
+   676→    Text: Эк
+   677→  Shape: AUTO_SHAPE (1), name='Text 70', pos=(3172957,3478796), size=(152207,112014)
+   678→  Shape: AUTO_SHAPE (1), name='Text 71', pos=(3183930,3484797), size=(130262,100013)
+   679→    Text: Ср
+   680→  Shape: AUTO_SHAPE (1), name='Text 72', pos=(3317506,3478796), size=(151984,112014)
+   681→  Shape: AUTO_SHAPE (1), name='Text 73', pos=(3328479,3484797), size=(130039,100013)
+   682→    Text: Пр
+   683→  Shape: AUTO_SHAPE (1), name='Text 74', pos=(3587750,3475867), size=(1914525,117872)
+   684→    Text: Шпатлёвка финишная
+   685→  Shape: AUTO_SHAPE (1), name='Text 75', pos=(3057525,3665177), size=(2414588,203597)
+   686→  Shape: AUTO_SHAPE (1), name='Text 76', pos=(3035440,3710968), size=(145175,112014)
+   687→  Shape: AUTO_SHAPE (1), name='Text 77', pos=(3046413,3716969), size=(123230,100013)
+   688→    Text: Эк
+   689→  Shape: AUTO_SHAPE (1), name='Text 78', pos=(3172957,3710968), size=(152207,112014)
+   690→  Shape: AUTO_SHAPE (1), name='Text 79', pos=(3183930,3716969), size=(130262,100013)
+   691→    Text: Ср
+   692→  Shape: AUTO_SHAPE (1), name='Text 80', pos=(3317506,3710968), size=(151984,112014)
+   693→  Shape: AUTO_SHAPE (1), name='Text 81', pos=(3328479,3716969), size=(130039,100013)
+   694→    Text: Пр
+   695→  Shape: AUTO_SHAPE (1), name='Text 82', pos=(3587750,3708039), size=(1914525,117872)
+   696→    Text: Краска интерьерная
+   697→  Shape: AUTO_SHAPE (1), name='Text 83', pos=(3057525,3897349), size=(2414588,203597)
+   698→  Shape: AUTO_SHAPE (1), name='Text 84', pos=(3035440,3943140), size=(152207,112014)
+   699→  Shape: AUTO_SHAPE (1), name='Text 85', pos=(3046413,3949141), size=(130262,100013)
+   700→    Text: Ср
+   701→  Shape: AUTO_SHAPE (1), name='Text 86', pos=(3179989,3943140), size=(151984,112014)
+   702→  Shape: AUTO_SHAPE (1), name='Text 87', pos=(3190962,3949141), size=(130039,100013)
+   703→    Text: Пр
+   704→  Shape: AUTO_SHAPE (1), name='Text 88', pos=(3587750,3940211), size=(1914525,117872)
+   705→    Text: Краска фасадная
+   706→  Shape: AUTO_SHAPE (1), name='Text 89', pos=(3057525,4129520), size=(2414588,203597)
+   707→  Shape: AUTO_SHAPE (1), name='Text 90', pos=(3035440,4175312), size=(152207,112014)
+   708→  Shape: AUTO_SHAPE (1), name='Text 91', pos=(3046413,4181313), size=(130262,100013)
+   709→    Text: Ср
+   710→  Shape: AUTO_SHAPE (1), name='Text 92', pos=(3179989,4175312), size=(151984,112014)
+   711→  Shape: AUTO_SHAPE (1), name='Text 93', pos=(3190962,4181313), size=(130039,100013)
+   712→    Text: Пр
+   713→  Shape: AUTO_SHAPE (1), name='Text 94', pos=(3587750,4172383), size=(1914525,117872)
+   714→    Text: Лак / Защитное покрытие
+   715→  Shape: AUTO_SHAPE (1), name='Text 95', pos=(3057525,4361692), size=(2414588,321469)
+   716→  Shape: AUTO_SHAPE (1), name='Text 96', pos=(3035440,4466420), size=(151984,112014)
+   717→  Shape: AUTO_SHAPE (1), name='Text 97', pos=(3046413,4472420), size=(130039,100013)
+   718→    Text: Пр
+   719→  Shape: AUTO_SHAPE (1), name='Text 98', pos=(3580160,4404555), size=(1922115,235744)
+   720→    Text: Декоративные эффекты (сатин, бархат, керамика)
+   721→  Shape: AUTO_SHAPE (1), name='Text 101', pos=(5734833,531386), size=(3043238,164592)
+   722→    Text: Пример: Технологическая карта «Долговечный интерьер»
+   723→  Shape: AUTO_SHAPE (1), name='Text 102', pos=(5688013,770877), size=(3043238,1311960)
+   724→  Shape: AUTO_SHAPE (1), name='Text 103', pos=(5788025,843958), size=(171450,171450)
+   725→  Shape: AUTO_SHAPE (1), name='Text 104', pos=(5853881,876105), size=(105594,139303)
+   726→    Text: 1
+   727→  Shape: AUTO_SHAPE (1), name='Text 105', pos=(6010275,840584), size=(1354750,119703)
+   728→    Text: Грунт глубокого проникновения
+   729→  Shape: AUTO_SHAPE (1), name='Text 106', pos=(7299250,839592), size=(638249,232172)
+   730→    Text: Субэконом/ Эконом
+   731→  Shape: AUTO_SHAPE (1), name='Text 107', pos=(8146120,876105), size=(605768,164592)
+   732→    Text: ОРЕОЛ · ~130 ₽/кг
+   733→  Shape: AUTO_SHAPE (1), name='Text 108', pos=(5788025,1136840), size=(171450,171450)
+   734→  Shape: AUTO_SHAPE (1), name='Text 109', pos=(5853881,1168987), size=(105594,139303)
+   735→    Text: 2
+   736→  Shape: AUTO_SHAPE (1), name='Text 110', pos=(6016625,1177917), size=(1019349,119703)
+   737→    Text: Шпатлёвка финишная
+   738→  Shape: AUTO_SHAPE (1), name='Text 111', pos=(7337351,1173670), size=(644598,111250)
+   739→    Text: СРЕДНИЙ
+   740→  Shape: AUTO_SHAPE (1), name='Text 112', pos=(8130084,1168987), size=(717054,164592)
+   741→    Text: NEWTONE · ~200 ₽/кг
+   742→  Shape: AUTO_SHAPE (1), name='Text 113', pos=(5788025,1426217), size=(171450,171450)
+   743→  Shape: AUTO_SHAPE (1), name='Text 114', pos=(5853881,1458364), size=(105594,139303)
+   744→    Text: 3
+   745→  Shape: AUTO_SHAPE (1), name='Text 115', pos=(6016625,1426349), size=(1330278,119703)
+   746→    Text: Краска интерьерная моющаяся
+   747→  Shape: AUTO_SHAPE (1), name='Text 116', pos=(7308342,1478737), size=(416481,121920)
+   748→    Text: ПРЕМИУМ
+   749→  Shape: AUTO_SHAPE (1), name='Text 117', pos=(7986923,1461870), size=(834814,164592)
+   750→    Text: AVANTGARDE · ~600 ₽/кг
+   751→  Shape: AUTO_SHAPE (1), name='Text 118', pos=(5794375,1737598), size=(171450,171450)
+   752→  Shape: AUTO_SHAPE (1), name='Text 119', pos=(5860231,1769745), size=(105594,139303)
+   753→    Text: 4
+   754→  Shape: AUTO_SHAPE (1), name='Text 120', pos=(6022975,1719739), size=(1647085,104727)
+   755→    Text: Лак защитный / Декоративный эффект
+   756→  Shape: AUTO_SHAPE (1), name='Text 121', pos=(7324456,1817806), size=(464487,91440)
+   757→    Text: ПРЕМИУМ
+   758→  Shape: AUTO_SHAPE (1), name='Text 122', pos=(7993273,1769745), size=(834814,164592)
+   759→    Text: AVANTGARDE · ~800 ₽/кг
+   760→  Shape: AUTO_SHAPE (1), name='Text 123', pos=(5700713,2200026), size=(3043238,907144)
+   761→  Shape: AUTO_SHAPE (1), name='Text 124', pos=(5800725,2290897), size=(2952940,133302)
+   762→    Text: Экономика гибридной цепочки
+   763→  Shape: AUTO_SHAPE (1), name='Text 125', pos=(5892800,2506223), size=(646199,165449)
+   764→    Text: ~140
+   765→  Shape: AUTO_SHAPE (1), name='Text 126', pos=(5800725,2699104), size=(807913,192881)
+   766→    Text: средняя цена
+   767→    Text: commodities, ₽/кг
+   768→  Shape: AUTO_SHAPE (1), name='Text 127', pos=(6680076,2506223), size=(106799,385763)
+   769→    Text: +
+   770→  Shape: AUTO_SHAPE (1), name='Text 128', pos=(6583936,2506223), size=(1276680,165449)
+   771→    Text: ~650
+   772→  Shape: AUTO_SHAPE (1), name='Text 129', pos=(6818263,2699104), size=(808025,192881)
+   773→    Text: средняя цена
+   774→    Text: маржинальных, ₽/кг
+   775→  Shape: AUTO_SHAPE (1), name='Text 130', pos=(7697725,2506223), size=(106799,385763)
+   776→    Text: =
+   777→  Shape: AUTO_SHAPE (1), name='Text 131', pos=(7937499,2506223), size=(647701,165449)
+   778→    Text: ~420
+   779→  Shape: AUTO_SHAPE (1), name='Text 132', pos=(7835912,2699104), size=(808025,192881)
+   780→    Text: средняя цена
+   781→    Text: цепочки, ₽/кг
+   782→  Shape: PICTURE (13), name='Image 1', pos=(5700713,3351014), size=(3043238,682228)
+   783→    Image: content_type=image/png, size=45392 bytes
+   784→  Shape: AUTO_SHAPE (1), name='Text 133', pos=(5815013,3411339), size=(2814637,119015)
+   785→    Text: Итог гибридной модели
+   786→  Shape: AUTO_SHAPE (1), name='Text 134', pos=(5815013,3551436), size=(1127712,144018)
+   787→    Text: -30% SKU
+   788→  Shape: AUTO_SHAPE (1), name='Text 135', pos=(5815013,3722886), size=(881025,192881)
+   789→    Text: vs чистые сегментные цепочки
+   790→  Shape: AUTO_SHAPE (1), name='Text 136', pos=(6654763,3551436), size=(1032692,144018)
+   791→    Text: +15% маржа
+   792→  Shape: AUTO_SHAPE (1), name='Text 137', pos=(6654763,3722886), size=(1032692,164592)
+   793→    Text: на системе в целом
+   794→  Shape: AUTO_SHAPE (1), name='Text 138', pos=(7767675,3551436), size=(881025,144018)
+   795→    Text: TCO работает
+   796→  Shape: AUTO_SHAPE (1), name='Text 139', pos=(7767675,3722886), size=(881025,192881)
+   797→    Text: переплата только за ценность
+   798→  Shape: AUTO_SHAPE (1), name='Text 140', pos=(5700713,4187230), size=(3043238,472715)
+   799→  Shape: AUTO_SHAPE (1), name='Text 141', pos=(5800725,4349385), size=(521159,171450)
+   800→    Text: ➤
+   801→  Shape: AUTO_SHAPE (1), name='Text 142', pos=(6364746,4270246), size=(2279191,329840)
+   802→    Text: Навигация — по технологии, не по бренду. Клиент выбирает задачу, а система сама подбирает оптимальное сочетание звеньев
+   803→
+   804→--- Slide 7 (layout: Blank) ---
+   805→  Shape: TEXT_BOX (17), name='TextBox 1', pos=(300000,233175), size=(8544000,401445)
+   806→    Text: Ассортиментная матрица: задачи клиента × продукты
+   807→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 2', pos=(300000,561888), size=(480000,31500)
+   808→  Shape: TEXT_BOX (17), name='TextBox 3', pos=(300000,737220), size=(8544000,150000)
+   809→    Text: Каждая задача клиента = комбинация продуктов. Анализ показывает: весь ли ассортимент используется, а неиспользуемый — может ли быть самостоятельным продуктом.
+   810→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 4', pos=(1738456,1061876), size=(1087500,270000)
+   811→  Shape: TEXT_BOX (17), name='TextBox 5', pos=(1768456,1084376), size=(1050000,225000)
+   812→    Text: Грунтовка
+   813→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 6', pos=(2848456,1061876), size=(1087500,270000)
+   814→  Shape: TEXT_BOX (17), name='TextBox 7', pos=(2878456,1084376), size=(1050000,225000)
+   815→    Text: Шпатлёвка
+   816→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 8', pos=(3958456,1061876), size=(1087500,270000)
+   817→  Shape: TEXT_BOX (17), name='TextBox 9', pos=(3988456,1043432), size=(1050000,225000)
+   818→    Text: Финишнаяшпатлёвка
+   819→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 10', pos=(5068456,1061876), size=(1087500,270000)
+   820→  Shape: TEXT_BOX (17), name='TextBox 11', pos=(5098456,1084376), size=(1050000,225000)
+   821→    Text: Краска
+   822→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 12', pos=(6178456,1061876), size=(1087500,270000)
+   823→  Shape: TEXT_BOX (17), name='TextBox 13', pos=(6208456,1043432), size=(1050000,225000)
+   824→    Text: Лак /защита
+   825→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 14', pos=(7288456,1061876), size=(1087500,270000)
+   826→  Shape: TEXT_BOX (17), name='TextBox 15', pos=(7318456,1043432), size=(1050000,225000)
+   827→    Text: Декор.эффект
+   828→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 16', pos=(88456,1061876), size=(1575000,270000)
+   829→  Shape: TEXT_BOX (17), name='TextBox 17', pos=(148456,1106876), size=(1485000,180000)
+   830→    Text: ЗАДАЧА КЛИЕНТА
+   831→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 18', pos=(88456,1361876), size=(1575000,495000)
+   832→  Shape: TEXT_BOX (17), name='TextBox 19', pos=(148456,1399376), size=(1485000,225000)
+   833→    Text: Ремонт комнаты
+   834→  Shape: TEXT_BOX (17), name='TextBox 20', pos=(148456,1624376), size=(1485000,187500)
+   835→    Text: Интерьер · Полный цикл
+   836→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 21', pos=(1738456,1361876), size=(1087500,495000)
+   837→  Shape: TEXT_BOX (17), name='TextBox 22', pos=(1760956,1399376), size=(1057500,412500)
+   838→    Text: Грунт глуб.проникн.
+   839→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 23', pos=(2848456,1361876), size=(1087500,495000)
+   840→  Shape: TEXT_BOX (17), name='TextBox 24', pos=(2870956,1399376), size=(1057500,412500)
+   841→    Text: Стартовая
+   842→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 25', pos=(3958456,1361876), size=(1087500,495000)
+   843→  Shape: TEXT_BOX (17), name='TextBox 26', pos=(3980956,1399376), size=(1057500,412500)
+   844→    Text: Финишная
+   845→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 27', pos=(5068456,1361876), size=(1087500,495000)
+   846→  Shape: TEXT_BOX (17), name='TextBox 28', pos=(5090956,1399376), size=(1057500,412500)
+   847→    Text: ВДинтерьерная
+   848→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 29', pos=(6178456,1361876), size=(1087500,495000)
+   849→  Shape: TEXT_BOX (17), name='TextBox 30', pos=(6200956,1399376), size=(1057500,412500)
+   850→    Text: —
+   851→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 31', pos=(7288456,1361876), size=(1087500,495000)
+   852→  Shape: TEXT_BOX (17), name='TextBox 32', pos=(7310956,1399376), size=(1057500,412500)
+   853→    Text: —
+   854→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 33', pos=(88456,1901876), size=(1575000,495000)
+   855→  Shape: TEXT_BOX (17), name='TextBox 34', pos=(148456,1939376), size=(1485000,225000)
+   856→    Text: Обновление фасада
+   857→  Shape: TEXT_BOX (17), name='TextBox 35', pos=(148456,2164376), size=(1485000,187500)
+   858→    Text: Фасад · Защита от погоды
+   859→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 36', pos=(1738456,1901876), size=(1087500,495000)
+   860→  Shape: TEXT_BOX (17), name='TextBox 37', pos=(1760956,1939376), size=(1057500,412500)
+   861→    Text: Грунтфасадный
+   862→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 38', pos=(2848456,1901876), size=(1087500,495000)
+   863→  Shape: TEXT_BOX (17), name='TextBox 39', pos=(2870956,1939376), size=(1057500,412500)
+   864→    Text: Фасадная
+   865→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 40', pos=(3958456,1901876), size=(1087500,495000)
+   866→  Shape: TEXT_BOX (17), name='TextBox 41', pos=(3980956,1939376), size=(1057500,412500)
+   867→    Text: Финишнаяфасадная
+   868→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 42', pos=(5068456,1901876), size=(1087500,495000)
+   869→  Shape: TEXT_BOX (17), name='TextBox 43', pos=(5090956,1939376), size=(1057500,412500)
+   870→    Text: ВДфасадная
+   871→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 44', pos=(6178456,1901876), size=(1087500,495000)
+   872→  Shape: TEXT_BOX (17), name='TextBox 45', pos=(6200956,1939376), size=(1057500,412500)
+   873→    Text: Защитныйлак
+   874→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 46', pos=(7288456,1901876), size=(1087500,495000)
+   875→  Shape: TEXT_BOX (17), name='TextBox 47', pos=(7310956,1939376), size=(1057500,412500)
+   876→    Text: —
+   877→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 48', pos=(88456,2441876), size=(1575000,495000)
+   878→  Shape: TEXT_BOX (17), name='TextBox 49', pos=(148456,2479376), size=(1485000,225000)
+   879→    Text: Покраскадеревянного домика
+   880→  Shape: TEXT_BOX (17), name='TextBox 50', pos=(148456,2758968), size=(1485000,187500)
+   881→    Text: Дерево · Защита + цвет
+   882→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 51', pos=(1738456,2441876), size=(1087500,495000)
+   883→  Shape: TEXT_BOX (17), name='TextBox 52', pos=(1760956,2479376), size=(1057500,412500)
+   884→    Text: Антисептикдля дерева
+   885→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 53', pos=(2848456,2441876), size=(1087500,495000)
+   886→  Shape: TEXT_BOX (17), name='TextBox 54', pos=(2870956,2479376), size=(1057500,412500)
+   887→    Text: —
+   888→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 55', pos=(3958456,2441876), size=(1087500,495000)
+   889→  Shape: TEXT_BOX (17), name='TextBox 56', pos=(3980956,2479376), size=(1057500,412500)
+   890→    Text: —
+   891→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 57', pos=(5068456,2441876), size=(1087500,495000)
+   892→  Shape: TEXT_BOX (17), name='TextBox 58', pos=(5090956,2479376), size=(1057500,412500)
+   893→    Text: Деревозащитная
+   894→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 59', pos=(6178456,2441876), size=(1087500,495000)
+   895→  Shape: TEXT_BOX (17), name='TextBox 60', pos=(6200956,2479376), size=(1057500,412500)
+   896→    Text: Лакдля дерева
+   897→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 61', pos=(7288456,2441876), size=(1087500,495000)
+   898→  Shape: TEXT_BOX (17), name='TextBox 62', pos=(7310956,2479376), size=(1057500,412500)
+   899→    Text: —
+   900→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 63', pos=(88456,2981876), size=(1575000,495000)
+   901→  Shape: TEXT_BOX (17), name='TextBox 64', pos=(148456,3019376), size=(1485000,225000)
+   902→    Text: Ремонт ванной
+   903→  Shape: TEXT_BOX (17), name='TextBox 65', pos=(148456,3244376), size=(1485000,187500)
+   904→    Text: Влажная зона · Моющаяся
+   905→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 66', pos=(1738456,2981876), size=(1087500,495000)
+   906→  Shape: TEXT_BOX (17), name='TextBox 67', pos=(1760956,3019376), size=(1057500,412500)
+   907→    Text: Грунтвлагостойк.
+   908→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 68', pos=(2848456,2981876), size=(1087500,495000)
+   909→  Shape: TEXT_BOX (17), name='TextBox 69', pos=(2870956,3019376), size=(1057500,412500)
+   910→    Text: Влагостойкая
+   911→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 70', pos=(3958456,2981876), size=(1087500,495000)
+   912→  Shape: TEXT_BOX (17), name='TextBox 71', pos=(3980956,3019376), size=(1057500,412500)
+   913→    Text: Финишнаявлагостойк.
+   914→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 72', pos=(5068456,2981876), size=(1087500,495000)
+   915→  Shape: TEXT_BOX (17), name='TextBox 73', pos=(5090956,3019376), size=(1057500,412500)
+   916→    Text: ВДмоющаяся
+   917→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 74', pos=(6178456,2981876), size=(1087500,495000)
+   918→  Shape: TEXT_BOX (17), name='TextBox 75', pos=(6200956,3019376), size=(1057500,412500)
+   919→    Text: Антивандальн.лак
+   920→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 76', pos=(7288456,2981876), size=(1087500,495000)
+   921→  Shape: TEXT_BOX (17), name='TextBox 77', pos=(7310956,3019376), size=(1057500,412500)
+   922→    Text: Сатин /бархат
+   923→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 78', pos=(88456,3521876), size=(1575000,495000)
+   924→  Shape: TEXT_BOX (17), name='TextBox 79', pos=(148456,3559376), size=(1485000,225000)
+   925→    Text: Декоративныйинтерьер
+   926→  Shape: TEXT_BOX (17), name='TextBox 80', pos=(148456,3838968), size=(1485000,187500)
+   927→    Text: Премиум · Фактура
+   928→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 81', pos=(1738456,3521876), size=(1087500,495000)
+   929→  Shape: TEXT_BOX (17), name='TextBox 82', pos=(1760956,3559376), size=(1057500,412500)
+   930→    Text: Грунт подшпатлёвку
+   931→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 83', pos=(2848456,3521876), size=(1087500,495000)
+   932→  Shape: TEXT_BOX (17), name='TextBox 84', pos=(2870956,3559376), size=(1057500,412500)
+   933→    Text: Стартовая
+   934→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 85', pos=(3958456,3521876), size=(1087500,495000)
+   935→  Shape: TEXT_BOX (17), name='TextBox 86', pos=(3980956,3559376), size=(1057500,412500)
+   936→    Text: Ультратонкая
+   937→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 87', pos=(5068456,3521876), size=(1087500,495000)
+   938→  Shape: TEXT_BOX (17), name='TextBox 88', pos=(5090956,3559376), size=(1057500,412500)
+   939→    Text: ВДпремиум
+   940→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 89', pos=(6178456,3521876), size=(1087500,495000)
+   941→  Shape: TEXT_BOX (17), name='TextBox 90', pos=(6200956,3559376), size=(1057500,412500)
+   942→    Text: Топ-лак
+   943→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 91', pos=(7288456,3521876), size=(1087500,495000)
+   944→  Shape: TEXT_BOX (17), name='TextBox 92', pos=(7310956,3559376), size=(1057500,412500)
+   945→    Text: Керамика /шёлкография
+   946→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 93', pos=(88456,4061876), size=(1575000,495000)
+   947→  Shape: TEXT_BOX (17), name='TextBox 94', pos=(148456,4099376), size=(1485000,225000)
+   948→    Text: Покраскасадовых деревьев
+   949→  Shape: TEXT_BOX (17), name='TextBox 95', pos=(148456,4365320), size=(1485000,187500)
+   950→    Text: Стandalone · Сад
+   951→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 96', pos=(1738456,4061876), size=(1087500,495000)
+   952→  Shape: TEXT_BOX (17), name='TextBox 97', pos=(1760956,4099376), size=(1057500,412500)
+   953→    Text: —
+   954→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 98', pos=(2848456,4061876), size=(1087500,495000)
+   955→  Shape: TEXT_BOX (17), name='TextBox 99', pos=(2870956,4099376), size=(1057500,412500)
+   956→    Text: —
+   957→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 100', pos=(3958456,4061876), size=(1087500,495000)
+   958→  Shape: TEXT_BOX (17), name='TextBox 101', pos=(3980956,4099376), size=(1057500,412500)
+   959→    Text: —
+   960→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 102', pos=(5068456,4061876), size=(1087500,495000)
+   961→  Shape: TEXT_BOX (17), name='TextBox 103', pos=(5090956,4099376), size=(1057500,412500)
+   962→    Text: Садоваякраска
+   963→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 104', pos=(6178456,4061876), size=(1087500,495000)
+   964→  Shape: TEXT_BOX (17), name='TextBox 105', pos=(6200956,4099376), size=(1057500,412500)
+   965→    Text: —
+   966→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 106', pos=(7288456,4061876), size=(1087500,495000)
+   967→  Shape: TEXT_BOX (17), name='TextBox 107', pos=(7310956,4099376), size=(1057500,412500)
+   968→    Text: —
+   969→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 18', pos=(8394000,1055052), size=(674937,270000)
+   970→  Shape: TEXT_BOX (17), name='TextBox 139', pos=(8311468,1030728), size=(840000,130000)
+   971→    Text: Чек, ₽
+   972→  Shape: TEXT_BOX (17), name='TextBox 140', pos=(8311468,1165728), size=(840000,130000)
+   973→    Text: МД, %
+   974→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 31', pos=(8394000,1358126), size=(674937,495000)
+   975→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 31', pos=(8394000,1908992), size=(674937,495000)
+   976→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 31', pos=(8400152,2456876), size=(674937,495000)
+   977→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 31', pos=(8400152,2996876), size=(674937,495000)
+   978→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 31', pos=(8400823,3518085), size=(674937,495000)
+   979→  Shape: AUTO_SHAPE (1), name='Rounded Rectangle 31', pos=(8400823,4057820), size=(674937,495000)
+   980→  Shape: TEXT_BOX (17), name='TextBox 151', pos=(8306467,1352503), size=(850000,261610)
+   981→    Text: 8 500
+   982→  Shape: TEXT_BOX (17), name='TextBox 152', pos=(8306467,1575928), size=(850000,261610)
+   983→    Text: 15%
+   984→  Shape: TEXT_BOX (17), name='TextBox 153', pos=(8302806,1902616), size=(850000,261610)
+   985→    Text: 18 000
+   986→  Shape: TEXT_BOX (17), name='TextBox 154', pos=(8310121,2111411), size=(850000,261610)
+   987→    Text: 25%
+   988→  Shape: TEXT_BOX (17), name='TextBox 155', pos=(8332066,2436110), size=(850000,261610)
+   989→    Text: 12 000
+   990→  Shape: TEXT_BOX (17), name='TextBox 156', pos=(8346696,2652220), size=(850000,261610)
+   991→    Text: 22%
+   992→  Shape: TEXT_BOX (17), name='TextBox 157', pos=(8346696,3011956), size=(850000,261610)
+   993→    Text: 28 000
+   994→  Shape: TEXT_BOX (17), name='TextBox 158', pos=(8346696,3228066), size=(850000,261610)
+   995→    Text: 35%
+   996→  Shape: AUTO_SHAPE (1), name='Прямоугольник 159', pos=(8449129,3552412), size=(615873,261610)
+   997→    Text: 38 000
+   998→  Shape: TEXT_BOX (17), name='TextBox 160', pos=(8353826,3733171), size=(850000,261610)
+   999→    Text: 42%
+  1000→  Shape: TEXT_BOX (17), name='TextBox 161', pos=(8346511,4065370), size=(850000,261610)
+  1001→    Text: 2 500
+  1002→  Shape: TEXT_BOX (17), name='TextBox 162', pos=(8353826,4296110), size=(850000,261610)
+  1003→    Text: 12%
+  1004→
+  1005→--- Slide 8 (layout: DEFAULT) ---
+  1006→  Shape: AUTO_SHAPE (1), name='Shape 4', pos=(3328988,2552303), size=(5372100,0)
+  1007→  Shape: AUTO_SHAPE (1), name='Shape 5', pos=(3328988,2841625), size=(5372100,0)
+  1008→  Shape: AUTO_SHAPE (1), name='Shape 6', pos=(3328988,3141663), size=(5372100,0)
+  1009→  Shape: AUTO_SHAPE (1), name='Shape 7', pos=(3328988,3430984), size=(5372100,0)
+  1010→  Shape: AUTO_SHAPE (1), name='Text 8', pos=(428625,342900), size=(8636000,300895)
+  1011→    Text: Как продаем решения: философия TCO: совокупная стоимость владения
+  1012→  Shape: PICTURE (13), name='Image 0', pos=(428625,650081), size=(457200,35719)
+  1013→    Image: content_type=image/png, size=709 bytes
+  1014→  Shape: AUTO_SHAPE (1), name='Text 9', pos=(456549,1076580), size=(8286750,164592)
+  1015→    Text: Переводим продажу от цены за литр к стоимости года эксплуатации
+  1016→  Shape: AUTO_SHAPE (1), name='Text 10', pos=(428625,1414066), size=(2714625,768623)
+  1017→  Shape: AUTO_SHAPE (1), name='Text 11', pos=(600075,1556941), size=(2400300,158306)
+  1018→    Text: ФОРМУЛА TCO
+  1019→  Shape: AUTO_SHAPE (1), name='Text 12', pos=(600075,1742678), size=(2400300,297135)
+  1020→    Text: TCO = Материалы + Подготовка + Нанесение + Ремонты + Простой
+  1021→  Shape: AUTO_SHAPE (1), name='Text 13', pos=(428625,2328737), size=(2714625,1824337)
+  1022→  Shape: AUTO_SHAPE (1), name='Text 14', pos=(571500,2471613), size=(532321,214313)
+  1023→    Text: ◆
+  1024→  Shape: AUTO_SHAPE (1), name='Text 15', pos=(1160971,2514476), size=(1839404,164592)
+  1025→    Text: ГЛАВНЫЙ ИНСАЙТ
+  1026→  Shape: AUTO_SHAPE (1), name='Text 16', pos=(873533,2687513), size=(962643,315468)
+  1027→    Text: 80%
+  1028→  Shape: AUTO_SHAPE (1), name='Text 17', pos=(822733,3030413), size=(962643,164592)
+  1029→    Text: работа и подготовка
+  1030→  Shape: AUTO_SHAPE (1), name='Text 18', pos=(1714040,2810743), size=(91440,231458)
+  1031→    Text: /
+  1032→  Shape: AUTO_SHAPE (1), name='Text 19', pos=(1824479,2693863), size=(732056,315468)
+  1033→    Text: 20%
+  1034→  Shape: AUTO_SHAPE (1), name='Text 20', pos=(1878635,3030413), size=(585645,164592)
+  1035→    Text: краска
+  1036→  Shape: AUTO_SHAPE (1), name='Text 21', pos=(571500,3270522), size=(2428875,721448)
+  1037→    Text: Стоимость краски — лишь 15-20% от общей сметы. Переплата за премиум — это всего +7% к смете, но -60% к стоимости года эксплуатации
+  1038→  Shape: AUTO_SHAPE (1), name='Text 22', pos=(3328988,1442913), size=(5372100,557213)
+  1039→  Shape: AUTO_SHAPE (1), name='Text 23', pos=(3457576,1571501), size=(2457450,144018)
+  1040→    Text: ПРИМЕР: КОМНАТА 20 М2
+  1041→  Shape: AUTO_SHAPE (1), name='Text 24', pos=(3457575,1777071), size=(4582715,257175)
+  1042→    Text: Стены ~45 м2. Технология: Грунтовка + Шпатлёвка + Краска (2 слоя)
+  1043→  Shape: AUTO_SHAPE (1), name='Text 25', pos=(5826014,2080816), size=(1728216,164592)
+  1044→    Text: ЭКОНОМ
+  1045→  Shape: AUTO_SHAPE (1), name='Text 26', pos=(7249092,2080816), size=(1582398,164592)
+  1046→    Text: Средний + ЭМПИЛС
+  1047→  Shape: AUTO_SHAPE (1), name='Text 27', pos=(3314700,2252266), size=(5400675,1589484)
+  1048→  Shape: AUTO_SHAPE (1), name='Text 28', pos=(3443288,2337991), size=(3291840,139303)
+  1049→    Text: Материалы
+  1050→  Shape: AUTO_SHAPE (1), name='Text 29', pos=(5835015,2337991), size=(1645920,139303)
+  1051→    Text: 3 600 ₽
+  1052→  Shape: AUTO_SHAPE (1), name='Text 30', pos=(6940867,2337991), size=(1645920,139303)
+  1053→    Text: 8 720 ₽
+  1054→  Shape: AUTO_SHAPE (1), name='Text 31', pos=(3443288,2627313), size=(2777490,139303)
+  1055→    Text: Работа (грунт + шпатлёвка + покраска)
+  1056→  Shape: AUTO_SHAPE (1), name='Text 32', pos=(5835015,2627313), size=(1645920,139303)
+  1057→    Text: 15 750 ₽
+  1058→  Shape: AUTO_SHAPE (1), name='Text 33', pos=(6940867,2627313), size=(1645920,139303)
+  1059→    Text: 15 750 ₽
+  1060→  Shape: AUTO_SHAPE (1), name='Text 34', pos=(3328988,2845197), size=(5372100,300038)
+  1061→  Shape: AUTO_SHAPE (1), name='Text 35', pos=(3443288,2916634), size=(2700338,150019)
+  1062→    Text: Общая стоимость ремонта
+  1063→  Shape: AUTO_SHAPE (1), name='Text 36', pos=(5835015,2916634), size=(1645920,150019)
+  1064→    Text: 19 350 ₽
+  1065→  Shape: AUTO_SHAPE (1), name='Text 37', pos=(6940867,2916634), size=(1645920,150019)
+  1066→    Text: 24 470 ₽
+  1067→  Shape: AUTO_SHAPE (1), name='Text 38', pos=(3443288,3216672), size=(2700338,139303)
+  1068→    Text: Срок службы покрытия
+  1069→  Shape: AUTO_SHAPE (1), name='Text 39', pos=(5835015,3216672), size=(1645920,139303)
+  1070→    Text: 3 года
+  1071→  Shape: AUTO_SHAPE (1), name='Text 40', pos=(6940867,3216672), size=(1645920,139303)
+  1072→    Text: 10 лет
+  1073→  Shape: AUTO_SHAPE (1), name='Text 41', pos=(3328988,3434556), size=(5372100,392906)
+  1074→  Shape: AUTO_SHAPE (1), name='Text 42', pos=(3443288,3534569), size=(2777490,192881)
+  1075→    Text: Стоимость 1 года эксплуатации
+  1076→  Shape: AUTO_SHAPE (1), name='Text 43', pos=(5835015,3534569), size=(1645920,192881)
+  1077→    Text: 6 450 ₽
+  1078→  Shape: AUTO_SHAPE (1), name='Text 44', pos=(6940867,3534569), size=(1645920,192881)
+  1079→    Text: 2 447 ₽
+  1080→  Shape: AUTO_SHAPE (1), name='Text 45', pos=(3314700,3941763), size=(1733476,567928)
+  1081→  Shape: AUTO_SHAPE (1), name='Text 46', pos=(3443288,4041775), size=(1476301,222599)
+  1082→    Text: X 2,6
+  1083→  Shape: AUTO_SHAPE (1), name='Text 47', pos=(3443288,4291806), size=(1476301,117872)
+  1084→    Text: премиум дешевле в год
+  1085→  Shape: AUTO_SHAPE (1), name='Text 48', pos=(5148188,3941763), size=(1733587,567928)
+  1086→  Shape: AUTO_SHAPE (1), name='Text 49', pos=(5276776,4041775), size=(1476412,222599)
+  1087→    Text: 4 003 ₽
+  1088→  Shape: AUTO_SHAPE (1), name='Text 50', pos=(5276776,4291806), size=(1476412,117872)
+  1089→    Text: экономия в год
+  1090→  Shape: AUTO_SHAPE (1), name='Text 51', pos=(6981788,3941763), size=(1733587,567928)
+  1091→  Shape: AUTO_SHAPE (1), name='Text 52', pos=(7110375,4041775), size=(1476412,222599)
+  1092→    Text: 33 580 ₽
+  1093→  Shape: AUTO_SHAPE (1), name='Text 53', pos=(7110375,4291806), size=(1476412,117872)
+  1094→    Text: экономия за 10 лет
+  1095→
+  1096→--- Slide 9 (layout: DEFAULT) ---
+  1097→  Shape: AUTO_SHAPE (1), name='Text 4', pos=(428625,342900), size=(8636000,300895)
+  1098→    Text: Маркетинг: программа внедрения решений и паттернов
+  1099→  Shape: PICTURE (13), name='Image 0', pos=(428625,650081), size=(457200,35719)
+  1100→    Image: content_type=image/png, size=709 bytes
+  1101→  Shape: AUTO_SHAPE (1), name='Text 55', pos=(413995,816971), size=(4181304,164592)
+  1102→    Text: Программа внедрения решения
+  1103→  Shape: AUTO_SHAPE (1), name='Text 56', pos=(413995,992390), size=(3982194,636463)
+  1104→  Shape: AUTO_SHAPE (1), name='Text 57', pos=(542582,1106690), size=(257175,257175)
+  1105→  Shape: AUTO_SHAPE (1), name='Text 58', pos=(639358,1149552), size=(160400,185166)
+  1106→    Text: 1
+  1107→  Shape: AUTO_SHAPE (1), name='Text 59', pos=(899770,1106690), size=(3477560,140446)
+  1108→    Text: Классификатор технологий
+  1109→  Shape: AUTO_SHAPE (1), name='Text 60', pos=(899770,1274568), size=(3367832,239985)
+  1110→    Text: Сгруппировать все продукты в технологические цепочки по задачам клиента: «ванная», «фасад», «детская», «офис»
+  1111→  Shape: AUTO_SHAPE (1), name='Text 61', pos=(413995,1652666), size=(3982194,636463)
+  1112→  Shape: AUTO_SHAPE (1), name='Text 62', pos=(542582,1766966), size=(257175,257175)
+  1113→  Shape: AUTO_SHAPE (1), name='Text 63', pos=(639358,1809828), size=(160400,185166)
+  1114→    Text: 2
+  1115→  Shape: AUTO_SHAPE (1), name='Text 64', pos=(899770,1741566), size=(3367832,140446)
+  1116→    Text: Каталог и сайт
+  1117→  Shape: AUTO_SHAPE (1), name='Text 65', pos=(899770,1915794), size=(3367832,239985)
+  1118→    Text: Навигация по задачам, не по продуктам. Каждая технология = карточка с расчётом TCO, списком продуктов, видео-инструкцией
+  1119→  Shape: AUTO_SHAPE (1), name='Text 66', pos=(413995,2312942), size=(3982194,636463)
+  1120→  Shape: AUTO_SHAPE (1), name='Text 67', pos=(542582,2427242), size=(257175,257175)
+  1121→  Shape: AUTO_SHAPE (1), name='Text 68', pos=(639358,2470104), size=(160400,185166)
+  1122→    Text: 3
+  1123→  Shape: AUTO_SHAPE (1), name='Text 69', pos=(899770,2427242), size=(3367832,140446)
+  1124→    Text: Калькулятор TCO
+  1125→  Shape: AUTO_SHAPE (1), name='Text 70', pos=(899770,2595120), size=(3367832,239985)
+  1126→    Text: Веб-инструмент + Excel для менеджеров. Предзаполненные сценарии. Расчёт экономики для клиента за 2 минуты
+  1127→  Shape: AUTO_SHAPE (1), name='Text 71', pos=(413995,2960518), size=(3982194,636463)
+  1128→  Shape: AUTO_SHAPE (1), name='Text 72', pos=(542582,3074818), size=(257175,257175)
+  1129→  Shape: AUTO_SHAPE (1), name='Text 73', pos=(639358,3117680), size=(160400,185166)
+  1130→    Text: 4
+  1131→  Shape: AUTO_SHAPE (1), name='Text 74', pos=(899770,3074818), size=(3367832,140446)
+  1132→    Text: POS и мерчендайзинг
+  1133→  Shape: AUTO_SHAPE (1), name='Text 75', pos=(899770,3242696), size=(3367832,239985)
+  1134→    Text: POSm «под задачу» в DIY-ритейле. Выкрасы по технологиям. Этикетки с TCO-сравнением прямо на полке
+  1135→  Shape: AUTO_SHAPE (1), name='Text 71', pos=(439395,3620918), size=(3982194,636463)
+  1136→  Shape: AUTO_SHAPE (1), name='Text 72', pos=(567982,3703468), size=(257175,257175)
+  1137→  Shape: AUTO_SHAPE (1), name='Text 73', pos=(664758,3746330), size=(160400,185166)
+  1138→    Text: 5
+  1139→  Shape: AUTO_SHAPE (1), name='Text 74', pos=(925170,3665368), size=(3367832,140446)
+  1140→    Text: Цифровое лидерство
+  1141→  Shape: AUTO_SHAPE (1), name='Text 75', pos=(925170,3826896), size=(3367832,352741)
+  1142→    Text: SMM, Rutube, web-сайт.
+  1143→    Text: Цифровое обучение
+  1144→    Text: Email + CRM
+  1145→  Shape: AUTO_SHAPE (1), name='Text 71', pos=(445745,4268618), size=(3982194,636463)
+  1146→  Shape: AUTO_SHAPE (1), name='Text 72', pos=(574332,4325768), size=(257175,257175)
+  1147→  Shape: AUTO_SHAPE (1), name='Text 73', pos=(671108,4368630), size=(160400,185166)
+  1148→    Text: 6
+  1149→  Shape: AUTO_SHAPE (1), name='Text 74', pos=(931520,4287668), size=(3367832,140446)
+  1150→    Text: Мероприятия
+  1151→  Shape: AUTO_SHAPE (1), name='Text 75', pos=(931520,4449196), size=(3367832,352741)
+  1152→    Text: Выставки – продвижение технологий
+  1153→    Text: Полевые мероприятия
+  1154→    Text: Профессиональные форумы и симпозиумы
+  1155→  Shape: AUTO_SHAPE (1), name='Text 2', pos=(5214938,1231590), size=(1071563,1071563)
+  1156→  Shape: AUTO_SHAPE (1), name='Shape 12', pos=(4864723,2153011), size=(0,314325)
+  1157→  Shape: AUTO_SHAPE (1), name='Shape 13', pos=(4864723,2612266), size=(0,314325)
+  1158→  Shape: AUTO_SHAPE (1), name='Shape 14', pos=(4864723,3064206), size=(0,314325)
+  1159→  Shape: AUTO_SHAPE (1), name='Shape 15', pos=(4864723,3516146), size=(0,314325)
+  1160→  Shape: AUTO_SHAPE (1), name='Shape 16', pos=(4864723,3975401), size=(0,314325)
+  1161→  Shape: AUTO_SHAPE (1), name='Text 44', pos=(4686300,992390), size=(4000500,3912691)
+  1162→  Shape: AUTO_SHAPE (1), name='Text 45', pos=(4784600,1146130), size=(439128,283860)
+  1163→    Text: ✓
+  1164→  Shape: AUTO_SHAPE (1), name='Text 46', pos=(5141786,1166296), size=(3352041,278699)
+  1165→    Text: Паттерн поведения компании – фокус на премиум
+  1166→  Shape: PICTURE (13), name='Image 1', pos=(4850435,1601573), size=(3657600,435769)
+  1167→    Image: content_type=image/png, size=35181 bytes
+  1168→  Shape: AUTO_SHAPE (1), name='Text 47', pos=(4950448,1673010), size=(979754,173593)
+  1169→    Text: EMPILS ULTRA
+  1170→  Shape: AUTO_SHAPE (1), name='Text 48', pos=(5779730,1677368), size=(315120,152019)
+  1171→  Shape: AUTO_SHAPE (1), name='Text 49', pos=(5791401,1685512), size=(291778,135731)
+  1172→    Text: NEW
+  1173→  Shape: AUTO_SHAPE (1), name='Text 50', pos=(4950448,1848032), size=(3567303,117872)
+  1174→    Text: Графен · Фотокатализ · Умные покрытия
+  1175→  Shape: AUTO_SHAPE (1), name='Text 51', pos=(4850435,2153011), size=(3657600,314325)
+  1176→  Shape: AUTO_SHAPE (1), name='Text 52', pos=(4979023,2245880), size=(867467,131159)
+  1177→    Text: AVANTGARDE
+  1178→  Shape: AUTO_SHAPE (1), name='Text 53', pos=(5808144,2274455), size=(410051,119703)
+  1179→    Text: Средний +
+  1180→  Shape: AUTO_SHAPE (1), name='Text 54', pos=(4850435,2612266), size=(3657600,314325)
+  1181→  Shape: AUTO_SHAPE (1), name='Text 55', pos=(4979023,2705135), size=(698659,131159)
+  1182→    Text: NEWTONE
+  1183→  Shape: AUTO_SHAPE (1), name='Text 56', pos=(5613812,2733710), size=(479455,119703)
+  1184→    Text: средний
+  1185→  Shape: AUTO_SHAPE (1), name='Text 57', pos=(4850435,3064206), size=(3657600,314325)
+  1186→  Shape: AUTO_SHAPE (1), name='Text 58', pos=(4979023,3157075), size=(485875,131159)
+  1187→    Text: TITAN
+  1188→  Shape: AUTO_SHAPE (1), name='Text 59', pos=(5375501,3185650), size=(464915,119703)
+  1189→    Text: средний
+  1190→  Shape: AUTO_SHAPE (1), name='Text 60', pos=(4850435,3516146), size=(3657600,314325)
+  1191→  Shape: AUTO_SHAPE (1), name='Text 61', pos=(4979023,3609015), size=(603861,131159)
+  1192→    Text: ОРЕОЛ
+  1193→  Shape: AUTO_SHAPE (1), name='Text 62', pos=(5450175,3637590), size=(333042,119703)
+  1194→    Text: эконом
+  1195→  Shape: AUTO_SHAPE (1), name='Text 63', pos=(4850435,3975401), size=(3657600,314325)
+  1196→  Shape: AUTO_SHAPE (1), name='Text 64', pos=(4979023,4068270), size=(2167985,131159)
+  1197→    Text: Расцвет
+  1198→  Shape: AUTO_SHAPE (1), name='Text 65', pos=(5458359,4096845), size=(333042,119703)
+  1199→    Text: эконом
+  1200→  Shape: AUTO_SHAPE (1), name='Text 53', pos=(6165569,1693525), size=(410051,119703)
+  1201→    Text: премиум +
+  1202→  Shape: LINE (9), name='Прямая со стрелкой 122', pos=(6086463,2681687), size=(0,164284)
+  1203→  Shape: AUTO_SHAPE (1), name='Text 63', pos=(4860151,4415840), size=(3657600,314325)
+  1204→  Shape: AUTO_SHAPE (1), name='Text 64', pos=(4988739,4508709), size=(2167985,131159)
+  1205→    Text: ОРЕОЛ ДИСКОНТ · Простокрашено!
+  1206→  Shape: AUTO_SHAPE (1), name='Text 65', pos=(6918573,4537284), size=(333042,119703)
+  1207→    Text: Суб эконом
+  1208→  Shape: LINE (9), name='Прямая со стрелкой 126', pos=(5857176,3160780), size=(0,164284)
+  1209→  Shape: LINE (9), name='Прямая со стрелкой 127', pos=(5864025,3606858), size=(0,164284)
+  1210→  Shape: LINE (9), name='Прямая со стрелкой 128', pos=(5874763,4052264), size=(0,164284)
+  1211→  Shape: LINE (9), name='Прямая со стрелкой 129', pos=(7545303,4487994), size=(0,164284)
+  1212→  Shape: LINE (9), name='Прямая со стрелкой 130', pos=(6349322,2230861), size=(0,164284)
+  1213→
+  1214→--- Slide 10 (layout: DEFAULT) ---
+  1215→  Shape: AUTO_SHAPE (1), name='Text 3', pos=(8051118,285750), size=(1017091,617220)
+  1216→    Text: 01
+  1217→  Shape: AUTO_SHAPE (1), name='Text 4', pos=(457200,381000), size=(8636000,324041)
+  1218→    Text: Маркетинг: цифровое лидерство
+  1219→  Shape: PICTURE (13), name='Image 0', pos=(457200,723900), size=(457200,35719)
+  1220→    Image: content_type=image/png, size=709 bytes
+  1221→  Shape: AUTO_SHAPE (1), name='Text 5', pos=(457200,1007269), size=(4043363,1714500)
+  1222→  Shape: AUTO_SHAPE (1), name='Text 6', pos=(657225,1061906), size=(314325,314325)
+  1223→  Shape: AUTO_SHAPE (1), name='Text 7', pos=(690086,1075717), size=(248602,248602)
+  1224→    Text: ↗
+  1225→  Shape: AUTO_SHAPE (1), name='Text 8', pos=(1057275,1082146), size=(3243263,254603)
+  1226→    Text: Сайт и SMM
+  1227→  Shape: AUTO_SHAPE (1), name='Text 9', pos=(657225,1421155), size=(3710059,1225550)
+  1228→    Text: VK | Telegram - размещение постов про технологические связки + продвижения 17,5 тыс. человек аудитория RuTube - создание медиа библиотеки по технологическим связкам
+  1229→    Text: Сайт - обновление основного сайта компании. Портфолио.  3DТур.
+  1230→    Text: Постепенное обновление английской версии сайта.Кейсы применений: статьи и видеоролики
+  1231→  Shape: AUTO_SHAPE (1), name='Text 12', pos=(4643438,1007269), size=(4043363,1714500)
+  1232→  Shape: AUTO_SHAPE (1), name='Text 13', pos=(4824413,1207294), size=(314325,314325)
+  1233→  Shape: AUTO_SHAPE (1), name='Text 14', pos=(4857274,1240155), size=(248602,248602)
+  1234→    Text: ✦
+  1235→  Shape: AUTO_SHAPE (1), name='Text 15', pos=(5199063,1246584), size=(3243263,254603)
+  1236→    Text: Цифровое обучение
+  1237→  Shape: AUTO_SHAPE (1), name='Text 16', pos=(4843462,1585119), size=(3643313,948531)
+  1238→    Text: Создание новых обучающих презентаций и видео скриптов по работе технологических связок
+  1239→    Text: Выездные обучения - систематическая конвейерная система
+  1240→    Text: Групповые онлайн конференции – разбор кейсов
+  1241→  Shape: AUTO_SHAPE (1), name='Text 19', pos=(457200,2864643), size=(4043363,1898425)
+  1242→  Shape: AUTO_SHAPE (1), name='Text 20', pos=(657225,2969419), size=(314325,314325)
+  1243→  Shape: AUTO_SHAPE (1), name='Text 21', pos=(690086,3002280), size=(248602,248602)
+  1244→    Text: ▶
+  1245→  Shape: AUTO_SHAPE (1), name='Text 22', pos=(1044575,3015059), size=(3243263,254603)
+  1246→    Text: Поддержка продаж
+  1247→  Shape: AUTO_SHAPE (1), name='Text 23', pos=(657225,3359944), size=(3643313,1219200)
+  1248→    Text: Презентация - стань партнером ЭмпилсПланограмма по выкладкам решений
+  1249→    Text: Продуктовые технологические связки
+  1250→    Text: Материалы
+  1251→    Text: Пригласительные письма. Коммерческие предложения. Продуктовые презентация
+  1252→    Text: Трейд-маркетинг – фокус на продвижение и мотивацию технологических связок
+  1253→  Shape: AUTO_SHAPE (1), name='Text 30', pos=(4643438,2864644), size=(4043363,1898424)
+  1254→  Shape: AUTO_SHAPE (1), name='Text 31', pos=(4843463,2941837), size=(314325,314325)
+  1255→  Shape: AUTO_SHAPE (1), name='Text 32', pos=(4876324,2974698), size=(248602,248602)
+  1256→    Text: ✉
+  1257→  Shape: AUTO_SHAPE (1), name='Text 33', pos=(5243513,2981127), size=(3243263,254603)
+  1258→    Text: Email + CRM
+  1259→  Shape: AUTO_SHAPE (1), name='Text 34', pos=(4843463,3343166), size=(3643313,1358488)
+  1260→    Text: UniSender
+  1261→    Text: Формирование систематического канала информирования и влияния
+  1262→    Text: Систематическая прямая рассылка по текущим партнерам, потенциальным и не лояльным в связке с торговой командой. Триггерные письма в зависимости от статуса клиента.
+  1263→
+  1264→--- Slide 11 (layout: Blank) ---
+  1265→  Shape: AUTO_SHAPE (1), name='Text 74', pos=(3763412,1177561), size=(1879939,154204)
+  1266→    Text: Ассортимент
+  1267→    Text: для полных цепочек
+  1268→  Shape: AUTO_SHAPE (1), name='Text 79', pos=(3420677,1601208), size=(2222674,635532)
+  1269→  Shape: AUTO_SHAPE (1), name='Text 81', pos=(3784066,1675820), size=(1233636,101156)
+  1270→    Text: Шпатлёвки
+  1271→  Shape: AUTO_SHAPE (1), name='Text 82', pos=(3784067,1836158), size=(1789260,500286)
+  1272→    Text: Стартовая, финишная, влагостойкая, — закрываем весь цикл выравнивания
+  1273→  Shape: AUTO_SHAPE (1), name='Text 83', pos=(3420677,2282667), size=(2222674,677094)
+  1274→  Shape: AUTO_SHAPE (1), name='Text 85', pos=(3803115,2350930), size=(1560661,229743)
+  1275→    Text: Защитные покрытия (лаки, топы)
+  1276→  Shape: AUTO_SHAPE (1), name='Text 86', pos=(3803115,2620804), size=(1719411,306009)
+  1277→    Text: Финишный слой, продлевающий срок службы краски
+  1278→  Shape: AUTO_SHAPE (1), name='Text 87', pos=(3420677,3525381), size=(2222674,696552)
+  1279→  Shape: AUTO_SHAPE (1), name='Text 89', pos=(3796766,3593643), size=(1233636,101156)
+  1280→    Text: Декоративные эффекты
+  1281→  Shape: AUTO_SHAPE (1), name='Text 90', pos=(3796765,3747630), size=(1776561,474303)
+  1282→    Text: Бархат, сатин, керамика, шёлкография — премиум-финиш на вершине цепочки
+  1283→  Shape: AUTO_SHAPE (1), name='Text 38', pos=(438341,1587195), size=(2676562,2634738)
+  1284→  Shape: AUTO_SHAPE (1), name='Text 39', pos=(3425232,1160872), size=(285750,285750)
+  1285→  Shape: AUTO_SHAPE (1), name='Text 40', pos=(3454164,1189804), size=(227886,227886)
+  1286→    Text: ⚗
+  1287→  Shape: AUTO_SHAPE (1), name='Text 42', pos=(537669,1897623), size=(2419387,278187)
+  1288→    Text: • Новые продукты разрабатываются как звенья цепочки, а не standalone
+  1289→  Shape: AUTO_SHAPE (1), name='Text 43', pos=(537669,2354215), size=(2419387,278187)
+  1290→    Text: • Приоритет: продукты, удлиняющие TCO-выгоду (грунты, лаки, штукатурки)
+  1291→  Shape: AUTO_SHAPE (1), name='Text 44', pos=(537669,2910042), size=(2529115,394376)
+  1292→    Text: • Доп. тестирование не по ГОСТ-отдельности, а в составе технологической системы
+  1293→  Shape: AUTO_SHAPE (1), name='Text 45', pos=(537669,3508261), size=(2529115,279592)
+  1294→    Text: • Новинка = +1 звено к существующей цепочке
+  1295→  Shape: AUTO_SHAPE (1), name='Text 80', pos=(3347069,1614965), size=(651309,214313)
+  1296→    Text: ⊕
+  1297→  Shape: AUTO_SHAPE (1), name='Text 84', pos=(3347069,2281795), size=(651309,214313)
+  1298→    Text: ⊕
+  1299→  Shape: AUTO_SHAPE (1), name='Text 88', pos=(3347069,3531823), size=(651309,214313)
+  1300→    Text: ⊕
+  1301→  Shape: AUTO_SHAPE (1), name='Text 4', pos=(457200,400050), size=(5533949,324041)
+  1302→    Text: НИЛ + Маркетинг: фокус сил на премиум
+  1303→  Shape: PICTURE (13), name='Image 0', pos=(457200,728320), size=(292974,35719)
+  1304→    Image: content_type=image/png, size=709 bytes
+  1305→  Shape: AUTO_SHAPE (1), name='Text 12', pos=(836679,1196603), size=(1413681,208312)
+  1306→    Text: Последовательность
+  1307→  Shape: AUTO_SHAPE (1), name='Text 14', pos=(5981661,1587195), size=(2676562,2674674)
+  1308→  Shape: AUTO_SHAPE (1), name='Text 16', pos=(6049805,1911327), size=(1885950,173593)
+  1309→    Text: Графеновые грунт-эмали
+  1310→  Shape: AUTO_SHAPE (1), name='Text 22', pos=(6061441,2257212), size=(1995678,173593)
+  1311→    Text: Фотокаталитические краски
+  1312→  Shape: AUTO_SHAPE (1), name='Text 28', pos=(6068071,2575794), size=(1885950,173593)
+  1313→    Text: AI/AR колеровка
+  1314→  Shape: AUTO_SHAPE (1), name='Text 36', pos=(6057387,2881057), size=(2600835,270633)
+  1315→    Text: Самовосстанавливающиеся покрытия
+  1316→  Shape: AUTO_SHAPE (1), name='Text 42', pos=(6061441,3209466), size=(1885950,173593)
+  1317→    Text: Bio-based продукция
+  1318→  Shape: AUTO_SHAPE (1), name='Text 48', pos=(6077101,3528186), size=(1995678,173593)
+  1319→    Text: Умные хромогенные покрытия
+  1320→  Shape: AUTO_SHAPE (1), name='Text 39', pos=(6011266,1167373), size=(285750,285750)
+  1321→  Shape: AUTO_SHAPE (1), name='Text 40', pos=(6040198,1196305), size=(227886,227886)
+  1322→    Text: ⚗
+  1323→  Shape: AUTO_SHAPE (1), name='Text 12', pos=(6397139,1204075), size=(1662604,208312)
+  1324→    Text: Передовые технологии
+  1325→  Shape: AUTO_SHAPE (1), name='Text 39', pos=(479149,1148980), size=(285750,285750)
+  1326→  Shape: AUTO_SHAPE (1), name='Text 40', pos=(508081,1177912), size=(227886,227886)
+  1327→    Text: ⚗
+  1328→  Shape: AUTO_SHAPE (1), name='Text 75', pos=(3434237,3043461), size=(2222674,421922)
+  1329→  Shape: AUTO_SHAPE (1), name='Text 76', pos=(3434795,3063365), size=(495151,214313)
+  1330→    Text: ⊕
+  1331→  Shape: AUTO_SHAPE (1), name='Text 77', pos=(3791833,3080890), size=(1725761,229743)
+  1332→    Text: Декоративные штукатурки
+  1333→    Text: Кароед и т. д.
+  1334→
+  1335→--- Slide 12 (layout: DEFAULT) ---
+  1336→  Shape: AUTO_SHAPE (1), name='Text 20', pos=(3159457,2265275), size=(2726993,2583568)
+  1337→  Shape: AUTO_SHAPE (1), name='Text 4', pos=(457200,140738), size=(8636000,324041)
+  1338→    Text: Продажи: программы развития партнёров
+  1339→  Shape: PICTURE (13), name='Image 0', pos=(457200,439188), size=(457200,35719)
+  1340→    Image: content_type=image/png, size=709 bytes
+  1341→  Shape: AUTO_SHAPE (1), name='Text 5', pos=(352792,2258451), size=(2628900,2583568)
+  1342→  Shape: AUTO_SHAPE (1), name='Text 8', pos=(467442,2292571), size=(2228850,231458)
+  1343→    Text: Академия продаж Эмпилс
+  1344→  Shape: AUTO_SHAPE (1), name='Text 9', pos=(445681,3290214), size=(91440,153570)
+  1345→    Text: •
+  1346→  Shape: AUTO_SHAPE (1), name='Text 10', pos=(537880,3290214), size=(2136651,383438)
+  1347→    Text: Обучение продавцов дистрибьюторов по продаже B2C на базе дистрибьютора.
+  1348→  Shape: AUTO_SHAPE (1), name='Text 11', pos=(445681,3894454), size=(91440,153570)
+  1349→    Text: •
+  1350→  Shape: AUTO_SHAPE (1), name='Text 12', pos=(537880,3880806), size=(2136651,164592)
+  1351→    Text: Модуль: Практика. TCO vs конкуренты
+  1352→  Shape: AUTO_SHAPE (1), name='Text 13', pos=(445681,4123374), size=(91440,153570)
+  1353→    Text: •
+  1354→  Shape: AUTO_SHAPE (1), name='Text 14', pos=(537880,4102902), size=(2136651,329184)
+  1355→    Text: Модуль: продажа через ценность, а не цену
+  1356→  Shape: AUTO_SHAPE (1), name='Text 15', pos=(445681,4379480), size=(91440,153570)
+  1357→    Text: •
+  1358→  Shape: AUTO_SHAPE (1), name='Text 16', pos=(537880,4379480), size=(2136651,164592)
+  1359→    Text: Сертификат Эксперт Эмпилс
+  1360→  Shape: AUTO_SHAPE (1), name='Text 23', pos=(3285975,2306219), size=(2391493,231458)
+  1361→    Text: Премиум - лаборатория Эмпилс
+  1362→  Shape: AUTO_SHAPE (1), name='Text 24', pos=(3327919,3632076), size=(91440,153570)
+  1363→    Text: •
+  1364→  Shape: AUTO_SHAPE (1), name='Text 35', pos=(6057900,2258451), size=(2717610,2583568)
+  1365→  Shape: AUTO_SHAPE (1), name='Text 38', pos=(6156904,2305940), size=(2228850,231458)
+  1366→    Text: Экспортная экспансия
+  1367→  Shape: AUTO_SHAPE (1), name='Text 39', pos=(6158321,2833436), size=(102337,155136)
+  1368→    Text: •
+  1369→  Shape: AUTO_SHAPE (1), name='Text 40', pos=(6250521,2820736), size=(2391269,166270)
+  1370→    Text: Ассортиментный анализ (свойства, дизайн и т.д.)
+  1371→  Shape: AUTO_SHAPE (1), name='Text 4', pos=(352792,764270), size=(2733308,1269245)
+  1372→  Shape: AUTO_SHAPE (1), name='Text 7', pos=(482955,899762), size=(2444489,247548)
+  1373→    Text: DIY – РТТ, ритейл, магазины…
+  1374→  Shape: AUTO_SHAPE (1), name='Text 8', pos=(462483,1183273), size=(2444489,660884)
+  1375→    Text: 1. Текущие партеры - сдвиг от объёма к ценности
+  1376→    Text: 2. Белые пятна - соблюдения покрытия
+  1377→    Text: 3. Потеряшки - анализ ухода партеров
+  1378→  Shape: AUTO_SHAPE (1), name='Text 13', pos=(3159457,764270), size=(2711118,1269245)
+  1379→  Shape: AUTO_SHAPE (1), name='Text 16', pos=(3228610,844566), size=(2085873,208312)
+  1380→    Text: Профессиональный канал
+  1381→  Shape: AUTO_SHAPE (1), name='Text 17', pos=(3234072,1056892), size=(2531394,853789)
+  1382→    Text: 1. Расширение дистрибьюторской портфеля за счет мотивированного поиска и региональной командой  представителей профессионального канала.
+  1383→    Text: 2. Точечная работа с каждым при помощи подключения ШК.
+  1384→    Text: .
+  1385→  Shape: AUTO_SHAPE (1), name='Text 20', pos=(6057900,764271), size=(2717610,1269244)
+  1386→  Shape: AUTO_SHAPE (1), name='Text 22', pos=(6265426,944092), size=(227886,227886)
+  1387→  Shape: AUTO_SHAPE (1), name='Text 23', pos=(6189108,843056), size=(633412,208312)
+  1388→    Text: Экспорт
+  1389→  Shape: AUTO_SHAPE (1), name='Text 39', pos=(6145926,3047997), size=(102337,155136)
+  1390→    Text: •
+  1391→  Shape: AUTO_SHAPE (1), name='Text 40', pos=(6238126,3035297), size=(2391269,166270)
+  1392→    Text: Создание посадочных страниц «Стань партнером Эмпилс»
+  1393→  Shape: AUTO_SHAPE (1), name='Text 39', pos=(6141374,3377821), size=(102337,155136)
+  1394→    Text: •
+  1395→  Shape: AUTO_SHAPE (1), name='Text 40', pos=(6233574,3365121), size=(2391269,166270)
+  1396→    Text: Рассылка приглашений по потенциальным партнерам
+  1397→  Shape: AUTO_SHAPE (1), name='Text 40', pos=(6244950,3693477), size=(2391269,166270)
+  1398→    Text: РЭЦ. Субсидии
+  1399→  Shape: AUTO_SHAPE (1), name='Text 39', pos=(6142613,3693477), size=(102337,155136)
+  1400→    Text: •
+  1401→  Shape: AUTO_SHAPE (1), name='Text 17', pos=(6186957,1071683), size=(2273930,518319)
+  1402→    Text: 1. Расширение географии2. Выход в премиум-сегмент
+  1403→  Shape: AUTO_SHAPE (1), name='Text 10', pos=(559641,2795275), size=(2136651,411952)
+  1404→    Text: Дистрибьютор имеет свою розничную сеть, лоялен, наличие средний + и премиум товаров
+  1405→  Shape: AUTO_SHAPE (1), name='Text 9', pos=(434305,2814806), size=(91440,153570)
+  1406→    Text: •
+  1407→  Shape: AUTO_SHAPE (1), name='Text 11', pos=(441129,3651062), size=(91440,153570)
+  1408→    Text: •
+  1409→  Shape: AUTO_SHAPE (1), name='Text 12', pos=(533328,3637414), size=(2136651,164592)
+  1410→    Text: Модуль: О компании. Теория.
+  1411→  Shape: AUTO_SHAPE (1), name='Text 25', pos=(3399210,2794333), size=(2366256,821504)
+  1412→    Text: Партнер работает с нами, но не закупает ФТМ.
+  1413→    Text: В его клиентской базе дилеров скептические настроения по ФТМ от Эмпилс спроса нет, либо очень маленький.
+  1414→  Shape: AUTO_SHAPE (1), name='Text 10', pos=(454777,2551637), size=(2513610,191719)
+  1415→    Text: Третичные продажи - стимуляция на клиента.
+  1416→  Shape: AUTO_SHAPE (1), name='Text 10', pos=(3285976,2551479), size=(2513610,191719)
+  1417→    Text: Третичные продажи - стимуляция на клиента.
+  1418→  Shape: AUTO_SHAPE (1), name='Text 40', pos=(6227894,3898447), size=(2391269,166270)
+  1419→    Text: Участие в выставочных мероприятиях
+  1420→  Shape: AUTO_SHAPE (1), name='Text 39', pos=(6149406,3897664), size=(102337,155136)
+  1421→    Text: •
+  1422→  Shape: AUTO_SHAPE (1), name='Text 10', pos=(6156904,2569125), size=(2513610,191719)
+  1423→    Text: Индивидуальный подход.
+  1424→  Shape: AUTO_SHAPE (1), name='Text 24', pos=(3316543,2822292), size=(91440,153570)
+  1425→    Text: •
+  1426→  Shape: AUTO_SHAPE (1), name='Text 12', pos=(3399210,3623320), size=(2136651,164592)
+  1427→    Text: Модуль: О компании. Теория.
+  1428→  Shape: AUTO_SHAPE (1), name='Text 12', pos=(3399209,3832857), size=(2136651,164592)
+  1429→    Text: Модуль: Последовательные технологии, TCO vs конкуренты
+  1430→  Shape: AUTO_SHAPE (1), name='Text 24', pos=(3330191,3852716), size=(91440,153570)
+  1431→    Text: •
+  1432→  Shape: AUTO_SHAPE (1), name='Text 26', pos=(3313881,3434596), size=(91440,153570)
+  1433→    Text: •
+  1434→  Shape: AUTO_SHAPE (1), name='Text 27', pos=(3406080,3427772), size=(2136651,164592)
+  1435→    Text: Нелояльные вторичные партнеры
+  1436→  Shape: AUTO_SHAPE (1), name='Text 28', pos=(3321196,4160704), size=(91440,153570)
+  1437→    Text: •
+  1438→  Shape: AUTO_SHAPE (1), name='Text 29', pos=(3413395,4147056), size=(2136651,329184)
+  1439→    Text: Стартовый пакет: POSм, мерчендайзер, сувениры, особые условия
+  1440→
+  1441→--- Slide 13 (layout: DEFAULT) ---
+  1442→  Shape: AUTO_SHAPE (1), name='Text 4', pos=(457200,400050), size=(8636000,388776)
+  1443→    Text: Риски и митигация
+  1444→  Shape: PICTURE (13), name='Image 0', pos=(457200,802891), size=(514350,35719)
+  1445→    Image: content_type=image/png, size=768 bytes
+  1446→  Shape: AUTO_SHAPE (1), name='Text 19', pos=(457200,1290225), size=(8229600,728770)
+  1447→  Shape: AUTO_SHAPE (1), name='Text 20', pos=(680654,1481618), size=(248602,248602)
+  1448→    Text: 🏪
+  1449→  Shape: AUTO_SHAPE (1), name='Text 21', pos=(1109849,1413832), size=(3535996,175884)
+  1450→    Text: Сопротивление дистрибьюторов
+  1451→  Shape: AUTO_SHAPE (1), name='Text 22', pos=(1109849,1640981), size=(2015730,125451)
+  1452→    Text: Нежелание менять устоявшиеся процессы
+  1453→  Shape: AUTO_SHAPE (1), name='Text 25', pos=(4645845,1513051), size=(3863031,326173)
+  1454→    Text: Программа Премиум-лаборатория. Финансовая мотивация (выше маржа). Стартовый пакет поддержки
+  1455→  Shape: AUTO_SHAPE (1), name='Text 26', pos=(457200,3196905), size=(8229600,724041)
+  1456→  Shape: AUTO_SHAPE (1), name='Text 27', pos=(653759,3373071), size=(248602,248602)
+  1457→    Text: ↘
+  1458→  Shape: AUTO_SHAPE (1), name='Text 28', pos=(1116868,3376697), size=(3041044,175884)
+  1459→    Text: Падение рынка ЛКМ
+  1460→  Shape: AUTO_SHAPE (1), name='Text 29', pos=(1116868,3633106), size=(1225783,125451)
+  1461→    Text: Сжатие рынка на −7,8%
+  1462→  Shape: AUTO_SHAPE (1), name='Text 31', pos=(3543201,3390985), size=(655104,180491)
+  1463→    Text: ВЫСОКАЯ
+  1464→  Shape: AUTO_SHAPE (1), name='Text 32', pos=(4645845,3342804), size=(3863031,326173)
+  1465→    Text: Фокус на водные ЛКМ (+3,9%). Рост в сервисе и профессиональном канале. Экспорт в СНГ
+  1466→  Shape: AUTO_SHAPE (1), name='Text 17', pos=(3540968,1549729), size=(630548,180491)
+  1467→    Text: СРЕДНЯЯ
+  1468→  Shape: AUTO_SHAPE (1), name='Text 12', pos=(457200,2250765), size=(8229600,763094)
+  1469→  Shape: AUTO_SHAPE (1), name='Text 13', pos=(680654,2410575), size=(248602,248602)
+  1470→    Text: ⇄
+  1471→  Shape: AUTO_SHAPE (1), name='Text 14', pos=(1132408,2350498), size=(2067992,175884)
+  1472→    Text: Репутационный долг
+  1473→  Shape: AUTO_SHAPE (1), name='Text 15', pos=(1132408,2548792), size=(2296592,443120)
+  1474→    Text: Как финансовый долг, только по доверию. Нужно «отрабатывать», чтобы вернуться к нормальным отношениям.
+  1475→  Shape: AUTO_SHAPE (1), name='Text 17', pos=(3555479,2492491), size=(630548,180491)
+  1476→    Text: СРЕДНЯЯ
+  1477→  Shape: AUTO_SHAPE (1), name='Text 18', pos=(4645845,2445336), size=(3793305,326173)
+  1478→    Text: Новые дела перебивают старые обиды: безукоризненные поставки и персональная работа с каждым партнёром.
+  1479→
+  1480→--- Slide 14 (layout: DEFAULT) ---
+  1481→  Shape: AUTO_SHAPE (1), name='Text 0', pos=(457200,457200), size=(342900,28575)
+  1482→  Shape: AUTO_SHAPE (1), name='Text 1', pos=(885825,400050), size=(7800975,156754)
+  1483→    Text: СЛЕДУЮЩИЕ ШАГИ
+  1484→  Shape: AUTO_SHAPE (1), name='Text 2', pos=(457200,600075), size=(8636000,277749)
+  1485→    Text: Что делается прямо сейчас:
+  1486→  Shape: AUTO_SHAPE (1), name='Shape 23', pos=(457200,4716053), size=(8229600,0)
+  1487→  Shape: AUTO_SHAPE (1), name='Text 24', pos=(457200,4822460), size=(342900,28575)
+  1488→  Shape: AUTO_SHAPE (1), name='Text 25', pos=(914400,4729592), size=(7772400,214313)
+  1489→    Text: Эмпилс — от cheapest к chosen
+  1490→  Shape: AUTO_SHAPE (1), name='Прямоугольник 28', pos=(170598,959378), size=(4292220,3354765)
+  1491→    Text: Маркетинг
+  1492→    Text: 1. Продукт и инструменты
+  1493→    Text: Каталог: Обновить портфолио (технологические карты сочетаний).
+  1494→    Text: TCO: Создать калькулятор выгоды (Excel).
+  1495→    Text: Презентации: Отдельный модуль «Сгруппированные технологии» для дилеров.
+  1496→    Text: 3D Тур: Виртуальная экскурсия по обновленному заводу.
+  1497→    Text: 2. Диджитал и Коммуникации
+  1498→    Text: Сайт и СМ: Разместить блок технологий, запустить профильные посты.
+  1499→    Text: Rutube: Запуск канала.
+  1500→    Text: Лендинг: «Стань партнером Эмпилс» (Rus/Eng).
+  1501→    Text: Рассылка: Призыв «Присоединяйтесь к нам в соцсетях».
+  1502→    Text: 3. Обучение и Стандарты
+  1503→    Text: Создание курса по продаже новых технологий.
+  1504→    Text: Стандартизация навыков полевой демонстрации.
+  1505→  Shape: AUTO_SHAPE (1), name='Прямоугольник 29', pos=(4652370,997532), size=(4034430,2677656)
+  1506→    Text: Продажи
+  1507→    Text: 1. Работа с базой (CRM)
+  1508→    Text: Сегментация: Потенциальные / Потерянные / Отказники.
+  1509→    Text: База потенциальных партнеров: Формирование списка.
+  1510→    Text: 2. Коммуникация с рынком
+  1511→    Text: Рассылка «Возрождение»: Визуальное приглашение познакомиться с Эмпилс.
+  1512→    Text: Посыл: «Завод обновился — новые подходы к бизнесу».
+  1513→    Text: 3. Полевая работа
+  1514→    Text: Обучение: Региональная команда — новый формат «Полевой лаборатории».
+  1515→    Text: Системность: План-график встреч и мероприятий у партнеров.

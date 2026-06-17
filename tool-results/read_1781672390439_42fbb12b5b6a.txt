@@ -1,0 +1,2002 @@
+     1→{
+     2→  "schema_name": "DoclingDocument",
+     3→  "version": "1.10.0",
+     4→  "name": "\u0421\u0432\u043e\u0434_2026 \u041f\u041e\u041b\u041d\u042b\u0419",
+     5→  "origin": {
+     6→    "mimetype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+     7→    "binary_hash": 17349916051607115490,
+     8→    "filename": "\u0421\u0432\u043e\u0434_2026 \u041f\u041e\u041b\u041d\u042b\u0419.XLSX"
+     9→  },
+    10→  "furniture": {
+    11→    "self_ref": "#/furniture",
+    12→    "children": [],
+    13→    "content_layer": "furniture",
+    14→    "name": "_root_",
+    15→    "label": "unspecified"
+    16→  },
+    17→  "body": {
+    18→    "self_ref": "#/body",
+    19→    "children": [
+    20→      {
+    21→        "$ref": "#/groups/0"
+    22→      },
+    23→      {
+    24→        "$ref": "#/groups/1"
+    25→      },
+    26→      {
+    27→        "$ref": "#/groups/2"
+    28→      },
+    29→      {
+    30→        "$ref": "#/groups/3"
+    31→      },
+    32→      {
+    33→        "$ref": "#/groups/4"
+    34→      },
+    35→      {
+    36→        "$ref": "#/groups/5"
+    37→      },
+    38→      {
+    39→        "$ref": "#/groups/6"
+    40→      }
+    41→    ],
+    42→    "content_layer": "body",
+    43→    "name": "_root_",
+    44→    "label": "unspecified"
+    45→  },
+    46→  "groups": [
+    47→    {
+    48→      "self_ref": "#/groups/0",
+    49→      "parent": {
+    50→        "$ref": "#/body"
+    51→      },
+    52→      "children": [
+    53→        {
+    54→          "$ref": "#/tables/0"
+    55→        }
+    56→      ],
+    57→      "content_layer": "body",
+    58→      "name": "sheet: \u041f\u0440\u0435\u0434\u043b\u043e\u0436\u0435\u043d\u0438\u044f",
+    59→      "label": "section"
+    60→    },
+    61→    {
+    62→      "self_ref": "#/groups/1",
+    63→      "parent": {
+    64→        "$ref": "#/body"
+    65→      },
+    66→      "children": [
+    67→        {
+    68→          "$ref": "#/tables/1"
+    69→        },
+    70→        {
+    71→          "$ref": "#/tables/2"
+    72→        },
+    73→        {
+    74→          "$ref": "#/tables/3"
+    75→        },
+    76→        {
+    77→          "$ref": "#/tables/4"
+    78→        },
+    79→        {
+    80→          "$ref": "#/tables/5"
+    81→        },
+    82→        {
+    83→          "$ref": "#/tables/6"
+    84→        },
+    85→        {
+    86→          "$ref": "#/tables/7"
+    87→        },
+    88→        {
+    89→          "$ref": "#/tables/8"
+    90→        },
+    91→        {
+    92→          "$ref": "#/tables/9"
+    93→        },
+    94→        {
+    95→          "$ref": "#/tables/10"
+    96→        },
+    97→        {
+    98→          "$ref": "#/tables/11"
+    99→        }
+   100→      ],
+   101→      "content_layer": "body",
+   102→      "name": "sheet: \u0441\u0432\u043e\u0434",
+   103→      "label": "section"
+   104→    },
+   105→    {
+   106→      "self_ref": "#/groups/2",
+   107→      "parent": {
+   108→        "$ref": "#/body"
+   109→      },
+   110→      "children": [
+   111→        {
+   112→          "$ref": "#/tables/12"
+   113→        }
+   114→      ],
+   115→      "content_layer": "body",
+   116→      "name": "sheet: \u0441\u0432\u043e\u0434 \u043f\u043e\u043b\u043d\u044b\u0439",
+   117→      "label": "section"
+   118→    },
+   119→    {
+   120→      "self_ref": "#/groups/3",
+   121→      "parent": {
+   122→        "$ref": "#/body"
+   123→      },
+   124→      "children": [
+   125→        {
+   126→          "$ref": "#/tables/13"
+   127→        },
+   128→        {
+   129→          "$ref": "#/tables/14"
+   130→        },
+   131→        {
+   132→          "$ref": "#/tables/15"
+   133→        },
+   134→        {
+   135→          "$ref": "#/tables/16"
+   136→        },
+   137→        {
+   138→          "$ref": "#/tables/17"
+   139→        },
+   140→        {
+   141→          "$ref": "#/tables/18"
+   142→        },
+   143→        {
+   144→          "$ref": "#/tables/19"
+   145→        },
+   146→        {
+   147→          "$ref": "#/tables/20"
+   148→        },
+   149→        {
+   150→          "$ref": "#/tables/21"
+   151→        },
+   152→        {
+   153→          "$ref": "#/tables/22"
+   154→        }
+   155→      ],
+   156→      "content_layer": "body",
+   157→      "name": "sheet: \u0420\u0424",
+   158→      "label": "section"
+   159→    },
+   160→    {
+   161→      "self_ref": "#/groups/4",
+   162→      "parent": {
+   163→        "$ref": "#/body"
+   164→      },
+   165→      "children": [
+   166→        {
+   167→          "$ref": "#/tables/23"
+   168→        },
+   169→        {
+   170→          "$ref": "#/tables/24"
+   171→        },
+   172→        {
+   173→          "$ref": "#/tables/25"
+   174→        },
+   175→        {
+   176→          "$ref": "#/tables/26"
+   177→        },
+   178→        {
+   179→          "$ref": "#/tables/27"
+   180→        },
+   181→        {
+   182→          "$ref": "#/tables/28"
+   183→        },
+   184→        {
+   185→          "$ref": "#/tables/29"
+   186→        },
+   187→        {
+   188→          "$ref": "#/tables/30"
+   189→        },
+   190→        {
+   191→          "$ref": "#/tables/31"
+   192→        },
+   193→        {
+   194→          "$ref": "#/tables/32"
+   195→        }
+   196→      ],
+   197→      "content_layer": "body",
+   198→      "name": "sheet: \u0424\u0421",
+   199→      "label": "section"
+   200→    },
+   201→    {
+   202→      "self_ref": "#/groups/5",
+   203→      "parent": {
+   204→        "$ref": "#/body"
+   205→      },
+   206→      "children": [
+   207→        {
+   208→          "$ref": "#/tables/33"
+   209→        },
+   210→        {
+   211→          "$ref": "#/tables/34"
+   212→        },
+   213→        {
+   214→          "$ref": "#/tables/35"
+   215→        },
+   216→        {
+   217→          "$ref": "#/tables/36"
+   218→        },
+   219→        {
+   220→          "$ref": "#/tables/37"
+   221→        },
+   222→        {
+   223→          "$ref": "#/tables/38"
+   224→        },
+   225→        {
+   226→          "$ref": "#/tables/39"
+   227→        },
+   228→        {
+   229→          "$ref": "#/tables/40"
+   230→        },
+   231→        {
+   232→          "$ref": "#/tables/41"
+   233→        },
+   234→        {
+   235→          "$ref": "#/tables/42"
+   236→        }
+   237→      ],
+   238→      "content_layer": "body",
+   239→      "name": "sheet: \u0421\u0414\u0418\u041f",
+   240→      "label": "section"
+   241→    },
+   242→    {
+   243→      "self_ref": "#/groups/6",
+   244→      "parent": {
+   245→        "$ref": "#/body"
+   246→      },
+   247→      "children": [
+   248→        {
+   249→          "$ref": "#/tables/43"
+   250→        },
+   251→        {
+   252→          "$ref": "#/tables/44"
+   253→        },
+   254→        {
+   255→          "$ref": "#/tables/45"
+   256→        },
+   257→        {
+   258→          "$ref": "#/tables/46"
+   259→        },
+   260→        {
+   261→          "$ref": "#/tables/47"
+   262→        },
+   263→        {
+   264→          "$ref": "#/tables/48"
+   265→        },
+   266→        {
+   267→          "$ref": "#/tables/49"
+   268→        },
+   269→        {
+   270→          "$ref": "#/tables/50"
+   271→        },
+   272→        {
+   273→          "$ref": "#/tables/51"
+   274→        },
+   275→        {
+   276→          "$ref": "#/tables/52"
+   277→        }
+   278→      ],
+   279→      "content_layer": "body",
+   280→      "name": "sheet: \u042d\u041a\u0421\u041f\u041e\u0420\u0422",
+   281→      "label": "section"
+   282→    }
+   283→  ],
+   284→  "texts": [],
+   285→  "pictures": [],
+   286→  "tables": [
+   287→    {
+   288→      "self_ref": "#/tables/0",
+   289→      "parent": {
+   290→        "$ref": "#/groups/0"
+   291→      },
+   292→      "children": [],
+   293→      "content_layer": "body",
+   294→      "label": "table",
+   295→      "prov": [
+   296→        {
+   297→          "page_no": 1,
+   298→          "bbox": {
+   299→            "l": 0.0,
+   300→            "t": 0.0,
+   301→            "r": 21.0,
+   302→            "b": 27.0,
+   303→            "coord_origin": "TOPLEFT"
+   304→          },
+   305→          "charspan": [
+   306→            0,
+   307→            0
+   308→          ]
+   309→        }
+   310→      ],
+   311→      "captions": [],
+   312→      "references": [],
+   313→      "footnotes": [],
+   314→      "data": {
+   315→        "table_cells": [
+   316→          {
+   317→            "row_span": 1,
+   318→            "col_span": 1,
+   319→            "start_row_offset_idx": 0,
+   320→            "end_row_offset_idx": 1,
+   321→            "start_col_offset_idx": 0,
+   322→            "end_col_offset_idx": 1,
+   323→            "text": "1",
+   324→            "column_header": true,
+   325→            "row_header": false,
+   326→            "row_section": false,
+   327→            "fillable": false
+   328→          },
+   329→          {
+   330→            "row_span": 1,
+   331→            "col_span": 1,
+   332→            "start_row_offset_idx": 0,
+   333→            "end_row_offset_idx": 1,
+   334→            "start_col_offset_idx": 1,
+   335→            "end_col_offset_idx": 2,
+   336→            "text": "\u042e\u043c\u043a\u043e\u043c \u0422\u041f\u041a  \u041e\u041e\u041e",
+   337→            "column_header": true,
+   338→            "row_header": false,
+   339→            "row_section": false,
+   340→            "fillable": false
+   341→          },
+   342→          {
+   343→            "row_span": 1,
+   344→            "col_span": 19,
+   345→            "start_row_offset_idx": 0,
+   346→            "end_row_offset_idx": 1,
+   347→            "start_col_offset_idx": 2,
+   348→            "end_col_offset_idx": 21,
+   349→            "text": "\u041f\u0435\u0440\u0435\u0441\u043c\u043e\u0442\u0440\u0435\u0442\u044c \u0446\u0435\u043d\u044b \u0434\u043b\u044f \u041a\u0440\u0430\u0441\u043d\u043e\u0434\u0430\u0440\u0441\u043a\u043e\u0433\u043e \u043a\u0440\u0430\u044f. \u0421\u043b\u043e\u0436\u043d\u043e \u043a\u043e\u043d\u043a\u0443\u0440\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0441 \u0431\u0440\u0435\u043d\u0434\u0430\u043c\u0438 , \u0443\u0436\u0435 \u0441\u0442\u043e\u044f\u0449\u0438\u043c\u0438 \u043d\u0430 \u043f\u043e\u043b\u043a\u0435.",
+   350→            "column_header": true,
+   351→            "row_header": false,
+   352→            "row_section": false,
+   353→            "fillable": false
+   354→          },
+   355→          {
+   356→            "row_span": 1,
+   357→            "col_span": 1,
+   358→            "start_row_offset_idx": 1,
+   359→            "end_row_offset_idx": 2,
+   360→            "start_col_offset_idx": 0,
+   361→            "end_col_offset_idx": 1,
+   362→            "text": "2",
+   363→            "column_header": false,
+   364→            "row_header": false,
+   365→            "row_section": false,
+   366→            "fillable": false
+   367→          },
+   368→          {
+   369→            "row_span": 1,
+   370→            "col_span": 1,
+   371→            "start_row_offset_idx": 1,
+   372→            "end_row_offset_idx": 2,
+   373→            "start_col_offset_idx": 1,
+   374→            "end_col_offset_idx": 2,
+   375→            "text": "\u0426\u0435\u043d\u0442\u0440 \u041a\u0440\u0430\u0441\u043e\u043a \u041e\u041e\u041e",
+   376→            "column_header": false,
+   377→            "row_header": false,
+   378→            "row_section": false,
+   379→            "fillable": false
+   380→          },
+   381→          {
+   382→            "row_span": 1,
+   383→            "col_span": 19,
+   384→            "start_row_offset_idx": 1,
+   385→            "end_row_offset_idx": 2,
+   386→            "start_col_offset_idx": 2,
+   387→            "end_col_offset_idx": 21,
+   388→            "text": "\u041e\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0438\u0435 \u0434\u043e\u0441\u0442\u0430\u0432\u043a\u0438 \u043e\u0433\u0440\u043e\u043c\u043d\u044b\u0439 \u043c\u0438\u043d\u0443\u0441 \u0440\u0430\u0431\u043e\u0442\u0435.  \u0427\u0430\u0441\u0442\u044b\u0439 \u0440\u0435\u0431\u0440\u0435\u043d\u0434\u0438\u043d\u0433, \u0435\u0449\u0435 \u0438 \u0432 \u0441\u0435\u0437\u043e\u043d, \u043e\u0441\u043b\u043e\u0436\u043d\u044f\u0435\u0442 \u0440\u0430\u0431\u043e\u0442\u0443 \u0432 \u0440\u044b\u043d\u043a\u0435, \u043e\u0442\u0440\u0438\u0446\u0430\u0442\u0435\u043b\u044c\u043d\u043e \u0441\u043a\u0430\u0437\u044b\u0432\u0430\u0435\u0442\u0441\u044f \u043d\u0430 \u043e\u043f\u0442\u0438\u043c\u0430\u043b\u044c\u043d\u043e\u043c \u0443\u0440\u043e\u0432\u043d\u0435 \u0442\u043e\u0432\u0430\u0440\u043d\u043e\u0433\u043e \u0437\u0430\u043f\u0430\u0441\u0430. \u0412\u043e\u0434\u043d\u0430\u044f \u043b\u0438\u043d\u0435\u0439\u043a\u0430 - \u0446\u0435\u043d\u0430 \u0434\u043b\u044f \u0442\u0430\u043a\u043e\u0433\u043e \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u0430 \u0432\u044b\u0441\u043e\u043a\u0430\u044f \u0438 \u043d\u0435\u043a\u043e\u043d\u043a\u0443\u0440\u0435\u043d\u0442\u043d\u043e\u0441\u043f\u043e\u0441\u043e\u0431\u043d\u0430\u044f.",
+   389→            "column_header": false,
+   390→            "row_header": false,
+   391→            "row_section": false,
+   392→            "fillable": false
+   393→          },
+   394→          {
+   395→            "row_span": 1,
+   396→            "col_span": 1,
+   397→            "start_row_offset_idx": 2,
+   398→            "end_row_offset_idx": 3,
+   399→            "start_col_offset_idx": 0,
+   400→            "end_col_offset_idx": 1,
+   401→            "text": "3",
+   402→            "column_header": false,
+   403→            "row_header": false,
+   404→            "row_section": false,
+   405→            "fillable": false
+   406→          },
+   407→          {
+   408→            "row_span": 1,
+   409→            "col_span": 1,
+   410→            "start_row_offset_idx": 2,
+   411→            "end_row_offset_idx": 3,
+   412→            "start_col_offset_idx": 1,
+   413→            "end_col_offset_idx": 2,
+   414→            "text": "\u0421\u043d\u0430\u0431\u0433\u0430\u0440\u0430\u043d\u0442 \u041e\u041e\u041e",
+   415→            "column_header": false,
+   416→            "row_header": false,
+   417→            "row_section": false,
+   418→            "fillable": false
+   419→          },
+   420→          {
+   421→            "row_span": 1,
+   422→            "col_span": 19,
+   423→            "start_row_offset_idx": 2,
+   424→            "end_row_offset_idx": 3,
+   425→            "start_col_offset_idx": 2,
+   426→            "end_col_offset_idx": 21,
+   427→            "text": "\u0412\u043e\u0442 \u043c\u043e\u043c\u0435\u043d\u0442 \u0432 \u043f\u0443\u043d\u043a\u0442\u0435 \u043e\u043f\u0435\u0440\u0430\u0442\u0438\u0432\u043d\u043e\u0441\u0442\u044c \u0440\u0430\u0441\u0441\u043c\u043e\u0442\u0440\u0435\u043d\u0438\u044f \u0437\u0430\u044f\u0432\u043e\u043a, \u043f\u043e\u0434\u0440\u0430\u0437\u0434\u0435\u043b\u0435\u043d\u0438\u0435 \u0438\u043d\u0434\u0443\u0441\u0442\u0440\u0438\u0430\u043b\u044c\u043d\u043e\u0435, \u0445\u043e\u0442\u0435\u043b\u043e\u0441\u044c \u043f\u043e\u0441\u0442\u0430\u0432\u0438\u0442\u044c \u043e\u0446\u0435\u043d\u043a\u0443 1. \u0417\u0430\u043f\u0440\u043e\u0441 \u0440\u0430\u0441\u0441\u043c\u0430\u0442\u0440\u0438\u0432\u0430\u043b\u0438 2 \u0434\u043d\u044f \u0438 \u0432 \u0438\u0442\u043e\u0433\u0435 \u043e\u0431\u044a\u0435\u043a\u0442\u0438\u0432\u043d\u0443\u044e \u0446\u0435\u043d\u0443 \u0442\u0430\u043a \u0438 \u043d\u0435 \u0434\u0430\u043b\u0438. \u041f\u043e \u0434\u043e\u0441\u0442\u0430\u0432\u043a\u0435 \u0438 \u0441\u0435\u0440\u0442\u0438\u0444\u0438\u043a\u0430\u0442\u0430\u043c \u043d\u0435 \u0437\u043d\u0430\u044e.",
+   428→            "column_header": false,
+   429→            "row_header": false,
+   430→            "row_section": false,
+   431→            "fillable": false
+   432→          },
+   433→          {
+   434→            "row_span": 1,
+   435→            "col_span": 1,
+   436→            "start_row_offset_idx": 3,
+   437→            "end_row_offset_idx": 4,
+   438→            "start_col_offset_idx": 0,
+   439→            "end_col_offset_idx": 1,
+   440→            "text": "7",
+   441→            "column_header": false,
+   442→            "row_header": false,
+   443→            "row_section": false,
+   444→            "fillable": false
+   445→          },
+   446→          {
+   447→            "row_span": 1,
+   448→            "col_span": 1,
+   449→            "start_row_offset_idx": 3,
+   450→            "end_row_offset_idx": 4,
+   451→            "start_col_offset_idx": 1,
+   452→            "end_col_offset_idx": 2,
+   453→            "text": "\u041e\u041e\u041e \u0425\u043e\u043b\u0434\u0438\u043d\u0433 \"\u0412\u0435\u043b\u041a\u043e\u043c\"",
+   454→            "column_header": false,
+   455→            "row_header": false,
+   456→            "row_section": false,
+   457→            "fillable": false
+   458→          },
+   459→          {
+   460→            "row_span": 1,
+   461→            "col_span": 19,
+   462→            "start_row_offset_idx": 3,
+   463→            "end_row_offset_idx": 4,
+   464→            "start_col_offset_idx": 2,
+   465→            "end_col_offset_idx": 21,
+   466→            "text": "\u0412 \u0446\u0435\u043b\u044f\u0445 \u043f\u043e\u0432\u044b\u0448\u0435\u043d\u0438\u044f \u044d\u0444\u0444\u0435\u043a\u0442\u0438\u0432\u043d\u043e\u0441\u0442\u0438 \u043d\u0430\u0448\u0435\u0433\u043e \u0432\u0437\u0430\u0438\u043c\u043e\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044f \u043f\u0440\u0435\u0434\u043b\u0430\u0433\u0430\u0435\u043c \u0440\u0430\u0441\u0441\u043c\u043e\u0442\u0440\u0435\u0442\u044c \u043d\u043e\u0432\u0443\u044e \u043c\u043e\u0434\u0435\u043b\u044c \u043f\u043e\u0441\u0442\u0430\u0432\u043e\u043a \u0434\u043b\u044f \u0442\u043e\u0432\u0430\u0440\u043e\u0432, \u0438\u0441\u043f\u044b\u0442\u044b\u0432\u0430\u044e\u0449\u0438\u0445 \u0434\u0435\u0444\u0438\u0446\u0438\u0442: \u0440\u0435\u0433\u0443\u043b\u044f\u0440\u043d\u044b\u0435 \u0434\u043e\u0441\u0442\u0430\u0432\u043a\u0438 \u043d\u0435\u0431\u043e\u043b\u044c\u0448\u0438\u0445 \u043f\u0430\u0440\u0442\u0438\u0439 \u0431\u0435\u0437 \u043e\u0436\u0438\u0434\u0430\u043d\u0438\u044f \u0444\u043e\u0440\u043c\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f \u043a\u0440\u0443\u043f\u043d\u043e\u0433\u043e \u0437\u0430\u043a\u0430\u0437\u0430. \u0414\u043e\u0441\u0442\u0430\u0432\u043a\u0430 \u0444\u0443\u0440\u043e\u0439 \u0441 \u0434\u0440\u0443\u0433\u0438\u043c\u0438 \u043a\u043b\u0438\u0435\u043d\u0442\u0430\u043c\u0438 (\u0441\u0431\u043e\u0440\u043d\u0430\u044f \u043f\u0435\u0440\u0435\u0432\u043e\u0437\u043a\u0430) \u2014 \u044d\u0442\u043e \u0441\u043f\u043e\u0441\u043e\u0431 \u043e\u043f\u0442\u0438\u043c\u0438\u0437\u0430\u0446\u0438\u0438 \u043b\u043e\u0433\u0438\u0441\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0445 \u0437\u0430\u0442\u0440\u0430\u0442, \u043f\u0440\u0438 \u043a\u043e\u0442\u043e\u0440\u043e\u043c \u0432 \u043e\u0434\u043d\u043e\u043c \u0442\u0440\u0430\u043d\u0441\u043f\u043e\u0440\u0442\u043d\u043e\u043c \u0441\u0440\u0435\u0434\u0441\u0442\u0432\u0435 \u043a\u043e\u043d\u0441\u043e\u043b\u0438\u0434\u0438\u0440\u0443\u044e\u0442\u0441\u044f \u0433\u0440\u0443\u0437\u044b \u043e\u0442 \u043d\u0435\u0441\u043a\u043e\u043b\u044c\u043a\u0438\u0445 \u0437\u0430\u043a\u0430\u0437\u0447\u0438\u043a\u043e\u0432, \u0441\u043b\u0435\u0434\u0443\u044e\u0449\u0438\u0445 \u0432 \u043e\u0434\u043d\u043e\u043c \u043d\u0430\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0438. \u0422\u0430\u043a\u043e\u0439 \u043f\u043e\u0434\u0445\u043e\u0434 \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u0435\u0442 \u0441\u043d\u0438\u0437\u0438\u0442\u044c \u0441\u0442\u043e\u0438\u043c\u043e\u0441\u0442\u044c \u043f\u0435\u0440\u0435\u0432\u043e\u0437\u043a\u0438 \u0434\u043b\u044f \u043a\u0430\u0436\u0434\u043e\u0433\u043e \u043a\u043b\u0438\u0435\u043d\u0442\u0430 \u0437\u0430 \u0441\u0447\u0451\u0442 \u0440\u0430\u0441\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u0438\u044f \u043e\u0431\u0449\u0438\u0445 \u0440\u0430\u0441\u0445\u043e\u0434\u043e\u0432 \u043c\u0435\u0436\u0434\u0443 \u0443\u0447\u0430\u0441\u0442\u043d\u0438\u043a\u0430\u043c\u0438.",
+   467→            "column_header": false,
+   468→            "row_header": false,
+   469→            "row_section": false,
+   470→            "fillable": false
+   471→          },
+   472→          {
+   473→            "row_span": 1,
+   474→            "col_span": 1,
+   475→            "start_row_offset_idx": 4,
+   476→            "end_row_offset_idx": 5,
+   477→            "start_col_offset_idx": 0,
+   478→            "end_col_offset_idx": 1,
+   479→            "text": "9",
+   480→            "column_header": false,
+   481→            "row_header": false,
+   482→            "row_section": false,
+   483→            "fillable": false
+   484→          },
+   485→          {
+   486→            "row_span": 1,
+   487→            "col_span": 1,
+   488→            "start_row_offset_idx": 4,
+   489→            "end_row_offset_idx": 5,
+   490→            "start_col_offset_idx": 1,
+   491→            "end_col_offset_idx": 2,
+   492→            "text": "\u041e\u041e\u041e \u0416\u0435\u043c\u0438\u043a\u0441",
+   493→            "column_header": false,
+   494→            "row_header": false,
+   495→            "row_section": false,
+   496→            "fillable": false
+   497→          },
+   498→          {
+   499→            "row_span": 1,
+   500→            "col_span": 1,
+   501→            "start_row_offset_idx": 4,
+   502→            "end_row_offset_idx": 5,
+   503→            "start_col_offset_idx": 2,
+   504→            "end_col_offset_idx": 3,
+   505→            "text": " \u041d\u0430\u0447\u0438\u0441\u043b\u0435\u043d\u0438\u0435 \u043f\u0440\u0435\u043c\u0438\u0438 \u0434\u0440\u0443\u0433\u0438\u043c \u0441\u043f\u043e\u0441\u043e\u0431\u043e\u043c",
+   506→            "column_header": false,
+   507→            "row_header": false,
+   508→            "row_section": false,
+   509→            "fillable": false
+   510→          },
+   511→          {
+   512→            "row_span": 1,
+   513→            "col_span": 1,
+   514→            "start_row_offset_idx": 4,
+   515→            "end_row_offset_idx": 5,
+   516→            "start_col_offset_idx": 3,
+   517→            "end_col_offset_idx": 4,
+   518→            "text": "",
+   519→            "column_header": false,
+   520→            "row_header": false,
+   521→            "row_section": false,
+   522→            "fillable": false
+   523→          },
+   524→          {
+   525→            "row_span": 1,
+   526→            "col_span": 1,
+   527→            "start_row_offset_idx": 4,
+   528→            "end_row_offset_idx": 5,
+   529→            "start_col_offset_idx": 4,
+   530→            "end_col_offset_idx": 5,
+   531→            "text": "",
+   532→            "column_header": false,
+   533→            "row_header": false,
+   534→            "row_section": false,
+   535→            "fillable": false
+   536→          },
+   537→          {
+   538→            "row_span": 1,
+   539→            "col_span": 1,
+   540→            "start_row_offset_idx": 4,
+   541→            "end_row_offset_idx": 5,
+   542→            "start_col_offset_idx": 5,
+   543→            "end_col_offset_idx": 6,
+   544→            "text": "",
+   545→            "column_header": false,
+   546→            "row_header": false,
+   547→            "row_section": false,
+   548→            "fillable": false
+   549→          },
+   550→          {
+   551→            "row_span": 1,
+   552→            "col_span": 1,
+   553→            "start_row_offset_idx": 4,
+   554→            "end_row_offset_idx": 5,
+   555→            "start_col_offset_idx": 6,
+   556→            "end_col_offset_idx": 7,
+   557→            "text": "",
+   558→            "column_header": false,
+   559→            "row_header": false,
+   560→            "row_section": false,
+   561→            "fillable": false
+   562→          },
+   563→          {
+   564→            "row_span": 1,
+   565→            "col_span": 1,
+   566→            "start_row_offset_idx": 4,
+   567→            "end_row_offset_idx": 5,
+   568→            "start_col_offset_idx": 7,
+   569→            "end_col_offset_idx": 8,
+   570→            "text": "",
+   571→            "column_header": false,
+   572→            "row_header": false,
+   573→            "row_section": false,
+   574→            "fillable": false
+   575→          },
+   576→          {
+   577→            "row_span": 1,
+   578→            "col_span": 1,
+   579→            "start_row_offset_idx": 4,
+   580→            "end_row_offset_idx": 5,
+   581→            "start_col_offset_idx": 8,
+   582→            "end_col_offset_idx": 9,
+   583→            "text": "",
+   584→            "column_header": false,
+   585→            "row_header": false,
+   586→            "row_section": false,
+   587→            "fillable": false
+   588→          },
+   589→          {
+   590→            "row_span": 1,
+   591→            "col_span": 1,
+   592→            "start_row_offset_idx": 4,
+   593→            "end_row_offset_idx": 5,
+   594→            "start_col_offset_idx": 9,
+   595→            "end_col_offset_idx": 10,
+   596→            "text": "",
+   597→            "column_header": false,
+   598→            "row_header": false,
+   599→            "row_section": false,
+   600→            "fillable": false
+   601→          },
+   602→          {
+   603→            "row_span": 1,
+   604→            "col_span": 1,
+   605→            "start_row_offset_idx": 4,
+   606→            "end_row_offset_idx": 5,
+   607→            "start_col_offset_idx": 10,
+   608→            "end_col_offset_idx": 11,
+   609→            "text": "",
+   610→            "column_header": false,
+   611→            "row_header": false,
+   612→            "row_section": false,
+   613→            "fillable": false
+   614→          },
+   615→          {
+   616→            "row_span": 1,
+   617→            "col_span": 1,
+   618→            "start_row_offset_idx": 4,
+   619→            "end_row_offset_idx": 5,
+   620→            "start_col_offset_idx": 11,
+   621→            "end_col_offset_idx": 12,
+   622→            "text": "",
+   623→            "column_header": false,
+   624→            "row_header": false,
+   625→            "row_section": false,
+   626→            "fillable": false
+   627→          },
+   628→          {
+   629→            "row_span": 1,
+   630→            "col_span": 1,
+   631→            "start_row_offset_idx": 4,
+   632→            "end_row_offset_idx": 5,
+   633→            "start_col_offset_idx": 12,
+   634→            "end_col_offset_idx": 13,
+   635→            "text": "",
+   636→            "column_header": false,
+   637→            "row_header": false,
+   638→            "row_section": false,
+   639→            "fillable": false
+   640→          },
+   641→          {
+   642→            "row_span": 1,
+   643→            "col_span": 1,
+   644→            "start_row_offset_idx": 4,
+   645→            "end_row_offset_idx": 5,
+   646→            "start_col_offset_idx": 13,
+   647→            "end_col_offset_idx": 14,
+   648→            "text": "",
+   649→            "column_header": false,
+   650→            "row_header": false,
+   651→            "row_section": false,
+   652→            "fillable": false
+   653→          },
+   654→          {
+   655→            "row_span": 1,
+   656→            "col_span": 1,
+   657→            "start_row_offset_idx": 4,
+   658→            "end_row_offset_idx": 5,
+   659→            "start_col_offset_idx": 14,
+   660→            "end_col_offset_idx": 15,
+   661→            "text": "",
+   662→            "column_header": false,
+   663→            "row_header": false,
+   664→            "row_section": false,
+   665→            "fillable": false
+   666→          },
+   667→          {
+   668→            "row_span": 1,
+   669→            "col_span": 1,
+   670→            "start_row_offset_idx": 4,
+   671→            "end_row_offset_idx": 5,
+   672→            "start_col_offset_idx": 15,
+   673→            "end_col_offset_idx": 16,
+   674→            "text": "",
+   675→            "column_header": false,
+   676→            "row_header": false,
+   677→            "row_section": false,
+   678→            "fillable": false
+   679→          },
+   680→          {
+   681→            "row_span": 1,
+   682→            "col_span": 1,
+   683→            "start_row_offset_idx": 4,
+   684→            "end_row_offset_idx": 5,
+   685→            "start_col_offset_idx": 16,
+   686→            "end_col_offset_idx": 17,
+   687→            "text": "",
+   688→            "column_header": false,
+   689→            "row_header": false,
+   690→            "row_section": false,
+   691→            "fillable": false
+   692→          },
+   693→          {
+   694→            "row_span": 1,
+   695→            "col_span": 1,
+   696→            "start_row_offset_idx": 4,
+   697→            "end_row_offset_idx": 5,
+   698→            "start_col_offset_idx": 17,
+   699→            "end_col_offset_idx": 18,
+   700→            "text": "",
+   701→            "column_header": false,
+   702→            "row_header": false,
+   703→            "row_section": false,
+   704→            "fillable": false
+   705→          },
+   706→          {
+   707→            "row_span": 1,
+   708→            "col_span": 1,
+   709→            "start_row_offset_idx": 4,
+   710→            "end_row_offset_idx": 5,
+   711→            "start_col_offset_idx": 18,
+   712→            "end_col_offset_idx": 19,
+   713→            "text": "",
+   714→            "column_header": false,
+   715→            "row_header": false,
+   716→            "row_section": false,
+   717→            "fillable": false
+   718→          },
+   719→          {
+   720→            "row_span": 1,
+   721→            "col_span": 1,
+   722→            "start_row_offset_idx": 4,
+   723→            "end_row_offset_idx": 5,
+   724→            "start_col_offset_idx": 19,
+   725→            "end_col_offset_idx": 20,
+   726→            "text": "",
+   727→            "column_header": false,
+   728→            "row_header": false,
+   729→            "row_section": false,
+   730→            "fillable": false
+   731→          },
+   732→          {
+   733→            "row_span": 1,
+   734→            "col_span": 1,
+   735→            "start_row_offset_idx": 4,
+   736→            "end_row_offset_idx": 5,
+   737→            "start_col_offset_idx": 20,
+   738→            "end_col_offset_idx": 21,
+   739→            "text": "",
+   740→            "column_header": false,
+   741→            "row_header": false,
+   742→            "row_section": false,
+   743→            "fillable": false
+   744→          },
+   745→          {
+   746→            "row_span": 1,
+   747→            "col_span": 1,
+   748→            "start_row_offset_idx": 5,
+   749→            "end_row_offset_idx": 6,
+   750→            "start_col_offset_idx": 0,
+   751→            "end_col_offset_idx": 1,
+   752→            "text": "10",
+   753→            "column_header": false,
+   754→            "row_header": false,
+   755→            "row_section": false,
+   756→            "fillable": false
+   757→          },
+   758→          {
+   759→            "row_span": 1,
+   760→            "col_span": 1,
+   761→            "start_row_offset_idx": 5,
+   762→            "end_row_offset_idx": 6,
+   763→            "start_col_offset_idx": 1,
+   764→            "end_col_offset_idx": 2,
+   765→            "text": "\u041e\u041e\u041e\" \u0422\u041a\" \u0411\u0440\u043e\u0437\u044d\u043a\u0441\"",
+   766→            "column_header": false,
+   767→            "row_header": false,
+   768→            "row_section": false,
+   769→            "fillable": false
+   770→          },
+   771→          {
+   772→            "row_span": 1,
+   773→            "col_span": 1,
+   774→            "start_row_offset_idx": 5,
+   775→            "end_row_offset_idx": 6,
+   776→            "start_col_offset_idx": 2,
+   777→            "end_col_offset_idx": 3,
+   778→            "text": "\u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u0440\u0430\u0441\u0441\u043c\u043e\u0442\u0440\u0435\u0442\u044c \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0441\u0442\u044c \u0432\u043e\u0437\u0432\u0440\u0430\u0442\u0430 \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0433\u043e \u043f\u0440\u043e\u0434\u0443\u043a\u0442\u0430 \u043d\u0435 \u0438\u043c\u0435\u044e\u0449\u0435\u0433\u043e \u043f\u043e\u0442\u0440\u0435\u0431\u0438\u0442\u0435\u043b\u044c\u0441\u043a\u043e\u0433\u043e \u0441\u043f\u0440\u043e\u0441\u0430.",
+   779→            "column_header": false,
+   780→            "row_header": false,
+   781→            "row_section": false,
+   782→            "fillable": false
+   783→          },
+   784→          {
+   785→            "row_span": 1,
+   786→            "col_span": 1,
+   787→            "start_row_offset_idx": 5,
+   788→            "end_row_offset_idx": 6,
+   789→            "start_col_offset_idx": 3,
+   790→            "end_col_offset_idx": 4,
+   791→            "text": "",
+   792→            "column_header": false,
+   793→            "row_header": false,
+   794→            "row_section": false,
+   795→            "fillable": false
+   796→          },
+   797→          {
+   798→            "row_span": 1,
+   799→            "col_span": 1,
+   800→            "start_row_offset_idx": 5,
+   801→            "end_row_offset_idx": 6,
+   802→            "start_col_offset_idx": 4,
+   803→            "end_col_offset_idx": 5,
+   804→            "text": "",
+   805→            "column_header": false,
+   806→            "row_header": false,
+   807→            "row_section": false,
+   808→            "fillable": false
+   809→          },
+   810→          {
+   811→            "row_span": 1,
+   812→            "col_span": 1,
+   813→            "start_row_offset_idx": 5,
+   814→            "end_row_offset_idx": 6,
+   815→            "start_col_offset_idx": 5,
+   816→            "end_col_offset_idx": 6,
+   817→            "text": "",
+   818→            "column_header": false,
+   819→            "row_header": false,
+   820→            "row_section": false,
+   821→            "fillable": false
+   822→          },
+   823→          {
+   824→            "row_span": 1,
+   825→            "col_span": 1,
+   826→            "start_row_offset_idx": 5,
+   827→            "end_row_offset_idx": 6,
+   828→            "start_col_offset_idx": 6,
+   829→            "end_col_offset_idx": 7,
+   830→            "text": "",
+   831→            "column_header": false,
+   832→            "row_header": false,
+   833→            "row_section": false,
+   834→            "fillable": false
+   835→          },
+   836→          {
+   837→            "row_span": 1,
+   838→            "col_span": 1,
+   839→            "start_row_offset_idx": 5,
+   840→            "end_row_offset_idx": 6,
+   841→            "start_col_offset_idx": 7,
+   842→            "end_col_offset_idx": 8,
+   843→            "text": "",
+   844→            "column_header": false,
+   845→            "row_header": false,
+   846→            "row_section": false,
+   847→            "fillable": false
+   848→          },
+   849→          {
+   850→            "row_span": 1,
+   851→            "col_span": 1,
+   852→            "start_row_offset_idx": 5,
+   853→            "end_row_offset_idx": 6,
+   854→            "start_col_offset_idx": 8,
+   855→            "end_col_offset_idx": 9,
+   856→            "text": "",
+   857→            "column_header": false,
+   858→            "row_header": false,
+   859→            "row_section": false,
+   860→            "fillable": false
+   861→          },
+   862→          {
+   863→            "row_span": 1,
+   864→            "col_span": 1,
+   865→            "start_row_offset_idx": 5,
+   866→            "end_row_offset_idx": 6,
+   867→            "start_col_offset_idx": 9,
+   868→            "end_col_offset_idx": 10,
+   869→            "text": "",
+   870→            "column_header": false,
+   871→            "row_header": false,
+   872→            "row_section": false,
+   873→            "fillable": false
+   874→          },
+   875→          {
+   876→            "row_span": 1,
+   877→            "col_span": 1,
+   878→            "start_row_offset_idx": 5,
+   879→            "end_row_offset_idx": 6,
+   880→            "start_col_offset_idx": 10,
+   881→            "end_col_offset_idx": 11,
+   882→            "text": "",
+   883→            "column_header": false,
+   884→            "row_header": false,
+   885→            "row_section": false,
+   886→            "fillable": false
+   887→          },
+   888→          {
+   889→            "row_span": 1,
+   890→            "col_span": 1,
+   891→            "start_row_offset_idx": 5,
+   892→            "end_row_offset_idx": 6,
+   893→            "start_col_offset_idx": 11,
+   894→            "end_col_offset_idx": 12,
+   895→            "text": "",
+   896→            "column_header": false,
+   897→            "row_header": false,
+   898→            "row_section": false,
+   899→            "fillable": false
+   900→          },
+   901→          {
+   902→            "row_span": 1,
+   903→            "col_span": 1,
+   904→            "start_row_offset_idx": 5,
+   905→            "end_row_offset_idx": 6,
+   906→            "start_col_offset_idx": 12,
+   907→            "end_col_offset_idx": 13,
+   908→            "text": "",
+   909→            "column_header": false,
+   910→            "row_header": false,
+   911→            "row_section": false,
+   912→            "fillable": false
+   913→          },
+   914→          {
+   915→            "row_span": 1,
+   916→            "col_span": 1,
+   917→            "start_row_offset_idx": 5,
+   918→            "end_row_offset_idx": 6,
+   919→            "start_col_offset_idx": 13,
+   920→            "end_col_offset_idx": 14,
+   921→            "text": "",
+   922→            "column_header": false,
+   923→            "row_header": false,
+   924→            "row_section": false,
+   925→            "fillable": false
+   926→          },
+   927→          {
+   928→            "row_span": 1,
+   929→            "col_span": 1,
+   930→            "start_row_offset_idx": 5,
+   931→            "end_row_offset_idx": 6,
+   932→            "start_col_offset_idx": 14,
+   933→            "end_col_offset_idx": 15,
+   934→            "text": "",
+   935→            "column_header": false,
+   936→            "row_header": false,
+   937→            "row_section": false,
+   938→            "fillable": false
+   939→          },
+   940→          {
+   941→            "row_span": 1,
+   942→            "col_span": 1,
+   943→            "start_row_offset_idx": 5,
+   944→            "end_row_offset_idx": 6,
+   945→            "start_col_offset_idx": 15,
+   946→            "end_col_offset_idx": 16,
+   947→            "text": "",
+   948→            "column_header": false,
+   949→            "row_header": false,
+   950→            "row_section": false,
+   951→            "fillable": false
+   952→          },
+   953→          {
+   954→            "row_span": 1,
+   955→            "col_span": 1,
+   956→            "start_row_offset_idx": 5,
+   957→            "end_row_offset_idx": 6,
+   958→            "start_col_offset_idx": 16,
+   959→            "end_col_offset_idx": 17,
+   960→            "text": "",
+   961→            "column_header": false,
+   962→            "row_header": false,
+   963→            "row_section": false,
+   964→            "fillable": false
+   965→          },
+   966→          {
+   967→            "row_span": 1,
+   968→            "col_span": 1,
+   969→            "start_row_offset_idx": 5,
+   970→            "end_row_offset_idx": 6,
+   971→            "start_col_offset_idx": 17,
+   972→            "end_col_offset_idx": 18,
+   973→            "text": "",
+   974→            "column_header": false,
+   975→            "row_header": false,
+   976→            "row_section": false,
+   977→            "fillable": false
+   978→          },
+   979→          {
+   980→            "row_span": 1,
+   981→            "col_span": 1,
+   982→            "start_row_offset_idx": 5,
+   983→            "end_row_offset_idx": 6,
+   984→            "start_col_offset_idx": 18,
+   985→            "end_col_offset_idx": 19,
+   986→            "text": "",
+   987→            "column_header": false,
+   988→            "row_header": false,
+   989→            "row_section": false,
+   990→            "fillable": false
+   991→          },
+   992→          {
+   993→            "row_span": 1,
+   994→            "col_span": 1,
+   995→            "start_row_offset_idx": 5,
+   996→            "end_row_offset_idx": 6,
+   997→            "start_col_offset_idx": 19,
+   998→            "end_col_offset_idx": 20,
+   999→            "text": "",
+  1000→            "column_header": false,
+  1001→            "row_header": false,
+  1002→            "row_section": false,
+  1003→            "fillable": false
+  1004→          },
+  1005→          {
+  1006→            "row_span": 1,
+  1007→            "col_span": 1,
+  1008→            "start_row_offset_idx": 5,
+  1009→            "end_row_offset_idx": 6,
+  1010→            "start_col_offset_idx": 20,
+  1011→            "end_col_offset_idx": 21,
+  1012→            "text": "",
+  1013→            "column_header": false,
+  1014→            "row_header": false,
+  1015→            "row_section": false,
+  1016→            "fillable": false
+  1017→          },
+  1018→          {
+  1019→            "row_span": 1,
+  1020→            "col_span": 1,
+  1021→            "start_row_offset_idx": 6,
+  1022→            "end_row_offset_idx": 7,
+  1023→            "start_col_offset_idx": 0,
+  1024→            "end_col_offset_idx": 1,
+  1025→            "text": "13",
+  1026→            "column_header": false,
+  1027→            "row_header": false,
+  1028→            "row_section": false,
+  1029→            "fillable": false
+  1030→          },
+  1031→          {
+  1032→            "row_span": 1,
+  1033→            "col_span": 1,
+  1034→            "start_row_offset_idx": 6,
+  1035→            "end_row_offset_idx": 7,
+  1036→            "start_col_offset_idx": 1,
+  1037→            "end_col_offset_idx": 2,
+  1038→            "text": "\u0418\u041f \u0410\u044e\u0448\u0438\u0435\u0432\u0430 \u0414\u0438\u043c\u0438\u0434\u043c\u0430 \u0414\u0430\u0448\u0438\u0435\u0432\u043d\u0430",
+  1039→            "column_header": false,
+  1040→            "row_header": false,
+  1041→            "row_section": false,
+  1042→            "fillable": false
+  1043→          },
+  1044→          {
+  1045→            "row_span": 1,
+  1046→            "col_span": 1,
+  1047→            "start_row_offset_idx": 6,
+  1048→            "end_row_offset_idx": 7,
+  1049→            "start_col_offset_idx": 2,
+  1050→            "end_col_offset_idx": 3,
+  1051→            "text": "\u0411\u044b\u0442\u044c \u043a\u043b\u0438\u0435\u043d\u0442\u043e\u043e\u0440\u0438\u0435\u043d\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u043c : \u0441\u043f\u0440\u043e\u0441 \u0440\u043e\u0436\u0434\u0430\u0435\u0442 \u043f\u0440\u0435\u0434\u043b\u043e\u0436\u0435\u043d\u0438\u0435.; \u0421\u0442\u0440\u043e\u0438\u0442\u044c \u0431\u0438\u0437\u043d\u0435\u0441-\u043f\u0440\u043e\u0446\u0435\u0441\u0441\u044b \u0432 \u0440\u0435\u0433\u0438\u043e\u043d\u0435 \u0441 \u0443\u0447\u0435\u0442\u043e\u043c \u0438\u043d\u0442\u0435\u0440\u0435\u0441\u043e\u0432  \u0432\u0441\u0435\u0445 \u0434\u0438\u0441\u0442\u0440\u0438\u0431\u044c\u044e\u0442\u043e\u0440\u043e\u0432.",
+  1052→            "column_header": false,
+  1053→            "row_header": false,
+  1054→            "row_section": false,
+  1055→            "fillable": false
+  1056→          },
+  1057→          {
+  1058→            "row_span": 1,
+  1059→            "col_span": 1,
+  1060→            "start_row_offset_idx": 6,
+  1061→            "end_row_offset_idx": 7,
+  1062→            "start_col_offset_idx": 3,
+  1063→            "end_col_offset_idx": 4,
+  1064→            "text": "",
+  1065→            "column_header": false,
+  1066→            "row_header": false,
+  1067→            "row_section": false,
+  1068→            "fillable": false
+  1069→          },
+  1070→          {
+  1071→            "row_span": 1,
+  1072→            "col_span": 1,
+  1073→            "start_row_offset_idx": 6,
+  1074→            "end_row_offset_idx": 7,
+  1075→            "start_col_offset_idx": 4,
+  1076→            "end_col_offset_idx": 5,
+  1077→            "text": "",
+  1078→            "column_header": false,
+  1079→            "row_header": false,
+  1080→            "row_section": false,
+  1081→            "fillable": false
+  1082→          },
+  1083→          {
+  1084→            "row_span": 1,
+  1085→            "col_span": 1,
+  1086→            "start_row_offset_idx": 6,
+  1087→            "end_row_offset_idx": 7,
+  1088→            "start_col_offset_idx": 5,
+  1089→            "end_col_offset_idx": 6,
+  1090→            "text": "",
+  1091→            "column_header": false,
+  1092→            "row_header": false,
+  1093→            "row_section": false,
+  1094→            "fillable": false
+  1095→          },
+  1096→          {
+  1097→            "row_span": 1,
+  1098→            "col_span": 1,
+  1099→            "start_row_offset_idx": 6,
+  1100→            "end_row_offset_idx": 7,
+  1101→            "start_col_offset_idx": 6,
+  1102→            "end_col_offset_idx": 7,
+  1103→            "text": "",
+  1104→            "column_header": false,
+  1105→            "row_header": false,
+  1106→            "row_section": false,
+  1107→            "fillable": false
+  1108→          },
+  1109→          {
+  1110→            "row_span": 1,
+  1111→            "col_span": 1,
+  1112→            "start_row_offset_idx": 6,
+  1113→            "end_row_offset_idx": 7,
+  1114→            "start_col_offset_idx": 7,
+  1115→            "end_col_offset_idx": 8,
+  1116→            "text": "",
+  1117→            "column_header": false,
+  1118→            "row_header": false,
+  1119→            "row_section": false,
+  1120→            "fillable": false
+  1121→          },
+  1122→          {
+  1123→            "row_span": 1,
+  1124→            "col_span": 1,
+  1125→            "start_row_offset_idx": 6,
+  1126→            "end_row_offset_idx": 7,
+  1127→            "start_col_offset_idx": 8,
+  1128→            "end_col_offset_idx": 9,
+  1129→            "text": "",
+  1130→            "column_header": false,
+  1131→            "row_header": false,
+  1132→            "row_section": false,
+  1133→            "fillable": false
+  1134→          },
+  1135→          {
+  1136→            "row_span": 1,
+  1137→            "col_span": 1,
+  1138→            "start_row_offset_idx": 6,
+  1139→            "end_row_offset_idx": 7,
+  1140→            "start_col_offset_idx": 9,
+  1141→            "end_col_offset_idx": 10,
+  1142→            "text": "",
+  1143→            "column_header": false,
+  1144→            "row_header": false,
+  1145→            "row_section": false,
+  1146→            "fillable": false
+  1147→          },
+  1148→          {
+  1149→            "row_span": 1,
+  1150→            "col_span": 1,
+  1151→            "start_row_offset_idx": 6,
+  1152→            "end_row_offset_idx": 7,
+  1153→            "start_col_offset_idx": 10,
+  1154→            "end_col_offset_idx": 11,
+  1155→            "text": "",
+  1156→            "column_header": false,
+  1157→            "row_header": false,
+  1158→            "row_section": false,
+  1159→            "fillable": false
+  1160→          },
+  1161→          {
+  1162→            "row_span": 1,
+  1163→            "col_span": 1,
+  1164→            "start_row_offset_idx": 6,
+  1165→            "end_row_offset_idx": 7,
+  1166→            "start_col_offset_idx": 11,
+  1167→            "end_col_offset_idx": 12,
+  1168→            "text": "",
+  1169→            "column_header": false,
+  1170→            "row_header": false,
+  1171→            "row_section": false,
+  1172→            "fillable": false
+  1173→          },
+  1174→          {
+  1175→            "row_span": 1,
+  1176→            "col_span": 1,
+  1177→            "start_row_offset_idx": 6,
+  1178→            "end_row_offset_idx": 7,
+  1179→            "start_col_offset_idx": 12,
+  1180→            "end_col_offset_idx": 13,
+  1181→            "text": "",
+  1182→            "column_header": false,
+  1183→            "row_header": false,
+  1184→            "row_section": false,
+  1185→            "fillable": false
+  1186→          },
+  1187→          {
+  1188→            "row_span": 1,
+  1189→            "col_span": 1,
+  1190→            "start_row_offset_idx": 6,
+  1191→            "end_row_offset_idx": 7,
+  1192→            "start_col_offset_idx": 13,
+  1193→            "end_col_offset_idx": 14,
+  1194→            "text": "",
+  1195→            "column_header": false,
+  1196→            "row_header": false,
+  1197→            "row_section": false,
+  1198→            "fillable": false
+  1199→          },
+  1200→          {
+  1201→            "row_span": 1,
+  1202→            "col_span": 1,
+  1203→            "start_row_offset_idx": 6,
+  1204→            "end_row_offset_idx": 7,
+  1205→            "start_col_offset_idx": 14,
+  1206→            "end_col_offset_idx": 15,
+  1207→            "text": "",
+  1208→            "column_header": false,
+  1209→            "row_header": false,
+  1210→            "row_section": false,
+  1211→            "fillable": false
+  1212→          },
+  1213→          {
+  1214→            "row_span": 1,
+  1215→            "col_span": 1,
+  1216→            "start_row_offset_idx": 6,
+  1217→            "end_row_offset_idx": 7,
+  1218→            "start_col_offset_idx": 15,
+  1219→            "end_col_offset_idx": 16,
+  1220→            "text": "",
+  1221→            "column_header": false,
+  1222→            "row_header": false,
+  1223→            "row_section": false,
+  1224→            "fillable": false
+  1225→          },
+  1226→          {
+  1227→            "row_span": 1,
+  1228→            "col_span": 1,
+  1229→            "start_row_offset_idx": 6,
+  1230→            "end_row_offset_idx": 7,
+  1231→            "start_col_offset_idx": 16,
+  1232→            "end_col_offset_idx": 17,
+  1233→            "text": "",
+  1234→            "column_header": false,
+  1235→            "row_header": false,
+  1236→            "row_section": false,
+  1237→            "fillable": false
+  1238→          },
+  1239→          {
+  1240→            "row_span": 1,
+  1241→            "col_span": 1,
+  1242→            "start_row_offset_idx": 6,
+  1243→            "end_row_offset_idx": 7,
+  1244→            "start_col_offset_idx": 17,
+  1245→            "end_col_offset_idx": 18,
+  1246→            "text": "",
+  1247→            "column_header": false,
+  1248→            "row_header": false,
+  1249→            "row_section": false,
+  1250→            "fillable": false
+  1251→          },
+  1252→          {
+  1253→            "row_span": 1,
+  1254→            "col_span": 1,
+  1255→            "start_row_offset_idx": 6,
+  1256→            "end_row_offset_idx": 7,
+  1257→            "start_col_offset_idx": 18,
+  1258→            "end_col_offset_idx": 19,
+  1259→            "text": "",
+  1260→            "column_header": false,
+  1261→            "row_header": false,
+  1262→            "row_section": false,
+  1263→            "fillable": false
+  1264→          },
+  1265→          {
+  1266→            "row_span": 1,
+  1267→            "col_span": 1,
+  1268→            "start_row_offset_idx": 6,
+  1269→            "end_row_offset_idx": 7,
+  1270→            "start_col_offset_idx": 19,
+  1271→            "end_col_offset_idx": 20,
+  1272→            "text": "",
+  1273→            "column_header": false,
+  1274→            "row_header": false,
+  1275→            "row_section": false,
+  1276→            "fillable": false
+  1277→          },
+  1278→          {
+  1279→            "row_span": 1,
+  1280→            "col_span": 1,
+  1281→            "start_row_offset_idx": 6,
+  1282→            "end_row_offset_idx": 7,
+  1283→            "start_col_offset_idx": 20,
+  1284→            "end_col_offset_idx": 21,
+  1285→            "text": "",
+  1286→            "column_header": false,
+  1287→            "row_header": false,
+  1288→            "row_section": false,
+  1289→            "fillable": false
+  1290→          },
+  1291→          {
+  1292→            "row_span": 1,
+  1293→            "col_span": 1,
+  1294→            "start_row_offset_idx": 7,
+  1295→            "end_row_offset_idx": 8,
+  1296→            "start_col_offset_idx": 0,
+  1297→            "end_col_offset_idx": 1,
+  1298→            "text": "17",
+  1299→            "column_header": false,
+  1300→            "row_header": false,
+  1301→            "row_section": false,
+  1302→            "fillable": false
+  1303→          },
+  1304→          {
+  1305→            "row_span": 1,
+  1306→            "col_span": 1,
+  1307→            "start_row_offset_idx": 7,
+  1308→            "end_row_offset_idx": 8,
+  1309→            "start_col_offset_idx": 1,
+  1310→            "end_col_offset_idx": 2,
+  1311→            "text": "\u041e\u041e\u041e \u041e\u043f\u0442\u043e\u0432\u044b\u0439 \u0446\u0435\u043d\u0442\u0440",
+  1312→            "column_header": false,
+  1313→            "row_header": false,
+  1314→            "row_section": false,
+  1315→            "fillable": false
+  1316→          },
+  1317→          {
+  1318→            "row_span": 1,
+  1319→            "col_span": 1,
+  1320→            "start_row_offset_idx": 7,
+  1321→            "end_row_offset_idx": 8,
+  1322→            "start_col_offset_idx": 2,
+  1323→            "end_col_offset_idx": 3,
+  1324→            "text": "1.\u043a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u0430\u0446\u0438\u044e \u043f\u0440\u043e\u0434\u0443\u043a\u0446\u0438\u0438 \u0434\u043b\u044f \u0442\u0440\u0430\u043d\u0441\u043f\u043e\u0440\u0442\u0438\u0440\u043e\u0432\u043a\u0438, \u043f\u043e \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0441\u0442\u0438 ,\u0434\u0435\u043b\u0430\u0442\u044c \u0431\u043e\u043b\u0435\u0435 \u043a\u043e\u043c\u043f\u0430\u043a\u0442\u043d\u043e -\u043d\u0435 \u0440\u0430\u0441\u043a\u043b\u0430\u0434\u044b\u0432\u0430\u0442\u044c \u043e\u0434\u043d\u0443 \u043f\u043e\u0437\u0438\u0446\u0438\u044e \u043f\u043e \u0440\u0430\u0437\u043d\u044b\u043c \u043f\u0430\u043b\u043b\u0435\u0442\u0430\u043c . ;2.\u041a\u0430\u0442\u0430\u043b\u043e\u0433 \u043f\u0440\u043e\u0434\u0443\u043a\u0446\u0438\u0438 \u0434\u043e\u043b\u0436\u0435\u043d \u0431\u044b\u0442\u044c \u0431\u043e\u043b\u0435\u0435 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0442\u0438\u0432\u043d\u044b\u043c . \u0418\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u044f \u043f\u043e \u0440\u0430\u0441\u0442\u0432\u043e\u0440\u0438\u0442\u0435\u043b\u044f\u043c ,\u0438\u043d\u0441\u0442\u0440\u0443\u043c\u0435\u043d\u0442\u0443 \u0434\u043b\u044f \u0440\u0430\u0431\u043e\u0442\u044b(\u043a\u0438\u0441\u0442\u044c , \u0432\u0430\u043b\u0438\u043a , \u043a\u0440\u0430\u0441\u043a\u043e\u043f\u0443\u043b\u044c\u0442 )\u0412\u0440\u0435\u043c\u044f \u0432\u044b\u0441\u044b\u0445\u0430\u043d\u0438\u044f ,\u0442\u0435\u043c\u043f\u0435\u0440\u0430\u0442\u0443\u0440\u0430 , \u0432\u043b\u0430\u0436\u043d\u043e\u0441\u0442\u044c \u043e\u043a\u0440\u0443\u0436\u0430\u044e\u0449\u0435\u0439 \u0441\u0440\u0435\u0434\u044b. ,\u0440\u0430\u0431\u043e\u0442\u0430 \u043f\u0440\u0438 \u043c\u0438\u043d\u0443\u0441\u0435,% \u0440\u0430\u0437\u0432\u0435\u0434\u0435\u043d\u0438\u044f \u043a\u0440\u0430\u0441\u043a\u0438 \u043f\u043e\u0434 \u043a\u0440\u0430\u0441\u043a\u043e\u043f\u0443\u043b\u044c\u0442, \u043f\u043e\u0434\u0440\u043e\u0431\u043d\u0435\u0435 \u043e \u043f\u043e\u0432\u0435\u0440\u0445\u043d\u043e\u0441\u0442\u0438 \u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0438 .\u0418\u043d\u0444\u043e \u043d\u0430 \u0441\u0430\u0439\u0442\u0435 \u043d\u0435 \u0432\u0441\u0435\u0433\u0434\u0430 \u0443\u0434\u043e\u0431\u043d\u0430 \u0438 \u0434\u043e\u0441\u0442\u0443\u043f\u043d\u0430 ( \u0443\u0447\u0430\u0441\u0442\u0438\u0432\u0448\u0438\u0435\u0441\u044f \u043f\u0440\u043e\u0431\u043b\u0435\u043c\u044b \u0438\u043d\u0442\u0435\u0440\u043d\u0435\u0442\u043e\u043c) \u0434\u043b\u044f \u043e\u0431\u0443\u0447\u0435\u043d\u0438\u044f , \u043a\u043e\u043d\u0441\u0443\u043b\u044c\u0442\u0430\u0446\u0438\u0438 \u043d\u0430 \u043c\u0435\u0441\u0442\u0435 ,\u0432 \u0442\u043e\u0440\u0433\u043e\u0432\u043e\u0439 \u0442\u043e\u0447\u043a\u0435 .\u0418\u043d\u0444\u043e \u043d\u0430 \u0442\u0430\u0440\u0435-\u0431\u0430\u043d\u043a\u0435 \u0438\u043d\u043e\u0433\u0434\u0430 \u043d\u0435\u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e \u043f\u0440\u043e\u0447\u0438\u0442\u0430\u0442\u044c ,\u0441\u043b\u0438\u0448\u043a\u043e\u043c \u043c\u0435\u043b\u043a\u043e , \u0438 \u043e\u0441\u0432\u0435\u0449\u0435\u043d\u043d\u043e\u0441\u0442\u044c \u0432 \u0442\u043e\u0440\u0433\u043e\u0432\u044b\u0445 \u0442\u043e\u0447\u043a\u0430\u0445 \u043d\u0435 \u0432\u0441\u0435\u0433\u0434\u0430 \u0438\u0434\u0435\u0430\u043b\u044c\u043d\u0430\u044f.",
+  1325→            "column_header": false,
+  1326→            "row_header": false,
+  1327→            "row_section": false,
+  1328→            "fillable": false
+  1329→          },
+  1330→          {
+  1331→            "row_span": 1,
+  1332→            "col_span": 1,
+  1333→            "start_row_offset_idx": 7,
+  1334→            "end_row_offset_idx": 8,
+  1335→            "start_col_offset_idx": 3,
+  1336→            "end_col_offset_idx": 4,
+  1337→            "text": "",
+  1338→            "column_header": false,
+  1339→            "row_header": false,
+  1340→            "row_section": false,
+  1341→            "fillable": false
+  1342→          },
+  1343→          {
+  1344→            "row_span": 1,
+  1345→            "col_span": 1,
+  1346→            "start_row_offset_idx": 7,
+  1347→            "end_row_offset_idx": 8,
+  1348→            "start_col_offset_idx": 4,
+  1349→            "end_col_offset_idx": 5,
+  1350→            "text": "",
+  1351→            "column_header": false,
+  1352→            "row_header": false,
+  1353→            "row_section": false,
+  1354→            "fillable": false
+  1355→          },
+  1356→          {
+  1357→            "row_span": 1,
+  1358→            "col_span": 1,
+  1359→            "start_row_offset_idx": 7,
+  1360→            "end_row_offset_idx": 8,
+  1361→            "start_col_offset_idx": 5,
+  1362→            "end_col_offset_idx": 6,
+  1363→            "text": "",
+  1364→            "column_header": false,
+  1365→            "row_header": false,
+  1366→            "row_section": false,
+  1367→            "fillable": false
+  1368→          },
+  1369→          {
+  1370→            "row_span": 1,
+  1371→            "col_span": 1,
+  1372→            "start_row_offset_idx": 7,
+  1373→            "end_row_offset_idx": 8,
+  1374→            "start_col_offset_idx": 6,
+  1375→            "end_col_offset_idx": 7,
+  1376→            "text": "",
+  1377→            "column_header": false,
+  1378→            "row_header": false,
+  1379→            "row_section": false,
+  1380→            "fillable": false
+  1381→          },
+  1382→          {
+  1383→            "row_span": 1,
+  1384→            "col_span": 1,
+  1385→            "start_row_offset_idx": 7,
+  1386→            "end_row_offset_idx": 8,
+  1387→            "start_col_offset_idx": 7,
+  1388→            "end_col_offset_idx": 8,
+  1389→            "text": "",
+  1390→            "column_header": false,
+  1391→            "row_header": false,
+  1392→            "row_section": false,
+  1393→            "fillable": false
+  1394→          },
+  1395→          {
+  1396→            "row_span": 1,
+  1397→            "col_span": 1,
+  1398→            "start_row_offset_idx": 7,
+  1399→            "end_row_offset_idx": 8,
+  1400→            "start_col_offset_idx": 8,
+  1401→            "end_col_offset_idx": 9,
+  1402→            "text": "",
+  1403→            "column_header": false,
+  1404→            "row_header": false,
+  1405→            "row_section": false,
+  1406→            "fillable": false
+  1407→          },
+  1408→          {
+  1409→            "row_span": 1,
+  1410→            "col_span": 1,
+  1411→            "start_row_offset_idx": 7,
+  1412→            "end_row_offset_idx": 8,
+  1413→            "start_col_offset_idx": 9,
+  1414→            "end_col_offset_idx": 10,
+  1415→            "text": "",
+  1416→            "column_header": false,
+  1417→            "row_header": false,
+  1418→            "row_section": false,
+  1419→            "fillable": false
+  1420→          },
+  1421→          {
+  1422→            "row_span": 1,
+  1423→            "col_span": 1,
+  1424→            "start_row_offset_idx": 7,
+  1425→            "end_row_offset_idx": 8,
+  1426→            "start_col_offset_idx": 10,
+  1427→            "end_col_offset_idx": 11,
+  1428→            "text": "",
+  1429→            "column_header": false,
+  1430→            "row_header": false,
+  1431→            "row_section": false,
+  1432→            "fillable": false
+  1433→          },
+  1434→          {
+  1435→            "row_span": 1,
+  1436→            "col_span": 1,
+  1437→            "start_row_offset_idx": 7,
+  1438→            "end_row_offset_idx": 8,
+  1439→            "start_col_offset_idx": 11,
+  1440→            "end_col_offset_idx": 12,
+  1441→            "text": "",
+  1442→            "column_header": false,
+  1443→            "row_header": false,
+  1444→            "row_section": false,
+  1445→            "fillable": false
+  1446→          },
+  1447→          {
+  1448→            "row_span": 1,
+  1449→            "col_span": 1,
+  1450→            "start_row_offset_idx": 7,
+  1451→            "end_row_offset_idx": 8,
+  1452→            "start_col_offset_idx": 12,
+  1453→            "end_col_offset_idx": 13,
+  1454→            "text": "",
+  1455→            "column_header": false,
+  1456→            "row_header": false,
+  1457→            "row_section": false,
+  1458→            "fillable": false
+  1459→          },
+  1460→          {
+  1461→            "row_span": 1,
+  1462→            "col_span": 1,
+  1463→            "start_row_offset_idx": 7,
+  1464→            "end_row_offset_idx": 8,
+  1465→            "start_col_offset_idx": 13,
+  1466→            "end_col_offset_idx": 14,
+  1467→            "text": "",
+  1468→            "column_header": false,
+  1469→            "row_header": false,
+  1470→            "row_section": false,
+  1471→            "fillable": false
+  1472→          },
+  1473→          {
+  1474→            "row_span": 1,
+  1475→            "col_span": 1,
+  1476→            "start_row_offset_idx": 7,
+  1477→            "end_row_offset_idx": 8,
+  1478→            "start_col_offset_idx": 14,
+  1479→            "end_col_offset_idx": 15,
+  1480→            "text": "",
+  1481→            "column_header": false,
+  1482→            "row_header": false,
+  1483→            "row_section": false,
+  1484→            "fillable": false
+  1485→          },
+  1486→          {
+  1487→            "row_span": 1,
+  1488→            "col_span": 1,
+  1489→            "start_row_offset_idx": 7,
+  1490→            "end_row_offset_idx": 8,
+  1491→            "start_col_offset_idx": 15,
+  1492→            "end_col_offset_idx": 16,
+  1493→            "text": "",
+  1494→            "column_header": false,
+  1495→            "row_header": false,
+  1496→            "row_section": false,
+  1497→            "fillable": false
+  1498→          },
+  1499→          {
+  1500→            "row_span": 1,
+  1501→            "col_span": 1,
+  1502→            "start_row_offset_idx": 7,
+  1503→            "end_row_offset_idx": 8,
+  1504→            "start_col_offset_idx": 16,
+  1505→            "end_col_offset_idx": 17,
+  1506→            "text": "",
+  1507→            "column_header": false,
+  1508→            "row_header": false,
+  1509→            "row_section": false,
+  1510→            "fillable": false
+  1511→          },
+  1512→          {
+  1513→            "row_span": 1,
+  1514→            "col_span": 1,
+  1515→            "start_row_offset_idx": 7,
+  1516→            "end_row_offset_idx": 8,
+  1517→            "start_col_offset_idx": 17,
+  1518→            "end_col_offset_idx": 18,
+  1519→            "text": "",
+  1520→            "column_header": false,
+  1521→            "row_header": false,
+  1522→            "row_section": false,
+  1523→            "fillable": false
+  1524→          },
+  1525→          {
+  1526→            "row_span": 1,
+  1527→            "col_span": 1,
+  1528→            "start_row_offset_idx": 7,
+  1529→            "end_row_offset_idx": 8,
+  1530→            "start_col_offset_idx": 18,
+  1531→            "end_col_offset_idx": 19,
+  1532→            "text": "",
+  1533→            "column_header": false,
+  1534→            "row_header": false,
+  1535→            "row_section": false,
+  1536→            "fillable": false
+  1537→          },
+  1538→          {
+  1539→            "row_span": 1,
+  1540→            "col_span": 1,
+  1541→            "start_row_offset_idx": 7,
+  1542→            "end_row_offset_idx": 8,
+  1543→            "start_col_offset_idx": 19,
+  1544→            "end_col_offset_idx": 20,
+  1545→            "text": "",
+  1546→            "column_header": false,
+  1547→            "row_header": false,
+  1548→            "row_section": false,
+  1549→            "fillable": false
+  1550→          },
+  1551→          {
+  1552→            "row_span": 1,
+  1553→            "col_span": 1,
+  1554→            "start_row_offset_idx": 7,
+  1555→            "end_row_offset_idx": 8,
+  1556→            "start_col_offset_idx": 20,
+  1557→            "end_col_offset_idx": 21,
+  1558→            "text": "",
+  1559→            "column_header": false,
+  1560→            "row_header": false,
+  1561→            "row_section": false,
+  1562→            "fillable": false
+  1563→          },
+  1564→          {
+  1565→            "row_span": 1,
+  1566→            "col_span": 1,
+  1567→            "start_row_offset_idx": 8,
+  1568→            "end_row_offset_idx": 9,
+  1569→            "start_col_offset_idx": 0,
+  1570→            "end_col_offset_idx": 1,
+  1571→            "text": "18",
+  1572→            "column_header": false,
+  1573→            "row_header": false,
+  1574→            "row_section": false,
+  1575→            "fillable": false
+  1576→          },
+  1577→          {
+  1578→            "row_span": 1,
+  1579→            "col_span": 1,
+  1580→            "start_row_offset_idx": 8,
+  1581→            "end_row_offset_idx": 9,
+  1582→            "start_col_offset_idx": 1,
+  1583→            "end_col_offset_idx": 2,
+  1584→            "text": "\u041e\u041e\u041e \u00ab\u0414\u041a\u0422\u00bb",
+  1585→            "column_header": false,
+  1586→            "row_header": false,
+  1587→            "row_section": false,
+  1588→            "fillable": false
+  1589→          },
+  1590→          {
+  1591→            "row_span": 1,
+  1592→            "col_span": 1,
+  1593→            "start_row_offset_idx": 8,
+  1594→            "end_row_offset_idx": 9,
+  1595→            "start_col_offset_idx": 2,
+  1596→            "end_col_offset_idx": 3,
+  1597→            "text": "\u041d\u0430\u043c \u0432\u0441\u0435 \u043d\u0440\u0430\u0432\u0438\u0442\u044c\u0441\u044f \u043a\u0430\u043a \u0435\u0441\u0442\u044c ",
+  1598→            "column_header": false,
+  1599→            "row_header": false,
+  1600→            "row_section": false,
+  1601→            "fillable": false
+  1602→          },
+  1603→          {
+  1604→            "row_span": 1,
+  1605→            "col_span": 1,
+  1606→            "start_row_offset_idx": 8,
+  1607→            "end_row_offset_idx": 9,
+  1608→            "start_col_offset_idx": 3,
+  1609→            "end_col_offset_idx": 4,
+  1610→            "text": "",
+  1611→            "column_header": false,
+  1612→            "row_header": false,
+  1613→            "row_section": false,
+  1614→            "fillable": false
+  1615→          },
+  1616→          {
+  1617→            "row_span": 1,
+  1618→            "col_span": 1,
+  1619→            "start_row_offset_idx": 8,
+  1620→            "end_row_offset_idx": 9,
+  1621→            "start_col_offset_idx": 4,
+  1622→            "end_col_offset_idx": 5,
+  1623→            "text": "",
+  1624→            "column_header": false,
+  1625→            "row_header": false,
+  1626→            "row_section": false,
+  1627→            "fillable": false
+  1628→          },
+  1629→          {
+  1630→            "row_span": 1,
+  1631→            "col_span": 1,
+  1632→            "start_row_offset_idx": 8,
+  1633→            "end_row_offset_idx": 9,
+  1634→            "start_col_offset_idx": 5,
+  1635→            "end_col_offset_idx": 6,
+  1636→            "text": "",
+  1637→            "column_header": false,
+  1638→            "row_header": false,
+  1639→            "row_section": false,
+  1640→            "fillable": false
+  1641→          },
+  1642→          {
+  1643→            "row_span": 1,
+  1644→            "col_span": 1,
+  1645→            "start_row_offset_idx": 8,
+  1646→            "end_row_offset_idx": 9,
+  1647→            "start_col_offset_idx": 6,
+  1648→            "end_col_offset_idx": 7,
+  1649→            "text": "",
+  1650→            "column_header": false,
+  1651→            "row_header": false,
+  1652→            "row_section": false,
+  1653→            "fillable": false
+  1654→          },
+  1655→          {
+  1656→            "row_span": 1,
+  1657→            "col_span": 1,
+  1658→            "start_row_offset_idx": 8,
+  1659→            "end_row_offset_idx": 9,
+  1660→            "start_col_offset_idx": 7,
+  1661→            "end_col_offset_idx": 8,
+  1662→            "text": "",
+  1663→            "column_header": false,
+  1664→            "row_header": false,
+  1665→            "row_section": false,
+  1666→            "fillable": false
+  1667→          },
+  1668→          {
+  1669→            "row_span": 1,
+  1670→            "col_span": 1,
+  1671→            "start_row_offset_idx": 8,
+  1672→            "end_row_offset_idx": 9,
+  1673→            "start_col_offset_idx": 8,
+  1674→            "end_col_offset_idx": 9,
+  1675→            "text": "",
+  1676→            "column_header": false,
+  1677→            "row_header": false,
+  1678→            "row_section": false,
+  1679→            "fillable": false
+  1680→          },
+  1681→          {
+  1682→            "row_span": 1,
+  1683→            "col_span": 1,
+  1684→            "start_row_offset_idx": 8,
+  1685→            "end_row_offset_idx": 9,
+  1686→            "start_col_offset_idx": 9,
+  1687→            "end_col_offset_idx": 10,
+  1688→            "text": "",
+  1689→            "column_header": false,
+  1690→            "row_header": false,
+  1691→            "row_section": false,
+  1692→            "fillable": false
+  1693→          },
+  1694→          {
+  1695→            "row_span": 1,
+  1696→            "col_span": 1,
+  1697→            "start_row_offset_idx": 8,
+  1698→            "end_row_offset_idx": 9,
+  1699→            "start_col_offset_idx": 10,
+  1700→            "end_col_offset_idx": 11,
+  1701→            "text": "",
+  1702→            "column_header": false,
+  1703→            "row_header": false,
+  1704→            "row_section": false,
+  1705→            "fillable": false
+  1706→          },
+  1707→          {
+  1708→            "row_span": 1,
+  1709→            "col_span": 1,
+  1710→            "start_row_offset_idx": 8,
+  1711→            "end_row_offset_idx": 9,
+  1712→            "start_col_offset_idx": 11,
+  1713→            "end_col_offset_idx": 12,
+  1714→            "text": "",
+  1715→            "column_header": false,
+  1716→            "row_header": false,
+  1717→            "row_section": false,
+  1718→            "fillable": false
+  1719→          },
+  1720→          {
+  1721→            "row_span": 1,
+  1722→            "col_span": 1,
+  1723→            "start_row_offset_idx": 8,
+  1724→            "end_row_offset_idx": 9,
+  1725→            "start_col_offset_idx": 12,
+  1726→            "end_col_offset_idx": 13,
+  1727→            "text": "",
+  1728→            "column_header": false,
+  1729→            "row_header": false,
+  1730→            "row_section": false,
+  1731→            "fillable": false
+  1732→          },
+  1733→          {
+  1734→            "row_span": 1,
+  1735→            "col_span": 1,
+  1736→            "start_row_offset_idx": 8,
+  1737→            "end_row_offset_idx": 9,
+  1738→            "start_col_offset_idx": 13,
+  1739→            "end_col_offset_idx": 14,
+  1740→            "text": "",
+  1741→            "column_header": false,
+  1742→            "row_header": false,
+  1743→            "row_section": false,
+  1744→            "fillable": false
+  1745→          },
+  1746→          {
+  1747→            "row_span": 1,
+  1748→            "col_span": 1,
+  1749→            "start_row_offset_idx": 8,
+  1750→            "end_row_offset_idx": 9,
+  1751→            "start_col_offset_idx": 14,
+  1752→            "end_col_offset_idx": 15,
+  1753→            "text": "",
+  1754→            "column_header": false,
+  1755→            "row_header": false,
+  1756→            "row_section": false,
+  1757→            "fillable": false
+  1758→          },
+  1759→          {
+  1760→            "row_span": 1,
+  1761→            "col_span": 1,
+  1762→            "start_row_offset_idx": 8,
+  1763→            "end_row_offset_idx": 9,
+  1764→            "start_col_offset_idx": 15,
+  1765→            "end_col_offset_idx": 16,
+  1766→            "text": "",
+  1767→            "column_header": false,
+  1768→            "row_header": false,
+  1769→            "row_section": false,
+  1770→            "fillable": false
+  1771→          },
+  1772→          {
+  1773→            "row_span": 1,
+  1774→            "col_span": 1,
+  1775→            "start_row_offset_idx": 8,
+  1776→            "end_row_offset_idx": 9,
+  1777→            "start_col_offset_idx": 16,
+  1778→            "end_col_offset_idx": 17,
+  1779→            "text": "",
+  1780→            "column_header": false,
+  1781→            "row_header": false,
+  1782→            "row_section": false,
+  1783→            "fillable": false
+  1784→          },
+  1785→          {
+  1786→            "row_span": 1,
+  1787→            "col_span": 1,
+  1788→            "start_row_offset_idx": 8,
+  1789→            "end_row_offset_idx": 9,
+  1790→            "start_col_offset_idx": 17,
+  1791→            "end_col_offset_idx": 18,
+  1792→            "text": "",
+  1793→            "column_header": false,
+  1794→            "row_header": false,
+  1795→            "row_section": false,
+  1796→            "fillable": false
+  1797→          },
+  1798→          {
+  1799→            "row_span": 1,
+  1800→            "col_span": 1,
+  1801→            "start_row_offset_idx": 8,
+  1802→            "end_row_offset_idx": 9,
+  1803→            "start_col_offset_idx": 18,
+  1804→            "end_col_offset_idx": 19,
+  1805→            "text": "",
+  1806→            "column_header": false,
+  1807→            "row_header": false,
+  1808→            "row_section": false,
+  1809→            "fillable": false
+  1810→          },
+  1811→          {
+  1812→            "row_span": 1,
+  1813→            "col_span": 1,
+  1814→            "start_row_offset_idx": 8,
+  1815→            "end_row_offset_idx": 9,
+  1816→            "start_col_offset_idx": 19,
+  1817→            "end_col_offset_idx": 20,
+  1818→            "text": "",
+  1819→            "column_header": false,
+  1820→            "row_header": false,
+  1821→            "row_section": false,
+  1822→            "fillable": false
+  1823→          },
+  1824→          {
+  1825→            "row_span": 1,
+  1826→            "col_span": 1,
+  1827→            "start_row_offset_idx": 8,
+  1828→            "end_row_offset_idx": 9,
+  1829→            "start_col_offset_idx": 20,
+  1830→            "end_col_offset_idx": 21,
+  1831→            "text": "",
+  1832→            "column_header": false,
+  1833→            "row_header": false,
+  1834→            "row_section": false,
+  1835→            "fillable": false
+  1836→          },
+  1837→          {
+  1838→            "row_span": 1,
+  1839→            "col_span": 1,
+  1840→            "start_row_offset_idx": 9,
+  1841→            "end_row_offset_idx": 10,
+  1842→            "start_col_offset_idx": 0,
+  1843→            "end_col_offset_idx": 1,
+  1844→            "text": "20",
+  1845→            "column_header": false,
+  1846→            "row_header": false,
+  1847→            "row_section": false,
+  1848→            "fillable": false
+  1849→          },
+  1850→          {
+  1851→            "row_span": 1,
+  1852→            "col_span": 1,
+  1853→            "start_row_offset_idx": 9,
+  1854→            "end_row_offset_idx": 10,
+  1855→            "start_col_offset_idx": 1,
+  1856→            "end_col_offset_idx": 2,
+  1857→            "text": "\u041e\u041e\u041e \u0421\u043f\u0435\u043a\u0442\u0440",
+  1858→            "column_header": false,
+  1859→            "row_header": false,
+  1860→            "row_section": false,
+  1861→            "fillable": false
+  1862→          },
+  1863→          {
+  1864→            "row_span": 1,
+  1865→            "col_span": 1,
+  1866→            "start_row_offset_idx": 9,
+  1867→            "end_row_offset_idx": 10,
+  1868→            "start_col_offset_idx": 2,
+  1869→            "end_col_offset_idx": 3,
+  1870→            "text": "\u041e\u043f\u0435\u0440\u0430\u0442\u0438\u0432\u043d\u0435\u0435 \u0440\u0430\u0441\u0441\u043c\u0430\u0442\u0440\u0432\u0430\u0442\u044c \u043f\u0440\u0435\u0442\u0435\u043d\u0437\u0438\u0438.\u0412\u044b\u043a\u043b\u0430\u0434\u044b\u0432\u0430\u0442\u044c \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b \u0432 \u042d\u0414\u041e \u0441\u0440\u0430\u0437\u0443 \u043f\u043e\u0441\u043b\u0435 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438, \u043f\u0440\u0438\u0445\u043e\u0434\u044f\u0442 \u043f\u043e\u0437\u0436\u0435 \u0447\u0435\u043c \u043c\u0430\u0448\u0438\u043d\u0430 \u041f\u043e \u0446\u0435\u043d\u0430\u043c \u043f\u043e\u0447\u0442\u0438 \u0432\u0441\u0435\u0433\u0434\u0430 \u0447\u0443\u0442\u044c \u0434\u043e\u0440\u043e\u0436\u0435 \u043a\u043e\u043d\u043a\u0443\u0440\u0435\u043d\u0442\u043e\u0432",
+  1871→            "column_header": false,
+  1872→            "row_header": false,
+  1873→            "row_section": false,
+  1874→            "fillable": false
+  1875→          },
+  1876→          {
+  1877→            "row_span": 1,
+  1878→            "col_span": 1,
+  1879→            "start_row_offset_idx": 9,
+  1880→            "end_row_offset_idx": 10,
+  1881→            "start_col_offset_idx": 3,
+  1882→            "end_col_offset_idx": 4,
+  1883→            "text": "",
+  1884→            "column_header": false,
+  1885→            "row_header": false,
+  1886→            "row_section": false,
+  1887→            "fillable": false
+  1888→          },
+  1889→          {
+  1890→            "row_span": 1,
+  1891→            "col_span": 1,
+  1892→            "start_row_offset_idx": 9,
+  1893→            "end_row_offset_idx": 10,
+  1894→            "start_col_offset_idx": 4,
+  1895→            "end_col_offset_idx": 5,
+  1896→            "text": "",
+  1897→            "column_header": false,
+  1898→            "row_header": false,
+  1899→            "row_section": false,
+  1900→            "fillable": false
+  1901→          },
+  1902→          {
+  1903→            "row_span": 1,
+  1904→            "col_span": 1,
+  1905→            "start_row_offset_idx": 9,
+  1906→            "end_row_offset_idx": 10,
+  1907→            "start_col_offset_idx": 5,
+  1908→            "end_col_offset_idx": 6,
+  1909→            "text": "",
+  1910→            "column_header": false,
+  1911→            "row_header": false,
+  1912→            "row_section": false,
+  1913→            "fillable": false
+  1914→          },
+  1915→          {
+  1916→            "row_span": 1,
+  1917→            "col_span": 1,
+  1918→            "start_row_offset_idx": 9,
+  1919→            "end_row_offset_idx": 10,
+  1920→            "start_col_offset_idx": 6,
+  1921→            "end_col_offset_idx": 7,
+  1922→            "text": "",
+  1923→            "column_header": false,
+  1924→            "row_header": false,
+  1925→            "row_section": false,
+  1926→            "fillable": false
+  1927→          },
+  1928→          {
+  1929→            "row_span": 1,
+  1930→            "col_span": 1,
+  1931→            "start_row_offset_idx": 9,
+  1932→            "end_row_offset_idx": 10,
+  1933→            "start_col_offset_idx": 7,
+  1934→            "end_col_offset_idx": 8,
+  1935→            "text": "",
+  1936→            "column_header": false,
+  1937→            "row_header": false,
+  1938→            "row_section": false,
+  1939→            "fillable": false
+  1940→          },
+  1941→          {
+  1942→            "row_span": 1,
+  1943→            "col_span": 1,
+  1944→            "start_row_offset_idx": 9,
+  1945→            "end_row_offset_idx": 10,
+  1946→            "start_col_offset_idx": 8,
+  1947→            "end_col_offset_idx": 9,
+  1948→            "text": "",
+  1949→            "column_header": false,
+  1950→            "row_header": false,
+  1951→            "row_section": false,
+  1952→            "fillable": false
+  1953→          },
+  1954→          {
+  1955→            "row_span": 1,
+  1956→            "col_span": 1,
+  1957→            "start_row_offset_idx": 9,
+  1958→            "end_row_offset_idx": 10,
+  1959→            "start_col_offset_idx": 9,
+  1960→            "end_col_offset_idx": 10,
+  1961→            "text": "",
+  1962→            "column_header": false,
+  1963→            "row_header": false,
+  1964→            "row_section": false,
+  1965→            "fillable": false
+  1966→          },
+  1967→          {
+  1968→            "row_span": 1,
+  1969→            "col_span": 1,
+  1970→            "start_row_offset_idx": 9,
+  1971→            "end_row_offset_idx": 10,
+  1972→            "start_col_offset_idx": 10,
+  1973→            "end_col_offset_idx": 11,
+  1974→            "text": "",
+  1975→            "column_header": false,
+  1976→            "row_header": false,
+  1977→            "row_section": false,
+  1978→            "fillable": false
+  1979→          },
+  1980→          {
+  1981→            "row_span": 1,
+  1982→            "col_span": 1,
+  1983→            "start_row_offset_idx": 9,
+  1984→            "end_row_offset_idx": 10,
+  1985→            "start_col_offset_idx": 11,
+  1986→            "end_col_offset_idx": 12,
+  1987→            "text": "",
+  1988→            "column_header": false,
+  1989→            "row_header": false,
+  1990→            "row_section": false,
+  1991→            "fillable": false
+  1992→          },
+  1993→          {
+  1994→            "row_span": 1,
+  1995→            "col_span": 1,
+  1996→            "start_row_offset_idx": 9,
+  1997→            "end_row_offset_idx": 10,
+  1998→            "start_col_offset_idx": 12,
+  1999→            "end_col_offset_idx": 13,
+  2000→            "text": "",
+
+[showing lines 1-2000 of 996133; use offset=2001 with limit to continue reading]
