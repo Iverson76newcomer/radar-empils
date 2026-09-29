@@ -1,0 +1,943 @@
+Слайдов: 15
+Размер слайда: 9144000 x 5143500 EMU
+Размер слайда: 10.0 x 5.6 inches
+
+
+================================================================================
+СЛАЙД 1
+================================================================================
+  [pos=(0.8,0.5) size=(3.3x0.2)] font=Carlito size=8.0pt bold=None color=555555
+    Text: ТЕХНИЧЕСКИЙ КАТАЛОГ · ЭМПИЛС · ЛКМ
+  [pos=(7.0,1.3) size=(2.3x2.3)] font=Segoe UI Symbol size=48.0pt bold=None color=1F4E79
+    Text: ⌂
+  [pos=(7.0,3.8) size=(2.4x0.2)] font=Liberation Sans size=6.19pt bold=None color=555555
+    Text: Интерьерные · Фасадные · Эмали · Огнезащита · Полы
+  [pos=(9.3,3.8) size=(0.1x0.1)] font=Segoe UI Symbol size=9.84pt bold=None color=00A859
+    Text: →
+  [pos=(0.6,1.7) size=(5.9x0.3)] font=Carlito size=20.25pt bold=True color=1F4E79
+    Text: Каталог продуктов Эмпилс
+  [pos=(0.6,2.2) size=(5.0x0.5)] font=Liberation Sans size=11.25pt bold=None color=555555
+    Text: Применение ЛКМ в жилищном строительстве с учётом классов пожароопасности
+  [pos=(0.6,3.0) size=(0.1x0.1)] font=Segoe UI Symbol size=11.25pt bold=None color=1F4E79
+    Text: ▥
+  [pos=(0.8,3.0) size=(1.1x0.2)] font=Liberation Sans size=8.0pt bold=None color=555555
+    Text: Все классы этажности
+  [pos=(2.0,3.0) size=(0.1x0.1)] font=Segoe UI Symbol size=11.25pt bold=None color=1F4E79
+    Text: ✦
+  [pos=(2.2,3.0) size=(0.9x0.2)] font=Liberation Sans size=6.75pt bold=None color=555555
+    Text: КМ1 · Г1 · В1 · НГ
+  [pos=(3.1,3.0) size=(0.1x0.1)] font=Segoe UI Symbol size=11.25pt bold=None color=1F4E79
+    Text: ⛨
+  [pos=(3.3,3.0) size=(1.3x0.2)] font=Liberation Sans size=6.75pt bold=None color=555555
+    Text: Сертификаты соответствия
+  [pos=(0.6,5.0) size=(0.1x0.1)] font=Segoe UI Symbol size=12.66pt bold=None color=00A859
+    Text: ✓
+  [pos=(0.9,5.0) size=(2.9x0.2)] font=Liberation Sans size=8.0pt bold=None color=555555
+    Text: На основании ФЗ-123 и сертификатов соответствия
+  [pos=(8.3,5.0) size=(0.1x0.1)] font=Segoe UI Symbol size=11.25pt bold=None color=1F4E79
+    Text: ▦
+  [pos=(8.5,5.0) size=(0.9x0.2)] font=Courier New size=8.0pt bold=True color=1F4E79
+    Text: Сентябрь 2026
+
+================================================================================
+СЛАЙД 2
+================================================================================
+  [pos=(0.4,0.3) size=(0.1x0.1)] font=Segoe UI Symbol size=11.25pt bold=None color=00A859
+    Text: ▤
+  [pos=(0.6,0.3) size=(1.8x0.2)] font=Carlito size=8.0pt bold=None color=555555
+    Text: ЛЕГЕНДА
+  [pos=(0.4,0.5) size=(2.1x0.3)] font=Carlito size=15.75pt bold=True color=1F4E79
+    Text: Как читать каталог
+  [pos=(7.9,0.5) size=(1.7x0.1)] font=Courier New size=8.0pt bold=None color=555555
+    Text: ФЗ-123 · КМ-классы · Этажность
+  [pos=(8.1,0.7) size=(0.1x0.1)] font=Segoe UI Symbol size=8.44pt bold=None color=00A859
+    Text: ⓘ
+  [pos=(8.1,0.7) size=(1.5x0.1)] font=Liberation Sans size=6.0pt bold=None color=555555
+    Text: Светофорная кодировка применения
+  [pos=(0.6,1.2) size=(0.1x0.1)] font=Segoe UI Symbol size=12.66pt bold=None color=1F4E79
+    Text: ✦
+  [pos=(0.8,1.2) size=(4.0x0.2)] font=Carlito size=8.44pt bold=True color=1F4E79
+    Text: Цветовая кодировка
+  [pos=(0.7,1.6) size=(0.2x0.2)] font=Segoe UI Symbol size=8.0pt bold=True color=1B5E20
+    Text: ✓
+  [pos=(1.0,1.6) size=(3.8x0.1)] font=Liberation Sans size=5.0pt bold=None color=1A1A2E
+    Text: Можно использовать
+  [pos=(1.0,1.7) size=(3.9x0.1)] font=Liberation Sans size=8.0pt bold=None color=555555
+    Text: Полностью соответствует требованиям
+  [pos=(0.7,2.2) size=(0.2x0.2)] font=Segoe UI Symbol size=8.0pt bold=True color=BF360C
+    Text: ⚠
+  [pos=(1.0,2.1) size=(3.8x0.1)] font=Liberation Sans size=5.0pt bold=None color=1A1A2E
+    Text: С ограничениями
+  [pos=(1.0,2.3) size=(3.9x0.1)] font=Liberation Sans size=8.0pt bold=None color=555555
+    Text: Только для конкретных зон / этажей
+  [pos=(0.7,2.8) size=(0.2x0.2)] font=Segoe UI Symbol size=8.0pt bold=True color=B71C1C
+    Text: ✗
+  [pos=(1.0,2.7) size=(3.8x0.1)] font=Liberation Sans size=5.0pt bold=None color=1A1A2E
+    Text: Нельзя использовать
+  [pos=(1.0,2.9) size=(3.9x0.1)] font=Liberation Sans size=8.0pt bold=None color=555555
+    Text: Запрещено нормами пожарной безопасности
+  [pos=(0.6,3.3) size=(0.3x0.2)] font=Courier New size=8.0pt bold=True color=90A4AE
+    Text: —
+  [pos=(1.0,3.3) size=(3.8x0.1)] font=Liberation Sans size=5.0pt bold=None color=1A1A2E
+    Text: Не применяется
+  [pos=(1.0,3.4) size=(3.9x0.1)] font=Liberation Sans size=8.0pt bold=None color=555555
+    Text: Продукт не предназначен для данной зоны
+  [pos=(5.2,1.2) size=(0.1x0.1)] font=Segoe UI Symbol size=12.66pt bold=None color=1F4E79
+    Text: ✦
+  [pos=(5.4,1.2) size=(4.0x0.2)] font=Carlito size=8.44pt bold=True color=1F4E79
+    Text: Классы пожароопасности (ФЗ-123)
+  [pos=(5.2,1.6) size=(0.3x0.2)] font=Courier New size=8.0pt bold=True color=1F4E79
+    Text: Г1
+  [pos=(5.6,1.6) size=(1.7x0.2)] font=Liberation Sans size=6.19pt bold=None color=1A1A2E
+    Text: слабогорючие (лучший для горючих)
+  [pos=(7.4,1.6) size=(0.3x0.2)] font=Courier New size=8.0pt bold=True color=1F4E79
+    Text: В1
+  [pos=(7.7,1.6) size=(1.7x0.2)] font=Liberation Sans size=8.0pt bold=None color=1A1A2E
+    Text: трудновоспламеняемые
+  [pos=(5.2,2.1) size=(0.3x0.2)] font=Courier New size=8.0pt bold=True color=1F4E79
+    Text: Д1
+  [pos=(5.6,2.2) size=(1.7x0.2)] font=Liberation Sans size=8.0pt bold=None color=1A1A2E
+    Text: малодымообразующие
+  [pos=(7.4,2.1) size=(0.3x0.2)] font=Courier New size=8.0pt bold=True color=1F4E79
+    Text: Т1
+  [pos=(7.7,2.2) size=(1.7x0.2)] font=Liberation Sans size=8.0pt bold=None color=1A1A2E
+    Text: малотоксичные
+  [pos=(5.2,2.7) size=(0.3x0.2)] font=Courier New size=8.0pt bold=True color=1F4E79
+    Text: РП1
+  [pos=(5.6,2.7) size=(1.7x0.2)] font=Liberation Sans size=8.0pt bold=None color=1A1A2E
+    Text: не распр. пламя
+  [pos=(7.4,2.7) size=(0.3x0.2)] font=Courier New size=8.0pt bold=True color=2E7D32
+    Text: КМ1
+  [pos=(7.7,2.7) size=(1.7x0.2)] font=Liberation Sans size=8.0pt bold=None color=1A1A2E
+    Text: комбин.: Г1+В1+Д1+Т1+РП1
+  [pos=(5.2,3.4) size=(0.3x0.2)] font=Courier New size=8.0pt bold=True color=455A64
+    Text: НГ
+  [pos=(5.6,3.4) size=(3.9x0.2)] font=Liberation Sans size=8.0pt bold=None color=1A1A2E
+    Text: негорючие — только для зданий >17 этажей
+  [pos=(0.4,4.0) size=(0.1x0.1)] font=Segoe UI Symbol size=12.66pt bold=None color=1F4E79
+    Text: ▥
+  [pos=(0.6,4.0) size=(1.9x0.2)] font=Carlito size=8.44pt bold=True color=1F4E79
+    Text: Этажность жилых зданий
+  [pos=(2.2,4.0) size=(7.4x0.2)] font=Courier New size=8.0pt bold=None color=555555
+    Text: · требования ужесточаются с ростом этажности
+  [pos=(0.6,4.3) size=(0.4x0.4)] font=Courier New size=10.13pt bold=True color=00A859
+    Text: ≤9
+  [pos=(1.0,4.4) size=(1.2x0.1)] font=Liberation Sans size=5.0pt bold=None color=1F4E79
+    Text: До 9 этажей (≤28 м)
+  [pos=(1.0,4.5) size=(1.1x0.2)] font=Liberation Sans size=6.19pt bold=None color=555555
+    Text: самые мягкие требования
+  [pos=(3.6,4.3) size=(0.4x0.4)] font=Liberation Sans Narrow size=9.0pt bold=True color=FF9800
+    Text: 9–17
+  [pos=(4.1,4.4) size=(1.3x0.1)] font=Liberation Sans size=5.0pt bold=None color=1F4E79
+    Text: 9–17 этажей (28–50 м)
+  [pos=(4.1,4.5) size=(1.4x0.2)] font=Liberation Sans size=8.0pt bold=None color=555555
+    Text: строже
+  [pos=(6.7,4.3) size=(0.4x0.4)] font=Liberation Sans Narrow size=8.0pt bold=True color=E53935
+    Text: >17
+  [pos=(7.2,4.4) size=(1.3x0.1)] font=Liberation Sans size=5.0pt bold=None color=1F4E79
+    Text: Выше 17 этажей (>50 м)
+  [pos=(7.2,4.5) size=(1.3x0.2)] font=Liberation Sans size=6.19pt bold=None color=555555
+    Text: только НГ на путях эвакуации
+
+================================================================================
+СЛАЙД 3
+================================================================================
+  [pos=(0.4,0.3) size=(3.7x0.1)] font=Carlito size=8.0pt bold=None color=555555
+    Text: КАРТОЧКА ПРОДУКТА · ПОТОЛОЧНАЯ КРАСКА
+  [pos=(0.4,0.5) size=(3.5x0.2)] font=Carlito size=14.0pt bold=True color=1F4E79
+    Text: ОРЕОЛ ДИСКОНТ полиакрил
+  [pos=(0.4,0.8) size=(3.6x0.2)] font=Liberation Sans size=8.44pt bold=None color=555555
+    Text: Потолочная ВД-краска (полиакрил)
+  [pos=(8.0,0.5) size=(1.5x0.1)] font=Carlito size=8.0pt bold=None color=555555
+    Text: КЛАСС ПОЖАРООПАСНОСТИ
+  [pos=(7.9,0.7) size=(1.6x0.3)] font=Courier New size=8.0pt bold=True color=2E7D32
+    Text: КМ1 · Г1 В1 Д1 Т1 РП1
+  [pos=(0.6,1.3) size=(0.1x0.1)] font=Segoe UI Symbol size=12.66pt bold=None color=1F4E79
+    Text: ✓
+  [pos=(0.8,1.3) size=(2.6x0.2)] font=Carlito size=8.0pt bold=True color=1F4E79
+    Text: СЕРТИФИКАТ СООТВЕТСТВИЯ
+  [pos=(0.6,1.6) size=(1.4x0.2)] font=Courier New size=8.0pt bold=None color=555555
+    Text: Рег. №:
+  [pos=(2.0,1.6) size=(1.4x0.2)] font=Liberation Sans Narrow size=7.31pt bold=True color=1A1A2E
+    Text: RU Д-RU.PA01.B.00164/23
+  [pos=(0.6,1.7) size=(2.2x0.2)] font=Courier New size=8.0pt bold=None color=555555
+    Text: Действует до:
+  [pos=(2.7,1.7) size=(0.7x0.2)] font=Liberation Sans Narrow size=7.31pt bold=True color=00A859
+    Text: 05.02.2028
+  [pos=(0.6,2.1) size=(2.8x0.3)] font=Liberation Sans size=8.0pt bold=None color=555555
+    Text: Соответствие ФЗ-123 подтверждено декларацией. Класс КМ1 превышает базовые требования для жилых зданий.
+  [pos=(0.6,2.9) size=(0.1x0.1)] font=Segoe UI Symbol size=12.66pt bold=None color=1F4E79
+    Text: ✦
+  [pos=(0.8,2.9) size=(2.6x0.2)] font=Carlito size=8.0pt bold=True color=1F4E79
+    Text: ТИП ПРОДУКТА
+  [pos=(0.6,3.1) size=(2.8x0.5)] font=Liberation Sans size=8.0pt bold=None color=1A1A2E
+    Text: Водно-дисперсионная полиакриловая краска. Назначение — только потолки. Глубокоматовая фактура без бликов.
+  [pos=(3.9,1.3) size=(0.1x0.1)] font=Segoe UI Symbol size=12.66pt bold=None color=1F4E79
+    Text: ▥
+  [pos=(4.1,1.3) size=(2.6x0.2)] font=Carlito size=8.0pt bold=True color=1F4E79
+    Text: ЗОНЫ ПРИМЕНЕНИЯ ПО ЭТАЖНОСТИ
+  TABLE at (3.9, 1.6)
+    R0: Зона применения | ≤9 этажей≤28 м | 9–17 этажей28–50 м | >17 этажей>50 м
+    R1: Жилые комнаты (квартиры) | ✓ | ✓ | ✓
+    R2: Коридоры, холлы, фойе | ✓ | ✓ | ✓
+    R3: Лестничные клетки, вестибюли | ✓ | ✓ | ✗ НГ
+    R4: Потолки | ✓ | ✓ | ✗ НГ
+    R5: Полы | — | — | —
+    R6: Фасады | — | — | —
+  [pos=(3.9,4.5) size=(0.1x0.1)] font=Segoe UI Symbol size=9.84pt bold=None color=E53935
+    Text: ⓘ
+  [pos=(4.1,4.5) size=(5.3x0.1)] font=Liberation Sans size=8.0pt bold=None color=555555
+    Text: Для зданий >17 этажей на путях эвакуации требуются материалы класса НГ (негорючие).
+  [pos=(0.6,5.2) size=(0.2x0.2)] font=Segoe UI Symbol size=15.47pt bold=None color=00A859
+    Text: ◆
+  [pos=(0.9,5.2) size=(8.5x0.2)] font=Liberation Sans size=8.0pt bold=True color=1F4E79
+    Text: Назначение. Специально для потолков. Глубокоматовая, не бликует. Для всех типов жилых и общественных зданий до 17 этажей
+
+================================================================================
+СЛАЙД 4
+================================================================================
+  [pos=(0.4,0.3) size=(0.1x0.1)] font=Segoe UI Symbol size=9.84pt bold=None color=00A859
+    Text: ✦
+  [pos=(0.6,0.3) size=(5.6x0.2)] font=Carlito size=8.0pt bold=None color=555555
+    Text: КАРТОЧКА ПРОДУКТА
+  [pos=(0.4,0.4) size=(6.1x0.3)] font=Carlito size=14.0pt bold=True color=1F4E79
+    Text: ОРЕОЛ ДИСКОНТ моющаяся
+  [pos=(0.4,0.7) size=(5.8x0.2)] font=Liberation Sans size=8.0pt bold=None color=555555
+    Text: Интерьерная моющаяся ВД-краска для кухонь, прихожих, коридоров
+  [pos=(7.4,0.3) size=(2.1x0.1)] font=Carlito size=8.0pt bold=None color=555555
+    Text: КЛАСС ПОЖАРООПАСНОСТИ
+  [pos=(8.1,0.4) size=(1.4x0.1)] font=Courier New size=6.75pt bold=True color=2E7D32
+    Text: КМ1 (Г1, В1, Д1, Т1, РП1)
+  [pos=(7.9,0.5) size=(0.1x0.1)] font=Segoe UI Symbol size=9.84pt bold=None color=2E7D32
+    Text: ⛨
+  [pos=(0.6,1.2) size=(0.1x0.1)] font=Segoe UI Symbol size=11.25pt bold=None color=1F4E79
+    Text: ▤
+  [pos=(0.7,1.2) size=(1.8x0.2)] font=Carlito size=8.0pt bold=True color=1F4E79
+    Text: СЕРТИФИКАТЫ
+  [pos=(0.6,1.4) size=(2.0x0.1)] font=Courier New size=8.0pt bold=None color=1F4E79
+    Text: 2 сертификата:
+  [pos=(0.6,1.6) size=(2.0x0.1)] font=Liberation Sans Narrow size=8.0pt bold=None color=555555
+    Text: RU Д-RU.PA01.B.00164/23
+  [pos=(0.6,1.7) size=(2.0x0.2)] font=Liberation Sans Narrow size=8.0pt bold=None color=555555
+    Text: RU Д-RU.RA01.B.03124/21
+  [pos=(0.6,2.0) size=(0.1x0.1)] font=Segoe UI Symbol size=8.44pt bold=None color=00A859
+    Text: ▦
+  [pos=(0.7,2.0) size=(1.9x0.1)] font=Courier New size=6.0pt bold=None color=00A859
+    Text: Действует до 05.02.2028 / 2026 г.
+  [pos=(0.6,2.5) size=(0.1x0.1)] font=Segoe UI Symbol size=11.25pt bold=None color=1F4E79
+    Text: ◐
+  [pos=(0.7,2.5) size=(1.8x0.2)] font=Carlito size=8.0pt bold=True color=1F4E79
+    Text: ЗОНЫ ПРИМЕНЕНИЯ
+  [pos=(0.6,2.7) size=(0.4x0.2)] font=Liberation Sans size=8.0pt bold=None color=1565C0
+    Text: Кухни
+  [pos=(1.0,2.7) size=(0.5x0.2)] font=Liberation Sans size=8.0pt bold=None color=1565C0
+    Text: Прихожие
+  [pos=(1.5,2.7) size=(0.5x0.2)] font=Liberation Sans size=8.0pt bold=None color=1565C0
+    Text: Коридоры
+  [pos=(2.1,2.7) size=(0.5x0.2)] font=Liberation Sans size=8.0pt bold=None color=1565C0
+    Text: Детские
+  [pos=(0.6,2.9) size=(0.9x0.2)] font=Liberation Sans size=8.0pt bold=None color=1565C0
+    Text: Места общего польз.
+  [pos=(3.0,1.3) size=(0.1x0.1)] font=Segoe UI Symbol size=11.25pt bold=None color=1F4E79
+    Text: ▦
+  [pos=(3.1,1.2) size=(2.8x0.2)] font=Carlito size=8.0pt bold=True color=1F4E79
+    Text: Зона применения по этажности
+  [pos=(8.3,1.3) size=(1.1x0.2)] font=Courier New size=6.0pt bold=None color=555555
+    Text: ФЗ-123 · пути эвакуации
+  TABLE at (3.0, 1.5)
+    R0: Зона применения | ≤9 этажей | 9–17 этажей | >17 этажей
+    R1: Жилые комнаты | ✓ | ✓ | ✓
+    R2: Коридоры, холлы | ✓ | ✓ | ✓
+    R3: Лестничные клетки | ✓ | ✓ | ✗ (НГ)
+    R4: Потолки | ✓ | ✓ | ✗ (НГ)
+    R5: Полы | — | — | —
+    R6: Фасады | — | — | —
+  [pos=(3.0,3.7) size=(0.1x0.1)] font=Segoe UI Symbol size=8.44pt bold=None color=E53935
+    Text: ⊘
+  [pos=(3.1,3.7) size=(6.3x0.1)] font=Liberation Sans size=8.0pt bold=None color=555555
+    Text: В зонах >17 этажей на путях эвакуации — только материалы класса НГ
+  [pos=(0.6,4.2) size=(0.1x0.1)] font=Segoe UI Symbol size=12.66pt bold=None color=00A859
+    Text: ⓘ
+  [pos=(0.8,4.2) size=(8.7x0.1)] font=Liberation Sans size=8.0pt bold=None color=1A1A2E
+    Text: Устойчива к мытью. Для кухонь, прихожих, детских комнат, мест общего пользования.
+
+================================================================================
+СЛАЙД 5
+================================================================================
+  [pos=(0.4,0.3) size=(0.1x0.1)] font=Segoe UI Symbol size=9.84pt bold=None color=00A859
+    Text: ✦
+  [pos=(0.6,0.3) size=(5.6x0.2)] font=Carlito size=8.0pt bold=None color=555555
+    Text: КАРТОЧКА ПРОДУКТА
+  [pos=(0.4,0.4) size=(6.4x0.3)] font=Carlito size=14.0pt bold=True color=1F4E79
+    Text: ОРЕОЛ ДИСКОНТ интерьерная
+  [pos=(0.4,0.7) size=(6.2x0.2)] font=Liberation Sans size=8.0pt bold=None color=555555
+    Text: ВД-краска полиакриловая для внутренних работ
+  [pos=(7.4,0.3) size=(2.1x0.1)] font=Carlito size=8.0pt bold=None color=555555
+    Text: КЛАСС ПОЖАРООПАСНОСТИ
+  [pos=(8.1,0.5) size=(1.4x0.1)] font=Courier New size=6.75pt bold=True color=2E7D32
+    Text: КМ1 (Г1, В1, Д1, Т1, РП1)
+  [pos=(7.9,0.5) size=(0.1x0.1)] font=Segoe UI Symbol size=9.84pt bold=None color=2E7D32
+    Text: ⛨
+  [pos=(0.6,1.2) size=(0.1x0.1)] font=Segoe UI Symbol size=11.25pt bold=None color=1F4E79
+    Text: ▤
+  [pos=(0.7,1.2) size=(1.8x0.2)] font=Carlito size=8.0pt bold=True color=1F4E79
+    Text: СЕРТИФИКАТ
+  [pos=(0.6,1.4) size=(2.0x0.1)] font=Courier New size=8.0pt bold=None color=1F4E79
+    Text: Сертификат:
+  [pos=(0.6,1.6) size=(2.0x0.2)] font=Liberation Sans Narrow size=8.0pt bold=None color=555555
+    Text: RU Д-RU.PA01.B.00164/23
+  [pos=(0.6,1.8) size=(2.0x0.3)] font=Liberation Sans size=8.0pt bold=None color=1A1A2E
+    Text: ОРЕОЛ белая моющаяся
+ВД полиакриловая
+  [pos=(0.6,2.2) size=(0.1x0.1)] font=Segoe UI Symbol size=8.44pt bold=None color=00A859
+    Text: ▦
+  [pos=(0.7,2.2) size=(1.9x0.1)] font=Courier New size=8.0pt bold=None color=00A859
+    Text: Действует до 05.02.2028
+  [pos=(0.6,2.7) size=(0.1x0.1)] font=Segoe UI Symbol size=11.25pt bold=None color=00A859
+    Text: ✓
+  [pos=(0.7,2.6) size=(1.8x0.2)] font=Carlito size=8.0pt bold=True color=2E7D32
+    Text: ПРЕИМУЩЕСТВО КМ1
+  [pos=(0.6,2.8) size=(0.6x0.2)] font=Courier New size=8.0pt bold=True color=1B5E20
+    Text: Д1
+  [pos=(1.2,2.8) size=(0.6x0.2)] font=Courier New size=8.0pt bold=True color=1B5E20
+    Text: Т1
+  [pos=(1.9,2.8) size=(0.6x0.2)] font=Courier New size=8.0pt bold=True color=1B5E20
+    Text: РП1
+  [pos=(0.6,3.1) size=(2.1x0.1)] font=Liberation Sans size=8.0pt bold=None color=555555
+    Text: вместо стандартных Д2 / Т2 / РП2
+  [pos=(3.0,1.3) size=(0.1x0.1)] font=Segoe UI Symbol size=11.25pt bold=None color=1F4E79
+    Text: ▦
+  [pos=(3.1,1.2) size=(2.5x0.2)] font=Carlito size=8.0pt bold=True color=1F4E79
+    Text: Зона применения по этажности
+  [pos=(8.3,1.3) size=(1.1x0.2)] font=Courier New size=6.0pt bold=None color=555555
+    Text: ФЗ-123 · пути эвакуации
+  TABLE at (3.0, 1.5)
+    R0: Зона применения | ≤9 этажей | 9–17 этажей | >17 этажей
+    R1: Жилые комнаты | ✓ | ✓ | ✓
+    R2: Коридоры, холлы | ✓ | ✓ | ✓
+    R3: Лестничные клетки | ✓ | ✓ | ✗ (НГ)
+    R4: Потолки | ✓ | ✓ | ✗ (НГ)
+    R5: Полы | — | — | —
+    R6: Фасады | — | — | —
+  [pos=(3.0,3.7) size=(0.1x0.1)] font=Segoe UI Symbol size=8.44pt bold=None color=E53935
+    Text: ⊘
+  [pos=(3.1,3.7) size=(6.3x0.1)] font=Liberation Sans size=8.0pt bold=None color=555555
+    Text: В зонах >17 этажей на путях эвакуации — только материалы класса НГ
+
+================================================================================
+СЛАЙД 6
+================================================================================
+  [pos=(7.7,0.1) size=(1.3x0.2)] font=Liberation Sans size=6.75pt bold=None color=FFFFFF
+    Text: ЛКМ · ФЗ-123 · Классы КМ
+  [pos=(9.0,0.1) size=(0.6x0.2)] font=Liberation Sans Narrow size=8.0pt bold=None color=FFFFFF
+    Text: 07 / 15
+  [pos=(0.4,0.2) size=(3.6x0.1)] font=Carlito size=8.0pt bold=None color=555555
+    Text: КАРТОЧКА ПРОДУКТА · ФАСАДНАЯ КРАСКА
+  [pos=(0.4,0.4) size=(3.4x0.2)] font=Carlito size=14.0pt bold=True color=1F4E79
+    Text: ОРЕОЛ ДИСКОНТ фасадная
+  [pos=(0.4,0.7) size=(3.5x0.2)] font=Liberation Sans size=8.44pt bold=None color=555555
+    Text: Фасадная ВД-краска для наружных работ
+  [pos=(8.1,0.4) size=(1.5x0.1)] font=Carlito size=8.0pt bold=None color=555555
+    Text: КЛАСС ПОЖАРООПАСНОСТИ
+  [pos=(7.3,0.5) size=(2.4x0.3)] font=Courier New size=8.0pt bold=True color=2E7D32
+    Text: (КМ1) Г1 · В1 · Д2 · Т2 · РП1
+  [pos=(0.6,1.2) size=(0.1x0.1)] font=Segoe UI Symbol size=12.66pt bold=None color=1F4E79
+    Text: ✓
+  [pos=(0.8,1.2) size=(2.6x0.2)] font=Carlito size=8.0pt bold=True color=1F4E79
+    Text: СЕРТИФИКАТ СООТВЕТСТВИЯ
+  [pos=(0.6,1.5) size=(1.4x0.2)] font=Courier New size=8.0pt bold=None color=555555
+    Text: Рег. №:
+  [pos=(2.0,1.5) size=(1.4x0.2)] font=Liberation Sans Narrow size=7.31pt bold=True color=1A1A2E
+    Text: RU Д-RU.RA01.B.03123/21
+  [pos=(0.6,1.6) size=(2.3x0.2)] font=Courier New size=8.0pt bold=None color=555555
+    Text: СТО:
+  [pos=(2.8,1.6) size=(0.6x0.2)] font=Liberation Sans Narrow size=7.31pt bold=True color=1A1A2E
+    Text: 135-2018
+  [pos=(0.6,1.8) size=(2.4x0.2)] font=Courier New size=8.0pt bold=None color=555555
+    Text: Действует до:
+  [pos=(2.9,1.8) size=(0.5x0.2)] font=Liberation Sans Narrow size=7.31pt bold=True color=00A859
+    Text: 2026 г.
+  [pos=(0.6,2.2) size=(2.8x0.3)] font=Liberation Sans size=8.0pt bold=None color=555555
+    Text: Продукт: Краска фасадная СТО 135-2018. Атмосферостойкая, для наружных работ.
+  [pos=(0.6,2.9) size=(0.1x0.1)] font=Segoe UI Symbol size=12.66pt bold=None color=00A859
+    Text: ↗
+  [pos=(0.8,2.9) size=(2.6x0.2)] font=Carlito size=8.0pt bold=True color=2E7D32
+    Text: УЛУЧШЕНИЕ ПО СЕРТИФИКАТУ
+  [pos=(2.5,3.1) size=(0.2x0.1)] font=Courier New size=8.0pt bold=True color=E53935
+    Text: В2
+  [pos=(2.6,3.1) size=(0.1x0.1)] font=Segoe UI Symbol size=11.25pt bold=None color=00A859
+    Text: →
+  [pos=(2.8,3.1) size=(0.2x0.1)] font=Courier New size=8.0pt bold=True color=00A859
+    Text: В1
+  [pos=(0.6,3.3) size=(2.9x0.1)] font=Liberation Sans size=8.0pt bold=None color=555555
+    Text: улучшено по сертификату соответствия
+  [pos=(3.9,1.2) size=(0.1x0.1)] font=Segoe UI Symbol size=12.66pt bold=None color=1F4E79
+    Text: ▥
+  [pos=(4.1,1.2) size=(2.1x0.2)] font=Carlito size=8.0pt bold=True color=1F4E79
+    Text: ЗОНЫ ПРИМЕНЕНИЯ ПО ЭТАЖНОСТИ
+  TABLE at (3.9, 1.5)
+    R0: Зона применения | ≤9 этажей≤28 м | 9–17 этажей28–50 м | >17 этажей>50 м
+    R1: Жилые комнаты (квартиры) | — | — | —
+    R2: Коридоры, холлы, фойе | — | — | —
+    R3: Лестничные клетки, вестибюли | — | — | —
+    R4: Потолки | — | — | —
+    R5: Полы | — | — | —
+    R6: Фасады | ✓ | ✓ | ✓
+  [pos=(3.9,4.4) size=(0.1x0.1)] font=Segoe UI Symbol size=9.84pt bold=None color=FF9800
+    Text: ⓘ
+  [pos=(4.1,4.4) size=(5.3x0.1)] font=Liberation Sans size=8.0pt bold=None color=555555
+    Text: ⚠ «Жилые комнаты» помечены ограничением — продукт предназначен только для наружных фасадов.
+  [pos=(0.6,5.0) size=(0.2x0.2)] font=Segoe UI Symbol size=15.47pt bold=None color=FF9800
+    Text: ⚠
+  [pos=(0.9,5.0) size=(8.5x0.2)] font=Segoe UI Symbol size=8.0pt bold=True color=FF9800
+    Text: ⚠ В2→В1 улучшено по сертификату! Для наружных фасадов зданий любой этажности. Атмосферостойкая.
+
+================================================================================
+СЛАЙД 7
+================================================================================
+  [pos=(8.0,4.3) size=(2.0x1.2)] font=Liberation Sans Narrow size=78.75pt bold=True color=1F4E79
+    Text: 12
+  [pos=(0.5,0.4) size=(0.2x0.2)] font=Segoe UI Symbol size=18.28pt bold=None color=1F4E79
+    Text: ✦
+  [pos=(0.8,0.4) size=(2.9x0.1)] font=Carlito size=7.0pt bold=True color=1F4E79
+    Text: EMPILS · КАТАЛОГ ПРОДУКТОВ
+  [pos=(0.8,0.5) size=(2.6x0.2)] font=Liberation Sans size=6.19pt bold=None color=777777
+    Text: Жилищное строительство · классы пожароопасности по ФЗ-123
+  [pos=(0.7,0.9) size=(8.6x0.1)] font=Courier New size=8.0pt bold=True color=00A859
+    Text: ПОЛЫ
+  [pos=(0.7,1.1) size=(7.7x0.3)] font=Carlito size=14.0pt bold=True color=1F4E79
+    Text: Эмаль для пола акриловая полуматовая
+  [pos=(0.7,1.4) size=(7.5x0.2)] font=Liberation Sans size=9.0pt bold=None color=555555
+    Text: ВД-эмаль для покрытия полов внутри помещений
+  [pos=(7.9,0.9) size=(1.5x0.3)] font=Courier New size=8.0pt bold=True color=2E7D32
+    Text: КМ1 (Г1, В1, Д1, Т1)
+  [pos=(8.2,1.2) size=(1.1x0.2)] font=Liberation Sans size=6.0pt bold=None color=90A4AE
+    Text: Класс пожароопасности
+  [pos=(0.7,1.9) size=(0.1x0.1)] font=Segoe UI Symbol size=12.66pt bold=None color=1F4E79
+    Text: ✓
+  [pos=(0.9,1.9) size=(2.5x0.2)] font=Carlito size=8.0pt bold=True color=1F4E79
+    Text: СЕРТИФИКАТ СООТВЕТСТВИЯ
+  [pos=(0.7,2.1) size=(2.7x0.2)] font=Liberation Sans Narrow size=5.0pt bold=True color=1A1A2E
+    Text: RU Д-RU.PA01.B.00229/22
+  [pos=(0.7,2.3) size=(2.7x0.1)] font=Liberation Sans size=8.0pt bold=None color=555555
+    Text: Действует до 10.02.2027
+  [pos=(0.7,2.8) size=(0.2x0.2)] font=Segoe UI Symbol size=15.47pt bold=None color=2E7D32
+    Text: ✓
+  [pos=(0.9,2.8) size=(2.5x0.2)] font=Carlito size=8.0pt bold=True color=2E7D32
+    Text: КМ1 — ЛУЧШИЙ КЛАСС ДЛЯ ПОЛОВ
+  [pos=(0.7,3.1) size=(2.7x0.5)] font=Liberation Sans size=8.0pt bold=None color=1A1A2E
+    Text: Класс КМ1 — лучший показатель для половой эмали. Для полов в жилых и общественных зданиях до 17 этажей.
+  [pos=(0.7,4.2) size=(0.1x0.1)] font=Segoe UI Symbol size=9.84pt bold=None color=2E7D32
+    Text: ✦
+  [pos=(0.9,4.2) size=(2.5x0.1)] font=Liberation Sans size=8.0pt bold=None color=555555
+    Text: Высокая износостойкость · полуматовое покрытие
+  [pos=(3.8,1.9) size=(0.1x0.1)] font=Segoe UI Symbol size=12.66pt bold=None color=1F4E79
+    Text: ▥
+  [pos=(4.0,1.9) size=(3.2x0.2)] font=Carlito size=8.0pt bold=True color=1F4E79
+    Text: ЗОНЫ ПРИМЕНЕНИЯ ПО ЭТАЖНОСТИ
+  [pos=(8.2,2.0) size=(1.2x0.2)] font=Liberation Sans size=6.0pt bold=None color=90A4AE
+    Text: ФЗ-123 · ПУТИ ЭВАКУАЦИИ
+  TABLE at (3.8, 2.2)
+    R0: Зона применения | ≤ 9 этажей | 9–17 этажей | > 17 этажей
+    R1: Жилые комнаты | — | — | —
+    R2: Коридоры, холлы | — | — | —
+    R3: Лестничные клетки | — | — | —
+    R4: Потолки | — | — | —
+    R5: Полы | ✓ | ✓ | ✗ (НГ)
+    R6: Фасады | — | — | —
+  [pos=(3.8,4.2) size=(0.6x0.1)] font=Liberation Sans size=8.0pt bold=None color=555555
+    Text: Можно
+  [pos=(4.3,4.2) size=(0.9x0.1)] font=Liberation Sans size=8.0pt bold=None color=555555
+    Text: С ограничениями
+  [pos=(5.1,4.2) size=(0.5x0.1)] font=Liberation Sans size=8.0pt bold=None color=555555
+    Text: Нельзя
+  [pos=(5.6,4.2) size=(3.8x0.1)] font=Liberation Sans size=8.0pt bold=None color=555555
+    Text: Не применяется
+
+================================================================================
+СЛАЙД 8
+================================================================================
+  [pos=(8.0,4.3) size=(2.0x1.2)] font=Liberation Sans Narrow size=78.75pt bold=True color=1F4E79
+    Text: 15
+  [pos=(0.5,0.4) size=(0.2x0.2)] font=Segoe UI Symbol size=18.28pt bold=None color=1F4E79
+    Text: ✦
+  [pos=(0.8,0.4) size=(2.9x0.1)] font=Carlito size=7.0pt bold=True color=1F4E79
+    Text: EMPILS · КАТАЛОГ ПРОДУКТОВ
+  [pos=(0.8,0.5) size=(2.6x0.2)] font=Liberation Sans size=6.19pt bold=None color=777777
+    Text: Жилищное строительство · классы пожароопасности по ФЗ-123
+  [pos=(0.7,0.9) size=(7.6x0.1)] font=Courier New size=8.0pt bold=True color=00A859
+    Text: ИНТЕРЬЕР · СТЕНЫ И ПОТОЛКИ
+  [pos=(0.7,1.1) size=(7.3x0.3)] font=Carlito size=14.0pt bold=True color=1F4E79
+    Text: Краска интерьерная моющаяся
+  [pos=(0.7,1.4) size=(6.7x0.2)] font=Liberation Sans size=9.0pt bold=None color=555555
+    Text: ВД-краска СТО 05744283-134-2018. Для стен и потолков.
+  [pos=(7.6,0.9) size=(1.8x0.3)] font=Courier New size=8.0pt bold=True color=2E7D32
+    Text: КМ1 (Г1, В1, Д2, Т2, РП1)
+  [pos=(8.2,1.2) size=(1.1x0.2)] font=Liberation Sans size=6.0pt bold=None color=90A4AE
+    Text: Класс пожароопасности
+  [pos=(0.7,1.9) size=(0.1x0.1)] font=Segoe UI Symbol size=12.66pt bold=None color=1F4E79
+    Text: ✓
+  [pos=(0.9,1.9) size=(2.5x0.2)] font=Carlito size=8.0pt bold=True color=1F4E79
+    Text: СЕРТИФИКАТ СООТВЕТСТВИЯ
+  [pos=(0.7,2.1) size=(2.7x0.2)] font=Liberation Sans Narrow size=6.0pt bold=True color=1A1A2E
+    Text: RU Д-RU.RA01.B.03124/21
+  [pos=(0.7,2.3) size=(2.7x0.1)] font=Liberation Sans size=8.0pt bold=None color=555555
+    Text: Действует до 2026 г.
+  [pos=(0.7,2.8) size=(0.2x0.2)] font=Segoe UI Symbol size=15.47pt bold=None color=2E7D32
+    Text: ◐
+  [pos=(0.9,2.8) size=(2.5x0.2)] font=Carlito size=8.0pt bold=True color=2E7D32
+    Text: КМ1 · МОЮЩАЯСЯ · ИЗНОСОСТОЙКАЯ
+  [pos=(0.7,3.1) size=(2.7x0.5)] font=Liberation Sans size=8.0pt bold=None color=1A1A2E
+    Text: Класс КМ1. Для стен и потолков в жилых и общественных зданиях до 17 этажей. Моющаяся, устойчивая к истиранию.
+  [pos=(0.8,3.7) size=(1.1x0.1)] font=Liberation Sans size=8.0pt bold=None color=777777
+    Text: СТО
+  [pos=(0.8,3.8) size=(1.1x0.2)] font=Liberation Sans Narrow size=6.75pt bold=True color=1F4E79
+    Text: 05744283-134-2018
+  [pos=(2.2,3.7) size=(1.1x0.1)] font=Liberation Sans size=8.0pt bold=None color=777777
+    Text: Свойство
+  [pos=(2.2,3.8) size=(1.1x0.2)] font=Courier New size=8.0pt bold=True color=1F4E79
+    Text: Моющаяся
+  [pos=(3.8,1.9) size=(0.1x0.1)] font=Segoe UI Symbol size=12.66pt bold=None color=1F4E79
+    Text: ▥
+  [pos=(4.0,1.9) size=(3.2x0.2)] font=Carlito size=8.0pt bold=True color=1F4E79
+    Text: ЗОНЫ ПРИМЕНЕНИЯ ПО ЭТАЖНОСТИ
+  [pos=(8.2,2.0) size=(1.2x0.2)] font=Liberation Sans size=6.0pt bold=None color=90A4AE
+    Text: ФЗ-123 · ПУТИ ЭВАКУАЦИИ
+  TABLE at (3.8, 2.2)
+    R0: Зона применения | ≤ 9 этажей | 9–17 этажей | > 17 этажей
+    R1: Жилые комнаты | ✓ | ✓ | ✓
+    R2: Коридоры, холлы | ✓ | ✓ | ✓
+    R3: Лестничные клетки | ✓ | ✓ | ✗ (НГ)
+    R4: Потолки | ✓ | ✓ | ✗ (НГ)
+    R5: Полы | — | — | —
+    R6: Фасады | — | — | —
+  [pos=(3.8,4.2) size=(0.6x0.1)] font=Liberation Sans size=8.0pt bold=None color=555555
+    Text: Можно
+  [pos=(4.3,4.2) size=(0.9x0.1)] font=Liberation Sans size=8.0pt bold=None color=555555
+    Text: С ограничениями
+  [pos=(5.1,4.2) size=(0.5x0.1)] font=Liberation Sans size=8.0pt bold=None color=555555
+    Text: Нельзя
+  [pos=(5.6,4.2) size=(3.8x0.1)] font=Liberation Sans size=8.0pt bold=None color=555555
+    Text: Не применяется
+
+================================================================================
+СЛАЙД 9
+================================================================================
+  [pos=(0.4,0.1) size=(0.1x0.1)] font=Segoe UI Symbol size=12.66pt bold=None color=FFFFFF
+    Text: ▤
+  [pos=(0.7,0.1) size=(3.1x0.2)] font=Carlito size=8.0pt bold=None color=FFFFFF
+    Text: КАТАЛОГ ЭМПИЛС · ЖИЛИЩНОЕ СТРОИТЕЛЬСТВО
+  [pos=(7.7,0.1) size=(1.3x0.2)] font=Liberation Sans size=6.75pt bold=None color=FFFFFF
+    Text: ЛКМ · ФЗ-123 · Классы КМ
+  [pos=(9.0,0.1) size=(0.6x0.2)] font=Liberation Sans Narrow size=8.0pt bold=None color=FFFFFF
+    Text: 09 / 15
+  [pos=(0.4,0.5) size=(4.7x0.1)] font=Carlito size=8.0pt bold=None color=555555
+    Text: КАРТОЧКА ПРОДУКТА · ЭМАЛЬ ГЛЯНЦЕВАЯ
+  [pos=(0.4,0.7) size=(4.6x0.2)] font=Carlito size=14.0pt bold=True color=1F4E79
+    Text: Эмаль акриловая глянцевая ОРЕОЛ
+  [pos=(0.4,1.0) size=(4.2x0.2)] font=Liberation Sans size=8.44pt bold=None color=555555
+    Text: ВД-эмаль для внутренней отделки. Дерево, металл, ДСП, МДФ.
+  [pos=(8.1,0.7) size=(1.5x0.1)] font=Carlito size=8.0pt bold=None color=555555
+    Text: КЛАСС ПОЖАРООПАСНОСТИ
+  [pos=(8.2,0.8) size=(1.4x0.3)] font=Courier New size=8.0pt bold=True color=2E7D32
+    Text: Г1 · В1 · Д1 · Т1
+  [pos=(0.6,1.5) size=(0.1x0.1)] font=Segoe UI Symbol size=12.66pt bold=None color=1F4E79
+    Text: ✓
+  [pos=(0.8,1.5) size=(2.6x0.2)] font=Carlito size=8.0pt bold=True color=1F4E79
+    Text: СЕРТИФИКАТ СООТВЕТСТВИЯ
+  [pos=(0.6,1.8) size=(1.4x0.2)] font=Courier New size=8.0pt bold=None color=555555
+    Text: Рег. № ДС:
+  [pos=(2.0,1.8) size=(1.4x0.2)] font=Liberation Sans Narrow size=7.31pt bold=True color=1A1A2E
+    Text: RU Д-RU.PA01.B.01134/26
+  [pos=(0.6,1.9) size=(2.2x0.2)] font=Courier New size=8.0pt bold=None color=555555
+    Text: Действует до:
+  [pos=(2.7,1.9) size=(0.7x0.2)] font=Liberation Sans Narrow size=7.31pt bold=True color=00A859
+    Text: 24.05.2031
+  [pos=(0.6,2.3) size=(2.8x0.3)] font=Liberation Sans size=8.0pt bold=None color=555555
+    Text: Декларация соответствия подтверждает классы пожаробезопасности по ФЗ-123.
+  [pos=(0.6,3.0) size=(0.1x0.1)] font=Segoe UI Symbol size=12.66pt bold=None color=00A859
+    Text: ♛
+  [pos=(0.8,3.1) size=(2.6x0.2)] font=Carlito size=8.0pt bold=True color=2E7D32
+    Text: ЛУЧШИЕ ПОКАЗАТЕЛИ СРЕДИ ЭМАЛЕЙ
+  [pos=(0.6,3.2) size=(2.8x0.4)] font=Liberation Sans size=8.0pt bold=None color=1A1A2E
+    Text: Д1 / Т1 — малодымообразующие и малотоксичные. Превосходит матовую версию (Д2/Т2).
+  [pos=(3.9,1.5) size=(0.1x0.1)] font=Segoe UI Symbol size=12.66pt bold=None color=1F4E79
+    Text: ▥
+  [pos=(4.1,1.5) size=(2.1x0.2)] font=Carlito size=8.0pt bold=True color=1F4E79
+    Text: ЗОНЫ ПРИМЕНЕНИЯ ПО ЭТАЖНОСТИ
+  TABLE at (3.9, 1.8)
+    R0: Зона применения | ≤9 этажей≤28 м | 9–17 этажей28–50 м | >17 этажей>50 м
+    R1: Жилые комнаты (квартиры) | ✓ | ✓ | ✓
+    R2: Коридоры, холлы, фойе | ✓ | ✓ | ✓
+    R3: Лестничные клетки, вестибюли | ✓ | ✓ | ✗ НГ
+    R4: Потолки | — | — | —
+    R5: Полы | — | — | —
+    R6: Фасады | — | — | —
+  [pos=(3.9,4.7) size=(0.1x0.1)] font=Segoe UI Symbol size=9.84pt bold=None color=E53935
+    Text: ⓘ
+  [pos=(4.1,4.7) size=(5.3x0.1)] font=Liberation Sans size=8.0pt bold=None color=555555
+    Text: Для зданий >17 этажей на путях эвакуации требуются материалы класса НГ (негорючие).
+  [pos=(0.6,5.2) size=(0.2x0.2)] font=Segoe UI Symbol size=15.47pt bold=None color=00A859
+    Text: ◆
+  [pos=(0.9,5.2) size=(8.5x0.2)] font=Liberation Sans size=8.0pt bold=True color=1F4E79
+    Text: Назначение. Лучшие показатели среди эмалей: Д1/Т1. Для деревянных и металлических поверхностей внутри помещений.
+
+================================================================================
+СЛАЙД 10
+================================================================================
+  [pos=(0.4,0.3) size=(0.1x0.1)] font=Segoe UI Symbol size=9.84pt bold=None color=00A859
+    Text: ✦
+  [pos=(0.6,0.3) size=(5.6x0.2)] font=Carlito size=8.0pt bold=None color=555555
+    Text: КАРТОЧКА ПРОДУКТА
+  [pos=(0.4,0.5) size=(7.4x0.3)] font=Carlito size=14.0pt bold=True color=1F4E79
+    Text: NEWTONE
+  [pos=(7.9,0.4) size=(1.7x0.1)] font=Carlito size=8.0pt bold=None color=555555
+    Text: КЛАСС ПОЖАРООПАСНОСТИ
+  [pos=(8.4,0.6) size=(1.1x0.1)] font=Courier New size=6.75pt bold=True color=1565C0
+    Text: Г1, В1, Д2, Т2, РП1
+  [pos=(8.2,0.6) size=(0.1x0.1)] font=Segoe UI Symbol size=9.84pt bold=None color=1565C0
+    Text: ⛨
+  [pos=(0.6,1.4) size=(0.1x0.1)] font=None size=11.25pt bold=None color=1F4E79
+    Text: ▤
+  [pos=(0.7,1.4) size=(1.8x0.2)] font=None size=8.0pt bold=True color=1F4E79
+    Text: СЕРТИФИКАТЫ
+  [pos=(0.6,1.6) size=(2.0x0.1)] font=None size=7.0pt bold=None color=1F4E79
+    Text: 4 сертификата:
+  [pos=(0.6,1.8) size=(2.0x0.1)] font=None size=9.0pt bold=None color=555555
+    Text: RU Д-RU.PA01.B.00924/23
+  [pos=(0.6,1.9) size=(2.0x0.1)] font=None size=9.0pt bold=None color=555555
+    Text: RU Д-RU.PA01.B.00925/23
+  [pos=(0.6,2.1) size=(2.0x0.1)] font=None size=9.0pt bold=None color=555555
+    Text: RU Д-RU.PA01.B.00923/23
+  [pos=(0.6,2.3) size=(2.0x0.2)] font=None size=9.0pt bold=None color=555555
+    Text: RU Д-RU.RA01.B.00926/23
+  [pos=(0.6,2.5) size=(0.1x0.1)] font=None size=8.44pt bold=None color=00A859
+    Text: ▦
+  [pos=(0.7,2.5) size=(1.9x0.1)] font=None size=8.0pt bold=None color=00A859
+    Text: Действует до 19.06.2028
+  [pos=(0.6,3.0) size=(0.1x0.1)] font=None size=11.25pt bold=None color=1F4E79
+    Text: ✦
+  [pos=(0.7,3.0) size=(1.8x0.2)] font=None size=8.0pt bold=True color=1F4E79
+    Text: МОДИФИКАЦИИ
+  [pos=(0.7,3.2) size=(0.5x0.1)] font=None size=6.0pt bold=None color=1565C0
+    Text: INTERIO
+  [pos=(0.6,3.2) size=(0.1x0.1)] font=None size=8.44pt bold=None color=1565C0
+    Text: ●
+  [pos=(1.8,3.2) size=(0.4x0.1)] font=None size=6.0pt bold=None color=1565C0
+    Text: LOTUS 3
+  [pos=(1.6,3.2) size=(0.1x0.1)] font=None size=8.44pt bold=None color=1565C0
+    Text: ●
+  [pos=(0.7,3.5) size=(0.4x0.1)] font=None size=6.0pt bold=None color=1565C0
+    Text: LOTUS 7
+  [pos=(0.6,3.5) size=(0.1x0.1)] font=None size=8.44pt bold=None color=1565C0
+    Text: ●
+  [pos=(1.8,3.5) size=(0.5x0.1)] font=None size=6.0pt bold=None color=1565C0
+    Text: LOTUS 20
+  [pos=(1.6,3.5) size=(0.1x0.1)] font=None size=8.44pt bold=None color=1565C0
+    Text: ●
+  [pos=(3.0,1.5) size=(0.1x0.1)] font=None size=11.25pt bold=None color=1F4E79
+    Text: ▦
+  [pos=(3.1,1.4) size=(2.7x0.2)] font=None size=8.0pt bold=True color=1F4E79
+    Text: Зона применения по этажности
+  [pos=(8.3,1.5) size=(1.1x0.2)] font=None size=6.0pt bold=None color=555555
+    Text: ФЗ-123 · пути эвакуации
+  TABLE at (3.0, 1.7)
+    R0: Зона применения | ≤9 этажей | 9–17 этажей | >17 этажей
+    R1: Жилые комнаты (квартиры) | ✓ | ✓ | ✓
+    R2: Коридоры, холлы, фойе | ✓ | ✓ | ✓
+    R3: Лестничные клетки, вестибюли | ✓ | ✓ | ✗ (только НГ)
+    R4: Потолки | ✓ | ✓ | ✗ (только НГ)
+    R5: Полы | — | — | —
+    R6: Фасады | — | — | —
+  [pos=(3.0,3.9) size=(0.1x0.1)] font=None size=8.44pt bold=None color=E53935
+    Text: ⊘
+  [pos=(3.1,3.9) size=(6.3x0.1)] font=None size=8.0pt bold=None color=555555
+    Text: В зонах >17 этажей на путях эвакуации — только материалы класса НГ
+  [pos=(0.6,4.5) size=(0.1x0.1)] font=Segoe UI Symbol size=12.66pt bold=None color=1F4E79
+    Text: ⓘ
+  [pos=(0.8,4.5) size=(8.7x0.1)] font=Liberation Sans size=8.0pt bold=None color=1A1A2E
+    Text: Премиальная интерьерная ВД-краска. Стены и потолки жилых, общественных, офисных помещений.
+
+================================================================================
+СЛАЙД 11
+================================================================================
+  [pos=(7.7,0.1) size=(1.3x0.2)] font=Liberation Sans size=6.75pt bold=None color=FFFFFF
+    Text: ЛКМ · ФЗ-123 · Классы КМ
+  [pos=(9.0,0.1) size=(0.6x0.2)] font=Liberation Sans Narrow size=8.0pt bold=None color=FFFFFF
+    Text: 08 / 15
+  [pos=(0.4,0.6) size=(5.1x0.1)] font=Carlito size=8.0pt bold=None color=555555
+    Text: КАРТОЧКА ПРОДУКТА · ЭМАЛЬ ДЛЯ РАДИАТОРОВ
+  [pos=(0.4,0.7) size=(5.0x0.2)] font=Carlito size=14.0pt bold=True color=1F4E79
+    Text: Эмаль для радиаторов акриловая ОРЕОЛ
+  [pos=(0.4,1.0) size=(4.6x0.2)] font=Liberation Sans size=8.44pt bold=None color=555555
+    Text: Акриловая ВД-эмаль для радиаторов отопления, труб, металлических элементов
+  [pos=(8.1,0.5) size=(1.5x0.1)] font=Carlito size=8.0pt bold=None color=555555
+    Text: КЛАСС ПОЖАРООПАСНОСТИ
+  [pos=(7.7,0.7) size=(1.8x0.3)] font=Courier New size=8.0pt bold=True color=E65100
+    Text: Г1 · В1 · Д2 · Т2 · РП1*
+  [pos=(7.8,1.0) size=(1.9x0.1)] font=Liberation Sans size=8.0pt bold=None color=555555
+    Text: * По типичным показателям ВД-эмалей
+  [pos=(0.6,1.6) size=(0.1x0.1)] font=Segoe UI Symbol size=12.66pt bold=None color=FF9800
+    Text: ⚠
+  [pos=(0.8,1.6) size=(2.6x0.2)] font=Carlito size=8.0pt bold=True color=E65100
+    Text: ⚠ ДС В БАЗЕ ЗНАНИЙ ОТСУТСТВУЕТ
+  [pos=(0.6,1.8) size=(1.9x0.2)] font=Courier New size=8.0pt bold=None color=555555
+    Text: Рег. № ДС:
+  [pos=(2.5,1.8) size=(0.9x0.2)] font=Courier New size=8.0pt bold=True color=E53935
+    Text: — нет в базе —
+  [pos=(0.6,2.1) size=(2.8x0.3)] font=Liberation Sans size=8.0pt bold=None color=555555
+    Text: Имеется ПБ: «ПБ Эмаль для радиаторов СТО 012-2011.pdf».
+Запросите ДС у производителя.
+  [pos=(0.6,2.8) size=(0.1x0.1)] font=Segoe UI Symbol size=12.66pt bold=None color=1F4E79
+    Text: ✦
+  [pos=(0.8,2.8) size=(2.6x0.2)] font=Carlito size=8.0pt bold=True color=1F4E79
+    Text: ТИП ПРОДУКТА
+  [pos=(0.6,3.0) size=(2.8x0.5)] font=Liberation Sans size=8.0pt bold=None color=1A1A2E
+    Text: Термостойкая акриловая водно-дисперсионная эмаль. Применяется для радиаторов, труб отопления и металлических элементов в
+  [pos=(3.9,1.6) size=(0.1x0.1)] font=Segoe UI Symbol size=12.66pt bold=None color=1F4E79
+    Text: ▥
+  [pos=(4.1,1.6) size=(2.6x0.2)] font=Carlito size=8.0pt bold=True color=1F4E79
+    Text: ЗОНЫ ПРИМЕНЕНИЯ ПО ЭТАЖНОСТИ
+  TABLE at (3.9, 1.8)
+    R0: Зона применения | ≤9 этажей≤28 м | 9–17 этажей28–50 м | >17 этажей>50 м
+    R1: Жилые комнаты (квартиры) | ✓ | ✓ | ✓
+    R2: Коридоры, холлы, фойе | ✓ | ✓ | ✓
+    R3: Лестничные клетки, вестибюли | ✓ | ✓ | ✓
+    R4: Потолки | — | — | —
+    R5: Полы | — | — | —
+    R6: Фасады | — | — | —
+  [pos=(3.9,4.7) size=(0.1x0.1)] font=Segoe UI Symbol size=9.84pt bold=None color=00A859
+    Text: ✓
+  [pos=(4.1,4.7) size=(5.3x0.1)] font=Liberation Sans size=8.0pt bold=None color=555555
+    Text: Допускается во всех типах жилых и общественных зданий независимо от этажности.
+  [pos=(0.6,5.2) size=(0.2x0.2)] font=Segoe UI Symbol size=15.47pt bold=None color=00A859
+    Text: ◆
+  [pos=(0.9,5.2) size=(8.5x0.2)] font=Liberation Sans size=8.0pt bold=True color=1F4E79
+    Text: Назначение. Термостойкая. Для радиаторов и труб отопления во всех типах зданий.
+
+================================================================================
+СЛАЙД 12
+================================================================================
+  [pos=(8.0,4.3) size=(2.0x1.2)] font=Liberation Sans Narrow size=78.75pt bold=True color=00A859
+    Text: 13
+  [pos=(0.5,0.4) size=(0.2x0.2)] font=Segoe UI Symbol size=18.28pt bold=None color=1F4E79
+    Text: ✦
+  [pos=(0.8,0.4) size=(2.9x0.1)] font=Carlito size=7.0pt bold=True color=1F4E79
+    Text: EMPILS · КАТАЛОГ ПРОДУКТОВ
+  [pos=(0.7,0.9) size=(8.0x0.1)] font=Courier New size=8.0pt bold=True color=00A859
+    Text: ОГНЕЗАЩИТА ДРЕВЕСИНЫ
+  [pos=(0.7,1.1) size=(7.4x0.3)] font=Carlito size=14.0pt bold=True color=1F4E79
+    Text: Раствор водный ББ-11
+  [pos=(0.7,1.4) size=(7.0x0.2)] font=Liberation Sans size=9.0pt bold=None color=555555
+    Text: Огнезащитная пропитка для древесины. ПОВЫШАЕТ класс пожаробезопасности.
+  [pos=(8.0,0.9) size=(1.4x0.3)] font=Courier New size=8.0pt bold=True color=2E7D32
+    Text: Г1, В1, Д1, Т1, РП1
+  [pos=(8.2,1.2) size=(1.1x0.2)] font=Liberation Sans size=6.0pt bold=None color=90A4AE
+    Text: Лучший возможный класс
+  [pos=(0.7,1.9) size=(0.1x0.1)] font=Segoe UI Symbol size=12.66pt bold=None color=1F4E79
+    Text: ✓
+  [pos=(0.9,1.9) size=(2.5x0.2)] font=Carlito size=8.0pt bold=True color=1F4E79
+    Text: СЕРТИФИКАТ СООТВЕТСТВИЯ
+  [pos=(0.7,2.1) size=(2.8x0.2)] font=Liberation Sans Narrow size=8.0pt bold=True color=1A1A2E
+    Text: ЕАЭС RU C-RU.ПБ68.В.02464/26
+  [pos=(0.7,2.3) size=(2.8x0.1)] font=Liberation Sans size=8.0pt bold=None color=555555
+    Text: ТР ЕАЭС 043-2017 · до 29.03.2031
+  [pos=(3.8,1.9) size=(0.1x0.1)] font=Segoe UI Symbol size=12.66pt bold=None color=1F4E79
+    Text: ▥
+  [pos=(4.0,1.9) size=(3.1x0.2)] font=Carlito size=8.0pt bold=True color=1F4E79
+    Text: ЗОНЫ ПРИМЕНЕНИЯ ПО ЭТАЖНОСТИ
+  [pos=(8.6,2.0) size=(0.8x0.2)] font=Liberation Sans size=8.0pt bold=None color=90A4AE
+    Text: ПОСЛЕ ПРОПИТКИ
+  TABLE at (3.8, 2.2)
+    R0: Зона применения | ≤ 9 этажей | 9–17 этажей | > 17 этажей
+    R1: Деревянные конструкции | ✓ | ✓ | ✓
+    R2: ДСП, МДФ, фанера | ✓ | ✓ | ✓
+    R3: Все зоны (после пропитки) | ✓ | ✓ | ✓
+  [pos=(3.9,3.6) size=(0.2x0.2)] font=Segoe UI Symbol size=16.88pt bold=None color=2E7D32
+    Text: ⛨
+  [pos=(4.2,3.5) size=(5.1x0.1)] font=Carlito size=5.0pt bold=True color=2E7D32
+    Text: Подходит для всех типов зданий, включая >17 этажей
+  [pos=(4.2,3.7) size=(5.1x0.1)] font=Liberation Sans size=8.0pt bold=None color=1A1A2E
+    Text: После обработки древесина приобретает высший класс пожаробезопасности
+
+================================================================================
+СЛАЙД 13
+================================================================================
+  [pos=(8.0,4.3) size=(2.0x1.2)] font=Liberation Sans Narrow size=78.75pt bold=True color=1F4E79
+    Text: 14
+  [pos=(0.5,0.4) size=(0.2x0.2)] font=Segoe UI Symbol size=18.28pt bold=None color=1F4E79
+    Text: ✦
+  [pos=(0.8,0.4) size=(2.9x0.1)] font=Carlito size=7.0pt bold=True color=1F4E79
+    Text: EMPILS · КАТАЛОГ ПРОДУКТОВ
+  [pos=(0.8,0.5) size=(2.6x0.2)] font=Liberation Sans size=6.19pt bold=None color=777777
+    Text: Жилищное строительство · классы пожароопасности по ФЗ-123
+  [pos=(0.7,0.9) size=(7.9x0.1)] font=Courier New size=8.0pt bold=True color=00A859
+    Text: ЭПОКСИДНЫЕ ПОЛЫ
+  [pos=(0.7,1.1) size=(7.7x0.3)] font=Carlito size=14.0pt bold=True color=1F4E79
+    Text: Компаунд эпоксидный EMPILS E 608
+  [pos=(0.7,1.4) size=(7.0x0.2)] font=Liberation Sans size=9.0pt bold=None color=555555
+    Text: Эпоксидное покрытие для полов. Высокая износостойкость.
+  [pos=(8.0,0.9) size=(1.4x0.3)] font=Courier New size=8.0pt bold=True color=2E7D32
+    Text: Г1, В1, Д1, Т1, РП1
+  [pos=(8.2,1.2) size=(1.1x0.2)] font=Liberation Sans size=6.0pt bold=None color=90A4AE
+    Text: Лучший возможный класс
+  [pos=(0.7,1.9) size=(0.1x0.1)] font=Segoe UI Symbol size=12.66pt bold=None color=1F4E79
+    Text: ✓
+  [pos=(0.9,1.9) size=(2.5x0.2)] font=Carlito size=8.0pt bold=True color=1F4E79
+    Text: СЕРТИФИКАТ СООТВЕТСТВИЯ
+  [pos=(0.7,2.1) size=(2.7x0.2)] font=Liberation Sans Narrow size=8.0pt bold=True color=1A1A2E
+    Text: RU C-RU.ПБ68.В.02055/24
+  [pos=(0.7,2.3) size=(2.7x0.1)] font=Liberation Sans size=8.0pt bold=None color=555555
+    Text: ТР № 123-ФЗ · до 27.10.2029
+  [pos=(0.7,2.8) size=(0.2x0.2)] font=Segoe UI Symbol size=15.47pt bold=None color=2E7D32
+    Text: ♛
+  [pos=(0.9,2.8) size=(2.5x0.2)] font=Carlito size=8.0pt bold=True color=2E7D32
+    Text: ЛУЧШИЙ КЛАСС ДЛЯ ПОЛОВ
+  [pos=(0.7,3.1) size=(2.7x0.7)] font=Liberation Sans size=8.0pt bold=True color=2E7D32
+    Text: Лучший класс пожаробезопасности для полового покрытия. Эпоксидный компаунд для высоконагруженных полов в жилых и обществ
+  [pos=(0.8,3.8) size=(1.1x0.1)] font=Liberation Sans size=8.0pt bold=None color=777777
+    Text: Тип
+  [pos=(0.8,3.9) size=(1.1x0.2)] font=Courier New size=8.0pt bold=True color=1F4E79
+    Text: Эпоксидный
+  [pos=(2.2,3.8) size=(1.1x0.1)] font=Liberation Sans size=8.0pt bold=None color=777777
+    Text: Применение
+  [pos=(2.2,3.9) size=(1.1x0.2)] font=Courier New size=8.0pt bold=True color=1F4E79
+    Text: Высок. нагрузка
+  [pos=(3.8,1.9) size=(0.1x0.1)] font=Segoe UI Symbol size=12.66pt bold=None color=1F4E79
+    Text: ▥
+  [pos=(4.0,1.9) size=(3.0x0.2)] font=Carlito size=8.0pt bold=True color=1F4E79
+    Text: ЗОНЫ ПРИМЕНЕНИЯ ПО ЭТАЖНОСТИ
+  [pos=(8.2,2.0) size=(1.2x0.2)] font=Liberation Sans size=6.0pt bold=None color=90A4AE
+    Text: ФЗ-123 · ПУТИ ЭВАКУАЦИИ
+  TABLE at (3.8, 2.2)
+    R0: Зона применения | ≤ 9 этажей | 9–17 этажей | > 17 этажей
+    R1: Жилые комнаты | — | — | —
+    R2: Коридоры, холлы | — | — | —
+    R3: Лестничные клетки | — | — | —
+    R4: Потолки | — | — | —
+    R5: Полы | ✓ | ✓ | ✗ (НГ)
+    R6: Фасады | — | — | —
+  [pos=(3.8,4.2) size=(0.6x0.1)] font=Liberation Sans size=8.0pt bold=None color=555555
+    Text: Можно
+  [pos=(4.3,4.2) size=(0.9x0.1)] font=Liberation Sans size=8.0pt bold=None color=555555
+    Text: С ограничениями
+  [pos=(5.1,4.2) size=(0.5x0.1)] font=Liberation Sans size=8.0pt bold=None color=555555
+    Text: Нельзя
+  [pos=(5.6,4.2) size=(3.8x0.1)] font=Liberation Sans size=8.0pt bold=None color=555555
+    Text: Не применяется
+
+================================================================================
+СЛАЙД 14
+================================================================================
+  [pos=(0.4,0.4) size=(4.4x0.1)] font=Carlito size=8.0pt bold=None color=555555
+    Text: КАРТОЧКА ПРОДУКТА · ЭМАЛЬ МАТОВАЯ ⚠
+  [pos=(0.4,0.5) size=(4.4x0.2)] font=Carlito size=7.0pt bold=True color=1F4E79
+    Text: Эмаль акриловая матовая ОРЕОЛ
+  [pos=(0.4,0.8) size=(4.0x0.2)] font=Liberation Sans size=8.44pt bold=None color=555555
+    Text: ВД-эмаль для внутренней отделки. ВНИМАНИЕ: класс В2!
+  [pos=(8.1,0.5) size=(1.5x0.1)] font=Carlito size=8.0pt bold=None color=555555
+    Text: КЛАСС ПОЖАРООПАСНОСТИ
+  [pos=(8.2,0.7) size=(1.4x0.3)] font=Courier New size=8.0pt bold=True color=E65100
+    Text: Г1 · В2 · Д2 · Т2
+  [pos=(0.6,1.4) size=(0.1x0.1)] font=Segoe UI Symbol size=12.66pt bold=None color=FF9800
+    Text: ⚠
+  [pos=(0.8,1.4) size=(2.6x0.2)] font=Carlito size=8.0pt bold=True color=E65100
+    Text: ⚠ СЕРТИФИКАТ · ВНИМАНИЕ
+  [pos=(0.6,1.6) size=(1.4x0.2)] font=Courier New size=8.0pt bold=None color=555555
+    Text: Рег. № ДС:
+  [pos=(2.0,1.6) size=(1.4x0.2)] font=Liberation Sans Narrow size=7.31pt bold=True color=1A1A2E
+    Text: RU Д-RU.RA01.B.00950/26
+  [pos=(0.6,1.8) size=(2.2x0.2)] font=Courier New size=8.0pt bold=None color=555555
+    Text: Действует до:
+  [pos=(2.7,1.8) size=(0.7x0.2)] font=Liberation Sans Narrow size=7.31pt bold=True color=00A859
+    Text: 20.05.2031
+  [pos=(0.6,2.2) size=(0.1x0.1)] font=Segoe UI Symbol size=11.25pt bold=None color=E53935
+    Text: ⊗
+  [pos=(0.8,2.2) size=(2.6x0.1)] font=Liberation Sans size=8.0pt bold=True color=E53935
+    Text: ВНИМАНИЕ: ДС отсутствует в базе знаний!
+  [pos=(0.6,2.8) size=(0.1x0.1)] font=Segoe UI Symbol size=12.66pt bold=None color=E53935
+    Text: ⊘
+  [pos=(0.8,2.8) size=(2.6x0.2)] font=Carlito size=8.0pt bold=True color=B71C1C
+    Text: КЛАСС В2 — ОГРАНИЧЕНИЕ
+  [pos=(0.6,3.0) size=(2.8x0.5)] font=Liberation Sans size=8.0pt bold=None color=1A1A2E
+    Text: Воспламеняемость В2 — умеренно горючие. Запрещено на путях эвакуации в зданиях выше 9 этажей.
+  [pos=(3.9,1.4) size=(0.1x0.1)] font=Segoe UI Symbol size=12.66pt bold=None color=1F4E79
+    Text: ▥
+  [pos=(4.1,1.4) size=(2.6x0.2)] font=Carlito size=8.0pt bold=True color=1F4E79
+    Text: ЗОНЫ ПРИМЕНЕНИЯ ПО ЭТАЖНОСТИ
+  TABLE at (3.9, 1.6)
+    R0: Зона применения | ≤9 этажей≤28 м | 9–17 этажей28–50 м | >17 этажей>50 м
+    R1: Жилые комнаты (квартиры) | ✓ | ✓ | ✓
+    R2: Коридоры, холлы, фойе | ⚠ | ✗ | ✗
+    R3: Лестничные клетки, вестибюли | ⚠ | ✗ | ✗
+    R4: Потолки | — | — | —
+    R5: Полы | — | — | —
+    R6: Фасады | — | — | —
+  [pos=(3.9,4.4) size=(0.1x0.1)] font=Segoe UI Symbol size=9.84pt bold=None color=FF9800
+    Text: !
+  [pos=(4.1,4.4) size=(5.3x0.1)] font=Segoe UI Symbol size=8.0pt bold=None color=FF9800
+    Text: ⚠ для ≤9 этажей — с ограничениями, не на путях эвакуации.
+  [pos=(0.6,5.1) size=(0.2x0.2)] font=Segoe UI Symbol size=15.47pt bold=None color=E53935
+    Text: ⚠
+  [pos=(0.9,5.1) size=(8.5x0.3)] font=Segoe UI Symbol size=8.0pt bold=True color=E53935
+    Text: ⚠ В2 — НЕ подходит для путей эвакуации в зданиях выше 9 этажей! Только для жилых комнат (квартир). Используйте глянцевую
+
+================================================================================
+СЛАЙД 15
+================================================================================
+  [pos=(8.0,4.3) size=(2.0x1.2)] font=Liberation Sans Narrow size=78.75pt bold=True color=1F4E79
+    Text: 11
+  [pos=(0.5,0.4) size=(0.2x0.2)] font=Segoe UI Symbol size=18.28pt bold=None color=1F4E79
+    Text: ✦
+  [pos=(0.8,0.4) size=(2.9x0.1)] font=Carlito size=5.0pt bold=True color=1F4E79
+    Text: EMPILS · КАТАЛОГ ПРОДУКТОВ
+  [pos=(0.7,0.9) size=(8.2x0.1)] font=Courier New size=8.0pt bold=True color=00A859
+    Text: ДЕРЕВООБРАБОТКА
+  [pos=(0.7,1.1) size=(8.1x0.3)] font=Liberation Sans Narrow size=16.88pt bold=True color=1F4E79
+    Text: Эмаль СТО 05744283-136-2018
+  [pos=(0.7,1.4) size=(7.3x0.2)] font=Liberation Sans size=9.0pt bold=None color=555555
+    Text: ВД-эмаль защитно-декоративная для дерева. ВНИМАНИЕ: класс В2!
+  [pos=(8.3,0.9) size=(1.1x0.3)] font=Courier New size=8.0pt bold=True color=E65100
+    Text: Г1, В2, Д2, Т2
+  [pos=(8.2,1.2) size=(1.1x0.2)] font=Liberation Sans size=6.0pt bold=None color=90A4AE
+    Text: Класс пожароопасности
+  [pos=(0.7,1.9) size=(0.1x0.1)] font=Segoe UI Symbol size=12.66pt bold=None color=1F4E79
+    Text: ✓
+  [pos=(0.9,1.9) size=(2.5x0.2)] font=Carlito size=8.0pt bold=True color=1F4E79
+    Text: СЕРТИФИКАТ СООТВЕТСТВИЯ
+  [pos=(0.7,2.1) size=(2.7x0.2)] font=Liberation Sans Narrow size=7.0pt bold=True color=1A1A2E
+    Text: RU Д-RU.RA01.B.00723/24
+  [pos=(0.7,2.3) size=(2.7x0.1)] font=Liberation Sans size=8.0pt bold=None color=555555
+    Text: Действует до 02.04.2029
+  [pos=(0.7,2.8) size=(0.2x0.2)] font=Segoe UI Symbol size=15.47pt bold=None color=E65100
+    Text: ⚠
+  [pos=(0.9,2.8) size=(2.5x0.2)] font=Carlito size=8.0pt bold=True color=E65100
+    Text: ВНИМАНИЕ: КЛАСС В2
+  [pos=(0.7,3.1) size=(2.7x0.5)] font=Segoe UI Symbol size=8.0pt bold=True color=B71C1C
+    Text: ⚠ В2 — НЕ для путей эвакуации выше 9 этажей. Для деревянных поверхностей внутри помещений (кроме пола). Атмосферные усло
+  [pos=(0.7,4.2) size=(0.1x0.1)] font=Segoe UI Symbol size=9.84pt bold=None color=E65100
+    Text: ◆
+  [pos=(0.9,4.2) size=(2.5x0.1)] font=Liberation Sans size=6.19pt bold=None color=555555
+    Text: Рекомендация: рассмотреть ББ-11 для повышения класса
+  [pos=(3.8,1.9) size=(0.1x0.1)] font=Segoe UI Symbol size=12.66pt bold=None color=1F4E79
+    Text: ▥
+  [pos=(4.0,1.9) size=(3.0x0.2)] font=Carlito size=8.0pt bold=True color=1F4E79
+    Text: ЗОНЫ ПРИМЕНЕНИЯ ПО ЭТАЖНОСТИ
+  [pos=(8.2,2.0) size=(1.2x0.2)] font=Liberation Sans size=6.0pt bold=None color=90A4AE
+    Text: ФЗ-123 · ПУТИ ЭВАКУАЦИИ
+  TABLE at (3.8, 2.2)
+    R0: Зона применения | ≤ 9 этажей | 9–17 этажей | > 17 этажей
+    R1: Жилые комнаты | ✓ | ✓ | ✓
+    R2: Коридоры, холлы | ⚠ | ✗ | ✗
+    R3: Лестничные клетки | ⚠ | ✗ | ✗
+    R4: Потолки | — | — | —
+    R5: Полы | ✗ | ✗ | ✗
+    R6: Фасады | ⚠ | ⚠ | ⚠
+  [pos=(3.8,4.2) size=(0.6x0.1)] font=Liberation Sans size=8.0pt bold=None color=555555
+    Text: Можно
+  [pos=(4.3,4.2) size=(0.9x0.1)] font=Liberation Sans size=8.0pt bold=None color=555555
+    Text: С ограничениями
+  [pos=(5.1,4.2) size=(0.5x0.1)] font=Liberation Sans size=8.0pt bold=None color=555555
+    Text: Нельзя
+  [pos=(5.6,4.2) size=(3.8x0.1)] font=Liberation Sans size=8.0pt bold=None color=555555
+    Text: Не применяется
