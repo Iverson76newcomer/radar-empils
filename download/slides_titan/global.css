@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=Roboto+Mono:wght@500;700&display=swap');
+
+:root {
+  --bg: #0A0A0A;
+  --primary: #E63946;
+  --accent: #FFD60A;
+  --white: #FFFFFF;
+  --gray: #888888;
+  --dark-gray: #222222;
+  --green: #2ECC71;
+  --orange: #FF8C00;
+  --blue: #3498DB;
+  --card-bg: #161616;
+  --card-border: #333333;
+
+  --font-heading: 'Inter', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  --font-num: 'Roboto Mono', monospace;
+
+  --fs-display: 36px;
+  --fs-h1: 24px;
+  --fs-h2: 18px;
+  --fs-h3: 14px;
+  --fs-body: 13px;
+  --fs-small: 11px;
+  --fs-micro: 9px;
+}
+
+.slide {
+  width: 1280px;
+  min-height: 720px;
+  max-height: 720px;
+  overflow: hidden;
+  background: var(--bg);
+  font-family: var(--font-body);
+  color: var(--white);
+  position: relative;
+  box-sizing: border-box;
+}
+
+.titan-logo {
+  font-family: var(--font-heading);
+  font-weight: 900;
+  font-size: 20px;
+  color: var(--primary);
+  letter-spacing: 2px;
+}
+
+.stat-card {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 10px;
+  padding: 16px;
+}
+
+.stat-number {
+  font-family: var(--font-num);
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.stat-label {
+  font-size: 11px;
+  color: var(--gray);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.progress-bar {
+  height: 8px;
+  border-radius: 4px;
+  background: var(--dark-gray);
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  border-radius: 4px;
+  background: var(--primary);
+}
+
+.timeline-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 2px solid var(--primary);
+  background: var(--bg);
+}
+
+.timeline-dot.active {
+  background: var(--primary);
+}
+
+.timeline-line {
+  height: 2px;
+  background: var(--dark-gray);
+  flex: 1;
+}
+
+.timeline-line.done {
+  background: var(--primary);
+}
+
+.status-done { color: var(--green); }
+.status-progress { color: var(--orange); }
+.status-plan { color: var(--gray); }
+
+.channel-card {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 10px;
+  padding: 14px;
+}
+
+.metric-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 0;
+  border-bottom: 1px solid var(--card-border);
+}
+
+.metric-row:last-child {
+  border-bottom: none;
+}

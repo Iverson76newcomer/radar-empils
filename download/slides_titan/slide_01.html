@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>TITAN — Отчёт по программе: что сделано</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="global.css">
+<style>
+  body { margin: 0; background: #0A0A0A; }
+  .slide { width: 1280px; height: 720px; }
+  .col-title { font-size: 13px; font-weight: 800; letter-spacing: 1.5px; text-transform: uppercase; }
+  .col-icon { font-size: 18px; }
+  .item-row { display: flex; align-items: flex-start; gap: 6px; padding: 4px 0; font-size: 11px; line-height: 1.35; color: #DDDDDD; }
+  .item-row .material-icons { font-size: 12px; color: var(--gray); margin-top: 2px; }
+  .item-key { color: var(--accent); font-weight: 600; }
+  .item-num { color: var(--green); font-family: var(--font-num); font-weight: 700; }
+  .kpi-num { font-family: var(--font-num); font-weight: 700; font-size: 26px; color: var(--green); line-height: 1; }
+  .kpi-label { font-size: 10px; color: var(--gray); text-transform: uppercase; letter-spacing: 1px; }
+  .kpi-delta { font-family: var(--font-num); font-size: 11px; font-weight: 700; }
+  .accent-bar { width: 3px; border-radius: 2px; }
+  .ribbon { background: linear-gradient(90deg, rgba(230,57,70,0.15), rgba(230,57,70,0)); }
+  .scanline { background-image: repeating-linear-gradient(0deg, rgba(255,255,255,0.02) 0px, rgba(255,255,255,0.02) 1px, transparent 1px, transparent 3px); }
+</style>
+</head>
+<body>
+<div class="slide scanline flex flex-col px-8 pt-5 pb-5">
+
+  <!-- HEADER -->
+  <header class="flex items-center justify-between pb-3 border-b border-[#222]">
+    <div class="flex items-center gap-4">
+      <div class="flex items-center gap-2">
+        <span class="material-icons" style="color:var(--primary); font-size:22px;">bolt</span>
+        <span class="titan-logo">TITAN</span>
+      </div>
+      <div class="h-8 w-px bg-[#333]"></div>
+      <div>
+        <div class="text-[10px] text-gray-500 uppercase tracking-[3px]">Программа 2026</div>
+        <div class="text-[20px] font-extrabold uppercase tracking-wider leading-tight">Что сделано</div>
+      </div>
+    </div>
+    <div class="flex items-center gap-4">
+      <div class="flex items-center gap-2 px-3 py-1.5 rounded-md border border-[#333] bg-[#161616]">
+        <span class="w-2 h-2 rounded-full bg-[var(--green)] animate-pulse"></span>
+        <span class="text-[10px] text-gray-300 uppercase tracking-wider">Этап 1 · Активен</span>
+      </div>
+      <div class="text-right">
+        <div class="text-[9px] text-gray-500 uppercase tracking-wider">Бюджет этапа 1</div>
+        <div class="text-[15px] font-bold" style="font-family:var(--font-num); color:var(--accent);">344 200 ₽</div>
+      </div>
+    </div>
+  </header>
+
+  <!-- 3 CHANNEL COLUMNS -->
+  <div class="grid grid-cols-3 gap-3 mt-3" style="height: 470px;">
+
+    <!-- COLUMN 1: DISTRIBUTOR -->
+    <div class="channel-card flex flex-col" style="padding:12px;">
+      <div class="flex items-center gap-2 pb-2 mb-2 border-b border-[#333]">
+        <span class="accent-bar h-4" style="background:var(--primary);"></span>
+        <span class="material-icons col-icon" style="color:var(--primary);">store</span>
+        <span class="col-title" style="color:var(--primary);">Дистрибьюторский канал</span>
+      </div>
+      <div class="flex-1 overflow-hidden">
+        <div class="item-row"><span class="material-icons">inventory_2</span><div><span class="item-key">MML:</span> <span class="item-num">30 → 41 SKU</span> <span class="item-num">(+11)</span></div></div>
+        <div class="item-row"><span class="material-icons">flag</span><div><span class="item-key">Пилоты:</span> Палитра (Краснодар), И.П. Рыгалов (Пенза), Брозекс (Екатеринбург)</div></div>
+        <div class="item-row"><span class="material-icons">school</span><div><span class="item-key">Обучение:</span> <span class="item-num">12 регионов</span>, <span class="item-num">19 РМ</span>, <span class="item-num">~350 ТП</span></div></div>
+        <div class="item-row"><span class="material-icons">campaign</span><div><span class="item-key">POSM:</span> шелфтокеры <span class="item-num">2000 шт</span>, воблеры <span class="item-num">1000</span>, ценники <span class="item-num">1000</span>, листовки <span class="item-num">500</span></div></div>
+        <div class="item-row"><span class="material-icons">videocam</span><div><span class="item-key">Контент:</span> видеоинструкция <span class="item-num">35 865 ₽</span>, видеопортфолио <span class="item-num">71 724 ₽</span>, видео для ТП <span class="item-num">41 611 ₽</span></div></div>
+        <div class="item-row mt-1 pt-2 border-t border-dashed border-[#333]"><span class="material-icons">account_balance_wallet</span><div><span class="item-key">Бюджет этапа 1:</span> <span class="item-num">344 200 ₽</span></div></div>
+      </div>
+    </div>
+
+    <!-- COLUMN 2: NETWORK -->
+    <div class="channel-card flex flex-col" style="padding:12px;">
+      <div class="flex items-center gap-2 pb-2 mb-2 border-b border-[#333]">
+        <span class="accent-bar h-4" style="background:var(--primary);"></span>
+        <span class="material-icons col-icon" style="color:var(--primary);">shopping_cart</span>
+        <span class="col-title" style="color:var(--primary);">Сетевой канал</span>
+      </div>
+      <div class="flex-1 overflow-hidden">
+        <div class="item-row"><span class="material-icons">storefront</span><div><span class="item-key">Лемана Про:</span> <span class="item-num">11 ТТ</span> в ЮФО</div></div>
+        <div class="item-row"><span class="material-icons">tv</span><div><span class="item-key">РК на экранах Ростова:</span> <span class="item-num">6 экранов</span></div></div>
+        <div class="item-row"><span class="material-icons">ads_click</span><div><span class="item-key">Таргет ВКонтакте</span> по <span class="item-num">11 ТТ</span></div></div>
+        <div class="item-row"><span class="material-icons">redeem</span><div><span class="item-key">Промо «Подарок за покупку»</span> (Ростов + Краснодар)</div></div>
+        <div class="item-row"><span class="material-icons">cash_back</span><div><span class="item-key">Кэшбек</span> <span class="item-num">5%</span> на TITAN (все <span class="item-num">11 ТТ</span>)</div></div>
+        <div class="item-row"><span class="material-icons">groups</span><div><span class="item-key">Мастер-классы:</span> <span class="item-num">3 ТТ</span> в Ростове</div></div>
+        <div class="item-row"><span class="material-icons">palette</span><div><span class="item-key">Веерные выкрасы B2B:</span> <span class="item-num">13 шт</span></div></div>
+        <div class="item-row"><span class="material-icons">local_offer</span><div><span class="item-key">Скидка</span> <span class="item-num">20%</span> (жёлтый ценник) с <span class="item-num">01.08</span></div></div>
+        <div class="item-row mt-1 pt-2 border-t border-dashed border-[#333]"><span class="material-icons">add_business</span><div><span class="item-key">Петрович:</span> <span class="item-num">48 ТТ</span> <span class="text-gray-500">(план входа 2027)</span></div></div>
+        <div class="item-row"><span class="material-icons">add_business</span><div><span class="item-key">Максидом:</span> <span class="item-num">29 ТТ</span> <span class="text-gray-500">(план)</span></div></div>
+        <div class="item-row"><span class="material-icons">add_business</span><div><span class="item-key">OBI:</span> <span class="item-num">27 ТТ</span> <span class="text-gray-500">(план)</span></div></div>
+      </div>
+    </div>
+
+    <!-- COLUMN 3: B2B -->
+    <div class="channel-card flex flex-col" style="padding:12px;">
+      <div class="flex items-center gap-2 pb-2 mb-2 border-b border-[#333]">
+        <span class="accent-bar h-4" style="background:var(--primary);"></span>
+        <span class="material-icons col-icon" style="color:var(--primary);">business</span>
+        <span class="col-title" style="color:var(--primary);">B2B канал</span>
+      </div>
+      <div class="flex-1 overflow-hidden">
+        <div class="item-row"><span class="material-icons">science</span><div><span class="item-key">Тест-образец:</span> пробник <span class="item-num">0,4 л</span> + веерные выкрасы</div></div>
+        <div class="item-row"><span class="material-icons">description</span><div><span class="item-key">Листовка B2B</span> с расчётом ССВ</div></div>
+        <div class="item-row"><span class="material-icons">build</span><div><span class="item-key">6 инструментов:</span> тест-образец, листовка, инфлюенсер, маржа, портфолио</div></div>
+        <div class="item-row"><span class="material-icons">trending_up</span><div><span class="item-key">Расчёт маржинальности</span> по фасовкам <span class="text-gray-500">(8,5 л выгоднее)</span></div></div>
+
+        <div class="mt-3 pt-3 border-t border-dashed border-[#333]">
+          <div class="text-[9px] text-gray-500 uppercase tracking-wider mb-2">Активность B2B</div>
+          <div class="grid grid-cols-2 gap-2">
+            <div class="bg-[#0E0E0E] rounded-md p-2 border border-[#222]">
+              <div class="text-[9px] text-gray-500 uppercase">Инструментов</div>
+              <div class="kpi-num" style="font-size:22px;">6</div>
+            </div>
+            <div class="bg-[#0E0E0E] rounded-md p-2 border border-[#222]">
+              <div class="text-[9px] text-gray-500 uppercase">Фасовка выгоды</div>
+              <div class="kpi-num" style="font-size:22px;">8,5 л</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- KPI ROW -->
+  <div class="grid grid-cols-4 gap-3 mt-3">
+    <div class="stat-card ribbon relative overflow-hidden" style="padding:12px 14px;">
+      <div class="flex items-center justify-between">
+        <span class="kpi-label">Первичка, т</span>
+        <span class="material-icons" style="color:var(--green); font-size:14px;">trending_up</span>
+      </div>
+      <div class="flex items-baseline gap-2 mt-1">
+        <span class="kpi-num">104,8 → 119,2</span>
+      </div>
+      <div class="kpi-delta mt-1" style="color:var(--green);">+13,7%</div>
+    </div>
+    <div class="stat-card ribbon relative overflow-hidden" style="padding:12px 14px;">
+      <div class="flex items-center justify-between">
+        <span class="kpi-label">РТТ с TITAN</span>
+        <span class="material-icons" style="color:var(--green); font-size:14px;">trending_up</span>
+      </div>
+      <div class="flex items-baseline gap-2 mt-1">
+        <span class="kpi-num">465 → 469</span>
+      </div>
+      <div class="kpi-delta mt-1" style="color:var(--green);">+0,9%</div>
+    </div>
+    <div class="stat-card ribbon relative overflow-hidden" style="padding:12px 14px;">
+      <div class="flex items-center justify-between">
+        <span class="kpi-label">АКБ в точках B</span>
+        <span class="material-icons" style="color:var(--green); font-size:14px;">trending_up</span>
+      </div>
+      <div class="flex items-baseline gap-2 mt-1">
+        <span class="kpi-num">33% → 50%</span>
+      </div>
+      <div class="kpi-delta mt-1" style="color:var(--green);">+17 п.п.</div>
+    </div>
+    <div class="stat-card ribbon relative overflow-hidden" style="padding:12px 14px;">
+      <div class="flex items-center justify-between">
+        <span class="kpi-label">Бюджет программы</span>
+        <span class="material-icons" style="color:var(--accent); font-size:14px;">account_balance_wallet</span>
+      </div>
+      <div class="flex items-baseline gap-2 mt-1">
+        <span class="kpi-num" style="color:var(--accent);">344 200 ₽</span>
+      </div>
+      <div class="kpi-delta mt-1" style="color:var(--gray);">Этап 1</div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

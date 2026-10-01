@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>TITAN — Дорожная карта и следующие шаги</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="global.css">
+<style>
+  body { margin: 0; background: #0A0A0A; }
+  .slide { width: 1280px; height: 720px; }
+  .tl-stage-num { font-family: var(--font-num); font-weight: 700; font-size: 11px; letter-spacing: 1px; }
+  .tl-title { font-size: 11px; font-weight: 800; letter-spacing: 0.5px; text-transform: uppercase; line-height: 1.2; }
+  .tl-bullet { font-size: 10.5px; line-height: 1.35; color: #CCCCCC; display: flex; gap: 4px; padding: 2px 0; }
+  .tl-bullet::before { content: "▸"; color: var(--gray); font-size: 9px; margin-top: 2px; }
+  .tl-budget { font-family: var(--font-num); font-weight: 700; font-size: 11px; color: var(--accent); }
+  .tl-dot-large { width: 18px; height: 18px; border-radius: 50%; border: 3px solid; display: flex; align-items: center; justify-content: center; background: var(--bg); }
+  .tl-dot-large .inner { width: 8px; height: 8px; border-radius: 50%; }
+  .tl-line-h { height: 3px; flex: 1; border-radius: 2px; }
+  .tl-card { background: var(--card-bg); border: 1px solid var(--card-border); border-radius: 8px; padding: 10px 12px; height: 100%; }
+  .step-card { background: var(--card-bg); border: 1px solid var(--card-border); border-radius: 10px; padding: 14px; position: relative; overflow: hidden; }
+  .step-card::before { content: ""; position: absolute; top: 0; left: 0; right: 0; height: 2px; }
+  .step-num { font-family: var(--font-num); font-weight: 700; font-size: 28px; line-height: 1; opacity: 0.18; position: absolute; right: 12px; top: 8px; }
+  .step-title { font-size: 13px; font-weight: 800; letter-spacing: 0.5px; text-transform: uppercase; }
+  .step-row { display: flex; gap: 6px; padding: 4px 0; font-size: 10.5px; line-height: 1.35; color: #DDDDDD; }
+  .step-row .material-icons { font-size: 12px; color: var(--gray); margin-top: 1px; }
+  .step-row b { color: var(--accent); font-weight: 600; }
+  .scanline { background-image: repeating-linear-gradient(0deg, rgba(255,255,255,0.015) 0px, rgba(255,255,255,0.015) 1px, transparent 1px, transparent 3px); }
+  .pill { display: inline-flex; align-items: center; gap: 4px; padding: 2px 7px; border-radius: 10px; font-size: 9px; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase; }
+</style>
+</head>
+<body>
+<div class="slide scanline flex flex-col px-8 pt-5 pb-5">
+
+  <!-- HEADER -->
+  <header class="flex items-center justify-between pb-3 border-b border-[#222]">
+    <div class="flex items-center gap-4">
+      <div class="flex items-center gap-2">
+        <span class="material-icons" style="color:var(--primary); font-size:22px;">bolt</span>
+        <span class="titan-logo">TITAN</span>
+      </div>
+      <div class="h-8 w-px bg-[#333]"></div>
+      <div>
+        <div class="text-[10px] text-gray-500 uppercase tracking-[3px]">Дорожная карта</div>
+        <div class="text-[20px] font-extrabold uppercase tracking-wider leading-tight">Этапы и следующие шаги</div>
+      </div>
+    </div>
+    <div class="flex items-center gap-3">
+      <div class="pill" style="background:rgba(46,204,113,0.15); color:var(--green);"><span class="w-1.5 h-1.5 rounded-full bg-[var(--green)]"></span>2 этапа завершено</div>
+      <div class="pill" style="background:rgba(255,140,0,0.15); color:var(--orange);"><span class="w-1.5 h-1.5 rounded-full bg-[var(--orange)]"></span>1 в работе</div>
+      <div class="pill" style="background:rgba(136,136,136,0.15); color:var(--gray);"><span class="w-1.5 h-1.5 rounded-full bg-[var(--gray)]"></span>2 в плане</div>
+    </div>
+  </header>
+
+  <!-- TIMELINE SECTION -->
+  <section class="mt-3">
+    <!-- DOTS ROW -->
+    <div class="flex items-center px-3">
+      <div class="flex flex-col items-center" style="width:80px;"><div class="tl-dot-large" style="border-color:var(--green);"><div class="inner" style="background:var(--green);"></div></div></div>
+      <div class="tl-line-h" style="background:var(--green);"></div>
+      <div class="flex flex-col items-center" style="width:80px;"><div class="tl-dot-large" style="border-color:var(--green);"><div class="inner" style="background:var(--green);"></div></div></div>
+      <div class="tl-line-h" style="background:linear-gradient(90deg, var(--green), var(--orange));"></div>
+      <div class="flex flex-col items-center" style="width:80px;"><div class="tl-dot-large" style="border-color:var(--orange);"><div class="inner" style="background:var(--orange);"></div></div></div>
+      <div class="tl-line-h" style="background:var(--dark-gray);"></div>
+      <div class="flex flex-col items-center" style="width:80px;"><div class="tl-dot-large" style="border-color:var(--gray);"><div class="inner" style="background:var(--bg);"></div></div></div>
+      <div class="tl-line-h" style="background:var(--dark-gray);"></div>
+      <div class="flex flex-col items-center" style="width:80px;"><div class="tl-dot-large" style="border-color:var(--gray);"><div class="inner" style="background:var(--bg);"></div></div></div>
+    </div>
+
+    <!-- 5 STAGE CARDS -->
+    <div class="grid grid-cols-5 gap-2 mt-2">
+
+      <!-- Stage 1 -->
+      <div class="tl-card">
+        <div class="flex items-center justify-between mb-1">
+          <span class="tl-stage-num" style="color:var(--green);">ЭТАП 1</span>
+          <span class="pill" style="background:rgba(46,204,113,0.15); color:var(--green);">DONE</span>
+        </div>
+        <div class="tl-title" style="color:var(--white);">POS-материалы</div>
+        <div class="mt-1.5">
+          <div class="tl-bullet">Шелфтокеры, воблеры, ценники</div>
+          <div class="tl-bullet">Листовки, MML+планограмма</div>
+        </div>
+        <div class="mt-2 pt-1.5 border-t border-[#222] flex items-center gap-1">
+          <span class="material-icons" style="color:var(--accent); font-size:11px;">account_balance_wallet</span>
+          <span class="tl-budget">344 200 ₽</span>
+        </div>
+      </div>
+
+      <!-- Stage 2 -->
+      <div class="tl-card">
+        <div class="flex items-center justify-between mb-1">
+          <span class="tl-stage-num" style="color:var(--green);">ЭТАП 1</span>
+          <span class="pill" style="background:rgba(46,204,113,0.15); color:var(--green);">DONE</span>
+        </div>
+        <div class="tl-title" style="color:var(--white);">Контент и обучение</div>
+        <div class="mt-1.5">
+          <div class="tl-bullet">Видеоинструкция, видеопортфолио, видео для ТП</div>
+          <div class="tl-bullet">QR-коды, облако с материалами</div>
+          <div class="tl-bullet">Обучение: <span style="color:var(--green); font-family:var(--font-num); font-weight:700;">12 регионов, ~350 ТП</span></div>
+        </div>
+      </div>
+
+      <!-- Stage 3 -->
+      <div class="tl-card" style="border-color:var(--orange);">
+        <div class="flex items-center justify-between mb-1">
+          <span class="tl-stage-num" style="color:var(--orange);">ЭТАП 2</span>
+          <span class="pill" style="background:rgba(255,140,0,0.15); color:var(--orange);">IN PROGRESS</span>
+        </div>
+        <div class="tl-title" style="color:var(--white);">Продвижение</div>
+        <div class="mt-1.5">
+          <div class="tl-bullet">🔥 Экстремальный тест 365 дней (24/7)</div>
+          <div class="tl-bullet">Контекстная реклама (Яндекс.Директ, VK)</div>
+          <div class="tl-bullet">Видеореклама (RuTube)</div>
+          <div class="tl-bullet">Блогер-инфлюенсер</div>
+        </div>
+      </div>
+
+      <!-- Stage 4 -->
+      <div class="tl-card">
+        <div class="flex items-center justify-between mb-1">
+          <span class="tl-stage-num" style="color:var(--gray);">ПЛАН «Б»</span>
+          <span class="pill" style="background:rgba(136,136,136,0.15); color:var(--gray);">READY</span>
+        </div>
+        <div class="tl-title" style="color:var(--white);">Управление рисками</div>
+        <div class="mt-1.5">
+          <div class="tl-bullet">5 инструментов: доп.обучение, корректировка ассортимента, трейд-промо, мастер-классы, куратор</div>
+          <div class="tl-bullet flex-wrap" style="gap:6px;">
+            <span style="color:var(--green);">🟢 70-85%</span>
+            <span style="color:var(--accent);">🟡 50-70%</span>
+            <span style="color:var(--primary);">🔴 &lt;50%</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Stage 5 -->
+      <div class="tl-card">
+        <div class="flex items-center justify-between mb-1">
+          <span class="tl-stage-num" style="color:var(--gray);">ЭТАП 3</span>
+          <span class="pill" style="background:rgba(136,136,136,0.15); color:var(--gray);">PLAN</span>
+        </div>
+        <div class="tl-title" style="color:var(--white);">Масштабирование</div>
+        <div class="mt-1.5">
+          <div class="tl-bullet">Цель: <span style="color:var(--green); font-family:var(--font-num); font-weight:700;">1000 РТТ</span> (DIY 850, Сетевой 100, B2B 50)</div>
+          <div class="tl-bullet">Цель: <span style="color:var(--green); font-family:var(--font-num); font-weight:700;">1000 т</span> (DIY 650, СК 250, B2B 100)</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- NEXT STEPS SECTION -->
+  <section class="mt-3 flex-1">
+    <div class="flex items-center gap-2 mb-2">
+      <span class="material-icons" style="color:var(--accent); font-size:14px;">arrow_forward</span>
+      <span class="text-[11px] font-bold uppercase tracking-[2px]" style="color:var(--accent);">Следующие шаги</span>
+      <div class="flex-1 h-px bg-[#222]"></div>
+    </div>
+
+    <div class="grid grid-cols-3 gap-3" style="height:230px;">
+
+      <!-- Card 1 -->
+      <div class="step-card" style="border-color:var(--orange);">
+        <span class="step-num" style="color:var(--orange);">01</span>
+        <div class="flex items-center gap-2 mb-1">
+          <span class="material-icons" style="color:var(--orange); font-size:16px;">whatshot</span>
+          <span class="step-title" style="color:var(--orange);">Экстремальный тест 365</span>
+        </div>
+        <div class="step-row"><span class="material-icons">build</span><div><b>Что:</b> объект окрашен TITAN 3в1, выставлен на улице 365 дней</div></div>
+        <div class="step-row"><span class="material-icons">videocam</span><div><b>Трансляция:</b> онлайн-камера на titanpaints.ru</div></div>
+        <div class="step-row"><span class="material-icons">camera_alt</span><div><b>Контроль:</b> ежемесячные фото + экспертиза</div></div>
+        <div class="step-row"><span class="material-icons">flag</span><div><b>Цель:</b> доказать «10 лет без перекраски» публично</div></div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="step-card" style="border-color:var(--primary);">
+        <span class="step-num" style="color:var(--primary);">02</span>
+        <div class="flex items-center gap-2 mb-1">
+          <span class="material-icons" style="color:var(--primary); font-size:16px;">campaign</span>
+          <span class="step-title" style="color:var(--primary);">Digital-продвижение</span>
+        </div>
+        <div class="step-row"><span class="material-icons">search</span><div><b>Яндекс.Директ:</b> «краска по ржавчине» → TITAN</div></div>
+        <div class="step-row"><span class="material-icons">smart_display</span><div><b>RuTube:</b> пре-роллы 15-30 сек</div></div>
+        <div class="step-row"><span class="material-icons">place</span><div><b>VK Геотаргетинг</b> по ТТ</div></div>
+        <div class="step-row"><span class="material-icons">person</span><div><b>Блогер:</b> обзор TITAN vs ПФ-115</div></div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="step-card" style="border-color:var(--green);">
+        <span class="step-num" style="color:var(--green);">03</span>
+        <div class="flex items-center gap-2 mb-1">
+          <span class="material-icons" style="color:var(--green); font-size:16px;">store</span>
+          <span class="step-title" style="color:var(--green);">Расширение в сети</span>
+        </div>
+        <div class="step-row"><span class="material-icons">add_business</span><div><b>Петрович:</b> <span style="color:var(--green); font-family:var(--font-num); font-weight:700;">48 ТТ</span> (СЗФО+ЦФО+УФО) — план 2027</div></div>
+        <div class="step-row"><span class="material-icons">add_business</span><div><b>Максидом:</b> <span style="color:var(--green); font-family:var(--font-num); font-weight:700;">29 ТТ</span> (12 регионов)</div></div>
+        <div class="step-row"><span class="material-icons">add_business</span><div><b>OBI:</b> <span style="color:var(--green); font-family:var(--font-num); font-weight:700;">27 ТТ</span> (восстановление)</div></div>
+        <div class="step-row"><span class="material-icons">add_business</span><div><b>Мегаполис:</b> <span style="color:var(--green); font-family:var(--font-num); font-weight:700;">8 ТТ</span> (Калининград)</div></div>
+      </div>
+
+    </div>
+  </section>
+
+</div>
+</body>
+</html>
