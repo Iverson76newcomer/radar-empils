@@ -152,47 +152,72 @@ ax.text(hq_lon + 1.5, hq_lat + 0.5, f"Эмпилс\n{hq_name}",
         bbox=dict(boxstyle="round,pad=0.3", facecolor='#0A0A0A', edgecolor=INK_MUTE, linewidth=0.6, alpha=0.95),
         zorder=13)
 
-# ─── Legend (top-right, compact 2-column) ─────────────────────────────
-legend_x = 105.5
-legend_y = 58.0
-ax.text(legend_x, legend_y + 0.6, "УСЛОВНЫЕ ОБОЗНАЧЕНИЯ",
-        fontsize=8.5, fontweight='bold', color=INK, ha='left', va='top', zorder=15)
+# ─── Legend (bottom-center, horizontal bar) ───────────────────────────
+# Moved from top-right to bottom-center to avoid overlapping Buryatia
+# Map extent: xlim(35,115), ylim(48,60). Bottom center ≈ x=65-85, y=48.2-48.8
+legend_bg_x = 52.0
+legend_bg_y = 48.15
+legend_bg_w = 46.0
+legend_bg_h = 1.1
 
-# Existing target region (red border)
-ax.add_patch(mpatches.Rectangle((legend_x, legend_y - 0.2), 1.2, 0.6,
+# Semi-transparent background bar
+ax.add_patch(mpatches.FancyBboxPatch(
+    (legend_bg_x, legend_bg_y), legend_bg_w, legend_bg_h,
+    boxstyle="round,pad=0.15",
+    facecolor='#0A0A0A', edgecolor=HAIRLINE, linewidth=0.8,
+    alpha=0.92, zorder=14))
+
+# Title at left of bar
+ax.text(legend_bg_x + 1.0, legend_bg_y + legend_bg_h / 2,
+        "УСЛОВНЫЕ ОБОЗНАЧЕНИЯ",
+        fontsize=7.5, fontweight='bold', color=INK_SOFT, ha='left', va='center', zorder=15)
+
+# 6 items in a horizontal row, each ~7° wide
+# Starting after the title at x=62
+item_x = 63.0
+item_y = legend_bg_y + legend_bg_h / 2
+item_step = 7.0
+
+# Item 1: Existing target region (red border swatch)
+ax.add_patch(mpatches.Rectangle((item_x, item_y - 0.25), 1.0, 0.5,
                                  facecolor=TARGET_FILL, edgecolor=TARGET_EDGE_RED, linewidth=0.8, zorder=15))
-ax.text(legend_x + 1.5, legend_y + 0.1, "Регион встречи (запланир.)",
-        fontsize=7.5, color=INK, ha='left', va='center', zorder=15)
+ax.text(item_x + 1.3, item_y, "Регион встречи",
+        fontsize=7, color=INK, ha='left', va='center', zorder=15)
+item_x += item_step
 
-# New target region (yellow border)
-ax.add_patch(mpatches.Rectangle((legend_x, legend_y - 1.0), 1.2, 0.6,
+# Item 2: New target region (yellow border swatch)
+ax.add_patch(mpatches.Rectangle((item_x, item_y - 0.25), 1.0, 0.5,
                                  facecolor=TARGET_FILL, edgecolor=TARGET_EDGE_NEW, linewidth=0.8, zorder=15))
-ax.text(legend_x + 1.5, legend_y - 0.7, "Новый регион (потенциальн.)",
-        fontsize=7.5, color=INK, ha='left', va='center', zorder=15)
+ax.text(item_x + 1.3, item_y, "Новый регион",
+        fontsize=7, color=INK, ha='left', va='center', zorder=15)
+item_x += item_step
 
-# Existing distributor marker (red circle)
-ax.scatter([legend_x + 0.6], [legend_y - 1.9], s=80, color=MARKER_COLOR_EXISTING,
-           edgecolors=MARKER_RING, linewidths=1.3, zorder=15, marker='o')
-ax.text(legend_x + 1.5, legend_y - 1.9, "Встреча запланирована",
-        fontsize=7.5, color=INK, ha='left', va='center', zorder=15)
+# Item 3: Existing distributor marker (red circle)
+ax.scatter([item_x + 0.5], [item_y], s=60, color=MARKER_COLOR_EXISTING,
+           edgecolors=MARKER_RING, linewidths=1.0, zorder=15, marker='o')
+ax.text(item_x + 1.3, item_y, "Встреча запланир.",
+        fontsize=7, color=INK, ha='left', va='center', zorder=15)
+item_x += item_step
 
-# New distributor marker (yellow square)
-ax.scatter([legend_x + 0.6], [legend_y - 2.7], s=80, color=MARKER_COLOR_NEW,
-           edgecolors=MARKER_RING, linewidths=1.3, zorder=15, marker='s')
-ax.text(legend_x + 1.5, legend_y - 2.7, "Потенциальный партнёр",
-        fontsize=7.5, color=INK, ha='left', va='center', zorder=15)
+# Item 4: New distributor marker (yellow square)
+ax.scatter([item_x + 0.5], [item_y], s=60, color=MARKER_COLOR_NEW,
+           edgecolors=MARKER_RING, linewidths=1.0, zorder=15, marker='s')
+ax.text(item_x + 1.3, item_y, "Потенц. партнёр",
+        fontsize=7, color=INK, ha='left', va='center', zorder=15)
+item_x += item_step
 
-# HQ marker
-ax.scatter([legend_x + 0.6], [legend_y - 3.5], s=65, color=INK,
-           edgecolors=MARKER_RING, linewidths=1.0, zorder=15, marker='D')
-ax.text(legend_x + 1.5, legend_y - 3.5, "Эмпилс (Ростов-на-Дону)",
-        fontsize=7.5, color=INK, ha='left', va='center', zorder=15)
+# Item 5: HQ marker (diamond)
+ax.scatter([item_x + 0.5], [item_y], s=50, color=INK,
+           edgecolors=MARKER_RING, linewidths=0.8, zorder=15, marker='D')
+ax.text(item_x + 1.3, item_y, "Эмпилс (Ростов)",
+        fontsize=7, color=INK, ha='left', va='center', zorder=15)
+item_x += item_step
 
-# Non-target region
-ax.add_patch(mpatches.Rectangle((legend_x, legend_y - 4.3), 1.2, 0.6,
+# Item 6: Non-target region swatch
+ax.add_patch(mpatches.Rectangle((item_x, item_y - 0.25), 1.0, 0.5,
                                  facecolor=RU_FILL, edgecolor=RU_EDGE, linewidth=0.5, zorder=15))
-ax.text(legend_x + 1.5, legend_y - 4.0, "Прочие регионы РФ",
-        fontsize=7.5, color=INK, ha='left', va='center', zorder=15)
+ax.text(item_x + 1.3, item_y, "Прочие регионы",
+        fontsize=7, color=INK, ha='left', va='center', zorder=15)
 
 # ─── Styling ──────────────────────────────────────────────────────────
 ax.set_xticks([])
