@@ -182,18 +182,17 @@ add_body(f'База расчёта: городское население — {t
 
 # 2. Market potential
 add_heading('2. ПОТЕНЦИАЛ РЫНКА ЛКМ (по городскому населению)')
-mt = doc.add_table(rows=5, cols=3); mt.style = 'Table Grid'; mt.alignment = WD_TABLE_ALIGNMENT.CENTER
+mt = doc.add_table(rows=4, cols=3); mt.style = 'Table Grid'; mt.alignment = WD_TABLE_ALIGNMENT.CENTER
 m_data = [
     ['Параметр', 'В рублях', 'В тоннах'],
     ['Потребление ЛКМ на душу', f'~{per_capita_rub} ₽/чел.', f'~{per_capita_kg} кг/чел.'],
     ['Расчёт', f'{total_city_pop:,} × {per_capita_rub} ₽'.replace(',', ' '), f'{total_city_pop:,} × {per_capita_kg} кг'.replace(',', ' ')],
-    ['Средняя цена', f'~{avg_price_per_ton//1000} 000 ₽/т', '—'],
     ['ПОТЕНЦИАЛ РЫНКА ЛКМ', f'{market_rub_bln} млрд ₽', f'{market_tons:,.0f} т'.replace(',', ' ')],
 ]
 for i, rd in enumerate(m_data):
     row = mt.rows[i]
     for j, val in enumerate(rd):
-        is_h = i == 0; is_t = i == 4
+        is_h = i == 0; is_t = i == 3
         set_cell(row.cells[j], val, size=8, bold=(is_h or is_t),
                  color=(WHITE if is_h else (RED if is_t else INK)),
                  align=(WD_ALIGN_PARAGRAPH.CENTER if j > 0 else WD_ALIGN_PARAGRAPH.LEFT))
@@ -329,7 +328,7 @@ add_body('Бренды: ОРЕОЛ · ОРЕОЛ ДИСКОНТ · NEWTONE · AV
 add_body('Категории: краски интерьерные · фасадные · эмали · грунт-эмали · грунтовки · шпатлёвки · клеи')
 
 # ── 8. Поддержка маркетинга (NEW) ───────────────────────────────────
-add_heading('8. ПОДДЕРЖКА МАРКЕТИНГА', color=DARK_GREEN, size=11)
+add_heading('8. ПОДДЕРЖКА', color=DARK_GREEN, size=11)
 
 support_table = doc.add_table(rows=6, cols=2); support_table.style = 'Table Grid'; support_table.alignment = WD_TABLE_ALIGNMENT.CENTER
 support_data = [
