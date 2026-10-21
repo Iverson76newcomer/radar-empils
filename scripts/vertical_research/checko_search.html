@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<title>Пожалуйста, подтвердите, что вы человек!</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="IfTbRs9HhQGY1kPWg07UWRAy6xQMZ4MvMujaEDKGKMiPOcr7KDW5kaIJHN9UH4qIdZ_uAX5gDnpTT5iIdIG0hQ" />
+<link rel="stylesheet" href="/cdn/default.260923.min.css">
+<script src="/cdn/default.260921.min.js" defer></script>
+<style>
+@font-face{font-family:DefaultFont;src:url(/cdn/400.260918.woff2) format("woff2");font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:DefaultFont;src:url(/cdn/600.260918.woff2) format("woff2");font-weight:600;font-style:normal;font-display:swap}
+@font-face{font-family:DefaultFont;src:url(/cdn/700.260918.woff2) format("woff2");font-weight:700;font-style:normal;font-display:swap}
+@font-face{font-family:DefaultFont;src:url(/cdn/900.260918.woff2) format("woff2");font-weight:900;font-style:normal;font-display:swap}
+</style>
+</head>
+<body>
+<div class="center">
+
+С вашего IP-адреса поступает большое количество запросов.
+<br>
+Пожалуйста, подтвердите, что вы человек!
+
+<form name="check_humaneness" id="check_humaneness" action="/check/humaneness" method="post">
+<input type="hidden" name="challenge" value="c9fdef56a8838a7e399d84e3c05707ba">
+<br>          <script src="https://smartcaptcha.yandexcloud.net/captcha.js" defer></script>
+          <div class="smart-captcha" data-sitekey="ysc1_jEa0iJwwd9bLUDF2jDxuqLy91uKd90AKgmjkO8LCf1d24b77"></div>
+<br>
+<input type="hidden" name="authenticity_token" id="authenticity_token" value="ndpXwnOFp6DuHLQmIClX3lp045TFovzS_przNnp7acozF0Z_lPebMNTD6y_3eAkPP9nmgbelcYefPbGuPHz1hw" autocomplete="off" />
+<button class="btn btn-lg" type="submit">Подтвердить</button>
+</form>
+
+</div>
+
+<style>
+.center {position:absolute;top:50%;left:50%;transform:translate(-50%,-50%)}
+</style>
+</body>
+</html>

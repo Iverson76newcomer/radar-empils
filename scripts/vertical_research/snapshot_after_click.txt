@@ -1,0 +1,46 @@
+- generic
+  - generic
+    - link "ВЕРНУТЬСЯ НА САЙТ ФНС РОССИИ" [ref=e4]
+    - link " Контакт-центр ФНС: 8 800 222-22-22" [ref=e3]
+      - StaticText ""
+      - StaticText "Контакт-центр ФНС: 8 800 222-22-22"
+    - list
+      - listitem [level=1]
+      - listitem [level=1]
+        - link [ref=e8]
+  - generic
+    - list
+      - listitem [level=1]
+        - link "ГЛАВНАЯ" [ref=e9]
+      - listitem [level=1]
+        - link "О СЕРВИСЕ" [ref=e10]
+    - link "Предоставление сведений из ЕГРЮЛ/ЕГРИП в электронном виде" [ref=e11]
+    - StaticText "ПРЕДОСТАВЛЕНИЕ СВЕДЕНИЙ ИЗ ЕГРЮЛ/ЕГРИП В ЭЛЕКТРОННОМ ВИДЕ"
+  - generic
+    - form
+      - LabelText
+        - StaticText "ПОИСКОВЫЙ ЗАПРОС:"
+        - StaticText "*"
+      - generic
+        - generic
+          - textbox "ПОИСКОВЫЙ ЗАПРОС:*" [ref=e15]: 5027161766
+      - generic
+        - generic
+          - link "Искать по точному соответствию наименования юридического лица или фамилии, имени и отчеству" [ref=e13]
+      - LabelText
+        - StaticText "ВЫБРАТЬ РЕГИОНЫ:"
+      - generic
+        - generic
+          - list [ref=e14] clickable [cursor:pointer]
+      - button "НАЙТИ " [ref=e12]
+    - generic
+      - heading "РЕЗУЛЬТАТЫ ПОИСКА" [level=2, ref=e17]
+      - generic
+        - link "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ \"ВЕРТИКАЛЬ\"" [ref=e19]
+        - StaticText "Калужская область, ОГРН: 1105027005874, Дата присвоения ОГРН: 04.05.2010, ИНН: 5027161766, КПП: 402501001, ГЕНЕРАЛЬНЫЙ ДИРЕКТОР: Евдоков Владимир Иванович"
+        - button "ПОЛУЧИТЬ ВЫПИСКУ" [ref=e18]
+- generic
+  - paragraph
+    - link "8 800 222-22-22" [ref=e5]
+  - link "Все контакты" [ref=e6]
+  - link "Техническая поддержка" [ref=e7]

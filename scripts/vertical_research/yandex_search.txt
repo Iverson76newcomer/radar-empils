@@ -1,0 +1,1 @@
+"Please confirm that you are not a robot\nWe're sorry, but it looks like requests sent from your device are automated. Why might this happen?\nI'm not a robot \nPress to continue\nYandex SmartCaptcha\nIf you have any problems, please use the feedback form\nIf you need to automatically set Search queries, use Yandex Search API v2\n9616122696950352685:1792558836"

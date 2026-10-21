@@ -1,0 +1,12 @@
+- generic
+  - generic
+    - heading "Your connection is not private" [level=1, ref=e39]
+    - StaticText "Attackers might be trying to steal your information from "
+    - strong
+    - StaticText " (for example, passwords, messages, or credit cards). "
+    - link "Learn more about this warning" [ref=e40]
+  - LabelText
+    - generic
+      - link "Turn on enhanced protection" [ref=e41]
+- button "Back to safety" [ref=e37]
+- button "Advanced" [expanded=false, ref=e38]

@@ -1,0 +1,251 @@
+- generic
+  - list
+    - listitem [level=1]
+      - link "Доставка" [ref=e115]
+        - StaticText "Доставка"
+    - listitem [level=1]
+      - link "Новости" [ref=e116]
+        - StaticText "Новости"
+    - button "..." [expanded=false, ref=e67]
+      - StaticText "..."
+  - button "Отправить запрос" [ref=e44]
+    - image
+    - StaticText "Отправить запрос"
+  - link "8 (800) 222-4-000" [ref=e45]
+    - image
+    - StaticText "8 (800) 222-4-000"
+  - banner
+    - link "оптовым клиентам" [ref=e46]
+      - image
+      - paragraph
+        - StaticText "оптовым клиентам"
+    - button "Каталог" [ref=e47]
+      - image
+      - StaticText "Каталог"
+    - form
+      - searchbox "Искать товары" [ref=e117]
+      - button [ref=e118]
+        - image
+    - button [ref=e68]
+      - link [ref=e119]
+        - image
+    - generic [ref=e69] clickable [onclick]
+      - button [ref=e120]
+        - link [ref=e133]
+          - image
+    - button "Личный кабинет" [ref=e48]
+      - StaticText "Личный кабинет"
+  - link "Акции" [ref=e42]
+    - image
+    - StaticText "Акции"
+  - link "Новинки" [ref=e43]
+    - image
+    - StaticText "Новинки"
+  - main
+    - generic
+      - generic
+        - link "background" [ref=e134]
+          - generic
+        - link "background" [ref=e135]
+          - generic
+        - link "background" [ref=e136]
+          - generic
+        - link "ФОРМУЛА Q8" [ref=e137]
+          - generic
+            - heading "ФОРМУЛА Q8" [level=1, ref=e170]
+        - generic
+          - image "background"
+          - heading "ТОП АКЦИЙ" [level=1, ref=e165]
+          - StaticText "Каждый месяц, для вас, печатаем листовки с актуальными ТОП акциями месяца!"
+          - StaticText "Подробности у вашего менеджера!"
+        - link "ABC Farben" [ref=e138]
+          - generic
+            - heading "ABC Farben" [level=1, ref=e171]
+        - generic
+          - image "background"
+          - heading [level=1]
+        - link "Узнай" [ref=e139]
+          - generic
+            - heading "Узнай" [level=1, ref=e172]
+        - link "АКВАТЕКС" [ref=e140]
+          - generic
+            - heading "АКВАТЕКС" [level=1, ref=e173]
+        - link "LINNIMAX" [ref=e141]
+          - generic
+            - heading "LINNIMAX" [level=1, ref=e174]
+        - link "background" [ref=e142]
+          - generic
+        - link "Обновляйте" [ref=e143]
+          - generic
+            - heading "Обновляйте" [level=1, ref=e175]
+      - button "Назад" [ref=e144]
+        - StaticText "Назад"
+      - button "Вперед" [ref=e145]
+        - StaticText "Вперед"
+      - generic
+    - link "Более 35 000 товаров в наличии Более 35 000 товаров в наличии" [ref=e49]
+      - image "Более 35 000 товаров в наличии"
+      - paragraph
+        - StaticText "Более 35 000 товаров в наличии"
+    - link "Оперативная доставка Оперативная доставка" [ref=e50]
+      - image "Оперативная доставка"
+      - paragraph
+        - StaticText "Оперативная доставка"
+    - link "Заказы 24/7 через личный кабинет Заказы 24/7 через личный кабинет" [ref=e51]
+      - image "Заказы 24/7 через личный кабинет"
+      - paragraph
+        - StaticText "Заказы 24/7 через личный кабинет"
+    - link "Территориальный охват: от Москвы до Урала Территориальный охват: от Москвы до Урала" [ref=e52]
+      - image "Территориальный охват: от Москвы до Урала"
+      - paragraph
+        - StaticText "Территориальный охват: от Москвы до Урала"
+    - generic
+      - heading "Популярные бренды" [level=1, ref=e70]
+      - link "Tikkurila" [ref=e71]
+        - image "Tikkurila"
+      - link "KUDO" [ref=e72]
+        - image "KUDO"
+      - link "VGT" [ref=e73]
+        - image "VGT"
+      - link "Акватекс" [ref=e74]
+        - image "Акватекс"
+      - link "Farben" [ref=e75]
+        - image "Farben"
+      - link "Linnimax" [ref=e76]
+        - image "Linnimax"
+    - generic
+      - heading "Популярные категории" [level=1, ref=e77]
+      - generic
+        - link "ЛАКОКРАСОЧНЫЕ МАТЕРИАЛЫ ЛАКОКРАСОЧНЫЕ МАТЕРИАЛЫ" [ref=e176]
+        - link "САД И ОГОРОД САД И ОГОРОД" [ref=e177]
+        - link "СТРОИТЕЛЬНЫЕ МАТЕРИАЛЫ СТРОИТЕЛЬНЫЕ МАТЕРИАЛЫ" [ref=e178]
+        - link "ЭЛЕКТРОБЕНЗОИНСТРУМЕНТ ЭЛЕКТРОБЕНЗОИНСТРУМЕНТ" [ref=e179]
+        - link "КЛЕИ, ГЕРМЕТИКИ, ПЕНЫ КЛЕИ, ГЕРМЕТИКИ, ПЕНЫ" [ref=e180]
+        - link "ДОМ И ДАЧА ДОМ И ДАЧА" [ref=e181]
+        - link "ИНСТРУМЕНТ ИНСТРУМЕНТ" [ref=e182]
+        - generic
+          - button [ref=e166]
+          - button [ref=e167]
+    - generic
+      - heading "Топ продаж" [level=1, ref=e78]
+      - generic [ref=e79] clickable [cursor:pointer, onclick]
+        - StaticText "Все"
+      - generic [ref=e80] clickable [cursor:pointer, onclick]
+        - StaticText "ВОДОСНАБЖЕНИЕ И КАНАЛИЗАЦИЯ"
+      - generic [ref=e81] clickable [cursor:pointer, onclick]
+        - StaticText "КЛЕИ, ГЕРМЕТИКИ, ПЕНЫ"
+      - generic [ref=e82] clickable [cursor:pointer, onclick]
+        - StaticText "ЛАКОКРАСОЧНЫЕ МАТЕРИАЛЫ"
+      - combobox [expanded=false, ref=e83]: Выбрать категорию
+        - generic
+          - searchbox "Выбрать категорию" [ref=e146]
+      - generic
+        - link "Акция Смеситель для ванны с душем Tsarsberg 111-95, с длинным изливом, двухвентильный, хром Смеситель для ванны с душем Tsarsberg 111-95, с длинным изливом, двухвентильный, хром 2 055,6 ₽/шт. 20 556 ₽/уп. В корзину" [ref=e183]
+          - button [ref=e201]
+          - heading "2 055,6 ₽/шт." [level=3, ref=e189]
+          - button "В корзину" [ref=e190]
+        - link "Противогололедный реагент Магия Радуги, продолжительного действия, 2 кг Противогололедный реагент Магия Радуги, продолжительного действия, 2 кг 224,4 ₽/шт. 224,4 ₽/уп. В корзину" [ref=e184]
+          - button [ref=e202]
+          - heading "224,4 ₽/шт." [level=3, ref=e191]
+          - button "В корзину" [ref=e192]
+        - link "Масло для дерева Veres Exterior Terrase Oil, 2,5 л, палисандр Масло для дерева Veres Exterior Terrase Oil, 2,5 л, палисандр 1 442 ₽/шт. 8 652 ₽/уп. В корзину" [ref=e185]
+          - button [ref=e203]
+          - heading "1 442 ₽/шт." [level=3, ref=e193]
+          - button "В корзину" [ref=e194]
+        - link "Профессиональная монтажная пена с увеличенным выходом Шабашка Профи, 690 мл Профессиональная монтажная пена с увеличенным выходом Шабашка Профи, 690 мл 388 ₽/шт. 4 656 ₽/уп. Заказать" [ref=e186]
+          - button [ref=e204]
+          - heading "388 ₽/шт." [level=3, ref=e195]
+          - button "Заказать" [ref=e196]
+        - link "Клей для плитки Церезит (Ceresit) CM 14 Extra, 25 кг Клей для плитки Церезит (Ceresit) CM 14 Extra, 25 кг 1 146,97 ₽/шт. 1 146,97 ₽/уп. В корзину" [ref=e187]
+          - button [ref=e205]
+          - heading "1 146,97 ₽/шт." [level=3, ref=e197]
+          - button "В корзину" [ref=e198]
+        - link "Грунт-эмаль по ржавчине 3 в 1 V, 20 кг, серая Грунт-эмаль по ржавчине 3 в 1 V, 20 кг, серая 4 329 ₽/шт. 4 329 ₽/уп. В корзину" [ref=e188]
+          - button [ref=e206]
+          - heading "4 329 ₽/шт." [level=3, ref=e199]
+          - button "В корзину" [ref=e200]
+        - generic
+          - button [ref=e168]
+          - button [ref=e169]
+      - button "Смотреть все товары" [ref=e84]
+        - StaticText "Смотреть все товары"
+    - generic
+      - heading "Новинки" [level=1, ref=e85]
+      - generic
+        - generic
+          - link "background" [ref=e147]
+          - link "background" [ref=e148]
+          - link "background" [ref=e149]
+          - link "background" [ref=e150]
+          - link "background" [ref=e151]
+          - link "background" [ref=e152]
+          - link "background" [ref=e153]
+          - link "background" [ref=e154]
+          - link "background" [ref=e155]
+          - link "background" [ref=e156]
+        - button "Назад" [ref=e157]
+        - button "Вперед" [ref=e158]
+      - link "Новинка Швабра для пола Leonord Блеск, плоская, насадка из микрофибры Швабра для пола Leonord Блеск, плоская, насадка из микрофибры 1 303,1 ₽/шт. 13 031 ₽/уп. В корзину" [ref=e86]
+        - button [ref=e159]
+        - heading "1 303,1 ₽/шт." [level=3, ref=e121]
+        - button "В корзину" [ref=e122]
+      - link "Новинка Полка для ванной угловая Рыжий кот Black, 2-х ярусная, 21 x 21 x 30,5 см Полка для ванной угловая Рыжий кот Black, 2-х ярусная, 21 x 21 x 30,5 см 456,2 ₽/шт. 1 824,8 ₽/уп. В корзину" [ref=e87]
+        - button [ref=e160]
+        - heading "456,2 ₽/шт." [level=3, ref=e123]
+        - button "В корзину" [ref=e124]
+      - link "Новинка Держатель для туалетной бумаги Рыжий кот Black Держатель для туалетной бумаги Рыжий кот Black 132,2 ₽/шт. 2 644 ₽/уп. В корзину" [ref=e88]
+        - button [ref=e161]
+        - heading "132,2 ₽/шт." [level=3, ref=e125]
+        - button "В корзину" [ref=e126]
+      - link "Новинка Держатель для туалетной бумаги Рыжий кот Basic Держатель для туалетной бумаги Рыжий кот Basic 136,5 ₽/шт. 2 730 ₽/уп. В корзину" [ref=e89]
+        - button [ref=e162]
+        - heading "136,5 ₽/шт." [level=3, ref=e127]
+        - button "В корзину" [ref=e128]
+      - link "Новинка Туалетный набор Рыжий кот, ерш с подставкой, пластик, белый Туалетный набор Рыжий кот, ерш с подставкой, пластик, белый 373,8 ₽/шт. 11 214 ₽/уп. В корзину" [ref=e90]
+        - button [ref=e163]
+        - heading "373,8 ₽/шт." [level=3, ref=e129]
+        - button "В корзину" [ref=e130]
+      - link "Новинка Щетка для уборки Рыжий кот, с отделением для моющего средства Щетка для уборки Рыжий кот, с отделением для моющего средства 59,5 ₽/шт. 1 487,5 ₽/уп. В корзину" [ref=e91]
+        - button [ref=e164]
+        - heading "59,5 ₽/шт." [level=3, ref=e131]
+        - button "В корзину" [ref=e132]
+      - button "Смотреть все товары" [ref=e92]
+    - generic
+      - heading "Категории товаров" [level=1, ref=e93]
+      - link "Автотовары Автотовары" [ref=e94]
+      - link "Бытовая техника Бытовая техника" [ref=e95]
+      - link "Бытовая химия Бытовая химия" [ref=e96]
+      - link "Водоснабжение и канализация Водоснабжение и канализация" [ref=e97]
+      - link "Дом и дача Дом и дача" [ref=e98]
+      - link "Инструмент Инструмент" [ref=e99]
+      - link "Клеи, герметики, пены Клеи, герметики, пены" [ref=e100]
+      - link "Косметика и уход Косметика и уход" [ref=e101]
+      - link "Крепеж и фурнитура Крепеж и фурнитура" [ref=e102]
+      - link "Лакокрасочные материалы Лакокрасочные материалы" [ref=e103]
+      - link "Мебель и фурнитура Мебель и фурнитура" [ref=e104]
+      - link "Освещение Освещение" [ref=e105]
+      - link "Отопление и вентиляция Отопление и вентиляция" [ref=e106]
+      - link "Посуда Посуда" [ref=e107]
+      - link "Сад и огород Сад и огород" [ref=e108]
+      - link "Сантехника Сантехника" [ref=e109]
+      - link "Строительные материалы Строительные материалы" [ref=e110]
+      - link "Товары для праздников Товары для праздников" [ref=e111]
+      - link "Туризм и отдых Туризм и отдых" [ref=e112]
+      - link "Электрика Электрика" [ref=e113]
+      - link "Электробензоинструмент Электробензоинструмент" [ref=e114]
+  - contentinfo
+    - link "8 800 222-4-000" [ref=e53]
+    - link "Контакты" [ref=e54]
+    - link "О компании" [ref=e55]
+    - link "Возврат товара" [ref=e56]
+    - link "Новости" [ref=e57]
+    - link "Договор" [ref=e58]
+    - link "Политика обработки персональных данных" [ref=e59]
+    - link "Инструмент" [ref=e60]
+    - link "Дом и дача" [ref=e61]
+    - link "Сад и огород" [ref=e62]
+    - link "Клеи, герметики, пены" [ref=e63]
+    - link "Электробензоинструмент" [ref=e64]
+    - link "Лакокрасочные материалы" [ref=e65]
+- generic
+  - generic [ref=e66] clickable [cursor:pointer]
