@@ -1,0 +1,29 @@
+{
+  "code": 200,
+  "data": {
+    "description": "",
+    "external": {},
+    "html": "<html><head><title>403 Forbidden</title></head>\n<body>\n<center><h1>403 Forbidden</h1></center>\n<hr><center>nginx</center>\n\n\n\n\n\n\n\n\n</body></html>",
+    "httpStatus": 403,
+    "httpStatusText": "",
+    "metadata": {},
+    "title": "403 Forbidden",
+    "url": "https://www.rusprofile.ru/id/20395768",
+    "usage": {
+      "measuredTokens": 0,
+      "outputTokens": 0,
+      "scaledTokens": 42,
+      "tokens": 42
+    },
+    "warning": "Target URL returned error 403: Forbidden"
+  },
+  "meta": {
+    "usage": {
+      "measuredTokens": 0,
+      "outputTokens": 0,
+      "scaledTokens": 42,
+      "tokens": 42
+    }
+  },
+  "status": 20000
+}

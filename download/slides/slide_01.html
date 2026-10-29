@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Каталог продуктов Эмпилс — Cover</title>
+<link rel="stylesheet" href="global.css">
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<style>
+  body { margin: 0; }
+</style>
+</head>
+<body>
+<div class="slide relative">
+  <!-- Left vertical accent stripe (decorative) -->
+  <div class="absolute top-0 left-0 h-full" style="width: 6px; background: var(--accent);" data-decor aria-hidden="true"></div>
+
+  <!-- Decorative thin grid line on right (decorative) -->
+  <div class="absolute" style="right: 56px; top: 80px; bottom: 80px; width: 1px; background: linear-gradient(to bottom, transparent, rgba(31,78,121,0.18), transparent);" data-decor aria-hidden="true"></div>
+
+  <!-- Top kicker -->
+  <div class="absolute flex items-center gap-3" style="left: 80px; top: 60px;">
+    <div class="rounded-full" style="width: 8px; height: 8px; background: var(--accent);" data-decor aria-hidden="true"></div>
+    <span class="font-semibold uppercase" style="font-size: 11px; letter-spacing: 0.28em; color: var(--text-secondary); font-family: var(--font-heading);">Технический каталог · Эмпилс · ЛКМ</span>
+  </div>
+
+  <!-- Top-right small page marker -->
+  <div class="absolute flex items-center gap-2" style="right: 80px; top: 60px;">
+    <span class="material-icons" style="font-size: 14px; color: var(--primary);">bookmark</span>
+    <span class="font-bold" style="font-family: var(--font-num); font-size: 12px; color: var(--primary);">01 / 15</span>
+  </div>
+
+  <!-- Hero icon block right -->
+  <div class="absolute flex items-center justify-center" style="right: 80px; top: 150px; width: 320px; height: 320px; background: linear-gradient(135deg, rgba(31,78,121,0.05), rgba(0,168,89,0.10)); border: 1px solid rgba(31,78,121,0.10); border-radius: 28px; box-shadow: 0 12px 32px rgba(31,78,121,0.08);">
+    <span class="material-icons" style="font-size: 200px; color: var(--primary);">home_work</span>
+  </div>
+
+  <!-- Decorative category chips below icon -->
+  <div class="absolute flex flex-col gap-2" style="right: 80px; top: 490px; width: 320px;">
+    <div class="flex items-center gap-2 justify-end">
+      <span style="font-size: 11px; color: var(--text-secondary); font-family: var(--font-body);">Интерьерные · Фасадные · Эмали · Огнезащита · Полы</span>
+      <span class="material-icons" style="font-size: 14px; color: var(--accent);">arrow_forward</span>
+    </div>
+  </div>
+
+  <!-- Title block left -->
+  <div class="absolute" style="left: 80px; top: 220px; width: 720px;">
+    <h1 class="font-bold leading-[1.1]" style="font-size: 36px; color: var(--primary); font-family: var(--font-heading); letter-spacing: -0.01em;">
+      Каталог продуктов Эмпилс
+    </h1>
+    <p class="leading-snug" style="font-size: 20px; color: var(--text-secondary); font-family: var(--font-body); max-width: 640px; margin-top: 18px;">
+      Применение ЛКМ в жилищном строительстве с учётом классов пожароопасности
+    </p>
+    <!-- Accent divider -->
+    <div style="margin-top: 28px; width: 56px; height: 3px; background: var(--accent);"></div>
+    <!-- Sub-info -->
+    <div class="flex items-center gap-6" style="margin-top: 22px;">
+      <div class="flex items-center gap-2">
+        <span class="material-icons" style="font-size: 16px; color: var(--primary);">apartment</span>
+        <span style="font-size: 12px; color: var(--text-secondary); font-family: var(--font-body);">Все классы этажности</span>
+      </div>
+      <div class="flex items-center gap-2">
+        <span class="material-icons" style="font-size: 16px; color: var(--primary);">local_fire_department</span>
+        <span style="font-size: 12px; color: var(--text-secondary); font-family: var(--font-body);">КМ1 · Г1 · В1 · НГ</span>
+      </div>
+      <div class="flex items-center gap-2">
+        <span class="material-icons" style="font-size: 16px; color: var(--primary);">verified_user</span>
+        <span style="font-size: 12px; color: var(--text-secondary); font-family: var(--font-body);">Сертификаты соответствия</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bottom info bar -->
+  <div class="absolute flex items-center justify-between" style="left: 80px; right: 80px; bottom: 56px; padding-top: 18px; border-top: 1px solid #E0E0E0;">
+    <div class="flex items-center gap-3">
+      <span class="material-icons" style="font-size: 18px; color: var(--accent);">verified</span>
+      <span style="font-size: 14px; color: var(--text-secondary);">На основании ФЗ-123 и сертификатов соответствия</span>
+    </div>
+    <div class="flex items-center gap-2">
+      <span class="material-icons" style="font-size: 16px; color: var(--primary);">event</span>
+      <span class="font-bold" style="font-family: var(--font-num); font-size: 14px; color: var(--primary);">Сентябрь 2026</span>
+    </div>
+  </div>
+</div>
+</body>
+</html>

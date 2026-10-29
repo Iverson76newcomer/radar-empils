@@ -1,0 +1,553 @@
+Searching for idx 4: КОРВОН лакокрасочные материалы бренды ассортимент краски Таджикистан
+Failed to invoke remote function: 477 |                 headers,
+478 |                 body: JSON.stringify(body),
+479 |             });
+480 |             if (!response.ok) {
+481 |                 const errorBody = await response.text();
+482 |                 throw new Error(`Function invoke failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}
+      at invokeFunction (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:482:27)
+      at async main (/home/z/my-project/scripts/search_group5.mjs:29:41)
+
+  Error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}, retries left: 2
+  Waiting 15s...
+Searching for idx 4: КОРВОН лакокрасочные материалы бренды ассортимент краски Таджикистан
+Failed to invoke remote function: 477 |                 headers,
+478 |                 body: JSON.stringify(body),
+479 |             });
+480 |             if (!response.ok) {
+481 |                 const errorBody = await response.text();
+482 |                 throw new Error(`Function invoke failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}
+      at invokeFunction (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:482:27)
+      at async main (/home/z/my-project/scripts/search_group5.mjs:29:41)
+
+  Error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}, retries left: 1
+  Waiting 15s...
+Searching for idx 4: КОРВОН лакокрасочные материалы бренды ассортимент краски Таджикистан
+Failed to invoke remote function: 477 |                 headers,
+478 |                 body: JSON.stringify(body),
+479 |             });
+480 |             if (!response.ok) {
+481 |                 const errorBody = await response.text();
+482 |                 throw new Error(`Function invoke failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}
+      at invokeFunction (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:482:27)
+      at async main (/home/z/my-project/scripts/search_group5.mjs:29:41)
+
+  Error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}, retries left: 0
+  Waiting 5s before next request...
+Searching for idx 10: Баткомплект ООО лакокрасочные материалы бренды ассортимент
+Failed to invoke remote function: 477 |                 headers,
+478 |                 body: JSON.stringify(body),
+479 |             });
+480 |             if (!response.ok) {
+481 |                 const errorBody = await response.text();
+482 |                 throw new Error(`Function invoke failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}
+      at invokeFunction (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:482:27)
+      at async main (/home/z/my-project/scripts/search_group5.mjs:29:41)
+
+  Error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}, retries left: 2
+  Waiting 15s...
+Searching for idx 10: Баткомплект ООО лакокрасочные материалы бренды ассортимент
+Failed to invoke remote function: 477 |                 headers,
+478 |                 body: JSON.stringify(body),
+479 |             });
+480 |             if (!response.ok) {
+481 |                 const errorBody = await response.text();
+482 |                 throw new Error(`Function invoke failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}
+      at invokeFunction (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:482:27)
+      at async main (/home/z/my-project/scripts/search_group5.mjs:29:41)
+
+  Error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}, retries left: 1
+  Waiting 15s...
+Searching for idx 10: Баткомплект ООО лакокрасочные материалы бренды ассортимент
+Failed to invoke remote function: 477 |                 headers,
+478 |                 body: JSON.stringify(body),
+479 |             });
+480 |             if (!response.ok) {
+481 |                 const errorBody = await response.text();
+482 |                 throw new Error(`Function invoke failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}
+      at invokeFunction (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:482:27)
+      at async main (/home/z/my-project/scripts/search_group5.mjs:29:41)
+
+  Error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}, retries left: 0
+  Waiting 5s before next request...
+Searching for idx 11: remplanika.ru Владимиров и Партнер лакокрасочные материалы бренды краски
+Failed to invoke remote function: 477 |                 headers,
+478 |                 body: JSON.stringify(body),
+479 |             });
+480 |             if (!response.ok) {
+481 |                 const errorBody = await response.text();
+482 |                 throw new Error(`Function invoke failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}
+      at invokeFunction (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:482:27)
+      at async main (/home/z/my-project/scripts/search_group5.mjs:29:41)
+
+  Error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}, retries left: 2
+  Waiting 15s...
+Searching for idx 11: remplanika.ru Владимиров и Партнер лакокрасочные материалы бренды краски
+Failed to invoke remote function: 477 |                 headers,
+478 |                 body: JSON.stringify(body),
+479 |             });
+480 |             if (!response.ok) {
+481 |                 const errorBody = await response.text();
+482 |                 throw new Error(`Function invoke failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}
+      at invokeFunction (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:482:27)
+      at async main (/home/z/my-project/scripts/search_group5.mjs:29:41)
+
+  Error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}, retries left: 1
+  Waiting 15s...
+Searching for idx 11: remplanika.ru Владимиров и Партнер лакокрасочные материалы бренды краски
+Failed to invoke remote function: 477 |                 headers,
+478 |                 body: JSON.stringify(body),
+479 |             });
+480 |             if (!response.ok) {
+481 |                 const errorBody = await response.text();
+482 |                 throw new Error(`Function invoke failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}
+      at invokeFunction (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:482:27)
+      at async main (/home/z/my-project/scripts/search_group5.mjs:29:41)
+
+  Error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}, retries left: 0
+  Waiting 5s before next request...
+Searching for idx 15: Касторама Россия лакокрасочные материалы бренды ассортимент краски Dulux Tikkurila
+Failed to invoke remote function: 477 |                 headers,
+478 |                 body: JSON.stringify(body),
+479 |             });
+480 |             if (!response.ok) {
+481 |                 const errorBody = await response.text();
+482 |                 throw new Error(`Function invoke failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}
+      at invokeFunction (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:482:27)
+      at async main (/home/z/my-project/scripts/search_group5.mjs:29:41)
+
+  Error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}, retries left: 2
+  Waiting 15s...
+Searching for idx 15: Касторама Россия лакокрасочные материалы бренды ассортимент краски Dulux Tikkurila
+Failed to invoke remote function: 477 |                 headers,
+478 |                 body: JSON.stringify(body),
+479 |             });
+480 |             if (!response.ok) {
+481 |                 const errorBody = await response.text();
+482 |                 throw new Error(`Function invoke failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}
+      at invokeFunction (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:482:27)
+      at async main (/home/z/my-project/scripts/search_group5.mjs:29:41)
+
+  Error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}, retries left: 1
+  Waiting 15s...
+Searching for idx 15: Касторама Россия лакокрасочные материалы бренды ассортимент краски Dulux Tikkurila
+Failed to invoke remote function: 477 |                 headers,
+478 |                 body: JSON.stringify(body),
+479 |             });
+480 |             if (!response.ok) {
+481 |                 const errorBody = await response.text();
+482 |                 throw new Error(`Function invoke failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}
+      at invokeFunction (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:482:27)
+      at async main (/home/z/my-project/scripts/search_group5.mjs:29:41)
+
+  Error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}, retries left: 0
+  Waiting 5s before next request...
+Searching for idx 16: Кенгуру-опт лакокрасочные материалы бренды ассортимент краски kenguru.ru
+Failed to invoke remote function: 477 |                 headers,
+478 |                 body: JSON.stringify(body),
+479 |             });
+480 |             if (!response.ok) {
+481 |                 const errorBody = await response.text();
+482 |                 throw new Error(`Function invoke failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}
+      at invokeFunction (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:482:27)
+      at async main (/home/z/my-project/scripts/search_group5.mjs:29:41)
+
+  Error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}, retries left: 2
+  Waiting 15s...
+Searching for idx 16: Кенгуру-опт лакокрасочные материалы бренды ассортимент краски kenguru.ru
+Failed to invoke remote function: 477 |                 headers,
+478 |                 body: JSON.stringify(body),
+479 |             });
+480 |             if (!response.ok) {
+481 |                 const errorBody = await response.text();
+482 |                 throw new Error(`Function invoke failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}
+      at invokeFunction (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:482:27)
+      at async main (/home/z/my-project/scripts/search_group5.mjs:29:41)
+
+  Error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}, retries left: 1
+  Waiting 15s...
+Searching for idx 16: Кенгуру-опт лакокрасочные материалы бренды ассортимент краски kenguru.ru
+Failed to invoke remote function: 477 |                 headers,
+478 |                 body: JSON.stringify(body),
+479 |             });
+480 |             if (!response.ok) {
+481 |                 const errorBody = await response.text();
+482 |                 throw new Error(`Function invoke failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}
+      at invokeFunction (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:482:27)
+      at async main (/home/z/my-project/scripts/search_group5.mjs:29:41)
+
+  Error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}, retries left: 0
+  Waiting 5s before next request...
+Searching for idx 18: ЛКМ комплект ООО Тверь лакокрасочные бренды
+Failed to invoke remote function: 477 |                 headers,
+478 |                 body: JSON.stringify(body),
+479 |             });
+480 |             if (!response.ok) {
+481 |                 const errorBody = await response.text();
+482 |                 throw new Error(`Function invoke failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}
+      at invokeFunction (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:482:27)
+      at async main (/home/z/my-project/scripts/search_group5.mjs:29:41)
+
+  Error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}, retries left: 2
+  Waiting 15s...
+Searching for idx 18: ЛКМ комплект ООО Тверь лакокрасочные бренды
+Failed to invoke remote function: 477 |                 headers,
+478 |                 body: JSON.stringify(body),
+479 |             });
+480 |             if (!response.ok) {
+481 |                 const errorBody = await response.text();
+482 |                 throw new Error(`Function invoke failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}
+      at invokeFunction (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:482:27)
+      at async main (/home/z/my-project/scripts/search_group5.mjs:29:41)
+
+  Error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}, retries left: 1
+  Waiting 15s...
+Searching for idx 18: ЛКМ комплект ООО Тверь лакокрасочные бренды
+Failed to invoke remote function: 477 |                 headers,
+478 |                 body: JSON.stringify(body),
+479 |             });
+480 |             if (!response.ok) {
+481 |                 const errorBody = await response.text();
+482 |                 throw new Error(`Function invoke failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}
+      at invokeFunction (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:482:27)
+      at async main (/home/z/my-project/scripts/search_group5.mjs:29:41)
+
+  Error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}, retries left: 0
+  Waiting 5s before next request...
+Searching for idx 20: МАСТАК-Плюс Пермь лакокрасочные материалы бренды ассортимент
+Failed to invoke remote function: 477 |                 headers,
+478 |                 body: JSON.stringify(body),
+479 |             });
+480 |             if (!response.ok) {
+481 |                 const errorBody = await response.text();
+482 |                 throw new Error(`Function invoke failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}
+      at invokeFunction (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:482:27)
+      at async main (/home/z/my-project/scripts/search_group5.mjs:29:41)
+
+  Error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}, retries left: 2
+  Waiting 15s...
+Searching for idx 20: МАСТАК-Плюс Пермь лакокрасочные материалы бренды ассортимент
+Failed to invoke remote function: 477 |                 headers,
+478 |                 body: JSON.stringify(body),
+479 |             });
+480 |             if (!response.ok) {
+481 |                 const errorBody = await response.text();
+482 |                 throw new Error(`Function invoke failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}
+      at invokeFunction (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:482:27)
+      at async main (/home/z/my-project/scripts/search_group5.mjs:29:41)
+
+  Error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}, retries left: 1
+  Waiting 15s...
+Searching for idx 20: МАСТАК-Плюс Пермь лакокрасочные материалы бренды ассортимент
+Failed to invoke remote function: 477 |                 headers,
+478 |                 body: JSON.stringify(body),
+479 |             });
+480 |             if (!response.ok) {
+481 |                 const errorBody = await response.text();
+482 |                 throw new Error(`Function invoke failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}
+      at invokeFunction (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:482:27)
+      at async main (/home/z/my-project/scripts/search_group5.mjs:29:41)
+
+  Error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}, retries left: 0
+  Waiting 5s before next request...
+Searching for idx 23: ОБИ Россия лакокрасочные материалы бренды ассортимент краски Dulux Caparol
+Failed to invoke remote function: 477 |                 headers,
+478 |                 body: JSON.stringify(body),
+479 |             });
+480 |             if (!response.ok) {
+481 |                 const errorBody = await response.text();
+482 |                 throw new Error(`Function invoke failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}
+      at invokeFunction (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:482:27)
+      at async main (/home/z/my-project/scripts/search_group5.mjs:29:41)
+
+  Error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}, retries left: 2
+  Waiting 15s...
+Searching for idx 23: ОБИ Россия лакокрасочные материалы бренды ассортимент краски Dulux Caparol
+Failed to invoke remote function: 477 |                 headers,
+478 |                 body: JSON.stringify(body),
+479 |             });
+480 |             if (!response.ok) {
+481 |                 const errorBody = await response.text();
+482 |                 throw new Error(`Function invoke failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}
+      at invokeFunction (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:482:27)
+      at async main (/home/z/my-project/scripts/search_group5.mjs:29:41)
+
+  Error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}, retries left: 1
+  Waiting 15s...
+Searching for idx 23: ОБИ Россия лакокрасочные материалы бренды ассортимент краски Dulux Caparol
+Failed to invoke remote function: 477 |                 headers,
+478 |                 body: JSON.stringify(body),
+479 |             });
+480 |             if (!response.ok) {
+481 |                 const errorBody = await response.text();
+482 |                 throw new Error(`Function invoke failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}
+      at invokeFunction (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:482:27)
+      at async main (/home/z/my-project/scripts/search_group5.mjs:29:41)
+
+  Error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}, retries left: 0
+  Waiting 5s before next request...
+Searching for idx 24: Басар ООО лакокрасочные материалы бренды ассортимент краски
+Failed to invoke remote function: 477 |                 headers,
+478 |                 body: JSON.stringify(body),
+479 |             });
+480 |             if (!response.ok) {
+481 |                 const errorBody = await response.text();
+482 |                 throw new Error(`Function invoke failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}
+      at invokeFunction (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:482:27)
+      at async main (/home/z/my-project/scripts/search_group5.mjs:29:41)
+
+  Error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}, retries left: 2
+  Waiting 15s...
+Searching for idx 24: Басар ООО лакокрасочные материалы бренды ассортимент краски
+Failed to invoke remote function: 477 |                 headers,
+478 |                 body: JSON.stringify(body),
+479 |             });
+480 |             if (!response.ok) {
+481 |                 const errorBody = await response.text();
+482 |                 throw new Error(`Function invoke failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}
+      at invokeFunction (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:482:27)
+      at async main (/home/z/my-project/scripts/search_group5.mjs:29:41)
+
+  Error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}, retries left: 1
+  Waiting 15s...
+Searching for idx 24: Басар ООО лакокрасочные материалы бренды ассортимент краски
+Failed to invoke remote function: 477 |                 headers,
+478 |                 body: JSON.stringify(body),
+479 |             });
+480 |             if (!response.ok) {
+481 |                 const errorBody = await response.text();
+482 |                 throw new Error(`Function invoke failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}
+      at invokeFunction (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:482:27)
+      at async main (/home/z/my-project/scripts/search_group5.mjs:29:41)
+
+  Error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}, retries left: 0
+  Waiting 5s before next request...
+Searching for idx 25: ГИГАНТСТРОЙ ООО лакокрасочные материалы бренды ассортимент
+Failed to invoke remote function: 477 |                 headers,
+478 |                 body: JSON.stringify(body),
+479 |             });
+480 |             if (!response.ok) {
+481 |                 const errorBody = await response.text();
+482 |                 throw new Error(`Function invoke failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}
+      at invokeFunction (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:482:27)
+      at async main (/home/z/my-project/scripts/search_group5.mjs:29:41)
+
+  Error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}, retries left: 2
+  Waiting 15s...
+Searching for idx 25: ГИГАНТСТРОЙ ООО лакокрасочные материалы бренды ассортимент
+Failed to invoke remote function: 477 |                 headers,
+478 |                 body: JSON.stringify(body),
+479 |             });
+480 |             if (!response.ok) {
+481 |                 const errorBody = await response.text();
+482 |                 throw new Error(`Function invoke failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}
+      at invokeFunction (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:482:27)
+      at async main (/home/z/my-project/scripts/search_group5.mjs:29:41)
+
+  Error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}, retries left: 1
+  Waiting 15s...
+Searching for idx 25: ГИГАНТСТРОЙ ООО лакокрасочные материалы бренды ассортимент
+Failed to invoke remote function: 477 |                 headers,
+478 |                 body: JSON.stringify(body),
+479 |             });
+480 |             if (!response.ok) {
+481 |                 const errorBody = await response.text();
+482 |                 throw new Error(`Function invoke failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}
+      at invokeFunction (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:482:27)
+      at async main (/home/z/my-project/scripts/search_group5.mjs:29:41)
+
+  Error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}, retries left: 0
+  Waiting 5s before next request...
+Searching for idx 7: Алексеев Петр Спиридонович ИП лакокрасочные Радуга Маляр
+Failed to invoke remote function: 477 |                 headers,
+478 |                 body: JSON.stringify(body),
+479 |             });
+480 |             if (!response.ok) {
+481 |                 const errorBody = await response.text();
+482 |                 throw new Error(`Function invoke failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}
+      at invokeFunction (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:482:27)
+      at async main (/home/z/my-project/scripts/search_group5.mjs:29:41)
+
+  Error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}, retries left: 2
+  Waiting 15s...
+Searching for idx 7: Алексеев Петр Спиридонович ИП лакокрасочные Радуга Маляр
+Failed to invoke remote function: 477 |                 headers,
+478 |                 body: JSON.stringify(body),
+479 |             });
+480 |             if (!response.ok) {
+481 |                 const errorBody = await response.text();
+482 |                 throw new Error(`Function invoke failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}
+      at invokeFunction (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:482:27)
+      at async main (/home/z/my-project/scripts/search_group5.mjs:29:41)
+
+  Error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}, retries left: 1
+  Waiting 15s...
+Searching for idx 7: Алексеев Петр Спиридонович ИП лакокрасочные Радуга Маляр
+Failed to invoke remote function: 477 |                 headers,
+478 |                 body: JSON.stringify(body),
+479 |             });
+480 |             if (!response.ok) {
+481 |                 const errorBody = await response.text();
+482 |                 throw new Error(`Function invoke failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}
+      at invokeFunction (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:482:27)
+      at async main (/home/z/my-project/scripts/search_group5.mjs:29:41)
+
+  Error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}, retries left: 0
+  Waiting 5s before next request...
+Searching for idx 19: Макаров Павел Евгеньевич ИП Воронков лакокрасочные материалы
+Failed to invoke remote function: 477 |                 headers,
+478 |                 body: JSON.stringify(body),
+479 |             });
+480 |             if (!response.ok) {
+481 |                 const errorBody = await response.text();
+482 |                 throw new Error(`Function invoke failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}
+      at invokeFunction (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:482:27)
+      at async main (/home/z/my-project/scripts/search_group5.mjs:29:41)
+
+  Error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}, retries left: 2
+  Waiting 15s...
+Searching for idx 19: Макаров Павел Евгеньевич ИП Воронков лакокрасочные материалы
+Failed to invoke remote function: 477 |                 headers,
+478 |                 body: JSON.stringify(body),
+479 |             });
+480 |             if (!response.ok) {
+481 |                 const errorBody = await response.text();
+482 |                 throw new Error(`Function invoke failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}
+      at invokeFunction (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:482:27)
+      at async main (/home/z/my-project/scripts/search_group5.mjs:29:41)
+
+  Error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}, retries left: 1
+  Waiting 15s...
+Searching for idx 19: Макаров Павел Евгеньевич ИП Воронков лакокрасочные материалы
+Failed to invoke remote function: 477 |                 headers,
+478 |                 body: JSON.stringify(body),
+479 |             });
+480 |             if (!response.ok) {
+481 |                 const errorBody = await response.text();
+482 |                 throw new Error(`Function invoke failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}
+      at invokeFunction (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:482:27)
+      at async main (/home/z/my-project/scripts/search_group5.mjs:29:41)
+
+  Error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}, retries left: 0
+  Waiting 5s before next request...
+Searching for idx 14: ИП Фаткуллин лакокрасочные материалы бренды
+Failed to invoke remote function: 477 |                 headers,
+478 |                 body: JSON.stringify(body),
+479 |             });
+480 |             if (!response.ok) {
+481 |                 const errorBody = await response.text();
+482 |                 throw new Error(`Function invoke failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}
+      at invokeFunction (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:482:27)
+      at async main (/home/z/my-project/scripts/search_group5.mjs:29:41)
+
+  Error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}, retries left: 2
+  Waiting 15s...
+Searching for idx 14: ИП Фаткуллин лакокрасочные материалы бренды
+Failed to invoke remote function: 470 |         const body = {
+471 |             function_name,
+472 |             arguments: args,
+473 |         };
+474 |         try {
+475 |             const response = await fetch(url, {
+                                         ^
+error: The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()
+  path: "https://internal-api.z.ai/v1/functions/invoke",
+ errno: 0,
+  code: "ECONNRESET"
+
+      at async invokeFunction (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:475:36)
+      at async main (/home/z/my-project/scripts/search_group5.mjs:29:41)
+
+  Error: The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch(), retries left: 1
+  Waiting 15s...
+Searching for idx 14: ИП Фаткуллин лакокрасочные материалы бренды
+Failed to invoke remote function: 477 |                 headers,
+478 |                 body: JSON.stringify(body),
+479 |             });
+480 |             if (!response.ok) {
+481 |                 const errorBody = await response.text();
+482 |                 throw new Error(`Function invoke failed with status ${response.status}: ${errorBody}`);
+                                ^
+error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}
+      at invokeFunction (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/index.js:482:27)
+      at async main (/home/z/my-project/scripts/search_group5.mjs:29:41)
+
+  Error: Function invoke failed with status 429: {"error":"Too many requests, please try again later"}, retries left: 0
+  Waiting 5s before next request...
+
+=== DONE ===
+Results saved to /tmp/search_g5_*.json

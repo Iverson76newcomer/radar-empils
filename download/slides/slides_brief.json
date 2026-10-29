@@ -1,0 +1,105 @@
+{
+  "design": {
+    "title": "Каталог продуктов Эмпилс для жилищного строительства",
+    "style_name": "Технический каталог",
+    "palette": {"background": "#F5F7FA", "primary": "#1F4E79", "accent": "#00A859"},
+    "typography": {"heading": "Inter", "body": "Roboto", "numeric": "Roboto Mono"},
+    "reference": "Технический справочник с светофорной кодировкой"
+  },
+  "global_css_path": "/home/z/my-project/download/slides/global.css",
+  "slides_dir": "/home/z/my-project/download/slides",
+  "language": "ru",
+  "speaker_notes": "none",
+  "slides": [
+    {
+      "title": "Каталог продуктов Эмпилс для жилищного строительства",
+      "layout": "cover",
+      "output_path": "/home/z/my-project/download/slides/slide_01.html",
+      "task_brief": "Cover slide. Title: 'Каталог продуктов Эмпилс'. Subtitle: 'Применение ЛКМ в жилищном строительстве с учётом классов пожароопасности'. Bottom text: 'На основании ФЗ-123 и сертификатов соответствия · Сентябрь 2026'. Large icon: use Material Icons 'home_work' or 'construction' in primary color. Background: var(--bg). Title in var(--font-heading) 36px bold, primary color. Subtitle 20px, text-secondary color."
+    },
+    {
+      "title": "Как читать каталог",
+      "layout": "key message",
+      "output_path": "/home/z/my-project/download/slides/slide_02.html",
+      "task_brief": "Legend slide explaining the traffic light system. Title: 'Как читать каталог'. Two columns:\n\nLeft column - 'Цветовая кодировка':\n- Green circle with '✓' = Можно использовать\n- Orange circle with '⚠' = С ограничениями\n- Red circle with '✗' = Нельзя использовать\n- Gray circle with '—' = Не применяется\n\nRight column - 'Классы пожароопасности (ФЗ-123)':\n- Г1 — слабогорючие (лучший показатель для горючих)\n- В1 — трудновоспламеняемые\n- Д1 — малодымообразующие\n- Т1 — малотоксичные\n- РП1 — не распространяющие пламя\n- КМ1 — комбинированный класс (Г1+В1+Д1+Т1+РП1)\n- НГ — негорючие (только для зданий >17 этажей)\n\nBottom row - 'Этажность жилых зданий':\n- До 9 этажей (≤28 м) — самые мягкие требования\n- 9-17 этажей (28-50 м) — строже\n- Выше 17 этажей (>50 м) — только НГ на путях эвакуации"
+    },
+    {
+      "title": "NEWTONE — 4 модификации",
+      "layout": "split text+image",
+      "output_path": "/home/z/my-project/download/slides/slide_03.html",
+      "task_brief": "Product card slide.\n\nProduct name: 'NEWTONE' (large, 28px, primary color)\nSubtitle: '4 модификации: INTERIO, LOTUS 3, LOTUS 7, LOTUS 20'\n\nFire safety badge: 'Г1, В1, Д2, Т2, РП1' — blue badge (fire-badge-good)\n\nCertificate info (small text): '4 сертификата: RU Д-RU.PA01.B.00924/23, 00925/23, 00923/23, RU Д-RU.RA01.B.00926/23. Действует до 19.06.2028'\n\nApplication table with 3 columns (До 9 этажей | 9-17 этажей | >17 этажей) and 6 rows:\n| Зона применения | ≤9 этажей | 9-17 этажей | >17 этажей |\n| Жилые комнаты (квартиры) | ✓ | ✓ | ✓ |\n| Коридоры, холлы, фойе | ✓ | ✓ | ✓ |\n| Лестничные клетки, вестибюли | ✓ | ✓ | ✗ (только НГ) |\n| Потолки | ✓ | ✓ | ✗ (только НГ) |\n| Полы | — | — | — |\n| Фасады | — | — | — |\n\nUse CSS classes: cell-ok for ✓, cell-no for ✗, cell-na for —.\nTable cells should be compact, centered.\n\nBottom note: 'Премиальная интерьерная ВД-краска. Стены и потолки жилых, общественных, офисных помещений.'"
+    },
+    {
+      "title": "ОРЕОЛ ДИСКОНТ интерьерная",
+      "layout": "split text+image",
+      "output_path": "/home/z/my-project/download/slides/slide_04.html",
+      "task_brief": "Product card slide.\n\nProduct name: 'ОРЕОЛ ДИСКОНТ интерьерная' (large, primary color)\nSubtitle: 'ВД-краска полиакриловая для внутренних работ'\n\nFire safety badge: 'КМ1 (Г1, В1, Д1, Т1, РП1)' — GREEN badge (fire-badge-km1)\n\nCertificate info: 'Сертификат: RU Д-RU.PA01.B.00164/23 (ОРЕОЛ белая моющаяся ВД полиакриловая). Действует до 05.02.2028'\n\nApplication table (3 columns: ≤9 этажей | 9-17 этажей | >17 этажей):\n| Жилые комнаты | ✓ | ✓ | ✓ |\n| Коридоры, холлы | ✓ | ✓ | ✓ |\n| Лестничные клетки | ✓ | ✓ | ✗ (НГ) |\n| Потолки | ✓ | ✓ | ✗ (НГ) |\n| Полы | — | — | — |\n| Фасады | — | — | — |\n\nBottom note: 'Класс КМ1 — лучше стандартных требований. Д1/Т1/РП1 вместо Д2/Т2/РП2.'"
+    },
+    {
+      "title": "ОРЕОЛ ДИСКОНТ моющаяся",
+      "layout": "split text+image",
+      "output_path": "/home/z/my-project/download/slides/slide_05.html",
+      "task_brief": "Product card slide.\n\nProduct name: 'ОРЕОЛ ДИСКОНТ моющаяся'\nSubtitle: 'Интерьерная моющаяся ВД-краска для кухонь, прихожих, коридоров'\n\nFire safety badge: 'КМ1 (Г1, В1, Д1, Т1, РП1)' — GREEN badge\n\nCertificate info: '2 сертификата: RU Д-RU.PA01.B.00164/23 + RU Д-RU.RA01.B.03124/21. Действует до 05.02.2028 / 2026 г.'\n\nApplication table:\n| Жилые комнаты | ✓ | ✓ | ✓ |\n| Коридоры, холлы | ✓ | ✓ | ✓ |\n| Лестничные клетки | ✓ | ✓ | ✗ (НГ) |\n| Потолки | ✓ | ✓ | ✗ (НГ) |\n| Полы | — | — | — |\n| Фасады | — | — | — |\n\nBottom note: 'Устойчива к мытью. Для кухонь, прихожих, детских комнат, мест общего пользования.'"
+    },
+    {
+      "title": "ОРЕОЛ ДИСКОНТ полиакрил (потолок)",
+      "layout": "split text+image",
+      "output_path": "/home/z/my-project/download/slides/slide_06.html",
+      "task_brief": "Product card slide.\n\nProduct name: 'ОРЕОЛ ДИСКОНТ полиакрил'\nSubtitle: 'Потолочная ВД-краска (полиакрил)'\n\nFire safety badge: 'КМ1 (Г1, В1, Д1, Т1, РП1)' — GREEN badge\n\nCertificate info: 'Сертификат: RU Д-RU.PA01.B.00164/23. Действует до 05.02.2028'\n\nApplication table:\n| Жилые комнаты | ✓ | ✓ | ✓ |\n| Коридоры, холлы | ✓ | ✓ | ✓ |\n| Лестничные клетки | ✓ | ✓ | ✗ (НГ) |\n| Потолки | ✓ | ✓ | ✗ (НГ) |\n| Полы | — | — | — |\n| Фасады | — | — | — |\n\nBottom note: 'Специально для потолков. Глубокоматовая, не бликует. Для всех типов жилых и общественных зданий до 17 этажей.'"
+    },
+    {
+      "title": "ОРЕОЛ ДИСКОНТ фасадная",
+      "layout": "split text+image",
+      "output_path": "/home/z/my-project/download/slides/slide_07.html",
+      "task_brief": "Product card slide.\n\nProduct name: 'ОРЕОЛ ДИСКОНТ фасадная'\nSubtitle: 'Фасадная ВД-краска для наружных работ'\n\nFire safety badge: 'Г1, В1, Д2, Т2, РП1 (КМ1)' — GREEN badge (improved from B2!)\n\nCertificate info: 'Сертификат: RU Д-RU.RA01.B.03123/21 (Краска фасадная СТО 135-2018). Действует до 2026 г.'\n\nApplication table:\n| Жилые комнаты | ⚠ | ⚠ | ⚠ |\n| Коридоры, холлы | — | — | — |\n| Лестничные клетки | — | — | — |\n| Потолки | — | — | — |\n| Полы | — | — | — |\n| Фасады | ✓ | ✓ | ✓ |\n\nBottom note: '⚠ В2→В1 улучшено по сертификату! Для наружных фасадов зданий любой этажности. Атмосферостойкая.'"
+    },
+    {
+      "title": "Эмаль для радиаторов акриловая",
+      "layout": "split text+image",
+      "output_path": "/home/z/my-project/download/slides/slide_08.html",
+      "task_brief": "Product card slide.\n\nProduct name: 'Эмаль для радиаторов акриловая ОРЕОЛ'\nSubtitle: 'Акриловая ВД-эмаль для радиаторов отопления, труб, металлических элементов'\n\nFire safety badge: 'Г1, В1, Д2, Т2, РП1*' — ORANGE badge (fire-badge-warn)\nNote next to badge: '* По типичным показателям ВД-эмалей'\n\nCertificate info: '⚠ Нет отдельного ДС в базе знаний. Есть ПБ: «ПБ Эмаль для радиаторов СТО 012-2011.pdf». Запросите ДС у производителя.'\n\nApplication table:\n| Жилые комнаты | ✓ | ✓ | ✓ |\n| Коридоры, холлы | ✓ | ✓ | ✓ |\n| Лестничные клетки | ✓ | ✓ | ✓ |\n| Потолки | — | — | — |\n| Полы | — | — | — |\n| Фасады | — | — | — |\n\nNote: 'Термостойкая. Для радиаторов и труб отопления во всех типах зданий.'"
+    },
+    {
+      "title": "Эмаль акриловая глянцевая ОРЕОЛ",
+      "layout": "split text+image",
+      "output_path": "/home/z/my-project/download/slides/slide_09.html",
+      "task_brief": "Product card slide.\n\nProduct name: 'Эмаль акриловая глянцевая ОРЕОЛ'\nSubtitle: 'ВД-эмаль для внутренней отделки. Дерево, металл, ДСП, МДФ.'\n\nFire safety badge: 'Г1, В1, Д1, Т1' — GREEN badge (fire-badge-km1)\n\nCertificate info: 'ДС: RU Д-RU.PA01.B.01134/26. Действует до 24.05.2031'\n\nApplication table:\n| Жилые комнаты | ✓ | ✓ | ✓ |\n| Коридоры, холлы | ✓ | ✓ | ✓ |\n| Лестничные клетки | ✓ | ✓ | ✗ (НГ) |\n| Потолки | — | — | — |\n| Полы | — | — | — |\n| Фасады | — | — | — |\n\nBottom note: 'Лучшие показатели среди эмалей: Д1/Т1. Для деревянных и металлических поверхностей внутри помещений.'"
+    },
+    {
+      "title": "Эмаль акриловая матовая ОРЕОЛ ⚠",
+      "layout": "split text+image",
+      "output_path": "/home/z/my-project/download/slides/slide_10.html",
+      "task_brief": "Product card slide.\n\nProduct name: 'Эмаль акриловая матовая ОРЕОЛ'\nSubtitle: 'ВД-эмаль для внутренней отделки. ВНИМАНИЕ: класс В2!'\n\nFire safety badge: 'Г1, В2, Д2, Т2' — ORANGE badge (fire-badge-warn)\n\nCertificate info: 'ДС: RU Д-RU.RA01.B.00950/26. Действует до 20.05.2031. ВНИМАНИЕ: ДС отсутствует в базе знаний!'\n\nApplication table:\n| Жилые комнаты | ✓ | ✓ | ✓ |\n| Коридоры, холлы | ⚠ | ✗ | ✗ |\n| Лестничные клетки | ⚠ | ✗ | ✗ |\n| Потолки | — | — | — |\n| Полы | — | — | — |\n| Фасады | — | — | — |\n\nBottom note with RED highlight: '⚠ В2 — НЕ подходит для путей эвакуации в зданиях выше 9 этажей! Только для жилых комнат (квартир). Используйте глянцевую версию (В1) для коридоров и лестниц.'"
+    },
+    {
+      "title": "Эмаль СТО 136-2018 ⚠",
+      "layout": "split text+image",
+      "output_path": "/home/z/my-project/download/slides/slide_11.html",
+      "task_brief": "Product card slide.\n\nProduct name: 'Эмаль СТО 05744283-136-2018'\nSubtitle: 'ВД-эмаль защитно-декоративная для дерева. ВНИМАНИЕ: класс В2!'\n\nFire safety badge: 'Г1, В2, Д2, Т2' — ORANGE badge (fire-badge-warn)\n\nCertificate info: 'ДС: RU Д-RU.RA01.B.00723/24. Действует до 02.04.2029'\n\nApplication table:\n| Жилые комнаты | ✓ | ✓ | ✓ |\n| Коридоры, холлы | ⚠ | ✗ | ✗ |\n| Лестничные клетки | ⚠ | ✗ | ✗ |\n| Потолки | — | — | — |\n| Полы | ✗ | ✗ | ✗ |\n| Фасады | ⚠ | ⚠ | ⚠ |\n\nBottom note: '⚠ В2 — НЕ для путей эвакуации выше 9 этажей. Для деревянных поверхностей внутри помещений (кроме пола). Атмосферные условия — с ограничениями.'"
+    },
+    {
+      "title": "Эмаль для пола акриловая",
+      "layout": "split text+image",
+      "output_path": "/home/z/my-project/download/slides/slide_12.html",
+      "task_brief": "Product card slide.\n\nProduct name: 'Эмаль для пола акриловая полуматовая'\nSubtitle: 'ВД-эмаль для покрытия полов внутри помещений'\n\nFire safety badge: 'КМ1 (Г1, В1, Д1, Т1)' — GREEN badge\n\nCertificate info: 'ДС: RU Д-RU.PA01.B.00229/22. Действует до 10.02.2027'\n\nApplication table:\n| Жилые комнаты | — | — | — |\n| Коридоры, холлы | — | — | — |\n| Лестничные клетки | — | — | — |\n| Потолки | — | — | — |\n| Полы | ✓ | ✓ | ✗ (НГ) |\n| Фасады | — | — | — |\n\nBottom note: 'Класс КМ1 — лучший показатель для половой эмали. Для полов в жилых и общественных зданиях до 17 этажей.'"
+    },
+    {
+      "title": "Раствор ББ-11 (огнезащита древесины)",
+      "layout": "split text+image",
+      "output_path": "/home/z/my-project/download/slides/slide_13.html",
+      "task_brief": "Product card slide.\n\nProduct name: 'Раствор водный ББ-11'\nSubtitle: 'Огнезащитная пропитка для древесины. ПОВЫШАЕТ класс пожаробезопасности.'\n\nFire safety badge: 'Г1, В1, Д1, Т1, РП1' — GREEN badge (best possible!)\n\nCertificate info: 'Сертификат: ЕАЭС RU C-RU.ПБ68.В.02464/26 (ТР ЕАЭС 043-2017). Действует до 29.03.2031'\n\nApplication table:\n| Деревянные конструкции | ✓ | ✓ | ✓ |\n| ДСП, МДФ, фанера | ✓ | ✓ | ✓ |\n| Все зоны (после пропитки) | ✓ | ✓ | ✓ |\n\nBottom note: 'Огнезащитная пропитка. Повышает класс древесины с Г3/В2 до Г1/В1. Нанесение: кисть, валик, распылитель. Расход: ~80 г/м². Для всех типов зданий, включая >17 этажей.'"
+    },
+    {
+      "title": "Компаунд EMPILS E 608 (полы)",
+      "layout": "split text+image",
+      "output_path": "/home/z/my-project/download/slides/slide_14.html",
+      "task_brief": "Product card slide.\n\nProduct name: 'Компаунд эпоксидный EMPILS E 608'\nSubtitle: 'Эпоксидное покрытие для полов. Высокая износостойкость.'\n\nFire safety badge: 'Г1, В1, Д1, Т1, РП1' — GREEN badge (best possible!)\n\nCertificate info: 'Сертификат: RU C-RU.ПБ68.В.02055/24 (ТР № 123-ФЗ). Действует до 27.10.2029'\n\nApplication table:\n| Жилые комнаты | — | — | — |\n| Коридоры, холлы | — | — | — |\n| Лестничные клетки | — | — | — |\n| Потолки | — | — | — |\n| Полы | ✓ | ✓ | ✗ (НГ) |\n| Фасады | — | — | — |\n\nBottom note: 'Лучший класс пожаробезопасности для полового покрытия. Эпоксидный компаунд для высоконагруженных полов в жилых и общественных зданиях до 17 этажей.'"
+    },
+    {
+      "title": "Краска интерьерная моющаяся СТО 134-2018",
+      "layout": "split text+image",
+      "output_path": "/home/z/my-project/download/slides/slide_15.html",
+      "task_brief": "Product card slide.\n\nProduct name: 'Краска интерьерная моющаяся'\nSubtitle: 'ВД-краска СТО 05744283-134-2018. Для стен и потолков.'\n\nFire safety badge: 'КМ1 (Г1, В1, Д2, Т2, РП1)' — GREEN badge\n\nCertificate info: 'ДС: RU Д-RU.RA01.B.03124/21. Действует до 2026 г.'\n\nApplication table:\n| Жилые комнаты | ✓ | ✓ | ✓ |\n| Коридоры, холлы | ✓ | ✓ | ✓ |\n| Лестничные клетки | ✓ | ✓ | ✗ (НГ) |\n| Потолки | ✓ | ✓ | ✗ (НГ) |\n| Полы | — | — | — |\n| Фасады | — | — | — |\n\nBottom note: 'Класс КМ1. Для стен и потолков в жилых и общественных зданиях до 17 этажей. Моющаяся, устойчивая к истиранию.'"
+    }
+  ]
+}

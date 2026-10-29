@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Roboto:wght@400;500;700&family=Roboto+Mono:wght@500;700&display=swap');
+
+:root {
+  --bg: #F5F7FA;
+  --primary: #1F4E79;
+  --accent: #00A859;
+  --warning: #FF9800;
+  --danger: #E53935;
+  --neutral: #E0E0E0;
+  --text: #1A1A2E;
+  --text-secondary: #555;
+  --card-bg: #FFFFFF;
+  --card-border: #E0E0E0;
+
+  --font-heading: 'Inter', sans-serif;
+  --font-body: 'Roboto', sans-serif;
+  --font-num: 'Roboto Mono', monospace;
+
+  --fs-display: 36px;
+  --fs-h1: 28px;
+  --fs-h2: 20px;
+  --fs-h3: 16px;
+  --fs-body: 14px;
+  --fs-small: 12px;
+  --fs-micro: 10px;
+}
+
+.slide {
+  width: 1280px;
+  min-height: 720px;
+  max-height: 720px;
+  overflow: hidden;
+  background: var(--bg);
+  font-family: var(--font-body);
+  color: var(--text);
+  position: relative;
+  box-sizing: border-box;
+}
+
+.product-card {
+  background: var(--card-bg);
+  border-radius: 12px;
+  border: 1px solid var(--card-border);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+.fire-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 12px;
+  border-radius: 6px;
+  font-family: var(--font-num);
+  font-weight: 700;
+  font-size: var(--fs-small);
+}
+
+.fire-badge-km1 { background: #E8F5E9; color: #2E7D32; border: 1px solid #A5D6A7; }
+.fire-badge-good { background: #E3F2FD; color: #1565C0; border: 1px solid #90CAF9; }
+.fire-badge-warn { background: #FFF3E0; color: #E65100; border: 1px solid #FFCC80; }
+
+.zone-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 2px;
+  font-family: var(--font-body);
+  font-size: var(--fs-small);
+}
+
+.zone-table th {
+  background: var(--primary);
+  color: white;
+  padding: 8px 6px;
+  text-align: center;
+  font-weight: 600;
+  font-size: var(--fs-small);
+  border-radius: 4px;
+}
+
+.zone-table td {
+  padding: 8px 6px;
+  text-align: center;
+  font-size: var(--fs-small);
+  border-radius: 4px;
+}
+
+.cell-ok { background: #C8E6C9; color: #1B5E20; font-weight: 700; }
+.cell-warn { background: #FFE0B2; color: #BF360C; font-weight: 700; }
+.cell-no { background: #FFCDD2; color: #B71C1C; font-weight: 700; }
+.cell-na { background: #ECEFF1; color: #90A4AE; }
+
+.cert-info {
+  font-family: var(--font-num);
+  font-size: var(--fs-micro);
+  color: var(--text-secondary);
+  margin-top: 4px;
+}

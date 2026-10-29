@@ -1,0 +1,28 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "На изображении показан **градиентный фон**, плавно переходящий от оранжевого (слева) к светло-кремовому/белому (справа).\n\nЭто **разделитель** или **декоративный элемент фона** (не иконка, не символ и не содержательный элемент с информацией).\n\n**Текст на изображении отсутствует.**",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1786365422,
+  "id": "2026081020365967b49f5851414ccb",
+  "model": "glm-5v-turbo",
+  "object": "chat.completion",
+  "request_id": "2026081020365967b49f5851414ccb",
+  "usage": {
+    "completion_tokens": 84,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 116,
+    "prompt_tokens_details": {
+      "cached_tokens": 2
+    },
+    "total_tokens": 200
+  }
+}

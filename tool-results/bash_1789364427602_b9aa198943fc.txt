@@ -1,0 +1,645 @@
+Available services:
+  grpc.health.v1.Health
+    (error getting methods: services_by_name)
+  grpc.reflection.v1.ServerReflection
+    (error getting methods: services_by_name)
+  grpc.reflection.v1alpha.ServerReflection
+    (error getting methods: services_by_name)
+  yandex.cloud.adviser.v1.IssueService
+    (error getting methods: services_by_name)
+  yandex.cloud.airflow.v1.ClusterService
+    (error getting methods: services_by_name)
+  yandex.cloud.apploadbalancer.v1.BackendGroupService
+    (error getting methods: services_by_name)
+  yandex.cloud.apploadbalancer.v1.HttpRouterService
+    (error getting methods: services_by_name)
+  yandex.cloud.apploadbalancer.v1.LoadBalancerService
+    (error getting methods: services_by_name)
+  yandex.cloud.apploadbalancer.v1.TargetGroupService
+    (error getting methods: services_by_name)
+  yandex.cloud.apploadbalancer.v1.VirtualHostService
+    (error getting methods: services_by_name)
+  yandex.cloud.audittrails.v1.TrailService
+    (error getting methods: services_by_name)
+  yandex.cloud.backup.agent.v1.AgentService
+    (error getting methods: services_by_name)
+  yandex.cloud.backup.v1.BackupService
+    (error getting methods: services_by_name)
+  yandex.cloud.backup.v1.PolicyService
+    (error getting methods: services_by_name)
+  yandex.cloud.backup.v1.ProviderService
+    (error getting methods: services_by_name)
+  yandex.cloud.backup.v1.ResourceService
+    (error getting methods: services_by_name)
+  yandex.cloud.backup.v1.SetupService
+    (error getting methods: services_by_name)
+  yandex.cloud.baremetal.v1alpha.ConfigurationService
+    (error getting methods: services_by_name)
+  yandex.cloud.baremetal.v1alpha.HardwarePoolService
+    (error getting methods: services_by_name)
+  yandex.cloud.baremetal.v1alpha.ImageService
+    (error getting methods: services_by_name)
+  yandex.cloud.baremetal.v1alpha.MountedImageService
+    (error getting methods: services_by_name)
+  yandex.cloud.baremetal.v1alpha.PrivateCloudConnectionService
+    (error getting methods: services_by_name)
+  yandex.cloud.baremetal.v1alpha.PrivateSubnetService
+    (error getting methods: services_by_name)
+  yandex.cloud.baremetal.v1alpha.PublicPrefixPoolService
+    (error getting methods: services_by_name)
+  yandex.cloud.baremetal.v1alpha.PublicSubnetService
+    (error getting methods: services_by_name)
+  yandex.cloud.baremetal.v1alpha.RentalPeriodService
+    (error getting methods: services_by_name)
+  yandex.cloud.baremetal.v1alpha.ServerService
+    (error getting methods: services_by_name)
+  yandex.cloud.baremetal.v1alpha.StandardImageService
+    (error getting methods: services_by_name)
+  yandex.cloud.baremetal.v1alpha.StorageService
+    (error getting methods: services_by_name)
+  yandex.cloud.baremetal.v1alpha.VrfService
+    (error getting methods: services_by_name)
+  yandex.cloud.baremetal.v1alpha.ZoneService
+    (error getting methods: services_by_name)
+  yandex.cloud.baremetal.v2.BootImageService
+    (error getting methods: services_by_name)
+  yandex.cloud.baremetal.v2.ConfigurationService
+    (error getting methods: services_by_name)
+  yandex.cloud.baremetal.v2.HardwarePoolService
+    (error getting methods: services_by_name)
+  yandex.cloud.baremetal.v2.ImageService
+    (error getting methods: services_by_name)
+  yandex.cloud.baremetal.v2.PrivateCloudConnectionService
+    (error getting methods: services_by_name)
+  yandex.cloud.baremetal.v2.PrivateSubnetService
+    (error getting methods: services_by_name)
+  yandex.cloud.baremetal.v2.PublicPrefixPoolService
+    (error getting methods: services_by_name)
+  yandex.cloud.baremetal.v2.PublicSubnetService
+    (error getting methods: services_by_name)
+  yandex.cloud.baremetal.v2.RentalPeriodService
+    (error getting methods: services_by_name)
+  yandex.cloud.baremetal.v2.ServerService
+    (error getting methods: services_by_name)
+  yandex.cloud.baremetal.v2.VrfService
+    (error getting methods: services_by_name)
+  yandex.cloud.baremetal.v2.ZoneService
+    (error getting methods: services_by_name)
+  yandex.cloud.baremetal.v2.extend.StacklandClusterService
+    (error getting methods: services_by_name)
+  yandex.cloud.billing.usage_records.v1.ConsumptionCoreService
+    (error getting methods: services_by_name)
+  yandex.cloud.billing.usage_records.v1.MetadataService
+    (error getting methods: services_by_name)
+  yandex.cloud.billing.v1.BillingAccountService
+    (error getting methods: services_by_name)
+  yandex.cloud.billing.v1.BudgetService
+    (error getting methods: services_by_name)
+  yandex.cloud.billing.v1.CustomerService
+    (error getting methods: services_by_name)
+  yandex.cloud.billing.v1.ServiceService
+    (error getting methods: services_by_name)
+  yandex.cloud.billing.v1.SkuService
+    (error getting methods: services_by_name)
+  yandex.cloud.cdn.v1.CacheService
+    (error getting methods: services_by_name)
+  yandex.cloud.cdn.v1.OriginGroupService
+    (error getting methods: services_by_name)
+  yandex.cloud.cdn.v1.OriginService
+    (error getting methods: services_by_name)
+  yandex.cloud.cdn.v1.ProviderService
+    (error getting methods: services_by_name)
+  yandex.cloud.cdn.v1.RawLogsService
+    (error getting methods: services_by_name)
+  yandex.cloud.cdn.v1.ResourceRulesService
+    (error getting methods: services_by_name)
+  yandex.cloud.cdn.v1.ResourceService
+    (error getting methods: services_by_name)
+  yandex.cloud.cdn.v1.ShieldingService
+    (error getting methods: services_by_name)
+  yandex.cloud.cic.v1.PartnerService
+    (error getting methods: services_by_name)
+  yandex.cloud.cic.v1.PointOfPresenceService
+    (error getting methods: services_by_name)
+  yandex.cloud.cic.v1.PrivateConnectionService
+    (error getting methods: services_by_name)
+  yandex.cloud.cic.v1.PublicConnectionService
+    (error getting methods: services_by_name)
+  yandex.cloud.cic.v1.TrunkConnectionService
+    (error getting methods: services_by_name)
+  yandex.cloud.cloudapps.workload.v1.CloudApplicationService
+    (error getting methods: services_by_name)
+  yandex.cloud.clouddesktop.v1.api.DesktopGroupService
+    (error getting methods: services_by_name)
+  yandex.cloud.clouddesktop.v1.api.DesktopImageService
+    (error getting methods: services_by_name)
+  yandex.cloud.clouddesktop.v1.api.DesktopService
+    (error getting methods: services_by_name)
+  yandex.cloud.cloudregistry.v1.ArtifactService
+    (error getting methods: services_by_name)
+  yandex.cloud.cloudregistry.v1.LifecyclePolicyService
+    (error getting methods: services_by_name)
+  yandex.cloud.cloudregistry.v1.RegistryService
+    (error getting methods: services_by_name)
+  yandex.cloud.cloudregistry.v1.ScanPolicyService
+    (error getting methods: services_by_name)
+  yandex.cloud.cloudregistry.v1.ScannerService
+    (error getting methods: services_by_name)
+  yandex.cloud.cloudrouter.v1.RoutingInstanceService
+    (error getting methods: services_by_name)
+  yandex.cloud.compute.v1.DiskPlacementGroupService
+    (error getting methods: services_by_name)
+  yandex.cloud.compute.v1.DiskService
+    (error getting methods: services_by_name)
+  yandex.cloud.compute.v1.DiskTypeService
+    (error getting methods: services_by_name)
+  yandex.cloud.compute.v1.FilesystemService
+    (error getting methods: services_by_name)
+  yandex.cloud.compute.v1.GpuClusterService
+    (error getting methods: services_by_name)
+  yandex.cloud.compute.v1.HostGroupService
+    (error getting methods: services_by_name)
+  yandex.cloud.compute.v1.HostTypeService
+    (error getting methods: services_by_name)
+  yandex.cloud.compute.v1.ImageService
+    (error getting methods: services_by_name)
+  yandex.cloud.compute.v1.InstanceService
+    (error getting methods: services_by_name)
+  yandex.cloud.compute.v1.MaintenanceService
+    (error getting methods: services_by_name)
+  yandex.cloud.compute.v1.PlacementGroupService
+    (error getting methods: services_by_name)
+  yandex.cloud.compute.v1.ReservedInstancePoolService
+    (error getting methods: services_by_name)
+  yandex.cloud.compute.v1.SnapshotScheduleService
+    (error getting methods: services_by_name)
+  yandex.cloud.compute.v1.SnapshotService
+    (error getting methods: services_by_name)
+  yandex.cloud.compute.v1.ZoneService
+    (error getting methods: services_by_name)
+  yandex.cloud.compute.v1.instancegroup.InstanceGroupService
+    (error getting methods: services_by_name)
+  yandex.cloud.connectionmanager.v1.ConnectionService
+    (error getting methods: services_by_name)
+  yandex.cloud.containerregistry.v1.ImageService
+    (error getting methods: services_by_name)
+  yandex.cloud.containerregistry.v1.LifecyclePolicyService
+    (error getting methods: services_by_name)
+  yandex.cloud.containerregistry.v1.RegistryService
+    (error getting methods: services_by_name)
+  yandex.cloud.containerregistry.v1.RepositoryService
+    (error getting methods: services_by_name)
+  yandex.cloud.containerregistry.v1.ScanPolicyService
+    (error getting methods: services_by_name)
+  yandex.cloud.containerregistry.v1.ScannerService
+    (error getting methods: services_by_name)
+  yandex.cloud.datacatalog.v1.CatalogService
+    (error getting methods: services_by_name)
+  yandex.cloud.dataproc.manager.v1.DataprocManagerService
+    (error getting methods: services_by_name)
+  yandex.cloud.dataproc.manager.v1.JobService
+    (error getting methods: services_by_name)
+  yandex.cloud.dataproc.v1.ClusterService
+    (error getting methods: services_by_name)
+  yandex.cloud.dataproc.v1.JobService
+    (error getting methods: services_by_name)
+  yandex.cloud.dataproc.v1.ResourcePresetService
+    (error getting methods: services_by_name)
+  yandex.cloud.dataproc.v1.SubclusterService
+    (error getting methods: services_by_name)
+  yandex.cloud.datatransfer.v1.EndpointService
+    (error getting methods: services_by_name)
+  yandex.cloud.datatransfer.v1.TransferService
+    (error getting methods: services_by_name)
+  yandex.cloud.dns.v1.DnsFirewallService
+    (error getting methods: services_by_name)
+  yandex.cloud.dns.v1.DnsInboundEndpointService
+    (error getting methods: services_by_name)
+  yandex.cloud.dns.v1.DnsZoneService
+    (error getting methods: services_by_name)
+  yandex.cloud.endpoint.ApiEndpointService
+    (error getting methods: services_by_name)
+  yandex.cloud.gitlab.v1.InstanceService
+    (error getting methods: services_by_name)
+  yandex.cloud.iam.v1.AccessAnalyzerService
+    (error getting methods: services_by_name)
+  yandex.cloud.iam.v1.AccessPolicyTemplateService
+    (error getting methods: services_by_name)
+  yandex.cloud.iam.v1.ApiKeyService
+    (error getting methods: services_by_name)
+  yandex.cloud.iam.v1.IamTokenService
+    (error getting methods: services_by_name)
+  yandex.cloud.iam.v1.KeyService
+    (error getting methods: services_by_name)
+  yandex.cloud.iam.v1.OAuthClientSecretService
+    (error getting methods: services_by_name)
+  yandex.cloud.iam.v1.OAuthClientService
+    (error getting methods: services_by_name)
+  yandex.cloud.iam.v1.RefreshTokenService
+    (error getting methods: services_by_name)
+  yandex.cloud.iam.v1.RoleService
+    (error getting methods: services_by_name)
+  yandex.cloud.iam.v1.ServiceAccountService
+    (error getting methods: services_by_name)
+  yandex.cloud.iam.v1.ServiceControlService
+    (error getting methods: services_by_name)
+  yandex.cloud.iam.v1.SubjectDetailsService
+    (error getting methods: services_by_name)
+  yandex.cloud.iam.v1.UserAccountService
+    (error getting methods: services_by_name)
+  yandex.cloud.iam.v1.YandexPassportUserAccountService
+    (error getting methods: services_by_name)
+  yandex.cloud.iam.v1.awscompatibility.AccessKeyService
+    (error getting methods: services_by_name)
+  yandex.cloud.iam.v1.awscompatibility.TemporaryAccessKeyService
+    (error getting methods: services_by_name)
+  yandex.cloud.iam.v1.workload.FederatedCredentialService
+    (error getting methods: services_by_name)
+  yandex.cloud.iam.v1.workload.oidc.FederationService
+    (error getting methods: services_by_name)
+  yandex.cloud.iot.broker.v1.BrokerDataService
+    (error getting methods: services_by_name)
+  yandex.cloud.iot.broker.v1.BrokerService
+    (error getting methods: services_by_name)
+  yandex.cloud.iot.devices.v1.DeviceDataService
+    (error getting methods: services_by_name)
+  yandex.cloud.iot.devices.v1.DeviceService
+    (error getting methods: services_by_name)
+  yandex.cloud.iot.devices.v1.RegistryDataService
+    (error getting methods: services_by_name)
+  yandex.cloud.iot.devices.v1.RegistryService
+    (error getting methods: services_by_name)
+  yandex.cloud.k8s.marketplace.v1.HelmReleaseService
+    (error getting methods: services_by_name)
+  yandex.cloud.k8s.v1.ClusterService
+    (error getting methods: services_by_name)
+  yandex.cloud.k8s.v1.NodeGroupService
+    (error getting methods: services_by_name)
+  yandex.cloud.k8s.v1.ResourcePresetService
+    (error getting methods: services_by_name)
+  yandex.cloud.k8s.v1.VersionService
+    (error getting methods: services_by_name)
+  yandex.cloud.kms.v1.SymmetricKeyService
+    (error getting methods: services_by_name)
+  yandex.cloud.kms.v1.asymmetricencryption.AsymmetricEncryptionKeyService
+    (error getting methods: services_by_name)
+  yandex.cloud.kms.v1.asymmetricsignature.AsymmetricSignatureKeyService
+    (error getting methods: services_by_name)
+  yandex.cloud.kspm.v1.AlertService
+    (error getting methods: services_by_name)
+  yandex.cloud.kspm.v1.RegistryCallbackService
+    (error getting methods: services_by_name)
+  yandex.cloud.loadbalancer.v1.NetworkLoadBalancerService
+    (error getting methods: services_by_name)
+  yandex.cloud.loadbalancer.v1.TargetGroupService
+    (error getting methods: services_by_name)
+  yandex.cloud.loadbalancer.v1alpha.NetworkLoadBalancerService
+    (error getting methods: services_by_name)
+  yandex.cloud.loadbalancer.v1alpha.TargetGroupService
+    (error getting methods: services_by_name)
+  yandex.cloud.logging.v1.ExportService
+    (error getting methods: services_by_name)
+  yandex.cloud.logging.v1.LogGroupService
+    (error getting methods: services_by_name)
+  yandex.cloud.logging.v1.SinkService
+    (error getting methods: services_by_name)
+  yandex.cloud.marketplace.licensemanager.saas.v1.InstanceService
+    (error getting methods: services_by_name)
+  yandex.cloud.marketplace.licensemanager.saas.v1.LockService
+    (error getting methods: services_by_name)
+  yandex.cloud.marketplace.licensemanager.v1.InstanceService
+    (error getting methods: services_by_name)
+  yandex.cloud.marketplace.licensemanager.v1.LockService
+    (error getting methods: services_by_name)
+  yandex.cloud.marketplace.metering.v1.ImageProductUsageService
+    (error getting methods: services_by_name)
+  yandex.cloud.marketplace.metering.v1.ProductUsageService
+    (error getting methods: services_by_name)
+  yandex.cloud.marketplace.pim.v1.saas.ProductInstanceService
+    (error getting methods: services_by_name)
+  yandex.cloud.marketplace.stacklandlicenseapi.v1.LicenseServerService
+    (error getting methods: services_by_name)
+  yandex.cloud.marketplace.v1.metering.ImageProductUsageService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.clickhouse.v1.BackupService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.clickhouse.v1.ClusterExtensionService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.clickhouse.v1.ClusterService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.clickhouse.v1.DatabaseService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.clickhouse.v1.ExtensionService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.clickhouse.v1.FormatSchemaService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.clickhouse.v1.MaintenanceService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.clickhouse.v1.MlModelService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.clickhouse.v1.ResourcePresetService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.clickhouse.v1.UserService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.clickhouse.v1.VersionsService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.elasticsearch.v1.AuthService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.elasticsearch.v1.BackupService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.elasticsearch.v1.ClusterService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.elasticsearch.v1.ExtensionService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.elasticsearch.v1.ResourcePresetService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.elasticsearch.v1.UserService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.greenplum.v1.BackupService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.greenplum.v1.ClusterService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.greenplum.v1.HBARuleService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.greenplum.v1.MaintenanceService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.greenplum.v1.PXFDatasourceService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.greenplum.v1.ResourceGroupService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.greenplum.v1.ResourcePresetService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.greenplum.v1.UserService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.greenplum.v1.VersionsService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.kafka.v1.ClusterService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.kafka.v1.ConnectorService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.kafka.v1.MaintenanceService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.kafka.v1.ResourcePresetService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.kafka.v1.TopicService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.kafka.v1.UserService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.kafka.v1.VersionsService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.mongodb.v1.BackupRetentionPolicyService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.mongodb.v1.BackupService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.mongodb.v1.ClusterService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.mongodb.v1.DatabaseService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.mongodb.v1.MaintenanceService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.mongodb.v1.ResourcePresetService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.mongodb.v1.UserService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.mongodb.v1.VersionsService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.mysql.v1.BackupRetentionPolicyService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.mysql.v1.BackupService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.mysql.v1.ClusterService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.mysql.v1.DatabaseService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.mysql.v1.MaintenanceService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.mysql.v1.ResourcePresetService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.mysql.v1.UserService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.mysql.v1.VersionsService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.opensearch.v1.BackupService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.opensearch.v1.ClusterService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.opensearch.v1.ExtensionService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.opensearch.v1.MaintenanceService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.opensearch.v1.ResourcePresetService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.opensearch.v1.UserService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.opensearch.v1.VersionsService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.postgresql.v1.BackupRetentionPolicyService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.postgresql.v1.BackupService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.postgresql.v1.ClusterService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.postgresql.v1.DatabaseService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.postgresql.v1.MaintenanceService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.postgresql.v1.ManagedRepackService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.postgresql.v1.PerformanceDiagnosticsService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.postgresql.v1.ResourcePresetService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.postgresql.v1.UserService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.postgresql.v1.VersionsService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.redis.v1.BackupRetentionPolicyService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.redis.v1.BackupService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.redis.v1.ClusterService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.redis.v1.MaintenanceService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.redis.v1.ResourcePresetService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.redis.v1.UserService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.redis.v1.VersionsService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.spqr.v1.BackupService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.spqr.v1.ClusterService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.spqr.v1.DatabaseService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.spqr.v1.MaintenanceService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.spqr.v1.UserService
+    (error getting methods: services_by_name)
+  yandex.cloud.mdb.zonalshift.v1.ZonalShiftService
+    (error getting methods: services_by_name)
+  yandex.cloud.metastore.v1.ClusterService
+    (error getting methods: services_by_name)
+  yandex.cloud.operation.OperationService
+    (error getting methods: services_by_name)
+  yandex.cloud.organizationmanager.v1.GroupMappingService
+    (error getting methods: services_by_name)
+  yandex.cloud.organizationmanager.v1.GroupService
+    (error getting methods: services_by_name)
+  yandex.cloud.organizationmanager.v1.MfaEnforcementService
+    (error getting methods: services_by_name)
+  yandex.cloud.organizationmanager.v1.OrganizationService
+    (error getting methods: services_by_name)
+  yandex.cloud.organizationmanager.v1.OsLoginService
+    (error getting methods: services_by_name)
+  yandex.cloud.organizationmanager.v1.SshCertificateService
+    (error getting methods: services_by_name)
+  yandex.cloud.organizationmanager.v1.UserService
+    (error getting methods: services_by_name)
+  yandex.cloud.organizationmanager.v1.UserSshKeyService
+    (error getting methods: services_by_name)
+  yandex.cloud.organizationmanager.v1.idp.SynchronizationService
+    (error getting methods: services_by_name)
+  yandex.cloud.organizationmanager.v1.idp.SynchronizationSessionService
+    (error getting methods: services_by_name)
+  yandex.cloud.organizationmanager.v1.idp.UserService
+    (error getting methods: services_by_name)
+  yandex.cloud.organizationmanager.v1.idp.UserpoolService
+    (error getting methods: services_by_name)
+  yandex.cloud.organizationmanager.v1.idp.application.oauth.ApplicationService
+    (error getting methods: services_by_name)
+  yandex.cloud.organizationmanager.v1.idp.application.saml.ApplicationService
+    (error getting methods: services_by_name)
+  yandex.cloud.organizationmanager.v1.idp.application.saml.SignatureCertificateService
+    (error getting methods: services_by_name)
+  yandex.cloud.organizationmanager.v1.saml.CertificateService
+    (error getting methods: services_by_name)
+  yandex.cloud.organizationmanager.v1.saml.FederationService
+    (error getting methods: services_by_name)
+  yandex.cloud.quotamanager.v1.QuotaLimitService
+    (error getting methods: services_by_name)
+  yandex.cloud.quotamanager.v1.QuotaRequestService
+    (error getting methods: services_by_name)
+  yandex.cloud.resourcemanager.v1.CloudService
+    (error getting methods: services_by_name)
+  yandex.cloud.resourcemanager.v1.FolderService
+    (error getting methods: services_by_name)
+  yandex.cloud.searchapi.v2.GenSearchService
+    (error getting methods: services_by_name)
+  yandex.cloud.searchapi.v2.ImageSearchService
+    (error getting methods: services_by_name)
+  yandex.cloud.searchapi.v2.WebSearchAsyncService
+    (error getting methods: services_by_name)
+  yandex.cloud.searchapi.v2.WebSearchService
+    (error getting methods: services_by_name)
+  yandex.cloud.searchapi.v2.WordstatService
+    (error getting methods: services_by_name)
+  yandex.cloud.securitydeck.alerts.v1.AlertService
+    (error getting methods: services_by_name)
+  yandex.cloud.securitydeck.alerts.v1.CommentService
+    (error getting methods: services_by_name)
+  yandex.cloud.securitydeck.dspm.v1.DiscoveryService
+    (error getting methods: services_by_name)
+  yandex.cloud.securitydeck.dspm.v1.MediaTypeCategoryHierarchyService
+    (error getting methods: services_by_name)
+  yandex.cloud.serverless.apigateway.v1.ApiGatewayService
+    (error getting methods: services_by_name)
+  yandex.cloud.serverless.apigateway.websocket.v1.ConnectionService
+    (error getting methods: services_by_name)
+  yandex.cloud.serverless.containers.v1.ContainerService
+    (error getting methods: services_by_name)
+  yandex.cloud.serverless.eventrouter.v1.BusService
+    (error getting methods: services_by_name)
+  yandex.cloud.serverless.eventrouter.v1.ConnectorService
+    (error getting methods: services_by_name)
+  yandex.cloud.serverless.eventrouter.v1.RuleService
+    (error getting methods: services_by_name)
+  yandex.cloud.serverless.functions.v1.FunctionService
+    (error getting methods: services_by_name)
+  yandex.cloud.serverless.functions.v1.NetworkService
+    (error getting methods: services_by_name)
+  yandex.cloud.serverless.mcpgateway.v1.McpGatewayService
+    (error getting methods: services_by_name)
+  yandex.cloud.serverless.mdbproxy.v1.ProxyService
+    (error getting methods: services_by_name)
+  yandex.cloud.serverless.triggers.v1.TriggerService
+    (error getting methods: services_by_name)
+  yandex.cloud.serverless.triggers.v2.TriggerService
+    (error getting methods: services_by_name)
+  yandex.cloud.serverless.workflows.v1.ExecutionService
+    (error getting methods: services_by_name)
+  yandex.cloud.serverless.workflows.v1.WorkflowService
+    (error getting methods: services_by_name)
+  yandex.cloud.smartcaptcha.v1.CaptchaService
+    (error getting methods: services_by_name)
+  yandex.cloud.smartwebsecurity.v1.SecurityProfileService
+    (error getting methods: services_by_name)
+  yandex.cloud.smartwebsecurity.v1.advanced_rate_limiter.AdvancedRateLimiterProfileService
+    (error getting methods: services_by_name)
+  yandex.cloud.smartwebsecurity.v1.load_balancer.DomainService
+    (error getting methods: services_by_name)
+  yandex.cloud.smartwebsecurity.v1.load_balancer.LoadBalancerService
+    (error getting methods: services_by_name)
+  yandex.cloud.smartwebsecurity.v1.match_list.MatchListService
+    (error getting methods: services_by_name)
+  yandex.cloud.smartwebsecurity.v1.waf.RuleSetDescriptorService
+    (error getting methods: services_by_name)
+  yandex.cloud.smartwebsecurity.v1.waf.WafProfileService
+    (error getting methods: services_by_name)
+  yandex.cloud.spark.v1.ClusterService
+    (error getting methods: services_by_name)
+  yandex.cloud.spark.v1.JobService
+    (error getting methods: services_by_name)
+  yandex.cloud.spark.v1.environment.EnvironmentService
+    (error getting methods: services_by_name)
+  yandex.cloud.storage.v1.BucketService
+    (error getting methods: services_by_name)
+  yandex.cloud.storage.v1.PresignService
+    (error getting methods: services_by_name)
+  yandex.cloud.trino.v1.CatalogService
+    (error getting methods: services_by_name)
+  yandex.cloud.trino.v1.ClusterService
+    (error getting methods: services_by_name)
+  yandex.cloud.video.v1.ChannelService
+    (error getting methods: services_by_name)
+  yandex.cloud.video.v1.EpisodeService
+    (error getting methods: services_by_name)
+  yandex.cloud.video.v1.PlaylistService
+    (error getting methods: services_by_name)
+  yandex.cloud.video.v1.StreamLineService
+    (error getting methods: services_by_name)
+  yandex.cloud.video.v1.StreamService
+    (error getting methods: services_by_name)
+  yandex.cloud.video.v1.StylePresetService
+    (error getting methods: services_by_name)
+  yandex.cloud.video.v1.SubtitleService
+    (error getting methods: services_by_name)
+  yandex.cloud.video.v1.ThumbnailService
+    (error getting methods: services_by_name)
+  yandex.cloud.video.v1.VideoService
+    (error getting methods: services_by_name)
+  yandex.cloud.vpc.v1.AddressService
+    (error getting methods: services_by_name)
+  yandex.cloud.vpc.v1.GatewayService
+    (error getting methods: services_by_name)
+  yandex.cloud.vpc.v1.NetworkService
+    (error getting methods: services_by_name)
+  yandex.cloud.vpc.v1.RouteTableService
+    (error getting methods: services_by_name)
+  yandex.cloud.vpc.v1.SecurityGroupService
+    (error getting methods: services_by_name)
+  yandex.cloud.vpc.v1.SubnetService
+    (error getting methods: services_by_name)
+  yandex.cloud.vpc.v1.privatelink.PrivateEndpointService
+    (error getting methods: services_by_name)
+  yandex.cloud.ydb.v1.BackupService
+    (error getting methods: services_by_name)
+  yandex.cloud.ydb.v1.DatabaseService
+    (error getting methods: services_by_name)
+  yandex.cloud.ydb.v1.ResourcePresetService
+    (error getting methods: services_by_name)
+  yandex.cloud.ydb.v1.StorageTypeService
+    (error getting methods: services_by_name)
+  yandex.cloud.ytsaurus.v1.ClusterService
+    (error getting methods: services_by_name)

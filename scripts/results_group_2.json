@@ -1,0 +1,177 @@
+[
+  {
+    "inn": "3015042714",
+    "name": "ТС Добрострой",
+    "main_assortment": "АВС Farben, Лакра",
+    "additional_assortment": "Декарт (СТМ)",
+    "source": "comments"
+  },
+  {
+    "inn": "1660067356",
+    "name": "ТС Мегастрой",
+    "main_assortment": "Лакра, Рогнеда, Элкон, Tikkurila",
+    "additional_assortment": "Декарт (СТМ)",
+    "source": "comments+web"
+  },
+  {
+    "inn": "5617021458",
+    "name": "Стройландия",
+    "main_assortment": "Лакра, Декарт, Профилюкс, Текс, ABC Farben",
+    "additional_assortment": "Новоколор / Баупроф (СТМ)",
+    "source": "comments+web"
+  },
+  {
+    "inn": "165925774182",
+    "name": "ТС Колорит",
+    "main_assortment": "Лакра, Текс, ABC Farben",
+    "additional_assortment": "Нет данных",
+    "source": "web_search+website"
+  },
+  {
+    "inn": "1644043478",
+    "name": "ТС Карат",
+    "main_assortment": "Текс",
+    "additional_assortment": "Нет данных",
+    "source": "website"
+  },
+  {
+    "inn": "164806892019",
+    "name": "ТС Березка",
+    "main_assortment": "Лакра, Престиж, Текс, ABC Farben, Marshall",
+    "additional_assortment": "Хват",
+    "source": "website"
+  },
+  {
+    "inn": "561500302934",
+    "name": "ТС Строительный Бум",
+    "main_assortment": "Лакра, Dulux, Текс, Tikkurila",
+    "additional_assortment": "Нет данных",
+    "source": "comments+web"
+  },
+  {
+    "inn": "561003209773",
+    "name": "ТС Строитель",
+    "main_assortment": "Лакра, Текс, Tikkurila, Dulux, ABC Farben",
+    "additional_assortment": "Akfix, Pinotex",
+    "source": "web_search+website"
+  },
+  {
+    "inn": "7702596813/7707837396",
+    "name": "Бауцентр",
+    "main_assortment": "Tikkurila, Dulux, Caparol, Текс, ABC Farben",
+    "additional_assortment": "VGT, DORN PRO (СТМ), DORN (СТМ), KRONS (СТМ)",
+    "source": "web_search+website"
+  },
+  {
+    "inn": "Лента Дом (OBI)",
+    "name": "Лента Дом (OBI)",
+    "main_assortment": "Dulux, Tikkurila, Parade, Лакра, Finncolor",
+    "additional_assortment": "Tikkivala, Dufa, Caparol",
+    "source": "web_search"
+  },
+  {
+    "inn": "32500335801",
+    "name": "Вегос-М",
+    "main_assortment": "ABC Farben, Текс, Tikkurila, Dufa",
+    "additional_assortment": "Krasland, Радуга Маляр",
+    "source": "comments+web"
+  },
+  {
+    "inn": "ИП Лишутин, ИП Рыбин",
+    "name": "ИП Лишутин, ИП Рыбин",
+    "main_assortment": "Текс, Tikkurila, Caparol",
+    "additional_assortment": "Хват",
+    "source": "web_search+website"
+  },
+  {
+    "inn": "7811340145",
+    "name": "Альт-Икс, ООО (Центр красок Альт-Икс)",
+    "main_assortment": "Dulux, Tikkurila, düfa, tex-color, ABC Farben",
+    "additional_assortment": "Luxium, Genesis, Topagrade, Vincent Decor, Pinotex",
+    "source": "web_search+website"
+  },
+  {
+    "inn": "2537090274",
+    "name": "Дальтех МБ, ООО (CarSan, Дом цвета и краски)",
+    "main_assortment": "Teknos, SYMPHONY",
+    "additional_assortment": "Kansai Paint, 3М, HB Body, Novol, Cardea, Anest Iwata, Полихим В (автомобильные/промышленные ЛКМ)",
+    "source": "web_search+website"
+  },
+  {
+    "inn": "5902816678",
+    "name": "Декор-Центр, ООО (Декоративка)",
+    "main_assortment": "Tikkurila, Dulux, Marshall, AkzoNobel",
+    "additional_assortment": "Oikos, SilkPlaster, Европласт, Pinotex, Antiche Terre",
+    "source": "web_search+website"
+  },
+  {
+    "inn": "246600161805",
+    "name": "Жадаев Роман Юрьевич, ИП (Колор студия)/ ООО \"КЛК\"",
+    "main_assortment": "Tikkurila, Caparol, Teknos",
+    "additional_assortment": "Litokol",
+    "source": "web_search"
+  },
+  {
+    "inn": "246600161806",
+    "name": "Жадаев Роман Юрьевич, ИП (Колор студия)/ ООО \"КЛК\"",
+    "main_assortment": "Tikkurila, Caparol, Teknos",
+    "additional_assortment": "Litokol",
+    "source": "web_search"
+  },
+  {
+    "inn": "246600161807",
+    "name": "Жадаев Роман Юрьевич, ИП (Колор студия)/ ООО \"КЛК\"",
+    "main_assortment": "Tikkurila, Caparol, Teknos",
+    "additional_assortment": "Litokol",
+    "source": "web_search"
+  },
+  {
+    "inn": "2465056419",
+    "name": "Красхимресурс, OOO (Мир красок, Akzo Nobel)",
+    "main_assortment": "Эмпилс, Dulux, Marshall, Hammerite, Текс",
+    "additional_assortment": "Капрал, Царицынские краски, Белколор, Новбытхим",
+    "source": "comments+web"
+  },
+  {
+    "inn": "5406296559",
+    "name": "Сибирская Усадьба, ООО",
+    "main_assortment": "Remmers, Biofa",
+    "additional_assortment": "FAMA PROFI, Lignofix, ГВОЗДЕК (нишевые — натуральные краски и масла для дерева)",
+    "source": "web_search"
+  },
+  {
+    "inn": "5003123271",
+    "name": "Склад красок, ООО (Дом Маляра)",
+    "main_assortment": "Лакра, Tikkurila, Dulux, Caparol, Текс, ABC Farben, VGT",
+    "additional_assortment": "Рогнеда, Неомид, Parade, Teknos, Hammerite, Dufa, Bio Pin, Stolz, ALPA",
+    "source": "web_search+website"
+  },
+  {
+    "inn": "7806444830",
+    "name": "Студия красок, ООО",
+    "main_assortment": "Tikkurila, Eskaro",
+    "additional_assortment": "Finncolor, Aura, Wagner",
+    "source": "web_search"
+  },
+  {
+    "inn": "5752045215",
+    "name": "Химснабсервис, ООО",
+    "main_assortment": "Tikkurila, ABC Farben",
+    "additional_assortment": "Красивый Город (СТМ), EAGLE (СТМ)",
+    "source": "web_search+website"
+  },
+  {
+    "inn": "9717052425",
+    "name": "САТУРН СТРОЙМАРКЕТ ЦЕНТР",
+    "main_assortment": "Текс, Новоколор, Tikkurila",
+    "additional_assortment": "Нет данных",
+    "source": "comments+web"
+  },
+  {
+    "inn": "4401025465",
+    "name": "Аксон",
+    "main_assortment": "Лакра, Ярославские краски, Dulux, Tikkurila, VGT",
+    "additional_assortment": "Parade",
+    "source": "comments+web"
+  }
+]

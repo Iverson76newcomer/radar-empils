@@ -1,0 +1,28 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "РОСТСЕЛЬМАШ\nВыпускает сельскохозяйственную технику для полного спектра работ — от подготовки почвы до первичной переработки зерна.\nГрунтовки, грунт-эмали, эмали\n\nРОСТОВСКИЙ ПРЕССОВО-РАСКРОЙНЫЙ ЗАВОД\nСпециализируется на крупносерийном производстве деталей холодной листовой штамповки и лазерной резки на конвейер машиностроительных предприятий.\nГрунтовки",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1786366536,
+  "id": "20260810205523ef667ecc30c148b5",
+  "model": "glm-5v-turbo",
+  "object": "chat.completion",
+  "request_id": "20260810205523ef667ecc30c148b5",
+  "usage": {
+    "completion_tokens": 117,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 2183,
+    "prompt_tokens_details": {
+      "cached_tokens": 2
+    },
+    "total_tokens": 2300
+  }
+}

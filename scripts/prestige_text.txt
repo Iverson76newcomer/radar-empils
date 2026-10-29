@@ -1,0 +1,1 @@
+"This site can’t be reached\n\nThe webpage at https://prestige-holding.ru/kompyuternaya-kolerovka might be temporarily down or it may have moved permanently to a new web address.\n\nERR_HTTP2_PROTOCOL_ERROR"

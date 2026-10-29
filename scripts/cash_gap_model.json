@@ -1,0 +1,158 @@
+{
+  "params": {
+    "annual_to": 60000000,
+    "primary_total": 30000000,
+    "deferred_payment_days": 45,
+    "markup_distributor": 0.35,
+    "rtt_deferred_days": 30
+  },
+  "primary_plan": {
+    "Январь": 6000000,
+    "Февраль": 6000000,
+    "Март": 7000000,
+    "Апрель": 7000000,
+    "Май": 4000000,
+    "Июнь": 6600000,
+    "Июль": 6000000,
+    "Август": 5100000,
+    "Сентябрь": 4200000,
+    "Октябрь": 3300000,
+    "Ноябрь": 2700000,
+    "Декабрь": 2100000
+  },
+  "secondary_plan": {
+    "Январь": 2000000,
+    "Февраль": 2400000,
+    "Март": 4800000,
+    "Апрель": 7800000,
+    "Май": 7800000,
+    "Июнь": 7750000,
+    "Июль": 7750000,
+    "Август": 6340000,
+    "Сентябрь": 4580000,
+    "Октябрь": 3520000,
+    "Ноябрь": 2820000,
+    "Декабрь": 2460000
+  },
+  "cash_flow": [
+    {
+      "month": "Январь",
+      "primary": 6000000,
+      "secondary": 2000000,
+      "pay_empils": 0,
+      "receive_rtt": 0,
+      "net": 0,
+      "cumulative": 0
+    },
+    {
+      "month": "Февраль",
+      "primary": 6000000,
+      "secondary": 2400000,
+      "pay_empils": 0,
+      "receive_rtt": 2000000,
+      "net": 2000000,
+      "cumulative": 2000000
+    },
+    {
+      "month": "Март",
+      "primary": 7000000,
+      "secondary": 4800000,
+      "pay_empils": 6000000,
+      "receive_rtt": 2400000,
+      "net": -3600000,
+      "cumulative": -1600000
+    },
+    {
+      "month": "Апрель",
+      "primary": 7000000,
+      "secondary": 7800000,
+      "pay_empils": 6000000,
+      "receive_rtt": 4800000,
+      "net": -1200000,
+      "cumulative": -2800000
+    },
+    {
+      "month": "Май",
+      "primary": 4000000,
+      "secondary": 7800000,
+      "pay_empils": 7000000,
+      "receive_rtt": 7800000,
+      "net": 800000,
+      "cumulative": -2000000
+    },
+    {
+      "month": "Июнь",
+      "primary": 6600000,
+      "secondary": 7750000,
+      "pay_empils": 7000000,
+      "receive_rtt": 7800000,
+      "net": 800000,
+      "cumulative": -1200000
+    },
+    {
+      "month": "Июль",
+      "primary": 6000000,
+      "secondary": 7750000,
+      "pay_empils": 4000000,
+      "receive_rtt": 7750000,
+      "net": 3750000,
+      "cumulative": 2550000
+    },
+    {
+      "month": "Август",
+      "primary": 5100000,
+      "secondary": 6340000,
+      "pay_empils": 6600000,
+      "receive_rtt": 7750000,
+      "net": 1150000,
+      "cumulative": 3700000
+    },
+    {
+      "month": "Сентябрь",
+      "primary": 4200000,
+      "secondary": 4580000,
+      "pay_empils": 6000000,
+      "receive_rtt": 6340000,
+      "net": 340000,
+      "cumulative": 4040000
+    },
+    {
+      "month": "Октябрь",
+      "primary": 3300000,
+      "secondary": 3520000,
+      "pay_empils": 5100000,
+      "receive_rtt": 4580000,
+      "net": -520000,
+      "cumulative": 3520000
+    },
+    {
+      "month": "Ноябрь",
+      "primary": 2700000,
+      "secondary": 2820000,
+      "pay_empils": 4200000,
+      "receive_rtt": 3520000,
+      "net": -680000,
+      "cumulative": 2840000
+    },
+    {
+      "month": "Декабрь",
+      "primary": 2100000,
+      "secondary": 2460000,
+      "pay_empils": 3300000,
+      "receive_rtt": 2820000,
+      "net": -480000,
+      "cumulative": 2360000
+    }
+  ],
+  "min_balance": -2800000,
+  "min_month": "Апрель",
+  "first_negative_month": {
+    "month": "Март",
+    "primary": 7000000,
+    "secondary": 4800000,
+    "pay_empils": 6000000,
+    "receive_rtt": 2400000,
+    "net": -3600000,
+    "cumulative": -1600000
+  }
+}

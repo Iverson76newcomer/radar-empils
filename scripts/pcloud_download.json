@@ -1,0 +1,29 @@
+{
+  "code": 200,
+  "data": {
+    "description": "",
+    "external": {},
+    "html": "<html><head><title>Invalid link</title></head><body>This link was generated for another IP address. Try previous step again.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     </body></html>",
+    "httpStatus": 410,
+    "httpStatusText": "Gone",
+    "metadata": {},
+    "title": "Invalid link",
+    "url": "https://esgp1.pcloud.com/D4ZhzbPPV7ZCxKcrVkZZZ2DiYJkZ2ZZXPZkZxzuZ2RZW8ZjMZex7k7Za9lqVSGDjD5UxOsvgtG7UQEXJrAX/Knauf_final_v6.docx",
+    "usage": {
+      "measuredTokens": 0,
+      "outputTokens": 0,
+      "scaledTokens": 65,
+      "tokens": 65
+    },
+    "warning": "Target URL returned error 410: Gone"
+  },
+  "meta": {
+    "usage": {
+      "measuredTokens": 0,
+      "outputTokens": 0,
+      "scaledTokens": 65,
+      "tokens": 65
+    }
+  },
+  "status": 20000
+}

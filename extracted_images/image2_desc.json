@@ -1,0 +1,28 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "На изображении показан **разделитель** (или декоративный элемент) в виде градиентной полосы, переходящей от насыщенного оранжевого цвета слева к более светлому, почти белому оттенку справа.\n\n**Тип элемента:** Разделитель / Декоративный фон.\n\n**Текст:** Отсутствует.",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1786365419,
+  "id": "202608102036586132770722c14ede",
+  "model": "glm-5v-turbo",
+  "object": "chat.completion",
+  "request_id": "202608102036586132770722c14ede",
+  "usage": {
+    "completion_tokens": 80,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 116,
+    "prompt_tokens_details": {
+      "cached_tokens": 2
+    },
+    "total_tokens": 196
+  }
+}

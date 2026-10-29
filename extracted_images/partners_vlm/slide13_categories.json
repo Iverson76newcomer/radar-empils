@@ -1,0 +1,28 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "Вот извлечённый текст со слайда, структурированный по трём категориям ценового позиционирования:\n\n**ОРГАНИЧЕСКИЕ**\n*   Расчёт\n*   ОПТИМА\n*   ОРЕОЛ DISCONT\n*   ОРЕОЛ\n*   NEWTONE\n\n**ВОДНЫЕ**\n*   TITAN\n*   PROFIWOOD\n\n**СПЕЦПРОДУКТЫ**\n*   ПРОСТО КРАШЕНО\n*   AVANT GARDE",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1786366595,
+  "id": "202608102056348ffa9ec0ec944715",
+  "model": "glm-5v-turbo",
+  "object": "chat.completion",
+  "request_id": "202608102056348ffa9ec0ec944715",
+  "usage": {
+    "completion_tokens": 119,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 472,
+    "prompt_tokens_details": {
+      "cached_tokens": 8
+    },
+    "total_tokens": 591
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "На изображении показан **сплошной оранжевый (или ярко-оранжевый) прямоугольник** без каких-либо деталей, узоров или текста.\n\nЭто **разделитель** или **фоновый элемент** (заливка), используемый для визуального оформления, создания цветовых блоков или отделения секций. Это не иконка и не символ в привычном понимании.\n\n**Текст на изображении отсутствует.**",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1786365415,
+  "id": "202608102036526fcb0cb520804a7c",
+  "model": "glm-5v-turbo",
+  "object": "chat.completion",
+  "request_id": "202608102036526fcb0cb520804a7c",
+  "usage": {
+    "completion_tokens": 102,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 68,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 170
+  }
+}

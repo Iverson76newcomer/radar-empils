@@ -1,0 +1,71 @@
+[
+  {
+    "id": 1,
+    "name": "Ретрит-центр «Валдай»",
+    "file": "/tmp/obj1.json",
+    "url": "https://sabivalday.com/placement",
+    "location": "Валдай, Центральная Россия",
+    "images": [
+      "https://mc.yandex.ru/watch/96691726",
+      "https://mc.yandex.ru/watch/97150370",
+      "https://top-fwz1.mail.ru/counter?id=3523508;js=na"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Эко-парк Soloma",
+    "file": "/tmp/obj2.json",
+    "url": "https://soloma27.ru/",
+    "location": "Хабаровский край",
+    "images": [
+      "https://static.tildacdn.com/tild3637-3461-4437-a136-333139653339/3.png",
+      "https://static.tildacdn.com/tild6632-6338-4265-b861-616136363663/photo.png",
+      "https://thb.tildacdn.com/tild6430-3634-4466-b632-656565633364/-/empty/__.jpg",
+      "https://thb.tildacdn.com/tild6334-3861-4334-b338-343432633362/-/empty/photo.jpg",
+      "https://thb.tildacdn.com/tild3935-6362-4535-b939-666138653264/-/empty/photo.jpg",
+      "https://thb.tildacdn.com/tild6362-3564-4166-b235-376538633462/-/empty/photo.jpg",
+      "https://thb.tildacdn.com/tild6438-6632-4265-a336-303666363363/-/empty/photo.PNG",
+      "https://thb.tildacdn.com/tild3736-3863-4337-a439-646234306631/-/empty/2.png"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Баня-юрта BraMari",
+    "file": "/tmp/obj3.json",
+    "url": "https://banimed.ru/bramari/",
+    "location": "Челябинск",
+    "images": [
+      "https://mc.yandex.ru/watch/96144514",
+      "https://banimed.ru/wp-content/uploads/2026/03/kpb8pxgrzbgq8jhqitzjp-1.jpg",
+      "https://banimed.ru/wp-content/uploads/2026/03/ffcr8klsurtrj484clrhq-1.jpg",
+      "https://banimed.ru/wp-content/uploads/2026/04/img_0842.jpeg",
+      "https://banimed.ru/wp-content/uploads/2026/04/2026-02-28-10.00.59.jpg",
+      "https://banimed.ru/wp-content/uploads/2026/04/dscf5685.jpg",
+      "https://banimed.ru/wp-content/uploads/2026/03/u_2.jpg",
+      "https://banimed.ru/wp-content/uploads/2026/03/u_3.jpg"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "База отдыха «Рыбацкие просторы» (Юрт Хаус)",
+    "file": "/tmp/obj4.json",
+    "url": "https://fishprostor.ru/yurt-house.html",
+    "location": "Астраханская область",
+    "images": [
+      "https://mc.yandex.ru/watch/94639597"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Агротуристический комплекс «Голубая лагуна»",
+    "file": "/tmp/obj5.json",
+    "url": "https://vk.ru/lagunabuida",
+    "location": "Башкортостан, с. Буйда",
+    "images": [
+      "https://sun1-25.vkuserphoto.ru/ZdV8d-XHc_5GsnwSSBvJSCZ7Dv5TUEdZuQILrw/dTxtHF9uF1M.png",
+      "https://sun1-25.vkuserphoto.ru/6DD0xSghpEY4ZOnSoOQGo5hvOqZld01WrEb-dA/I-cI-hyWOi0.png",
+      "https://sb.scorecardresearch.com/p?c1=2&amp;c2=13765216&amp;c3=&amp;c4=https%3A%2F%2Fm.vk.ru%2Flagunabuida&amp;c5=&amp;c9=&amp;c15=&amp;cv=2.0&amp;cj=1&amp;rn=21218283",
+      "https://vk.ru/?act=no_js&hash=8d161d77b149644d09"
+    ]
+  }
+]

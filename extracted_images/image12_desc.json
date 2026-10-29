@@ -1,0 +1,28 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "На изображении показан **разделитель** (или декоративный элемент) в виде горизонтального градиентного прямоугольника. Цвет переходит от оранжевого слева к светло-бежевому/белому справа.\n\n**Тип:** Разделитель / Декоративный фон  \n**Текст:** Отсутствует",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1786365418,
+  "id": "202608102036559dadea7db0954934",
+  "model": "glm-5v-turbo",
+  "object": "chat.completion",
+  "request_id": "202608102036559dadea7db0954934",
+  "usage": {
+    "completion_tokens": 76,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 116,
+    "prompt_tokens_details": {
+      "cached_tokens": 2
+    },
+    "total_tokens": 192
+  }
+}

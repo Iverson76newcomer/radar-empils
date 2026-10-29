@@ -1,0 +1,28 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "СПАСИБО ЗА ВНИМАНИЕ",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1786366564,
+  "id": "2026081020560033f2d9da482e4d89",
+  "model": "glm-5v-turbo",
+  "object": "chat.completion",
+  "request_id": "2026081020560033f2d9da482e4d89",
+  "usage": {
+    "completion_tokens": 10,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 5362,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 5372
+  }
+}

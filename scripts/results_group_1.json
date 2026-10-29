@@ -1,0 +1,177 @@
+[
+  {
+    "inn": "7203445150",
+    "name": "Тюменьхозторг",
+    "main_assortment": "Лакра, Рогнеда, Престиж, ВГТ, Текс",
+    "additional_assortment": "Диола, АКЦ",
+    "source": "website"
+  },
+  {
+    "inn": "2223608741",
+    "name": "Олимп",
+    "main_assortment": "Нет данных",
+    "additional_assortment": "Нет данных (сокращение ассортимента, переход на импорт электроинструмента из Китая)",
+    "source": "comments"
+  },
+  {
+    "inn": "2204017711",
+    "name": "НИССА",
+    "main_assortment": "Лакра, Тиккурила, Текс",
+    "additional_assortment": "Расцвет, Континенталь, Простокрашено, Профивуд",
+    "source": "comments+website"
+  },
+  {
+    "inn": "5403217005",
+    "name": "Стройторг",
+    "main_assortment": "Рогнеда, Декарт, Престиж, Текс, Эмпилс, Титан",
+    "additional_assortment": "Расцвет, Простокрашено, Парад, Эксперт, Хаски (СТМ), Пигмент, Палиж, Ореол, Колорит, Крокса, Диола, Сосновый дом, Olimp (СТМ), Пигменты (СТМ), АКЦ",
+    "source": "website"
+  },
+  {
+    "inn": "5404374480",
+    "name": "ТД Трианон",
+    "main_assortment": "ABC Farben, Текс",
+    "additional_assortment": "Olecolor, АКЦ",
+    "source": "website"
+  },
+  {
+    "inn": "5404088507",
+    "name": "Велес",
+    "main_assortment": "Eskaro, Текс, Титан",
+    "additional_assortment": "Aura, Kapral, GROVER, Condor, IRFix, Jetfix, ODIS, Пигмент, Пигменты (СТМ), АКЦ",
+    "source": "website"
+  },
+  {
+    "inn": "5410084959",
+    "name": "ООО Арес групп (Гектор)",
+    "main_assortment": "Нет данных",
+    "additional_assortment": "Нет данных (ЛКМ в ассортименте, конкретные бренды не указаны на сайте)",
+    "source": "web_search"
+  },
+  {
+    "inn": "7017438229",
+    "name": "Стройколор",
+    "main_assortment": "Лакра, Новоколор, Текс",
+    "additional_assortment": "Титан, АКЦ",
+    "source": "website"
+  },
+  {
+    "inn": "2208015955",
+    "name": "Alterra / ООО «Альтерра»",
+    "main_assortment": "Лакра, Рогнеда, Текс",
+    "additional_assortment": "ODIS, АКЦ",
+    "source": "comments+website"
+  },
+  {
+    "inn": "5404289490",
+    "name": "Колорон",
+    "main_assortment": "Лакра, Текс",
+    "additional_assortment": "Держи (СТМ), Мастер, АКЦ",
+    "source": "website"
+  },
+  {
+    "inn": "411170288/4221009432",
+    "name": "Доминго, Первомастер",
+    "main_assortment": "Лакра, Tikkurila, Текс, Parade, Dulux",
+    "additional_assortment": "Alpa, Finncolor, Диола, NEOMID, Ceresit, Держи (СТМ), Крокса, Мастер, Dali, АКЦ",
+    "source": "website"
+  },
+  {
+    "inn": "7017343859",
+    "name": "Стройся (ООО Престиж)",
+    "main_assortment": "Престиж, Tikkurila, Caparol, Dulux, Текс",
+    "additional_assortment": "VGT, АКЦ",
+    "source": "website"
+  },
+  {
+    "inn": "7017353631",
+    "name": "Стройпарк / СП-Центр",
+    "main_assortment": "Tikkurila, Dulux, Текс, Рогнеда",
+    "additional_assortment": "Эксперт, Husky, Premia (СТМ), Olimp, Finncolor, Dali, Мастер, VGT, АКЦ",
+    "source": "website"
+  },
+  {
+    "inn": "2222857696",
+    "name": "Хелми",
+    "main_assortment": "Нет данных",
+    "additional_assortment": "Колорит",
+    "source": "web_search"
+  },
+  {
+    "inn": "662500223980",
+    "name": "ИП Дрыгин, сеть Сом",
+    "main_assortment": "Декарт, Престиж, Царицыно, Элкон, Ижсинтез, Текс",
+    "additional_assortment": "Фарбен (ABC Farben), АКЦ",
+    "source": "comments+website"
+  },
+  {
+    "inn": "6686055065",
+    "name": "ТСК групп",
+    "main_assortment": "Текс",
+    "additional_assortment": "Держи (СТМ), АКЦ",
+    "source": "website"
+  },
+  {
+    "inn": "663901537785",
+    "name": "Строич",
+    "main_assortment": "Текс",
+    "additional_assortment": "Мокке (СТМ), АКЦ",
+    "source": "comments+website"
+  },
+  {
+    "inn": "-",
+    "name": "ВистаСтрой",
+    "main_assortment": "Лакра",
+    "additional_assortment": "Нет данных (отказ от сотрудничества)",
+    "source": "comments"
+  },
+  {
+    "inn": "7202206247",
+    "name": "Строительный Двор",
+    "main_assortment": "ABC Farben, Лакра, Tikkurila, Dulux, Текс, Parade, Pinotex, Marshall, Hammerite",
+    "additional_assortment": "Finncolor, Ceresit, АКЦ",
+    "source": "comments+website"
+  },
+  {
+    "inn": "24300652504",
+    "name": "Ладно-Складно",
+    "main_assortment": "Текс",
+    "additional_assortment": "АКЦ",
+    "source": "website"
+  },
+  {
+    "inn": "231306805633",
+    "name": "ИП Кетова Елена Анатолиевна",
+    "main_assortment": "Престиж",
+    "additional_assortment": "DECORIX, SOUDAL, TYTAN, RPG (растворители), АКЦ",
+    "source": "website"
+  },
+  {
+    "inn": "2311355592",
+    "name": "ООО «Арсенал Трейдинг»",
+    "main_assortment": "Нет данных",
+    "additional_assortment": "АКЦ (бренд «Держи» — СТМ)",
+    "source": "web_search"
+  },
+  {
+    "inn": "2311311933",
+    "name": "ООО «ХозМир»",
+    "main_assortment": "Рогнеда, Текс",
+    "additional_assortment": "Пигмент, VGT, Держи (СТМ), Cutop, АКЦ",
+    "source": "website"
+  },
+  {
+    "inn": "2635024103",
+    "name": "ООО «Ставропольстройопторг»",
+    "main_assortment": "Престиж, Текс, Эмпилс",
+    "additional_assortment": "Держи (СТМ), Мастер, АКЦ",
+    "source": "website"
+  },
+  {
+    "inn": "9204000277",
+    "name": "ТС Добрострой",
+    "main_assortment": "Лакра, Tikkurila, Eskaro, Dulux, Dufa, Alpa",
+    "additional_assortment": "Aura, Olimp, Premia (СТМ), Эксперт, АКЦ",
+    "source": "website+web_search"
+  }
+]

@@ -1,0 +1,226 @@
+{
+  "Эмпилс": {
+    "total": 2966,
+    "group": "company"
+  },
+  "Эмпилс краска": {
+    "total": 439,
+    "group": "company"
+  },
+  "Эмпилс Ростов": {
+    "total": 657,
+    "group": "company"
+  },
+  "ЗАО Эмпилс": {
+    "total": 343,
+    "group": "company"
+  },
+  "Рогнеда краска": {
+    "total": 1537,
+    "group": "company"
+  },
+  "Рогнеда компания": {
+    "total": 75,
+    "group": "company"
+  },
+  "Лакра компания": {
+    "total": 92,
+    "group": "company"
+  },
+  "Лакра производитель": {
+    "total": 455,
+    "group": "company"
+  },
+  "ВГТ краска": {
+    "total": 4330,
+    "group": "company"
+  },
+  "ВГТ компания": {
+    "total": 91,
+    "group": "company"
+  },
+  "Текс краска": {
+    "total": 11605,
+    "group": "company"
+  },
+  "Текс компания": {
+    "total": 744,
+    "group": "company"
+  },
+  "Новбытхим": {
+    "total": 6648,
+    "group": "company"
+  },
+  "Новбытхим компания": {
+    "total": 2,
+    "group": "company"
+  },
+  "Расцвет краска": {
+    "total": 975,
+    "group": "company"
+  },
+  "Расцвет компания": {
+    "total": 119,
+    "group": "company"
+  },
+  "Dufa Россия": {
+    "total": 13,
+    "group": "company"
+  },
+  "Dufa производитель": {
+    "total": 112,
+    "group": "company"
+  },
+  "Tikkurila": {
+    "total": 65556,
+    "group": "company"
+  },
+  "Tikkurila компания": {
+    "total": 6,
+    "group": "company"
+  },
+  "Caparol": {
+    "total": 8632,
+    "group": "company"
+  },
+  "Caparol краска": {
+    "total": 2126,
+    "group": "company"
+  },
+  "Husky производитель": {
+    "total": 376,
+    "group": "company"
+  },
+  "Elcon компания": {
+    "total": 15,
+    "group": "company"
+  },
+  "Elcon производитель": {
+    "total": 211,
+    "group": "company"
+  },
+  "Престиж краска производитель": {
+    "total": 179,
+    "group": "company"
+  },
+  "TITAN краска": {
+    "total": 424,
+    "group": "product"
+  },
+  "TITAN грунт-эмаль": {
+    "total": 310,
+    "group": "product"
+  },
+  "Ореол TITAN": {
+    "total": 183,
+    "group": "product"
+  },
+  "TITAN 3 в 1": {
+    "total": 329,
+    "group": "product"
+  },
+  "TITAN по металлу": {
+    "total": 199,
+    "group": "product"
+  },
+  "Dali краска по металлу": {
+    "total": 1336,
+    "group": "product"
+  },
+  "Dali грунт-эмаль": {
+    "total": 9977,
+    "group": "product"
+  },
+  "Dali 3 в 1": {
+    "total": 7812,
+    "group": "product"
+  },
+  "Dali по ржавчине": {
+    "total": 10034,
+    "group": "product"
+  },
+  "Husky краска": {
+    "total": 4372,
+    "group": "product"
+  },
+  "Husky Klondike": {
+    "total": 806,
+    "group": "product"
+  },
+  "Husky грунт-эмаль": {
+    "total": 54,
+    "group": "product"
+  },
+  "Husky по металлу": {
+    "total": 705,
+    "group": "product"
+  },
+  "Correx": {
+    "total": 896,
+    "group": "product"
+  },
+  "Dufa Correx": {
+    "total": 527,
+    "group": "product"
+  },
+  "Correx 3 в 1": {
+    "total": 193,
+    "group": "product"
+  },
+  "Metallista": {
+    "total": 2029,
+    "group": "product"
+  },
+  "Tikkurila Metallista": {
+    "total": 1369,
+    "group": "product"
+  },
+  "Elcon краска": {
+    "total": 6584,
+    "group": "product"
+  },
+  "Elcon грунт-эмаль": {
+    "total": 4090,
+    "group": "product"
+  },
+  "Elcon 3 в 1": {
+    "total": 2876,
+    "group": "product"
+  },
+  "Лакра Prof": {
+    "total": 1811,
+    "group": "product"
+  },
+  "Лакра грунт-эмаль": {
+    "total": 2138,
+    "group": "product"
+  },
+  "Лакра 4 в 1": {
+    "total": 590,
+    "group": "product"
+  },
+  "Престиж краска по металлу": {
+    "total": 1550,
+    "group": "product"
+  },
+  "Престиж грунт-эмаль": {
+    "total": 2762,
+    "group": "product"
+  },
+  "Новбытхим грунт-эмаль": {
+    "total": 1007,
+    "group": "product"
+  },
+  "Новбытхим 5 в 1": {
+    "total": 13,
+    "group": "product"
+  },
+  "TITAN молотковая": {
+    "total": 56,
+    "group": "product"
+  },
+  "TITAN быстросохнущая": {
+    "total": 19,
+    "group": "product"
+  }
+}

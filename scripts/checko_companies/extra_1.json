@@ -1,0 +1,34 @@
+{
+  "code": 200,
+  "data": {
+    "description": "",
+    "external": {},
+    "html": "<html lang=\"ru\"><head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<meta name=\"robots\" content=\"noindex,nofollow\">\n<meta name=\"theme-color\" content=\"#5fac62\">\n<title>Ошибка 403</title>\n<style>\nhtml,body{height:100%;margin:0}\nbody{display:flex;align-items:center;justify-content:center;\nfont:16px/1.5 -apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Arial,sans-serif;color:#111}\n.box{text-align:center;padding:20px}\n.box img{max-width:100%;height:auto}\n.box h1{font-size:2rem;font-weight:700;margin:1rem 0 .5rem}\n.box .note{color:#73819d;font-size:1rem}\n.box a{color:#1464cc;text-decoration:underline}\n.box a:hover{color:#ff4614;text-decoration:underline}\n</style>\n</head>\n<body>\n<div class=\"box\">\n<img src=\"/cdn/images/http_error.png\" width=\"500\" height=\"400\" alt=\"\">\n<h1>Ошибка 403</h1><br>\n<p class=\"note\">\nДоступ к сайту из вашей страны закрыт в целях безопасности<br><br>\nЕсли вы находитесь в России, но используете VPN,<br>отключите его и обновите страницу<br>\n</p>\n</div>\n\n</body></html>",
+    "httpStatus": 403,
+    "httpStatusText": "",
+    "metadata": {
+      "lang": "ru",
+      "robots": "noindex,nofollow",
+      "theme-color": "#5fac62",
+      "viewport": "width=device-width, initial-scale=1.0"
+    },
+    "title": "Ошибка 403",
+    "url": "https://checko.ru/company/knauf-penoplast-1065024004407",
+    "usage": {
+      "measuredTokens": 0,
+      "outputTokens": 0,
+      "scaledTokens": 327,
+      "tokens": 327
+    },
+    "warning": "Target URL returned error 403: Forbidden"
+  },
+  "meta": {
+    "usage": {
+      "measuredTokens": 0,
+      "outputTokens": 0,
+      "scaledTokens": 327,
+      "tokens": 327
+    }
+  },
+  "status": 20000
+}

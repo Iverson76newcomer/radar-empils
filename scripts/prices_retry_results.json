@@ -1,0 +1,86 @@
+{
+  "2": {
+    "brand": "Elcon",
+    "product": "Грунт-эмаль 3 в 1 Elcon глянцевая чёрная RAL 9005 0.8 кг",
+    "price_old": 958,
+    "price_new": 963,
+    "url": "https://www.vseinstrumenti.ru/category/emali-po-rzhavchine-174182/elcon-2070502"
+  },
+  "4": {
+    "brand": "Dali",
+    "product": "Грунт-эмаль по ржавчине Dali 3 в 1, чёрная RAL 9005 0.75 л",
+    "price_old": 1055,
+    "price_new": 1143,
+    "url": "https://www.vseinstrumenti.ru/product/grunt-emal-po-rzhavchine-dali-3-v-1-chernaya-ral-9005-0-75-l-6-19299-1242492"
+  },
+  "5": {
+    "brand": "HUSKY KLONDIKE",
+    "product": "Краска по металлу HUSKY KLONDIKE глянцевая RAL 9005 0.9 л",
+    "price_old": 1153,
+    "price_new": 953,
+    "url": "https://www.vseinstrumenti.ru/category/emali-174158/husky-2079300"
+  },
+  "6": {
+    "brand": "Tikkurila",
+    "product": "Tikkurila METALLISTA 3 в 1, 0.8 л, чёрная",
+    "price_old": 2085,
+    "price_new": 1599,
+    "url": "https://www.vseinstrumenti.ru/product/kraska-dlya-metalla-tikkurila-metallista-po-rzhavchine-3-v-1-0-8-l-chernaya-259158-8350425"
+  },
+  "7": {
+    "brand": "Новбытхим",
+    "product": "Грунт-эмаль 5 в 1 Новбытхим серый RAL 7040 0.75 л",
+    "price_old": 765,
+    "price_new": 1168,
+    "url": "https://www.vseinstrumenti.ru/product/grunt-emal-po-rzhavchine-3v1-novbythim-seraya-1-l-526-1263847"
+  },
+  "8": {
+    "brand": "TITAN",
+    "product": "Грунт-эмаль быстросохнущая ОРЕОЛ TITAN матовая серая 0.75 л",
+    "price_old": 765,
+    "price_new": 956,
+    "url": "https://www.vseinstrumenti.ru/product/grunt-emal-farben-bystrosohnuschaya-tiksotropnaya-ral-7024-10-kg-4300012112-15480622"
+  },
+  "9": {
+    "brand": "Elcon",
+    "product": "Быстросохнущая грунт-эмаль Elcon 3 в 1 матовая серая 0.8 кг",
+    "price_old": 838,
+    "price_new": 875,
+    "url": "https://www.vseinstrumenti.ru/category/otdelochnye-materialy-12831/elcon-2070502"
+  },
+  "10": {
+    "brand": "Лакра",
+    "product": "Грунт-эмаль ЛАКРА PROF IT 4 в 1 быстросохнущая RAL 7024 0.8 кг",
+    "price_old": 906,
+    "price_new": null,
+    "url": ""
+  },
+  "11": {
+    "brand": "Dali",
+    "product": "Грунт-эмаль Dali 3 в 1 молотковая золотистая 0.75 л",
+    "price_old": 1057,
+    "price_new": 1157,
+    "url": "https://www.vseinstrumenti.ru/product/grunt-emal-po-rzhavchine-dali-3-v-1-molotkovaya-zolotistaya-0-75-l-6-135301-1241287"
+  },
+  "14": {
+    "brand": "TITAN",
+    "product": "Эмаль TITAN молотковая алкидно-стирольная золотистая 0.8 кг",
+    "price_old": 1308,
+    "price_new": 1294,
+    "url": "https://www.vseinstrumenti.ru/product/emal-s-molotkovym-effektom-empils-titan-oreol-alkidno-stirolnaya-zolotistaya-0-8-kg-77639-2516210"
+  },
+  "15": {
+    "brand": "Лакра",
+    "product": "Эмаль Лакра молотковая золото 0.8 кг",
+    "price_old": 1341,
+    "price_new": 1141,
+    "url": "https://www.vseinstrumenti.ru/product/emal-s-molotkovym-effektom-lakra-zoloto-0-8-kg-lk-00004953-1428360"
+  },
+  "16": {
+    "brand": "Dufa",
+    "product": "Эмаль Dufa Premium HAMMERLACK молотковая золотая 750 мл",
+    "price_old": 1653,
+    "price_new": 1210,
+    "url": "https://www.vseinstrumenti.ru/tag-page/dufa-hammerlack-625616"
+  }
+}
