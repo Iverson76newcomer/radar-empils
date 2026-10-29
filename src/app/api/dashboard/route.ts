@@ -1,22 +1,10 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { getStore } from '@netlify/blobs'
+import { githubStore } from '@/lib/github-store'
 
 // GET — статистика для дашборда
 export async function GET(request: NextRequest) {
   try {
-    const store = getStore('radar-messages')
-    const { blobs } = await store.list()
-
-    // Загружаем все сообщения
-    const messages: any[] = []
-    for (const blob of blobs) {
-      try {
-        const msg = await store.get(blob.key, { type: 'json' })
-        if (msg) messages.push(msg)
-      } catch (e) {
-        console.error('Error reading blob', blob.key, e)
-      }
-    }
+    const messages = await githubStore.getAll()
 
     // Статистика по категориям
     const byCategory = {
@@ -76,7 +64,7 @@ export async function GET(request: NextRequest) {
   } catch (error) {
     console.error('Error fetching dashboard stats:', error)
     return NextResponse.json(
-      { error: 'Ошибка при получении статистики' },
+      { error: 'Ошибка при получении статистики: ' + (error as Error).message },
       { status: 500 }
     )
   }

@@ -1,8 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { getStore } from '@netlify/blobs'
-
-// Хранилище для сообщений (Netlify Blobs — работает в serverless!)
-const getMessagesStore = () => getStore('radar-messages')
+import { githubStore } from '@/lib/github-store'
 
 // POST — создание нового сообщения от полевого сотрудника
 export async function POST(request: NextRequest) {
@@ -13,6 +10,15 @@ export async function POST(request: NextRequest) {
     if (!category || !text || !authorName) {
       return NextResponse.json(
         { error: 'Не заполнены обязательные поля: category, text, authorName' },
+        { status: 400 }
+      )
+    }
+
+    // Валидация категории
+    const validCategories = ['competitors', 'product', 'idea', 'problem', 'trend']
+    if (!validCategories.includes(category)) {
+      return NextResponse.json(
+        { error: `Неверная категория: ${category}. Допустимые: ${validCategories.join(', ')}` },
         { status: 400 }
       )
     }
@@ -34,15 +40,14 @@ export async function POST(request: NextRequest) {
       updatedAt: new Date().toISOString(),
     }
 
-    // Сохраняем в Netlify Blobs
-    const store = getMessagesStore()
-    await store.setJSON(id, message)
+    // Сохраняем через GitHub API
+    await githubStore.add(message)
 
     return NextResponse.json({ success: true, message }, { status: 201 })
   } catch (error) {
     console.error('Error creating radar message:', error)
     return NextResponse.json(
-      { error: 'Ошибка при создании сообщения' },
+      { error: 'Ошибка при создании сообщения: ' + (error as Error).message },
       { status: 500 }
     )
   }
@@ -57,25 +62,15 @@ export async function GET(request: NextRequest) {
     const region = searchParams.get('region')
     const authorName = searchParams.get('authorName')
 
-    const store = getMessagesStore()
-    const { blobs } = await store.list()
-
-    // Загружаем все сообщения
-    const messages: any[] = []
-    for (const blob of blobs) {
-      try {
-        const msg = await store.get(blob.key, { type: 'json' })
-        if (msg) messages.push(msg)
-      } catch (e) {
-        console.error('Error reading blob', blob.key, e)
-      }
-    }
+    const allMessages = await githubStore.getAll()
 
     // Сортируем от новых к старым
-    messages.sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime())
+    const sorted = [...allMessages].sort(
+      (a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()
+    )
 
     // Применяем фильтры
-    const filtered = messages.filter(m => {
+    const filtered = sorted.filter(m => {
       if (category && m.category !== category) return false
       if (status && m.status !== status) return false
       if (region && m.region !== region) return false
@@ -90,7 +85,7 @@ export async function GET(request: NextRequest) {
   } catch (error) {
     console.error('Error fetching radar messages:', error)
     return NextResponse.json(
-      { error: 'Ошибка при получении сообщений' },
+      { error: 'Ошибка при получении сообщений: ' + (error as Error).message },
       { status: 500 }
     )
   }
@@ -109,30 +104,23 @@ export async function PATCH(request: NextRequest) {
       )
     }
 
-    const store = getMessagesStore()
-    const existing: any = await store.get(id, { type: 'json' })
+    const updated = await githubStore.update(id, {
+      status,
+      ...(managerNote !== undefined && { managerNote }),
+    })
 
-    if (!existing) {
+    if (!updated) {
       return NextResponse.json(
         { error: 'Сообщение не найдено' },
         { status: 404 }
       )
     }
 
-    const updated = {
-      ...existing,
-      status,
-      ...(managerNote !== undefined && { managerNote }),
-      updatedAt: new Date().toISOString(),
-    }
-
-    await store.setJSON(id, updated)
-
     return NextResponse.json({ success: true, message: updated }, { status: 200 })
   } catch (error) {
     console.error('Error updating radar message:', error)
     return NextResponse.json(
-      { error: 'Ошибка при обновлении сообщения' },
+      { error: 'Ошибка при обновлении сообщения: ' + (error as Error).message },
       { status: 500 }
     )
   }
@@ -151,14 +139,19 @@ export async function DELETE(request: NextRequest) {
       )
     }
 
-    const store = getMessagesStore()
-    await store.delete(id)
+    const deleted = await githubStore.delete(id)
+    if (!deleted) {
+      return NextResponse.json(
+        { error: 'Сообщение не найдено' },
+        { status: 404 }
+      )
+    }
 
     return NextResponse.json({ success: true }, { status: 200 })
   } catch (error) {
     console.error('Error deleting radar message:', error)
     return NextResponse.json(
-      { error: 'Ошибка при удалении сообщения' },
+      { error: 'Ошибка при удалении сообщения: ' + (error as Error).message },
       { status: 500 }
     )
   }
