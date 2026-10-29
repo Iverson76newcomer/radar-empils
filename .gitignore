@@ -11,3 +11,8 @@ upload/
 *.mp4
 dev.log
 server.log
+upload/
+*.m4a
+upload/
+*.m4a
+*.mp4
