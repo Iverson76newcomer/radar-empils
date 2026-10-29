@@ -25,6 +25,19 @@
       "managerNote": null,
       "createdAt": "2026-10-29T11:11:54.215Z",
       "updatedAt": "2026-10-29T11:11:54.215Z"
+    },
+    {
+      "id": "msg_1793272531234_ldrzo7q",
+      "category": "product",
+      "text": "Видел новинку в лемана про",
+      "region": "Республика Бурятия",
+      "authorName": "Кирил тестовый",
+      "authorRole": "RM",
+      "photoUrl": null,
+      "status": "new",
+      "managerNote": null,
+      "createdAt": "2026-10-29T11:15:31.234Z",
+      "updatedAt": "2026-10-29T11:15:31.234Z"
     }
   ]
 }
