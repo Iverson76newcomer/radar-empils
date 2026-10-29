@@ -1,1 +1,17 @@
-{"messages":[]}
+{
+  "messages": [
+    {
+      "id": "msg_1793272260270_dbergk4",
+      "category": "competitors",
+      "text": "Тест с curl - Конкуренты",
+      "region": "Москва и МО",
+      "authorName": "Test",
+      "authorRole": "RM",
+      "photoUrl": null,
+      "status": "new",
+      "managerNote": null,
+      "createdAt": "2026-10-29T11:11:00.270Z",
+      "updatedAt": "2026-10-29T11:11:00.270Z"
+    }
+  ]
+}
