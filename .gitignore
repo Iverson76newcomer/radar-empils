@@ -16,3 +16,4 @@ upload/
 upload/
 *.m4a
 *.mp4
+tsconfig.tsbuildinfo

@@ -16,6 +16,15 @@ import {
   Swords, Send, Camera, BarChart3, Clock, MapPin, User, CheckCircle2,
   XCircle, Loader2, Filter
 } from 'lucide-react'
+import {
+  createMessage,
+  getMessages,
+  updateMessageStatus,
+  getDashboardStats,
+  type Message,
+} from '@/lib/supabase'
+
+// Используем импортированный тип Message
 
 // Сжатие изображения на клиенте — возвращает JPEG data URL
 // Агрессивное сжатие для Netlify Function timeout (10 сек на бесплатном тарифе)
@@ -111,19 +120,6 @@ const STATUSES = [
   { id: 'rejected', label: 'Отклонено', color: 'bg-red-100 text-red-700' },
 ]
 
-interface Message {
-  id: string
-  category: string
-  text: string
-  region: string
-  authorName: string
-  authorRole: string
-  photoUrl: string | null
-  status: string
-  managerNote: string | null
-  createdAt: string
-}
-
 export default function RadarPage() {
   const [tab, setTab] = useState<'report' | 'dashboard'>('report')
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null)
@@ -192,75 +188,49 @@ export default function RadarPage() {
     setSubmitting(true)
     saveUser()
     try {
-      // Используем AbortController для таймаута 25 секунд
-      const controller = new AbortController()
-      const timeoutId = setTimeout(() => controller.abort(), 25000)
-
-      const res = await fetch('/api/radar', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          category: selectedCategory,
-          text: text.trim(),
-          region: region || 'Не указан',
-          authorName: authorName.trim(),
-          authorRole: authorRole || 'Не указана',
-          photoUrl,
-        }),
-        signal: controller.signal,
+      // Прямой запрос к Supabase из браузера — НЕ тратит кредиты Netlify!
+      await createMessage({
+        category: selectedCategory,
+        text: text.trim(),
+        region: region || 'Не указан',
+        authorName: authorName.trim(),
+        authorRole: authorRole || 'Не указана',
+        photoUrl,
       })
-      clearTimeout(timeoutId)
-
-      if (res.ok) {
-        toast.success('Сообщение отправлено в Радар!')
-        setText('')
-        setPhotoUrl(null)
-        setSelectedCategory(null)
-      } else {
-        // Пробуем прочитать текст ошибки с сервера
-        let errMsg = 'Ошибка при отправке'
-        try {
-          const errData = await res.json()
-          if (errData?.error) errMsg = errData.error
-        } catch {}
-        if (res.status === 413) {
-          errMsg = 'Сообщение слишком большое. Уменьшите фото или текст.'
-        } else if (res.status === 500) {
-          errMsg = 'Внутренняя ошибка сервера. Попробуйте без фото.'
-        } else if (res.status === 502 || res.status === 504) {
-          errMsg = 'Сервер перегружен. Попробуйте ещё раз через минуту.'
-        }
-        toast.error(errMsg)
-      }
+      toast.success('Сообщение отправлено в Радар!')
+      setText('')
+      setPhotoUrl(null)
+      setSelectedCategory(null)
     } catch (err: any) {
-      if (err?.name === 'AbortError') {
-        toast.error('Превышено время ожидания (25 сек). Попробуйте фото поменьше.')
-      } else {
+      console.error('Submit error:', err)
+      const msg = err?.message || String(err)
+      if (msg.includes('row-level security') || msg.includes('RLS') || msg.includes('policy')) {
+        toast.error('Нет прав на запись. Проверьте RLS-политики в Supabase.')
+      } else if (msg.includes('relation') && msg.includes('does not exist')) {
+        toast.error('Таблица messages не найдена. Создайте её через SQL Editor в Supabase.')
+      } else if (msg.includes('Failed to fetch') || msg.includes('NetworkError')) {
         toast.error('Ошибка сети. Проверьте интернет-соединение.')
+      } else {
+        toast.error(`Ошибка при отправке: ${msg}`)
       }
     } finally {
       setSubmitting(false)
     }
   }
 
-  // Загрузка данных дашборда
+  // Загрузка данных дашборда — напрямую из Supabase
   const loadDashboard = async () => {
     setLoading(true)
     try {
-      const params = new URLSearchParams()
-      if (filterCategory !== 'all') params.set('category', filterCategory)
-      if (filterStatus !== 'all') params.set('status', filterStatus)
-
-      const [msgRes, statRes] = await Promise.all([
-        fetch(`/api/radar?${params}`),
-        fetch('/api/dashboard'),
+      const [msgs, statsData] = await Promise.all([
+        getMessages({ category: filterCategory, status: filterStatus }),
+        getDashboardStats(),
       ])
-      const msgData = await msgRes.json()
-      const statData = await statRes.json()
-      setMessages(msgData.messages || [])
-      setStats(statData)
-    } catch {
-      toast.error('Ошибка загрузки дашборда')
+      setMessages(msgs)
+      setStats(statsData)
+    } catch (err: any) {
+      console.error('Dashboard load error:', err)
+      toast.error(`Ошибка загрузки дашборда: ${err?.message || err}`)
     } finally {
       setLoading(false)
     }
@@ -270,18 +240,14 @@ export default function RadarPage() {
     if (tab === 'dashboard') loadDashboard()
   }, [tab, filterCategory, filterStatus])
 
-  // Обновить статус сообщения
+  // Обновить статус сообщения — напрямую через Supabase
   const updateStatus = async (id: string, status: string) => {
     try {
-      await fetch('/api/radar', {
-        method: 'PATCH',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ id, status }),
-      })
+      await updateMessageStatus(id, status)
       toast.success('Статус обновлён')
       loadDashboard()
-    } catch {
-      toast.error('Ошибка обновления')
+    } catch (err: any) {
+      toast.error(`Ошибка обновления: ${err?.message || err}`)
     }
   }
 
