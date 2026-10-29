@@ -17,6 +17,43 @@ import {
   XCircle, Loader2, Filter
 } from 'lucide-react'
 
+// Сжатие изображения на клиенте — возвращает JPEG data URL
+async function compressImage(file: File, maxSize: number, quality: number): Promise<string> {
+  return new Promise((resolve, reject) => {
+    const reader = new FileReader()
+    reader.onload = (e) => {
+      const img = new Image()
+      img.onload = () => {
+        // Сохраняем пропорции, ограничиваем максимальный размер
+        let { width, height } = img
+        if (width > height && width > maxSize) {
+          height = (height * maxSize) / width
+          width = maxSize
+        } else if (height > maxSize) {
+          width = (width * maxSize) / height
+          height = maxSize
+        }
+
+        const canvas = document.createElement('canvas')
+        canvas.width = width
+        canvas.height = height
+        const ctx = canvas.getContext('2d')
+        if (!ctx) {
+          reject(new Error('Canvas context не доступен'))
+          return
+        }
+        ctx.drawImage(img, 0, 0, width, height)
+        const dataUrl = canvas.toDataURL('image/jpeg', quality)
+        resolve(dataUrl)
+      }
+      img.onerror = () => reject(new Error('Не удалось загрузить изображение'))
+      img.src = e.target?.result as string
+    }
+    reader.onerror = () => reject(new Error('Не удалось прочитать файл'))
+    reader.readAsDataURL(file)
+  })
+}
+
 // Категории
 const CATEGORIES = [
   { id: 'competitors', label: 'Конкуренты', icon: Swords, color: 'bg-red-500', textColor: 'text-red-500', bgLight: 'bg-red-50' },
@@ -94,17 +131,26 @@ export default function RadarPage() {
     localStorage.setItem('radar_user', JSON.stringify({ name: authorName, role: authorRole, region }))
   }
 
-  // Обработка фото
-  const handlePhoto = (e: React.ChangeEvent<HTMLInputElement>) => {
+  // Обработка фото — со сжатием на клиенте (чтобы влезть в лимит Netlify 6 МБ)
+  const handlePhoto = async (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0]
     if (!file) return
-    if (file.size > 3 * 1024 * 1024) {
-      toast.error('Фото слишком большое (макс. 3 МБ)')
+
+    // Если файл слишком большой (больше 10 МБ) — не даём загрузить
+    if (file.size > 10 * 1024 * 1024) {
+      toast.error('Фото слишком большое (макс. 10 МБ)')
       return
     }
-    const reader = new FileReader()
-    reader.onload = () => setPhotoUrl(reader.result as string)
-    reader.readAsDataURL(file)
+
+    try {
+      // Сжимаем изображение через canvas
+      const compressed = await compressImage(file, 1280, 0.7)
+      setPhotoUrl(compressed)
+      toast.success(`Фото обработано: ${(compressed.length / 1024).toFixed(0)} КБ`)
+    } catch (err) {
+      console.error('Photo compression error:', err)
+      toast.error('Не удалось обработать фото. Попробуйте другое.')
+    }
   }
 
   // Отправка сообщения
@@ -134,10 +180,23 @@ export default function RadarPage() {
         setPhotoUrl(null)
         setSelectedCategory(null)
       } else {
-        toast.error('Ошибка при отправке')
+        // Пробуем прочитать текст ошибки с сервера
+        let errMsg = 'Ошибка при отправке'
+        try {
+          const errData = await res.json()
+          if (errData?.error) errMsg = errData.error
+        } catch {}
+        if (res.status === 413) {
+          errMsg = 'Сообщение слишком большое. Уменьшите фото или текст.'
+        } else if (res.status === 500) {
+          errMsg = 'Внутренняя ошибка сервера. Попробуйте позже.'
+        } else if (res.status === 502 || res.status === 504) {
+          errMsg = 'Сервер перегружен. Попробуйте ещё раз.'
+        }
+        toast.error(errMsg)
       }
     } catch {
-      toast.error('Ошибка сети')
+      toast.error('Ошибка сети. Проверьте интернет-соединение.')
     } finally {
       setSubmitting(false)
     }
