@@ -1,5 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { db } from '@/lib/db'
+import { getStore } from '@netlify/blobs'
+
+// Хранилище для сообщений (Netlify Blobs — работает в serverless!)
+const getMessagesStore = () => getStore('radar-messages')
 
 // POST — создание нового сообщения от полевого сотрудника
 export async function POST(request: NextRequest) {
@@ -14,17 +17,26 @@ export async function POST(request: NextRequest) {
       )
     }
 
-    const message = await db.radarMessage.create({
-      data: {
-        category,
-        text,
-        region: region || 'Не указан',
-        authorName,
-        authorRole: authorRole || 'Не указана',
-        photoUrl: photoUrl || null,
-        status: 'new',
-      },
-    })
+    // Генерируем уникальный ID
+    const id = `msg_${Date.now()}_${Math.random().toString(36).slice(2, 9)}`
+
+    const message = {
+      id,
+      category,
+      text,
+      region: region || 'Не указан',
+      authorName,
+      authorRole: authorRole || 'Не указана',
+      photoUrl: photoUrl || null,
+      status: 'new',
+      managerNote: null,
+      createdAt: new Date().toISOString(),
+      updatedAt: new Date().toISOString(),
+    }
+
+    // Сохраняем в Netlify Blobs
+    const store = getMessagesStore()
+    await store.setJSON(id, message)
 
     return NextResponse.json({ success: true, message }, { status: 201 })
   } catch (error) {
@@ -45,19 +57,36 @@ export async function GET(request: NextRequest) {
     const region = searchParams.get('region')
     const authorName = searchParams.get('authorName')
 
-    const where: Record<string, string> = {}
-    if (category) where.category = category
-    if (status) where.status = status
-    if (region) where.region = region
-    if (authorName) where.authorName = authorName
+    const store = getMessagesStore()
+    const { blobs } = await store.list()
 
-    const messages = await db.radarMessage.findMany({
-      where,
-      orderBy: { createdAt: 'desc' },
-      take: 200,
+    // Загружаем все сообщения
+    const messages: any[] = []
+    for (const blob of blobs) {
+      try {
+        const msg = await store.get(blob.key, { type: 'json' })
+        if (msg) messages.push(msg)
+      } catch (e) {
+        console.error('Error reading blob', blob.key, e)
+      }
+    }
+
+    // Сортируем от новых к старым
+    messages.sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime())
+
+    // Применяем фильтры
+    const filtered = messages.filter(m => {
+      if (category && m.category !== category) return false
+      if (status && m.status !== status) return false
+      if (region && m.region !== region) return false
+      if (authorName && m.authorName !== authorName) return false
+      return true
     })
 
-    return NextResponse.json({ messages }, { status: 200 })
+    // Возвращаем последние 200
+    const result = filtered.slice(0, 200)
+
+    return NextResponse.json({ messages: result }, { status: 200 })
   } catch (error) {
     console.error('Error fetching radar messages:', error)
     return NextResponse.json(
@@ -80,19 +109,56 @@ export async function PATCH(request: NextRequest) {
       )
     }
 
-    const message = await db.radarMessage.update({
-      where: { id },
-      data: {
-        status,
-        ...(managerNote !== undefined && { managerNote }),
-      },
-    })
+    const store = getMessagesStore()
+    const existing: any = await store.get(id, { type: 'json' })
 
-    return NextResponse.json({ success: true, message }, { status: 200 })
+    if (!existing) {
+      return NextResponse.json(
+        { error: 'Сообщение не найдено' },
+        { status: 404 }
+      )
+    }
+
+    const updated = {
+      ...existing,
+      status,
+      ...(managerNote !== undefined && { managerNote }),
+      updatedAt: new Date().toISOString(),
+    }
+
+    await store.setJSON(id, updated)
+
+    return NextResponse.json({ success: true, message: updated }, { status: 200 })
   } catch (error) {
     console.error('Error updating radar message:', error)
     return NextResponse.json(
       { error: 'Ошибка при обновлении сообщения' },
+      { status: 500 }
+    )
+  }
+}
+
+// DELETE — удалить сообщение
+export async function DELETE(request: NextRequest) {
+  try {
+    const { searchParams } = new URL(request.url)
+    const id = searchParams.get('id')
+
+    if (!id) {
+      return NextResponse.json(
+        { error: 'Не указан id' },
+        { status: 400 }
+      )
+    }
+
+    const store = getMessagesStore()
+    await store.delete(id)
+
+    return NextResponse.json({ success: true }, { status: 200 })
+  } catch (error) {
+    console.error('Error deleting radar message:', error)
+    return NextResponse.json(
+      { error: 'Ошибка при удалении сообщения' },
       { status: 500 }
     )
   }

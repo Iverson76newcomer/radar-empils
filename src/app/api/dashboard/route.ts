@@ -1,12 +1,22 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { db } from '@/lib/db'
+import { getStore } from '@netlify/blobs'
 
 // GET — статистика для дашборда
 export async function GET(request: NextRequest) {
   try {
-    const messages = await db.radarMessage.findMany({
-      orderBy: { createdAt: 'desc' },
-    })
+    const store = getStore('radar-messages')
+    const { blobs } = await store.list()
+
+    // Загружаем все сообщения
+    const messages: any[] = []
+    for (const blob of blobs) {
+      try {
+        const msg = await store.get(blob.key, { type: 'json' })
+        if (msg) messages.push(msg)
+      } catch (e) {
+        console.error('Error reading blob', blob.key, e)
+      }
+    }
 
     // Статистика по категориям
     const byCategory = {
@@ -45,12 +55,23 @@ export async function GET(request: NextRequest) {
       .sort((a, b) => b[1] - a[1])
       .map(([region, count]) => ({ region, count }))
 
+    // Последние 7 дней — динамика по дням
+    const last7Days: { date: string; count: number }[] = []
+    for (let i = 6; i >= 0; i--) {
+      const d = new Date()
+      d.setDate(d.getDate() - i)
+      const dateStr = d.toISOString().split('T')[0]
+      const count = messages.filter(m => m.createdAt.split('T')[0] === dateStr).length
+      last7Days.push({ date: dateStr, count })
+    }
+
     return NextResponse.json({
       total: messages.length,
       byCategory,
       byStatus,
       topAuthors,
       byRegion,
+      last7Days,
     }, { status: 200 })
   } catch (error) {
     console.error('Error fetching dashboard stats:', error)

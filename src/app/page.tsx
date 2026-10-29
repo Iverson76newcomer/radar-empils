@@ -252,43 +252,41 @@ export default function RadarPage() {
               </div>
             </div>
 
-            {/* Шаг 2: Данные сотрудника (если не сохранены) */}
-            {!authorName && (
-              <Card className="p-4">
-                <Label className="text-sm font-semibold text-slate-700 mb-3 block">
-                  Ваши данные (сохранятся для следующих сообщений)
-                </Label>
-                <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
-                  <div>
-                    <Label className="text-xs text-slate-500">Ваше имя</Label>
-                    <Input
-                      value={authorName}
-                      onChange={(e) => setAuthorName(e.target.value)}
-                      placeholder="Иван Иванов"
-                      className="mt-1"
-                    />
-                  </div>
-                  <div>
-                    <Label className="text-xs text-slate-500">Роль</Label>
-                    <Select value={authorRole} onValueChange={setAuthorRole}>
-                      <SelectTrigger className="mt-1"><SelectValue placeholder="Выберите" /></SelectTrigger>
-                      <SelectContent>
-                        {ROLES.map(r => <SelectItem key={r.id} value={r.id}>{r.label}</SelectItem>)}
-                      </SelectContent>
-                    </Select>
-                  </div>
-                  <div>
-                    <Label className="text-xs text-slate-500">Регион</Label>
-                    <Select value={region} onValueChange={setRegion}>
-                      <SelectTrigger className="mt-1"><SelectValue placeholder="Выберите" /></SelectTrigger>
-                      <SelectContent>
-                        {REGIONS.map(r => <SelectItem key={r} value={r}>{r}</SelectItem>)}
-                      </SelectContent>
-                    </Select>
-                  </div>
+            {/* Шаг 2: Данные сотрудника — ВСЕГДА ВИДНЫ, автозаполнение из localStorage */}
+            <Card className="p-4">
+              <Label className="text-sm font-semibold text-slate-700 mb-3 block">
+                Ваши данные (сохранятся для следующих сообщений)
+              </Label>
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                <div>
+                  <Label className="text-xs text-slate-500">Ваше имя</Label>
+                  <Input
+                    value={authorName}
+                    onChange={(e) => setAuthorName(e.target.value)}
+                    placeholder="Иван Иванов"
+                    className="mt-1"
+                  />
                 </div>
-              </Card>
-            )}
+                <div>
+                  <Label className="text-xs text-slate-500">Роль</Label>
+                  <Select value={authorRole} onValueChange={setAuthorRole}>
+                    <SelectTrigger className="mt-1"><SelectValue placeholder="Выберите" /></SelectTrigger>
+                    <SelectContent>
+                      {ROLES.map(r => <SelectItem key={r.id} value={r.id}>{r.label}</SelectItem>)}
+                    </SelectContent>
+                  </Select>
+                </div>
+                <div>
+                  <Label className="text-xs text-slate-500">Регион</Label>
+                  <Select value={region} onValueChange={setRegion}>
+                    <SelectTrigger className="mt-1"><SelectValue placeholder="Выберите" /></SelectTrigger>
+                    <SelectContent>
+                      {REGIONS.map(r => <SelectItem key={r} value={r}>{r}</SelectItem>)}
+                    </SelectContent>
+                  </Select>
+                </div>
+              </div>
+            </Card>
 
             {/* Шаг 3: Текст сообщения */}
             <div>
@@ -344,16 +342,10 @@ export default function RadarPage() {
               )}
             </Button>
 
-            {/* Информация о пользователе */}
+            {/* Информация о том, что данные сохранены */}
             {authorName && (
               <div className="text-center text-xs text-slate-400">
-                Отправляет: {authorName} · {ROLES.find(r => r.id === authorRole)?.label || authorRole} · {region}
-                <button
-                  onClick={() => { setAuthorName(''); setAuthorRole(''); setRegion('') }}
-                  className="ml-2 text-blue-500 hover:underline"
-                >
-                  изменить
-                </button>
+                ✓ Данные сохранены в этом браузере
               </div>
             )}
           </div>
