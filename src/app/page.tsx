@@ -18,6 +18,7 @@ import {
 } from 'lucide-react'
 
 // Сжатие изображения на клиенте — возвращает JPEG data URL
+// Агрессивное сжатие для Netlify Function timeout (10 сек на бесплатном тарифе)
 async function compressImage(file: File, maxSize: number, quality: number): Promise<string> {
   return new Promise((resolve, reject) => {
     const reader = new FileReader()
@@ -42,8 +43,33 @@ async function compressImage(file: File, maxSize: number, quality: number): Prom
           reject(new Error('Canvas context не доступен'))
           return
         }
+        // Белый фон нужен для PNG с прозрачностью (чтобы не было чёрного)
+        ctx.fillStyle = '#ffffff'
+        ctx.fillRect(0, 0, width, height)
         ctx.drawImage(img, 0, 0, width, height)
-        const dataUrl = canvas.toDataURL('image/jpeg', quality)
+        let dataUrl = canvas.toDataURL('image/jpeg', quality)
+
+        // Если всё ещё больше 500 КБ — сжимаем ещё сильнее
+        let currentQuality = quality
+        while (dataUrl.length > 500 * 1024 && currentQuality > 0.3) {
+          currentQuality -= 0.15
+          dataUrl = canvas.toDataURL('image/jpeg', currentQuality)
+        }
+
+        // Если всё ещё слишком большой — уменьшаем размер
+        let currentMaxSize = maxSize
+        while (dataUrl.length > 500 * 1024 && currentMaxSize > 400) {
+          currentMaxSize = Math.floor(currentMaxSize * 0.7)
+          const newW = currentMaxSize
+          const newH = Math.floor((height * currentMaxSize) / width)
+          canvas.width = newW
+          canvas.height = newH
+          ctx.fillStyle = '#ffffff'
+          ctx.fillRect(0, 0, newW, newH)
+          ctx.drawImage(img, 0, 0, newW, newH)
+          dataUrl = canvas.toDataURL('image/jpeg', 0.5)
+        }
+
         resolve(dataUrl)
       }
       img.onerror = () => reject(new Error('Не удалось загрузить изображение'))
@@ -143,10 +169,14 @@ export default function RadarPage() {
     }
 
     try {
-      // Сжимаем изображение через canvas
-      const compressed = await compressImage(file, 1280, 0.7)
+      // Сжимаем изображение через canvas — агрессивные настройки для Netlify
+      const compressed = await compressImage(file, 800, 0.6)
       setPhotoUrl(compressed)
-      toast.success(`Фото обработано: ${(compressed.length / 1024).toFixed(0)} КБ`)
+      const sizeKb = (compressed.length / 1024).toFixed(0)
+      toast.success(`Фото обработано: ${sizeKb} КБ`)
+      if (compressed.length > 500 * 1024) {
+        toast.warning('Фото большое — отправка может занять до 10 секунд')
+      }
     } catch (err) {
       console.error('Photo compression error:', err)
       toast.error('Не удалось обработать фото. Попробуйте другое.')
@@ -162,6 +192,10 @@ export default function RadarPage() {
     setSubmitting(true)
     saveUser()
     try {
+      // Используем AbortController для таймаута 25 секунд
+      const controller = new AbortController()
+      const timeoutId = setTimeout(() => controller.abort(), 25000)
+
       const res = await fetch('/api/radar', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -173,7 +207,10 @@ export default function RadarPage() {
           authorRole: authorRole || 'Не указана',
           photoUrl,
         }),
+        signal: controller.signal,
       })
+      clearTimeout(timeoutId)
+
       if (res.ok) {
         toast.success('Сообщение отправлено в Радар!')
         setText('')
@@ -189,14 +226,18 @@ export default function RadarPage() {
         if (res.status === 413) {
           errMsg = 'Сообщение слишком большое. Уменьшите фото или текст.'
         } else if (res.status === 500) {
-          errMsg = 'Внутренняя ошибка сервера. Попробуйте позже.'
+          errMsg = 'Внутренняя ошибка сервера. Попробуйте без фото.'
         } else if (res.status === 502 || res.status === 504) {
-          errMsg = 'Сервер перегружен. Попробуйте ещё раз.'
+          errMsg = 'Сервер перегружен. Попробуйте ещё раз через минуту.'
         }
         toast.error(errMsg)
       }
-    } catch {
-      toast.error('Ошибка сети. Проверьте интернет-соединение.')
+    } catch (err: any) {
+      if (err?.name === 'AbortError') {
+        toast.error('Превышено время ожидания (25 сек). Попробуйте фото поменьше.')
+      } else {
+        toast.error('Ошибка сети. Проверьте интернет-соединение.')
+      }
     } finally {
       setSubmitting(false)
     }
