@@ -19,13 +19,16 @@ export interface Message {
   updatedAt: string
 }
 
-// Базовый fetch-обёртка с автоматическим добавлением API-ключей
+// Базовый fetch-обёртка
+// ВАЖНО: НЕ отправляем заголовок Authorization с клиента!
+// Yandex Cloud Function перехватывает Authorization и проверяет как IAM-токен.
+// Вместо этого отправляем только apikey, а функция сама подставит Authorization.
 async function supabaseFetch(path: string, options: RequestInit = {}): Promise<Response> {
   const url = `${PROXY_URL}?path=${encodeURIComponent(path)}`
   const headers: Record<string, string> = {
     'Content-Type': 'application/json',
     'apikey': SUPABASE_ANON_KEY,
-    'Authorization': `Bearer ${SUPABASE_ANON_KEY}`,
+    // Authorization убран — функция сама его подставит
     ...(options.headers as Record<string, string> || {}),
   }
   return fetch(url, { ...options, headers })
