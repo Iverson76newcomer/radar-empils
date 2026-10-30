@@ -38,10 +38,10 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.YC_SECRET_ACCESS_KEY }}
           AWS_DEFAULT_REGION: ru-central1
         run: |
-          aws s3 sync ./out s3://empils-radar \
+          aws s3 sync ./out s3://empils \
             --endpoint-url=https://storage.yandexcloud.net \
             --delete
 
       - name: Print URL
         run: |
-          echo "🚀 Сайт задеплоен на https://empils-radar.website.yandexcloud.net"
+          echo "🚀 Сайт задеплоен на https://empils.website.yandexcloud.net"
