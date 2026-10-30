@@ -1,0 +1,45 @@
+name: Deploy to Yandex Object Storage
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build static site
+        env:
+          NEXT_PUBLIC_YANDEX_FUNCTION_URL: ${{ secrets.YC_FUNCTION_URL }}
+          NEXT_PUBLIC_SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
+        run: npm run build
+
+      - name: Configure AWS CLI for Yandex Cloud
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.YC_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.YC_SECRET_ACCESS_KEY }}
+          aws-region: ru-central1
+
+      - name: Sync to Yandex Object Storage
+        run: |
+          aws s3 sync ./out s3://empils-radar \
+            --endpoint-url=https://storage.yandexcloud.net \
+            --delete
+
+      - name: Print URL
+        run: |
+          echo "🚀 Сайт задеплоен на https://empils-radar.website.yandexcloud.net"
