@@ -27,14 +27,16 @@ jobs:
           NEXT_PUBLIC_SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
         run: npm run build
 
-      - name: Configure AWS CLI for Yandex Cloud
-        uses: aws-actions/configure-aws-credentials@v4
-        with:
-          aws-access-key-id: ${{ secrets.YC_ACCESS_KEY_ID }}
-          aws-secret-access-key: ${{ secrets.YC_SECRET_ACCESS_KEY }}
-          aws-region: ru-central1
+      - name: Install AWS CLI
+        run: |
+          sudo apt-get update -y
+          sudo apt-get install -y awscli
 
       - name: Sync to Yandex Object Storage
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.YC_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.YC_SECRET_ACCESS_KEY }}
+          AWS_DEFAULT_REGION: ru-central1
         run: |
           aws s3 sync ./out s3://empils-radar \
             --endpoint-url=https://storage.yandexcloud.net \
