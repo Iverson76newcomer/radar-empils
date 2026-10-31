@@ -14,7 +14,7 @@ import { toast } from 'sonner'
 import {
   Eye, EyeOff, TrendingUp, AlertTriangle, Lightbulb, Package,
   Swords, Send, Camera, BarChart3, Clock, MapPin, User, CheckCircle2,
-  XCircle, Loader2, Filter
+  XCircle, Loader2, Filter, FileSpreadsheet, FileText, Download
 } from 'lucide-react'
 import {
   createMessage,
@@ -23,6 +23,7 @@ import {
   getDashboardStats,
   type Message,
 } from '@/lib/supabase'
+import { exportToExcel, exportToPDF } from '@/lib/export'
 
 // Используем импортированный тип Message
 
@@ -143,6 +144,45 @@ export default function RadarPage() {
   const [pinInput, setPinInput] = useState('')
   const [pinError, setPinError] = useState(false)
   const DASHBOARD_PIN = process.env.NEXT_PUBLIC_DASHBOARD_PIN || ''
+
+  // Состояние экспорта
+  const [exporting, setExporting] = useState<'excel' | 'pdf' | null>(null)
+
+  // Экспорт в Excel
+  const handleExportExcel = async () => {
+    if (messages.length === 0) {
+      toast.error('Нет данных для экспорта')
+      return
+    }
+    setExporting('excel')
+    try {
+      await exportToExcel(messages)
+      toast.success('Excel-отчёт сформирован')
+    } catch (err: any) {
+      console.error('Excel export error:', err)
+      toast.error(`Ошибка экспорта: ${err?.message || err}`)
+    } finally {
+      setExporting(null)
+    }
+  }
+
+  // Экспорт в PDF
+  const handleExportPDF = () => {
+    if (messages.length === 0) {
+      toast.error('Нет данных для экспорта')
+      return
+    }
+    setExporting('pdf')
+    try {
+      exportToPDF(messages)
+      toast.success('PDF-отчёт сформирован')
+    } catch (err: any) {
+      console.error('PDF export error:', err)
+      toast.error(`Ошибка экспорта: ${err?.message || err}`)
+    } finally {
+      setExporting(null)
+    }
+  }
 
   // Проверка авторизации из sessionStorage при загрузке
   useEffect(() => {
@@ -559,6 +599,37 @@ export default function RadarPage() {
               <Button variant="outline" size="sm" onClick={loadDashboard} className="h-8">
                 <Filter className="w-3 h-3 mr-1" /> Обновить
               </Button>
+
+              {/* Кнопки экспорта */}
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={handleExportExcel}
+                disabled={exporting !== null || messages.length === 0}
+                className="h-8 border-green-600 text-green-700 hover:bg-green-50 hover:text-green-800"
+                title="Скачать полный отчёт в Excel (6 листов)"
+              >
+                {exporting === 'excel' ? (
+                  <><Loader2 className="w-3 h-3 mr-1 animate-spin" /> Формирование...</>
+                ) : (
+                  <><FileSpreadsheet className="w-3 h-3 mr-1" /> Excel</>
+                )}
+              </Button>
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={handleExportPDF}
+                disabled={exporting !== null || messages.length === 0}
+                className="h-8 border-red-600 text-red-700 hover:bg-red-50 hover:text-red-800"
+                title="Скачать PDF-резюме"
+              >
+                {exporting === 'pdf' ? (
+                  <><Loader2 className="w-3 h-3 mr-1 animate-spin" /> Формирование...</>
+                ) : (
+                  <><FileText className="w-3 h-3 mr-1" /> PDF</>
+                )}
+              </Button>
+
               <div className="flex-1" />
               <Button
                 variant="ghost"
