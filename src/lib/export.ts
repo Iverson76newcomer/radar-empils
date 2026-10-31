@@ -76,11 +76,14 @@ async function createPdfWithRoboto(): Promise<jsPDF> {
 
 // Категории (должны совпадать с page.tsx)
 const CATEGORIES = [
-  { id: 'competitors', label: 'Конкуренты', color: 'FFDC2626' },
-  { id: 'product', label: 'Запрос продукта', color: 'FF2563EB' },
-  { id: 'idea', label: 'Идея оформления', color: 'FF16A34A' },
-  { id: 'problem', label: 'Проблема', color: 'FFCA8A04' },
-  { id: 'trend', label: 'Тренд рынка', color: 'FF9333EA' },
+  // Верхний ряд — про риски/внешнюю среду
+  { id: 'competitors', label: 'Конкуренты', color: 'FFDC2626' },        // red-600
+  { id: 'prices',      label: 'Цены и акции', color: 'FFF97316' },      // orange-500
+  { id: 'problem',     label: 'Проблема', color: 'FFCA8A04' },          // yellow-600
+  // Нижний ряд — про возможности/улучшения
+  { id: 'product',     label: 'Запрос продукта', color: 'FF2563EB' },   // blue-600
+  { id: 'idea',        label: 'Идея оформления', color: 'FF16A34A' },    // green-600
+  { id: 'portfolio',   label: 'Объекты для портфолио', color: 'FF9333EA' }, // purple-500
 ]
 
 const STATUSES = [

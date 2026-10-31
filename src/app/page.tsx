@@ -12,9 +12,10 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import { ScrollArea } from '@/components/ui/scroll-area'
 import { toast } from 'sonner'
 import {
-  Eye, EyeOff, TrendingUp, AlertTriangle, Lightbulb, Package,
+  Eye, EyeOff, AlertTriangle, Lightbulb, Package,
   Swords, Send, Camera, BarChart3, Clock, MapPin, User, CheckCircle2,
-  XCircle, Loader2, Filter, FileSpreadsheet, FileText, Download
+  XCircle, Loader2, Filter, FileSpreadsheet, FileText, Download,
+  Tag, Building2
 } from 'lucide-react'
 import {
   createMessage,
@@ -90,13 +91,16 @@ async function compressImage(file: File, maxSize: number, quality: number): Prom
   })
 }
 
-// Категории
+// Категории наблюдений (порядок: верхний ряд 3 + нижний ряд 3)
 const CATEGORIES = [
+  // Верхний ряд — про риски/внешнюю среду
   { id: 'competitors', label: 'Конкуренты', icon: Swords, color: 'bg-red-500', textColor: 'text-red-500', bgLight: 'bg-red-50' },
-  { id: 'product', label: 'Запрос продукта', icon: Package, color: 'bg-blue-500', textColor: 'text-blue-500', bgLight: 'bg-blue-50' },
-  { id: 'idea', label: 'Идея оформления', icon: Lightbulb, color: 'bg-green-500', textColor: 'text-green-500', bgLight: 'bg-green-50' },
-  { id: 'problem', label: 'Проблема', icon: AlertTriangle, color: 'bg-yellow-500', textColor: 'text-yellow-500', bgLight: 'bg-yellow-50' },
-  { id: 'trend', label: 'Тренд рынка', icon: TrendingUp, color: 'bg-purple-500', textColor: 'text-purple-500', bgLight: 'bg-purple-50' },
+  { id: 'prices',      label: 'Цены и акции', icon: Tag, color: 'bg-orange-500', textColor: 'text-orange-500', bgLight: 'bg-orange-50' },
+  { id: 'problem',     label: 'Проблема', icon: AlertTriangle, color: 'bg-yellow-500', textColor: 'text-yellow-500', bgLight: 'bg-yellow-50' },
+  // Нижний ряд — про возможности/улучшения
+  { id: 'product',     label: 'Запрос продукта', icon: Package, color: 'bg-blue-500', textColor: 'text-blue-500', bgLight: 'bg-blue-50' },
+  { id: 'idea',        label: 'Идея оформления', icon: Lightbulb, color: 'bg-green-500', textColor: 'text-green-500', bgLight: 'bg-green-50' },
+  { id: 'portfolio',   label: 'Объекты для портфолио', icon: Building2, color: 'bg-purple-500', textColor: 'text-purple-500', bgLight: 'bg-purple-50' },
 ]
 
 const REGIONS = [
