@@ -137,6 +137,56 @@ export default function RadarPage() {
   const [filterStatus, setFilterStatus] = useState<string>('all')
   const [stats, setStats] = useState<any>(null)
 
+  // PIN-авторизация для дашборда
+  const [isAuthed, setIsAuthed] = useState(false)
+  const [showPinModal, setShowPinModal] = useState(false)
+  const [pinInput, setPinInput] = useState('')
+  const [pinError, setPinError] = useState(false)
+  const DASHBOARD_PIN = process.env.NEXT_PUBLIC_DASHBOARD_PIN || ''
+
+  // Проверка авторизации из sessionStorage при загрузке
+  useEffect(() => {
+    if (sessionStorage.getItem('radar_authed') === 'true' && DASHBOARD_PIN) {
+      setIsAuthed(true)
+    }
+  }, [])
+
+  // Обработчик переключения вкладок
+  const handleTabChange = (v: string) => {
+    if (v === 'dashboard' && !isAuthed && DASHBOARD_PIN) {
+      // Запросить PIN-код перед открытием дашборда
+      setShowPinModal(true)
+      setPinInput('')
+      setPinError(false)
+      return
+    }
+    setTab(v as 'report' | 'dashboard')
+  }
+
+  // Проверка PIN-кода
+  const handlePinSubmit = () => {
+    if (pinInput === DASHBOARD_PIN) {
+      setIsAuthed(true)
+      setShowPinModal(false)
+      setPinInput('')
+      setPinError(false)
+      sessionStorage.setItem('radar_authed', 'true')
+      setTab('dashboard')
+      toast.success('Доступ к дашборду открыт')
+    } else {
+      setPinError(true)
+      setPinInput('')
+    }
+  }
+
+  // Выход из дашборда
+  const handleLogout = () => {
+    setIsAuthed(false)
+    sessionStorage.removeItem('radar_authed')
+    setTab('report')
+    toast.info('Вы вышли из дашборда')
+  }
+
   // Загрузить сохранённые данные сотрудника
   useEffect(() => {
     const saved = localStorage.getItem('radar_user')
@@ -273,7 +323,7 @@ export default function RadarPage() {
               <p className="text-xs text-slate-500">Полевой информационный портал</p>
             </div>
           </div>
-          <Tabs value={tab} onValueChange={(v) => setTab(v as 'report' | 'dashboard')}>
+          <Tabs value={tab} onValueChange={handleTabChange}>
             <TabsList>
               <TabsTrigger value="report" className="text-sm">Сообщить</TabsTrigger>
               <TabsTrigger value="dashboard" className="text-sm">
@@ -284,6 +334,61 @@ export default function RadarPage() {
           </Tabs>
         </div>
       </header>
+
+      {/* Модальное окно ввода PIN-кода */}
+      {showPinModal && (
+        <div className="fixed inset-0 z-[100] bg-black/50 flex items-center justify-center p-4">
+          <div className="bg-white rounded-2xl shadow-2xl p-6 w-full max-w-sm">
+            <div className="flex items-center justify-between mb-4">
+              <h2 className="text-lg font-bold text-slate-800">🔒 Доступ к дашборду</h2>
+              <button
+                onClick={() => { setShowPinModal(false); setPinInput(''); setPinError(false) }}
+                className="text-slate-400 hover:text-slate-600 text-2xl leading-none"
+                aria-label="Закрыть"
+              >×</button>
+            </div>
+            <p className="text-sm text-slate-600 mb-4">
+              Введите PIN-код для доступа к дашборду руководителя
+            </p>
+            <input
+              type="password"
+              inputMode="numeric"
+              pattern="[0-9]*"
+              maxLength={8}
+              value={pinInput}
+              onChange={(e) => {
+                setPinInput(e.target.value.replace(/\D/g, ''))
+                setPinError(false)
+              }}
+              onKeyDown={(e) => {
+                if (e.key === 'Enter' && pinInput.length >= 4) handlePinSubmit()
+              }}
+              autoFocus
+              placeholder="••••"
+              className={`w-full text-center text-3xl tracking-[0.5em] py-3 px-4 border-2 rounded-xl outline-none transition-colors ${
+                pinError
+                  ? 'border-red-500 bg-red-50 text-red-700'
+                  : 'border-slate-200 focus:border-blue-500 bg-slate-50 text-slate-800'
+              }`}
+            />
+            {pinError && (
+              <p className="text-sm text-red-600 mt-2 text-center">
+                Неверный PIN-код. Попробуйте снова.
+              </p>
+            )}
+            <button
+              onClick={handlePinSubmit}
+              disabled={pinInput.length < 4}
+              className="w-full mt-4 py-3 bg-slate-800 hover:bg-slate-900 text-white font-semibold rounded-xl transition-colors disabled:opacity-40 disabled:cursor-not-allowed"
+            >
+              Войти
+            </button>
+            <p className="text-xs text-slate-400 mt-3 text-center">
+              PIN-код доступен руководителям. Обратитесь к администратору.
+            </p>
+          </div>
+        </div>
+      )}
 
       <main className="max-w-5xl mx-auto px-4 py-6 pb-20">
         {/* === ВКЛАДКА: СООБЩИТЬ === */}
@@ -453,6 +558,16 @@ export default function RadarPage() {
               </Select>
               <Button variant="outline" size="sm" onClick={loadDashboard} className="h-8">
                 <Filter className="w-3 h-3 mr-1" /> Обновить
+              </Button>
+              <div className="flex-1" />
+              <Button
+                variant="ghost"
+                size="sm"
+                onClick={handleLogout}
+                className="h-8 text-red-600 hover:text-red-700 hover:bg-red-50"
+                title="Выйти из дашборда"
+              >
+                <XCircle className="w-3 h-3 mr-1" /> Выйти
               </Button>
             </div>
 
