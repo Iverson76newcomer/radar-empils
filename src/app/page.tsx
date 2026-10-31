@@ -167,14 +167,14 @@ export default function RadarPage() {
   }
 
   // Экспорт в PDF
-  const handleExportPDF = () => {
+  const handleExportPDF = async () => {
     if (messages.length === 0) {
       toast.error('Нет данных для экспорта')
       return
     }
     setExporting('pdf')
     try {
-      exportToPDF(messages)
+      await exportToPDF(messages)
       toast.success('PDF-отчёт сформирован')
     } catch (err: any) {
       console.error('PDF export error:', err)

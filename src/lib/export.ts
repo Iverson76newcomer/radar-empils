@@ -25,6 +25,55 @@ function triggerDownload(blob: Blob, filename: string) {
   setTimeout(() => URL.revokeObjectURL(url), 1000)
 }
 
+// Загрузка TTF-шрифта Roboto с поддержкой кириллицы
+// jsPDF по умолчанию использует Helvetica — она НЕ поддерживает кириллицу
+let fontCache: { regular?: string; bold?: string } = {}
+
+async function loadRobotoFont(variant: 'regular' | 'bold'): Promise<string> {
+  if (fontCache[variant]) return fontCache[variant]!
+
+  const url = variant === 'bold'
+    ? '/fonts/Roboto-Bold.ttf'
+    : '/fonts/Roboto-Regular.ttf'
+
+  const res = await fetch(url)
+  if (!res.ok) {
+    throw new Error(`Не удалось загрузить шрифт ${variant}: HTTP ${res.status}`)
+  }
+  const buffer = await res.arrayBuffer()
+  // Конвертируем в base64 для jsPDF VFS
+  const bytes = new Uint8Array(buffer)
+  let binary = ''
+  const chunk = 0x8000
+  for (let i = 0; i < bytes.length; i += chunk) {
+    binary += String.fromCharCode.apply(null, Array.from(bytes.subarray(i, i + chunk)))
+  }
+  const base64 = btoa(binary)
+  fontCache[variant] = base64
+  return base64
+}
+
+// Создание jsPDF с встроенным шрифтом Roboto (с кириллицей)
+async function createPdfWithRoboto(): Promise<jsPDF> {
+  const [regularBase64, boldBase64] = await Promise.all([
+    loadRobotoFont('regular'),
+    loadRobotoFont('bold'),
+  ])
+
+  const doc = new jsPDF({ orientation: 'portrait', unit: 'mm', format: 'a4' })
+
+  // Регистрируем шрифты в VFS jsPDF
+  doc.addFileToVFS('Roboto-Regular.ttf', regularBase64)
+  doc.addFileToVFS('Roboto-Bold.ttf', boldBase64)
+  doc.addFont('Roboto-Regular.ttf', 'Roboto', 'normal')
+  doc.addFont('Roboto-Bold.ttf', 'Roboto', 'bold')
+
+  // Устанавливаем Roboto как шрифт по умолчанию
+  doc.setFont('Roboto', 'normal')
+
+  return doc
+}
+
 // Категории (должны совпадать с page.tsx)
 const CATEGORIES = [
   { id: 'competitors', label: 'Конкуренты', color: 'FFDC2626' },
@@ -447,8 +496,8 @@ export async function exportToExcel(messages: Message[]) {
 // ============================================================
 // ЭКСПОРТ В PDF — краткий отчёт-резюме (1-2 страницы)
 // ============================================================
-export function exportToPDF(messages: Message[]) {
-  const doc = new jsPDF({ orientation: 'portrait', unit: 'mm', format: 'a4' })
+export async function exportToPDF(messages: Message[]) {
+  const doc = await createPdfWithRoboto()
   const pageWidth = doc.internal.pageSize.getWidth()
   const pageHeight = doc.internal.pageSize.getHeight()
   const margin = 15
@@ -459,11 +508,11 @@ export function exportToPDF(messages: Message[]) {
   doc.setFillColor(11, 61, 145) // #0B3D91
   doc.rect(0, 0, pageWidth, 30, 'F')
   doc.setTextColor(255, 255, 255)
-  doc.setFont('helvetica', 'bold')
+  doc.setFont('Roboto', 'bold')
   doc.setFontSize(18)
   doc.text('EMPILS', margin, 14)
   doc.setFontSize(11)
-  doc.setFont('helvetica', 'normal')
+  doc.setFont('Roboto', 'normal')
   doc.text('Радар полевых наблюдений — Отчёт', margin, 22)
 
   y = 40
@@ -476,7 +525,7 @@ export function exportToPDF(messages: Message[]) {
   const closed = messages.filter(m => m.status === 'closed').length
   const rejected = messages.filter(m => m.status === 'rejected').length
 
-  doc.setFont('helvetica', 'bold')
+  doc.setFont('Roboto', 'bold')
   doc.setFontSize(13)
   doc.text('Сводка', margin, y)
   y += 5
@@ -514,7 +563,7 @@ export function exportToPDF(messages: Message[]) {
 
     // Лейбл
     doc.setFontSize(7)
-    doc.setFont('helvetica', 'bold')
+    doc.setFont('Roboto', 'bold')
     doc.setTextColor(100, 116, 139)
     doc.text(kpi.label, x + 6, cy + 8)
 
@@ -528,7 +577,7 @@ export function exportToPDF(messages: Message[]) {
 
   // -------- РАСПРЕДЕЛЕНИЕ ПО КАТЕГОРИЯМ --------
   doc.setFontSize(13)
-  doc.setFont('helvetica', 'bold')
+  doc.setFont('Roboto', 'bold')
   doc.setTextColor(15, 23, 42)
   doc.text('По категориям', margin, y)
   y += 4
@@ -551,6 +600,7 @@ export function exportToPDF(messages: Message[]) {
       String(c.count),
       total > 0 ? `${(c.count / total * 100).toFixed(1)}%` : '0%',
     ]),
+    styles: { font: 'Roboto', fontSize: 9 },
     headStyles: {
       fillColor: [30, 91, 198],
       textColor: 255,
@@ -570,7 +620,7 @@ export function exportToPDF(messages: Message[]) {
 
   // -------- СТАТУСЫ --------
   doc.setFontSize(13)
-  doc.setFont('helvetica', 'bold')
+  doc.setFont('Roboto', 'bold')
   doc.text('По статусам', margin, y)
   y += 4
   doc.setDrawColor(255, 107, 53)
@@ -591,6 +641,7 @@ export function exportToPDF(messages: Message[]) {
       String(s.count),
       total > 0 ? `${(s.count / total * 100).toFixed(1)}%` : '0%',
     ]),
+    styles: { font: 'Roboto', fontSize: 9 },
     headStyles: {
       fillColor: [30, 91, 198],
       textColor: 255,
@@ -615,7 +666,7 @@ export function exportToPDF(messages: Message[]) {
   }
 
   doc.setFontSize(13)
-  doc.setFont('helvetica', 'bold')
+  doc.setFont('Roboto', 'bold')
   doc.text('ТОП-5 регионов', margin, y)
   y += 4
   doc.setDrawColor(255, 107, 53)
@@ -639,6 +690,7 @@ export function exportToPDF(messages: Message[]) {
       String(c),
       total > 0 ? `${(c / total * 100).toFixed(1)}%` : '0%',
     ]),
+    styles: { font: 'Roboto', fontSize: 9 },
     headStyles: {
       fillColor: [30, 91, 198],
       textColor: 255,
@@ -663,7 +715,7 @@ export function exportToPDF(messages: Message[]) {
   }
 
   doc.setFontSize(13)
-  doc.setFont('helvetica', 'bold')
+  doc.setFont('Roboto', 'bold')
   doc.text('ТОП-5 сотрудников', margin, y)
   y += 4
   doc.setDrawColor(255, 107, 53)
@@ -693,6 +745,7 @@ export function exportToPDF(messages: Message[]) {
       String(d.count),
       String(d.closed),
     ]),
+    styles: { font: 'Roboto', fontSize: 9 },
     headStyles: {
       fillColor: [30, 91, 198],
       textColor: 255,
@@ -723,7 +776,7 @@ export function exportToPDF(messages: Message[]) {
   y += 5
 
   doc.setFontSize(8)
-  doc.setFont('helvetica', 'normal')
+  doc.setFont('Roboto', 'normal')
   doc.setTextColor(100, 116, 139)
   const dateStr = new Date().toLocaleString('ru-RU', {
     day: '2-digit', month: '2-digit', year: 'numeric',
